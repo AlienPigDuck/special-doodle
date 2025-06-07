@@ -30,6 +30,128 @@
                    ||     ||                 
     <br>
     </pre>
+             <!-- COWSAY GENERATOR -->
+ <section id="cowsay-generator">
+  <h2>Cowsay Generator</h2>
+  <label for="cowsay-input">What should the cow say?</label><br>
+  <textarea id="cowsay-input" rows="3" cols="50" placeholder="Type something..."></textarea><br>
+
+  <label for="cowsay-mood">Mood:</label>
+  <select id="cowsay-mood">
+    <option value="default">Default</option>
+    <option value="dead">Dead</option>
+    <option value="stoned">Stoned</option>
+    <option value="borg">Borg</option>
+  </select>
+
+  <label for="cowsay-animal">Animal:</label>
+  <select id="cowsay-animal">
+    <option value="cow">Cow</option>
+    <option value="tux">Tux</option>
+    <option value="moose">Moose</option>
+    <option value="cat">Cat</option>
+  </select>
+
+  <button onclick="updateCow()">Make it Moo</button>
+
+  <pre id="cowsay-output"></pre>
+</section>
+
+<script>
+  const animals = {
+    cow: `        \\   ^__^
+         \\  (oo)\\_______
+            (__)\\       )\\/\\
+                ||----w |
+                ||     ||`,
+
+    tux: `        \\   
+         \\  
+          .--.
+         |o_o |
+         |:_/ |
+        //   \\ \\
+       (|     | )
+      /'\\_   _/\\\`
+      \\___)=(___/`,
+
+    moose: `        \\    
+         \\\\     (__)
+          \\\\   /oo |_______
+              (_    _|     )
+                |__|  |--w |
+                     ||   ||`,
+                     
+cat: `         \\              
+    |\\___/|     \\
+    / 00      \\___|
+    \\__Y__/       |
+     \\___/\\______/
+      |_|_| |_|_|`
+  };
+
+  const eyes = {
+    default: "oo",
+    dead: "xx",
+    stoned: "**",
+    borg: "=="
+  };
+
+  function updateCow() {
+    const text = document.getElementById("cowsay-input").value || "Moo?";
+    const mood = document.getElementById("cowsay-mood").value;
+    const animal = document.getElementById("cowsay-animal").value;
+
+    const eye = eyes[mood] || "oo";
+    const eyeLeft = eye[0];
+    const eyeRight = eye[1];
+
+    const bubbleTop = ` ${"_".repeat(text.length + 2)}`;
+    const bubble = `< ${text} >`;
+    const bubbleBottom = ` ${"-".repeat(text.length + 2)}`;
+
+    const animals = {
+      cow: `        \\   ^__^
+         \\  (${eye})\\_______
+            (__)\\       )\\/\\
+                ||----w |
+                ||     ||`,
+
+      tux: `        \\   
+         \\  
+          .--.
+         |${eyeLeft}_${eyeRight} |
+         |:_/ |
+        //   \\\\
+       (|     | )
+      /'\\_   _/\\\`
+      \\___)=(___/`,
+
+    moose: `        \\    
+         \\\\     (__)
+          \\\\   /${eye} |_______
+              (_    _|     )
+                |__|  |--w |
+                     ||   ||`,
+
+cat: `         \\              
+    |\\___/|     \\
+    / ${eye}  \\___|
+    \\__Y__/       |
+     \\___/\\______/
+      |_|_| |_|_|`
+
+    };
+
+    const art = animals[animal] || animals.cow;
+
+    document.getElementById("cowsay-output").textContent =
+      `${bubbleTop}\n${bubble}\n${bubbleBottom}\n${art}`;
+  }
+
+  window.onload = updateCow;
+</script>
+    <BR>
     <BR>
   <h1>Boy Meets Girl</h1>
     <audio controls>
