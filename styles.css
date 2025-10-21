@@ -22,14 +22,14 @@
 
 /* Body Styles */
 body {
-    background-color: black; /* Set the background color to black */
-    color: whitesmoke; /* Set the text color to white */
-    font-family: 'Anonymous Pro', monospace; /* Use Anonymous Pro font */
-    margin: 0; /* Remove default margin */
-    padding: 10px; /* Add padding */
-    position: relative; /* Establishes a positioning context */
-    height: 100vh; /* Full height of the viewport */
-    overflow: hidden; /* Prevent overflow */
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    /* height: 100vh; */     /* 🔥 remove this */
+    /* overflow: hidden; */  /* 🔥 and this */
 }
 
 /* Top Bar Styles */
