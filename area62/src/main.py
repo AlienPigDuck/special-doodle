@@ -45,10 +45,10 @@ SECTION_TRANSLATIONS = {
 }
 
 
-def translate_titles(titles_ja: list[str]) -> list[str]:
-    if not titles_ja:
-        return []
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+TRANSLATE_BATCH = 40  # keep each request well under the output token limit
+
+
+def _translate_batch(client, titles_ja: list[str]) -> list[str]:
     numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles_ja))
     prompt = (
         "Translate these Japanese newspaper headlines to English. "
@@ -64,9 +64,30 @@ def translate_titles(titles_ja: list[str]) -> list[str]:
     # Strip markdown fences if present
     if raw.startswith("```"):
         raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-    translations = json.loads(raw)
-    log.info("Area 62: translated %d titles", len(translations))
-    return translations
+    return json.loads(raw)
+
+
+def translate_titles(titles_ja: list[str]) -> list[str]:
+    if not titles_ja:
+        return []
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    out: list[str] = []
+    n_batches = (len(titles_ja) + TRANSLATE_BATCH - 1) // TRANSLATE_BATCH
+    for b, i in enumerate(range(0, len(titles_ja), TRANSLATE_BATCH)):
+        batch = titles_ja[i:i + TRANSLATE_BATCH]
+        try:
+            translated = _translate_batch(client, batch)
+        except Exception as e:
+            log.warning("Area 62: translate batch %d/%d failed (%s) — keeping originals", b + 1, n_batches, e)
+            translated = []
+        # Always keep alignment with the batch, whatever the model returned
+        if len(translated) != len(batch):
+            log.warning("Area 62: batch %d/%d count mismatch (%d vs %d) — padding with originals",
+                        b + 1, n_batches, len(translated), len(batch))
+            translated = (list(translated) + batch[len(translated):])[:len(batch)]
+        out.extend(translated)
+    log.info("Area 62: translated %d titles in %d batch(es)", len(out), n_batches)
+    return out
 
 
 def build_output(articles: list[tuple[str, str, str]], titles_en: list[str]) -> dict:
