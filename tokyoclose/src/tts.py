@@ -94,6 +94,12 @@ def normalize_for_tts(text: str) -> str:
 def _fix_pronunciation(text: str) -> str:
     for word, phonetic in PRONUNCIATIONS.items():
         text = text.replace(word, phonetic)
+    # The market "close" is /kloʊz/ ("cloze"), not /kloʊs/. Whole-word only, so
+    # "closely", "closer", "closed", "closing", "disclose" are left untouched.
+    text = re.sub(r'\bCloses\b', 'Clozes', text)
+    text = re.sub(r'\bcloses\b', 'clozes', text)
+    text = re.sub(r'\bClose\b', 'Cloze', text)
+    text = re.sub(r'\bclose\b', 'cloze', text)
     return normalize_for_tts(text)
 
 
