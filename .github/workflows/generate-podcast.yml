@@ -1,8 +1,8 @@
 name: Generate Tokyo Open Podcast
 
 on:
-  schedule:
-    - cron: '21 19 * * *'  # 04:21 JST
+  # Triggered by the jpx-trigger container on the NAS at 05:30 JST (precise timing).
+  # GitHub's own cron was unreliable, so schedule: is intentionally removed.
   workflow_dispatch:
 
 jobs:
