@@ -4,7 +4,7 @@ Pulls market data via yfinance: US indices, FX, sector ETFs, key stocks.
 
 import yfinance as yf
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import logging
 from correlations import US_INDICES, SECTOR_ETFS, CORE_US_STOCKS, CORE_JP_STOCKS
 
