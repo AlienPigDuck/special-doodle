@@ -11,11 +11,9 @@ from .base import Article
 log = logging.getLogger(__name__)
 
 FEEDS = [
-    ("Reuters Business",  "https://feeds.reuters.com/reuters/businessNews"),
     ("MarketWatch",       "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines"),
-    ("AP Business",       "https://rsshub.app/apnews/topics/business-news"),
     ("Bloomberg Markets", "https://feeds.bloomberg.com/markets/news.rss"),
-    ("Japan Times Biz",   "https://www.japantimes.co.jp/feed/business/"),
+    ("Japan Times Biz",   "https://www.japantimes.co.jp/business/feed/"),
     ("Investing.com JP",  "https://jp.investing.com/rss/news_285.rss"),
 ]
 
