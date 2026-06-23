@@ -65,7 +65,13 @@ def normalize_for_tts(text: str) -> str:
     )
     # 2. Years: 2026 → "twenty twenty-six", 2007 → "two thousand and seven"
     text = re.sub(r'\b((?:19|20)\d{2})\b', lambda m: _year_to_words(int(m.group(1))), text)
-    # 3. Four-digit tickers: 6758 → "six seven five eight"
+    # 3. Alphanumeric TSE tickers: 285A → "two eight five A" (must run before pure-digit rule)
+    text = re.sub(
+        r'\b(\d{3}[A-Za-z])(?:\.T)?\b',
+        lambda m: " ".join(_TTS_DIGITS[int(d)] if d.isdigit() else d.upper() for d in m.group(1)),
+        text,
+    )
+    # 4. Four-digit tickers: 6758 → "six seven five eight"
     text = re.sub(
         r'\b(\d{4})(?:\.T)?\b',
         lambda m: " ".join(_TTS_DIGITS[int(d)] for d in m.group(1)),
