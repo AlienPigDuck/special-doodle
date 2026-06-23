@@ -1,77 +1,87 @@
-[ALEX] Eight straight up days for the Nikkei. Eight. We closed Friday at 72,353.
+[ALEX] Good morning. The Nikkei just did something it's never done before — it closed above 72,000.
 
-[MAYA] And the TOPIX printed a fresh record. This rally has legs, Alex.
+[MAYA] Yesterday, 72,353. Eight straight days of gains. That's a streak.
 
-[ALEX] It does. But here's the wrinkle. Tokyo's been closed since Friday the 19th. Wall Street traded yesterday, the 22nd. So today is catch-up day.
+[ALEX] And here's the thing that should make you sit up. The Nikkei is now almost 35% above its 200-day moving average. Highest reading since 2013.
 
-[MAYA] Which means there's news we haven't priced yet. I love a catch-up day.
+[MAYA] Translation: gorgeous run, but the rubber band is stretched.
 
-[ALEX] Let's set the scene. US close yesterday was split. The Dow nudged up 0.29%. But the Nasdaq fell 1.32%, and the S&P slipped 0.37%.
+[ALEX] Stretched is generous. That gap only has company in 1952 and the Abenomics peak. Both ended with a thud.
 
-[MAYA] The pain was in big tech. Alphabet down nearly 5% — 4.99%. Amazon off 4.75%. Netflix down 5.82%.
+[MAYA] So enjoy the party, but know where the exits are. Noted.
 
-[ALEX] Megacap got hit hard. Microsoft down 3.18%, Meta down 2.32%. That's a real rotation out of the giants.
+[ALEX] Now, the US session overnight was messy. The S&P 500 slipped 0.37%. The Nasdaq took it on the chin, down 1.32%.
 
-[MAYA] But — and this matters for us — the chips went the other way. Micron jumped 6.82%, and after hours it was up over 9%.
+[MAYA] But the Dow actually rose 0.29%. A real split-screen day.
 
-[ALEX] Memory. That's the AI story right now.
+[ALEX] Big tech led the bleeding. Alphabet down nearly 5%, Amazon down 4.75%, Netflix off 5.82%, Microsoft down 3.18%.
 
-[MAYA] Exactly. So watch Kioxia, ticker 6240. Micron is its direct NAND and DRAM competitor. If Micron rips, Kioxia usually follows.
+[MAYA] And yet — the chip side went the other way. The SOX index jumped 2.04%. Micron up 6.82%. Applied Materials up 3.74%. AMD up 2.65%.
 
-[ALEX] And the briefing has a stat that stopped me. Kioxia's time-weighted market cap hit 60 trillion yen. Second-biggest company in Japan now, behind Toyota.
+[ALEX] So it wasn't risk-off across the board. It was a rotation. Out of mega-cap software, into semis and value.
 
-[MAYA] From a company that nearly didn't make it to IPO. The HBM and AI memory demand is just relentless. SK Hynix even passed Samsung by market cap for the first time in about 25 years.
+[MAYA] One number to flag, though. The VIX spiked 14.4% to 19.77. Fear is waking up.
 
-[ALEX] Stunning. And it's not just memory. Applied Materials rose 3.74%, so keep an eye on Tokyo Electron, 8035. It already gained 3.24% on Friday.
+[ALEX] And the 10-year Treasury yield sits at 4.51%. The Fed has gone hawkish — futures now price about a 90% chance of at least one hike by year-end.
 
-[MAYA] AMD up 2.65% too — that feeds Advantest, 6857, on the chip-testing side. Advantest ticked up 1.35% Friday and there may be more in the tank today.
+[MAYA] A month ago that was 20%. Big swing.
 
-[ALEX] But let's flag the other side of the coin. NVIDIA actually fell 0.97%, and dipped further after hours.
+[ALEX] Which brings us to the yen. USD/JPY at 161.80 — a two-year low for the currency.
 
-[MAYA] So it's selective. Memory is the winner, not the whole complex. Don't paint it all green.
+[MAYA] Painful for importers, but exporters are loving it.
 
-[ALEX] Fair. Now, the yen. This is the macro headline for me.
+[ALEX] And the politics are heating up. Finance Minister Katayama held an online call with US Treasury Secretary Bessent on the 22nd. The yen briefly bounced after.
 
-[MAYA] Talk to me, Alex.
+[MAYA] So Tokyo's watching for intervention. Keep one eye there if you're long Toyota.
 
-[ALEX] The yen weakened to 161.80 per dollar on the 22nd. That's a two-year low — weakest since July 2024.
+[ALEX] Meanwhile the BOJ raised its policy rate to 1% on the 16th. A 31-year high.
 
-[MAYA] After the BOJ just hiked to 1.0%? A 31-year high?
+[MAYA] And that's the squeeze for real estate. Higher rates, lower property stocks.
 
-[ALEX] Right, and that's the puzzle. Rates up, yen still soft. Though there's a wrinkle — Finance Minister Katayama held online talks with US Treasury Secretary Bessent, and the yen firmed back into the 161 range after.
+[ALEX] Right. Mitsui Fudosan down 28% since February, Mitsubishi Estate down 22%, Sumitomo Realty down 33%. The Japanese real estate index is scraping yearly lows.
 
-[MAYA] So jawboning is working, barely. What's the read for stocks?
+[MAYA] And the US echoes it. Lennar down 22%, Home Depot down 12% over there. Rates everywhere, same story.
 
-[ALEX] A weak yen is a gift for exporters. Toyota, 7203, Sony, 6758. Cheaper to sell abroad, and the repatriated profits look fatter.
+[ALEX] So if you own Daiwa House or Sekisui House, understand the headwind isn't going away while yields climb.
 
-[MAYA] Though Toyota actually slipped 1.26% Friday. Tesla rose, and that EV competition narrative bites.
+[MAYA] Let's talk the stars of the show, though — memory and AI.
 
-[ALEX] And the flip side — importers and anyone buying raw materials in dollars feels the squeeze. Energy names especially.
+[ALEX] Go on. I know you've been waiting.
 
-[MAYA] Speaking of which — the banks. JPMorgan jumped 1.92% yesterday, Bank of America up 2.08%.
+[MAYA] Kioxia, ticker 6240. Its market cap briefly topped 60 trillion yen yesterday — second-highest among domestic names. That's stunning for a memory maker.
 
-[ALEX] Higher-for-longer rates love banks. MUFG, 8306, already up 1.68% Friday. SMFG, 8316, up 2.51%. With the BOJ at 1%, the Japanese megabanks have a genuine tailwind.
+[ALEX] And Micron jumping 6.82% overnight is a direct read-through for Kioxia. They're NAND and DRAM rivals.
 
-[MAYA] That's my favorite trade right now. Rising domestic rates, widening margins.
+[MAYA] But heads up — Micron reports earnings June 24. Expectations are sky-high. A miss could yank Kioxia right back down.
 
-[ALEX] Let's hit a wildcard. Oil.
+[ALEX] So that's a catalyst with a fuse on it.
 
-[MAYA] The Iran-US truce was signed yesterday. Navigation terms set for the Strait of Hormuz.
+[MAYA] There's also the Korea angle. SK Hynix just passed Samsung in market cap — first time in about 25 years.
 
-[ALEX] WTI sitting at 76.54. The truce should pull out some of that geopolitical premium. Less upside for Inpex, 1605 — it fell 1.49% Friday.
+[ALEX] Driven entirely by high-bandwidth memory for AI servers. The whole memory complex is riding that wave.
 
-[MAYA] And the property sector. The briefing says Japanese developers are near year lows, down 22 to 33% year-to-date.
+[MAYA] On the equipment side — Applied Materials up 3.74% overnight feeds straight into Tokyo Electron, ticker 8035.
 
-[ALEX] Rising rates hurt them. US homebuilders fell again — Home Depot down 2.29%, Lennar off 2.55%. Watch Mitsui Fudosan, 8801, which already dropped 2.05% Friday.
+[ALEX] Though remember, Tokyo already traded Monday after the US close. Some of this may be partly priced. Don't chase blind.
 
-[MAYA] One bright spot — Corning surged 7.65% on fiber. That's good for Furukawa Electric, 5801, which exploded 8.70% Friday. And Fujikura, 5803, was up over 19%.
+[MAYA] Fair. And one name for the macro thinkers — JERA, the Tokyo Electric and Chubu venture. A five-billion-dollar US gas plant with an AI data center co-located.
 
-[ALEX] AI data centers need cable. Those names are riding the same wave.
+[ALEX] That's the new playbook. Build power right next to the demand, skip the decade-long grid wait.
 
-[MAYA] So the setup today — chips and memory catching up, banks firm, property and oil softer.
+[MAYA] Smart. Energy and AI in one trade.
 
-[ALEX] Eight days up. Let's see if we make it nine.
+[ALEX] Speaking of energy — oil softened. WTI down 1.96% to 73.35. The US-Iran ceasefire is taking shape.
 
-[MAYA] Trade smart out there. We'll be right here tomorrow.
+[MAYA] Though the Strait of Hormuz is still a flash point. Don't fully exhale.
 
-[ALEX] Good morning, Tokyo.
+[ALEX] Gold also eased, down 1.12%. And on the brokers — Daiwa just lifted its Nikkei target from 67,000 to 80,000 for fiscal year-end.
+
+[MAYA] JPMorgan went 70,000 to 75,000. The street's getting bolder right as we hit overbought.
+
+[ALEX] Which is the whole tension of today. Records and warning lights, side by side.
+
+[MAYA] Trade it with respect. Watch Micron Wednesday, watch the yen.
+
+[ALEX] That's our open. Have a sharp, careful session out there.
+
+[MAYA] We'll see you tomorrow.
