@@ -21,9 +21,6 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-chromium-${{ runner.os }}
 
-      - name: Install ffmpeg
-        run: sudo apt-get install -y ffmpeg
-
       - name: Install Python deps
         run: pip install -r area61/src/requirements.txt
 
@@ -36,9 +33,3 @@ jobs:
           GH_PUSH_TOKEN:     ${{ secrets.GH_PUSH_TOKEN }}
           NIKKEI_STATE:      ${{ secrets.NIKKEI_STATE }}
         run: python area61/src/main.py
-
-      - name: Synthesize Tokyo Open in ElevenLabs voice
-        env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          GH_PUSH_TOKEN:      ${{ secrets.GH_PUSH_TOKEN }}
-        run: python area61/src/elevenlabs_tts.py
