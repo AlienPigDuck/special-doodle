@@ -28,18 +28,10 @@ log = logging.getLogger(__name__)
 SECTION_TRANSLATIONS = {
     '１面':             'Front Page',
     'ビジネス':         'Business',
-    'ビジネス１':       'Business 1',
-    'ビジネス２':       'Business 2',
     '総合':             'General News',
-    '総合１':           'General News 1',
-    '総合２':           'General News 2',
     'マーケット・投資': 'Markets & Investment',
-    'マーケット':       'Markets',
-    '投資':             'Investment',
     'ニュースぷらす':   'News Plus',
     '社会':             'Society',
-    '社会１':           'Society 1',
-    '社会２':           'Society 2',
     '文化':             'Culture',
     'other':            'Other',
 }
