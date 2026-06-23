@@ -1,6 +1,8 @@
 name: Generate Area 61
 
 on:
+  schedule:
+    - cron: '40 20 * * *'  # 05:40 JST — morning edition (GitHub-native cron)
   workflow_dispatch:
 
 jobs:
