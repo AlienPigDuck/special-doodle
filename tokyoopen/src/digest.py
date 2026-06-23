@@ -41,7 +41,9 @@ Rules:
 - Only include information that appears in the articles.
 - If an article is in Japanese, extract its key points in English.
 - Skip sports, lifestyle, entertainment, food, culture, real estate unrelated to REITs.
-- Keep total output under 1000 words."""
+- Keep total output under 1000 words.
+
+JAPANESE NAMES: Japan's Prime Minister is Sanae Takaichi (高市早苗). Always romanise her surname as "Takaichi" — never "Takayama", "Takita", or any other spelling. Romanise other Japanese officials' and companies' names with the same care."""
 
 
 # Section priority — highest value articles go in first with full bodies.

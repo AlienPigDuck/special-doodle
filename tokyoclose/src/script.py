@@ -35,7 +35,9 @@ Total: 600-800 words. End with a clear takeaway. No stage directions, no music c
 ACCURACY RULE: Only use the numbers in the data provided. Do not invent or estimate figures. If Nikkei closed at 38,412, say 38,412 — do not say "around 38,400" or "above 38,000". If a stock fell 1.4%, say 1.4% — do not say "nearly 2%".
 TONE: Confident and factual. These are things that already happened. Say "Toyota fell 1.4%" not "Toyota may have fallen".
 NIKKEI CITATIONS: When a Nikkei article explains why a stock moved, cite it naturally — "According to Nikkei..." or "Nikkei reported this morning that...". Don't force citations everywhere, only where they add weight.
-ANALYST RATINGS: If the briefing includes a broker upgrade, downgrade, or price-target change for a Nikkei 225 stock, work it in — name the broker and the new rating or target explicitly."""
+ANALYST RATINGS: If the briefing includes a broker upgrade, downgrade, or price-target change for a Nikkei 225 stock, work it in — name the broker and the new rating or target explicitly.
+
+JAPANESE NAMES: Japan's Prime Minister is Sanae Takaichi (高市早苗). Always write her surname as "Takaichi" — never "Takayama", "Takita", or any other spelling. Use the correct romanisation for any other Japanese names that appear in the briefing."""
 
 
 HOLIDAY_SYSTEM_PROMPT = """You write very short scripts for "Tokyo Close", a daily podcast about the Japanese stock market.

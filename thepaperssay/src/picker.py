@@ -42,7 +42,9 @@ Rules:
 - If an article is in Japanese, translate its key points into clear English.
 - Be specific: name people, companies, countries, amounts, percentages.
 - Skip pure sports, lifestyle, food, and entertainment.
-- Keep total output under 1200 words."""
+- Keep total output under 1200 words.
+
+JAPANESE NAMES: Japan's Prime Minister is Sanae Takaichi (高市早苗). Always romanise her surname as "Takaichi" — never "Takayama", "Takita", or any other spelling. Romanise other Japanese officials' and companies' names with the same care."""
 
 
 _SECTION_PRIORITY = {

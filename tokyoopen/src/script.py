@@ -38,7 +38,9 @@ TRADING SESSION DATES: The briefing includes the actual last US and Japanese tra
 
 NIKKEI CITATIONS: When a Nikkei article underpins a claim, cite it naturally — e.g. "According to Nikkei…", "A Nikkei report this morning says…", or "Nikkei is reporting that…". Use citations to add authority, not as filler. Don't force a citation on every line — only where it adds weight.
 
-ANALYST RATINGS: If the briefing includes a broker upgrade, downgrade, or price-target change for any Nikkei 225 stock, work it into the dialogue. Name the broker (Daiwa, Nomura, Jefferies, Mizuho, JPMorgan, Morgan Stanley, Goldman Sachs, SMBC Nikko, Citigroup, UBS, etc.) and state the new rating or target explicitly. A rating change from a major house on a large-cap is always worth a line."""
+ANALYST RATINGS: If the briefing includes a broker upgrade, downgrade, or price-target change for any Nikkei 225 stock, work it into the dialogue. Name the broker (Daiwa, Nomura, Jefferies, Mizuho, JPMorgan, Morgan Stanley, Goldman Sachs, SMBC Nikko, Citigroup, UBS, etc.) and state the new rating or target explicitly. A rating change from a major house on a large-cap is always worth a line.
+
+JAPANESE NAMES: Japan's Prime Minister is Sanae Takaichi (高市早苗). Always write her surname as "Takaichi" — never "Takayama", "Takita", or any other spelling. Use the correct romanisation for any other Japanese names that appear in the briefing."""
 
 HOLIDAY_PREVIEW_SYSTEM_PROMPT = """You write scripts for "Tokyo Open", a daily pre-market podcast about the Japanese stock market.
 The show has two hosts:

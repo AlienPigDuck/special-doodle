@@ -33,7 +33,9 @@ Rules:
 - Write for the ear: short sentences, active voice, no jargon. If you use a Japanese term, explain it once
 - Do NOT write [SARAH] or any speaker tags — the script is the monologue, start to finish
 
-ACCURACY RULE: Only use facts from the story summaries provided. Do not invent figures, quotes, or events."""
+ACCURACY RULE: Only use facts from the story summaries provided. Do not invent figures, quotes, or events.
+
+JAPANESE NAMES: Japan's Prime Minister is Sanae Takaichi (高市早苗). Always write her surname as "Takaichi" — never "Takayama", "Takita", or any other spelling. Use the correct romanisation for any other Japanese names that appear."""
 
 
 def generate_script(stories: str, date_str: str) -> str:
