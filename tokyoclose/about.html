@@ -151,8 +151,6 @@
     </div>
   </div>
 
-  <p>Unlike Tokyo Open (which alternates between Google TTS and ElevenLabs voices), Tokyo Close uses Google Cloud TTS exclusively for both hosts on every episode.</p>
-
   <h2>Automation</h2>
   <p>The entire pipeline runs on GitHub Actions — no dedicated server required. A scheduled trigger fires at 17:17 JST every weekday and weekend. On trading days, the full wrap is generated; on holidays and weekends, a short bulletin is produced instead. The final MP3 is pushed directly to this GitHub Pages site, overwriting <code>latest.mp3</code>. The episode date metadata is updated in <code>episode.json</code>, which the player reads to display the correct date.</p>
 
