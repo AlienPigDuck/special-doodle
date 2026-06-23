@@ -1,0 +1,43 @@
+name: Generate Tokyo Close
+
+on:
+  schedule:
+    - cron: '17 8 * * *'  # 17:17 JST daily
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install ffmpeg
+        run: sudo apt-get install -y ffmpeg
+
+      - name: Install Python deps
+        run: pip install -r tokyoclose/requirements.txt
+
+      - name: Install Playwright
+        run: pip install playwright && playwright install chromium --with-deps
+
+      - name: Write GCP credentials
+        run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > /tmp/gcp-key.json
+
+      - name: Generate podcast
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcp-key.json
+          GH_PUSH_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
+          NIKKEI_STATE: ${{ secrets.NIKKEI_STATE }}
+          NIKKEI_USER: ${{ secrets.NIKKEI_USER }}
+          NIKKEI_PASS: ${{ secrets.NIKKEI_PASS }}
+          OUTPUT_DIR: /tmp/podcast
+        run: |
+          mkdir -p /tmp/podcast
+          cd tokyoclose/src
+          python main.py
