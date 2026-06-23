@@ -58,11 +58,13 @@
     .disclaimer{margin-top:20px;font-size:14px;letter-spacing:1px;
       color:var(--muted);text-align:center;max-width:620px;
       text-transform:uppercase;opacity:.85}
-    .info-btn{margin-top:16px;display:inline-block;font-family:var(--mono);
-      font-size:14px;letter-spacing:2px;text-transform:uppercase;
-      color:white;background:#2563eb;border:1px solid #3b82f6;
-      padding:10px 22px;border-radius:2px;text-decoration:none;
-      transition:background .15s}
+    .btn-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;
+      width:100%;max-width:620px}
+    .info-btn{display:block;flex:1;min-width:130px;text-align:center;
+      font-family:var(--mono);font-size:14px;letter-spacing:2px;
+      text-transform:uppercase;color:white;background:#2563eb;
+      border:1px solid #3b82f6;padding:10px 22px;border-radius:2px;
+      text-decoration:none;transition:background .15s}
     .info-btn:hover{background:#3b82f6}
   </style>
 </head>
@@ -106,9 +108,11 @@
   </div>
 
   <div class="disclaimer">Disclaimer: 100% AI generated. Market data and analysis may contain errors. This is not financial advice.</div>
-  <a class="info-btn" href="/">&#8592; Home</a>
-  <a class="info-btn" href="/to/" style="margin-top:10px">&#9656; Tokyo Open</a>
-  <a class="info-btn" href="/tps/" style="margin-top:10px">&#9656; The Papers Say</a>
+  <div class="btn-row">
+    <a class="info-btn" href="/">&#8592; Home</a>
+    <a class="info-btn" href="/to/">&#9656; Tokyo Open</a>
+    <a class="info-btn" href="/tps/">&#9656; The Papers Say</a>
+  </div>
 
   <audio id="audio" src="/tokyoclose/latest.mp3" preload="metadata"></audio>
 

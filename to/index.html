@@ -58,11 +58,13 @@
     .disclaimer{margin-top:20px;font-size:14px;letter-spacing:1px;
       color:var(--muted);text-align:center;max-width:620px;
       text-transform:uppercase;opacity:.85}
-    .info-btn{margin-top:16px;display:inline-block;font-family:var(--mono);
-      font-size:14px;letter-spacing:2px;text-transform:uppercase;
-      color:white;background:#2563eb;border:1px solid #3b82f6;
-      padding:10px 22px;border-radius:2px;text-decoration:none;
-      transition:background .15s}
+    .btn-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;
+      width:100%;max-width:620px}
+    .info-btn{display:block;flex:1;min-width:130px;text-align:center;
+      font-family:var(--mono);font-size:14px;letter-spacing:2px;
+      text-transform:uppercase;color:white;background:#2563eb;
+      border:1px solid #3b82f6;padding:10px 22px;border-radius:2px;
+      text-decoration:none;transition:background .15s}
     .info-btn:hover{background:#3b82f6}
   </style>
 </head>
@@ -106,10 +108,12 @@
   </div>
 
   <div class="disclaimer">Disclaimer: This is a work in progress. It is 100% AI generated. AI&rsquo;s can hallucinate. Market data and analysis may contain errors. This is not financial advice.</div>
-  <a class="info-btn" href="/tokyoopen/about.html">&#9432; How It Works</a>
-  <a class="info-btn" href="/" style="margin-top:10px">&#8592; Home</a>
-  <a class="info-btn" href="/tps/" style="margin-top:10px">&#9656; The Papers Say</a>
-  <a class="info-btn" href="/tc/" style="margin-top:10px">&#9656; Tokyo Close</a>
+  <div class="btn-row">
+    <a class="info-btn" href="/tokyoopen/about.html">&#9432; How It Works</a>
+    <a class="info-btn" href="/">&#8592; Home</a>
+    <a class="info-btn" href="/tps/">&#9656; The Papers Say</a>
+    <a class="info-btn" href="/tc/">&#9656; Tokyo Close</a>
+  </div>
 
   <audio id="audio" src="/tokyoopen/latest.mp3" preload="metadata"></audio>
 
