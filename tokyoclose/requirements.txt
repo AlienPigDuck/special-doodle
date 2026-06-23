@@ -1,0 +1,9 @@
+anthropic
+yfinance
+exchange_calendars
+feedparser
+httpx
+requests
+google-cloud-texttospeech
+beautifulsoup4
+playwright

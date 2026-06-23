@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Papers Say</title>
+  <title>Tokyo Close</title>
+  <link rel="icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -67,8 +68,8 @@
 </head>
 <body>
   <div class="sun"></div>
-  <h1>The Papers Say</h1>
-  <div class="subtitle">AI Summary of Japan&rsquo;s Top News Articles Today</div>
+  <h1>Tokyo Close</h1>
+  <div class="subtitle">Japan Market Wrap &mdash; AI Generated</div>
 
   <div class="card">
     <div class="card-header">
@@ -76,7 +77,7 @@
         <div class="ep-label">Latest Episode</div>
         <div class="ep-date" id="ep-date">&mdash;</div>
       </div>
-      <div class="hosts" id="host-name">Sarah</div>
+      <div class="hosts">Alex &amp; Maya</div>
     </div>
 
     <div class="player">
@@ -100,27 +101,18 @@
     </div>
 
     <div class="card-footer">
-      <div class="footer-note">Auto-generates 05:50 JST daily</div>
+      <div class="footer-note">Auto-generates after Tokyo Close (17:17 JST)</div>
     </div>
   </div>
 
-  <div class="disclaimer">Disclaimer: 100% AI generated. Summaries may contain errors or omissions. Not a substitute for reading original sources. For informational purposes only.</div>
-  <a class="info-btn" href="/tps/about.html">&#9432; How It Works</a>
-  <a class="info-btn" href="/" style="margin-top:10px">&#8592; Home</a>
+  <div class="disclaimer">Disclaimer: 100% AI generated. Market data and analysis may contain errors. This is not financial advice.</div>
+  <a class="info-btn" href="/">&#8592; Home</a>
   <a class="info-btn" href="/to/" style="margin-top:10px">&#9656; Tokyo Open</a>
-  <a class="info-btn" href="/tc/" style="margin-top:10px">&#9656; Tokyo Close</a>
+  <a class="info-btn" href="/tps/" style="margin-top:10px">&#9656; The Papers Say</a>
 
-  <audio id="audio" src="latest.mp3" preload="metadata"></audio>
+  <audio id="audio" src="/tokyoclose/latest.mp3" preload="metadata"></audio>
 
   <script>
-    (function() {
-      const jst = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Tokyo'}));
-      const start = new Date(jst.getFullYear(), 0, 0);
-      const dayOfYear = Math.floor((jst - start) / 86400000);
-      const names = ['Sarah', 'Christie', 'Maya'];
-      document.getElementById('host-name').textContent = names[dayOfYear % 3];
-    })();
-
     const wf = document.getElementById('waveform');
     const N = 60;
     const heights = Array.from({length: N}, () => Math.random() * 0.7 + 0.15);
@@ -167,9 +159,9 @@
       event.currentTarget.classList.add('active');
     }
 
-    fetch('episode.json?_=' + Date.now()).then(r => r.json()).then(d => {
+    fetch('/tokyoclose/episode.json?_=' + Date.now()).then(r => r.json()).then(d => {
       document.getElementById('ep-date').textContent =
-        new Date(d.date).toLocaleDateString('en-US',
+        new Date(d.date + 'T00:00:00').toLocaleDateString('en-US',
           {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
     }).catch(() => {});
   </script>

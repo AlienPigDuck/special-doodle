@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tokyo Open</title>
+  <title>Christie.vip</title>
+  <link rel="icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -14,165 +15,151 @@
       --text:#eaeaea;--muted:#ffffff;
       --mono:'Anonymous Pro',monospace;
     }
-    body{background:var(--bg);color:var(--text);font-family:var(--mono);
+    body{
+      background:var(--bg);color:var(--text);font-family:var(--mono);
       min-height:100vh;display:flex;flex-direction:column;
-      align-items:center;justify-content:center;padding:40px 20px}
-    .sun{width:72px;height:72px;border-radius:50%;background:var(--red);
-      margin:0 auto 20px;opacity:.9}
-    h1{font-size:40px;font-weight:700;letter-spacing:8px;text-transform:uppercase;
-      text-align:center;margin-bottom:10px}
-    .subtitle{font-size:16px;letter-spacing:3px;text-transform:uppercase;
-      color:var(--muted);text-align:center;margin-bottom:44px}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:4px;
-      width:100%;max-width:620px;overflow:hidden}
-    .card-header{padding:22px 30px;border-bottom:1px solid var(--border);
-      display:flex;justify-content:space-between;align-items:center}
-    .ep-label{font-size:15px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-    .ep-date{font-size:18px;letter-spacing:1px;color:var(--red);margin-top:5px}
-    .hosts{font-size:16px;letter-spacing:1px;color:var(--muted)}
-    .player{padding:30px}
-    .waveform{display:flex;align-items:center;gap:2px;height:50px;
-      margin-bottom:18px;cursor:pointer}
-    .wave-bar{flex:1;background:var(--border);border-radius:1px;transition:background .1s}
-    .wave-bar.played{background:var(--red)}
-    .player-row{display:flex;align-items:center;gap:16px}
-    .play-btn{width:52px;height:52px;border-radius:50%;background:var(--red);
-      border:none;cursor:pointer;display:flex;align-items:center;
-      justify-content:center;flex-shrink:0;transition:opacity .15s}
-    .play-btn:hover{opacity:.82}
-    .play-btn svg{fill:white}
-    .time{font-size:16px;color:var(--muted);letter-spacing:1px;
-      font-variant-numeric:tabular-nums;white-space:nowrap}
-    .progress-track{flex:1;height:4px;background:var(--border);
-      border-radius:2px;cursor:pointer}
-    .progress-fill{height:100%;background:var(--red);border-radius:2px;width:0%}
-    .card-footer{padding:22px 30px;border-top:1px solid var(--border)}
-    .footer-note{font-size:15px;color:var(--muted);letter-spacing:1px}
-    .speed-row{display:flex;align-items:center;gap:8px;margin-top:14px}
-    .speed-btn{font-family:var(--mono);font-size:13px;letter-spacing:1px;
-      background:none;border:1px solid var(--border);color:var(--muted);
-      padding:4px 10px;border-radius:2px;cursor:pointer;transition:all .15s}
-    .speed-btn:hover{border-color:var(--red);color:var(--text)}
-    .speed-btn.active{background:var(--red-dim);border-color:var(--red);color:var(--red)}
-    .disclaimer{margin-top:20px;font-size:14px;letter-spacing:1px;
+      align-items:center;justify-content:center;padding:40px 20px
+    }
+    .sun{
+      width:72px;height:72px;border-radius:50%;background:var(--red);
+      margin:0 auto 20px;opacity:.9;
+      animation:pulse 3s ease-in-out infinite
+    }
+    @keyframes pulse{
+      0%,100%{box-shadow:0 0 0 0 rgba(224,49,49,.45)}
+      55%{box-shadow:0 0 0 18px rgba(224,49,49,0)}
+    }
+    h1{
+      font-size:40px;font-weight:700;letter-spacing:8px;text-transform:uppercase;
+      text-align:center;margin-bottom:8px
+    }
+    .subtitle{
+      font-size:13px;letter-spacing:4px;text-transform:uppercase;
+      color:var(--muted);text-align:center;margin-bottom:52px;opacity:.55
+    }
+
+    /* ── Show list ── */
+    .shows{width:100%;max-width:620px;display:flex;flex-direction:column}
+
+    .show{
+      display:flex;align-items:stretch;justify-content:space-between;
+      background:var(--card);border:1px solid var(--border);
+      border-bottom-width:0;
+      text-decoration:none;color:var(--text);
+      padding:26px 30px;
+      transition:background .15s,border-color .15s;
+      position:relative;overflow:hidden;cursor:pointer
+    }
+    .show:first-child{border-radius:4px 4px 0 0}
+    .show:last-child{border-radius:0 0 4px 4px;border-bottom-width:1px}
+    .show:hover{background:#141420;border-color:rgba(224,49,49,.45)}
+    .show:hover + .show{border-top-color:rgba(224,49,49,.45)}
+
+    /* red left-edge accent that slides in */
+    .show::before{
+      content:'';position:absolute;left:0;top:0;bottom:0;
+      width:3px;background:var(--red);
+      transform:scaleY(0);transform-origin:center;
+      transition:transform .2s ease
+    }
+    .show:hover::before{transform:scaleY(1)}
+
+    .show-body{flex:1;min-width:0}
+    .show-name{
+      font-size:20px;font-weight:700;letter-spacing:5px;text-transform:uppercase;
+      color:var(--text);margin-bottom:9px
+    }
+    .show-desc{
+      font-size:14px;letter-spacing:.4px;color:var(--muted);
+      line-height:1.75;opacity:.75;max-width:390px
+    }
+    .show-ep{
+      font-size:12px;letter-spacing:1px;color:var(--red);
+      margin-top:13px;min-height:16px;opacity:.9
+    }
+
+    .show-side{
+      display:flex;flex-direction:column;align-items:flex-end;
+      justify-content:space-between;padding-left:28px;flex-shrink:0
+    }
+    .show-time{
+      font-size:11px;letter-spacing:2px;text-transform:uppercase;
+      color:var(--muted);opacity:.45;white-space:nowrap;padding-top:2px
+    }
+    .show-arrow{
+      font-size:20px;color:var(--border);
+      transition:color .15s,transform .2s ease
+    }
+    .show:hover .show-arrow{color:var(--red);transform:translateX(5px)}
+
+    /* ── Footer ── */
+    .disclaimer{
+      margin-top:28px;font-size:12px;letter-spacing:1.5px;
       color:var(--muted);text-align:center;max-width:620px;
-      text-transform:uppercase;opacity:.85}
-    .info-btn{margin-top:16px;display:inline-block;font-family:var(--mono);
-      font-size:14px;letter-spacing:2px;text-transform:uppercase;
-      color:white;background:#2563eb;border:1px solid #3b82f6;
-      padding:10px 22px;border-radius:2px;text-decoration:none;
-      transition:background .15s}
-    .info-btn:hover{background:#3b82f6}
+      text-transform:uppercase;opacity:.35
+    }
   </style>
 </head>
 <body>
   <div class="sun"></div>
-  <h1>Tokyo Open</h1>
-  <div class="subtitle">Daily Japan Market Brief &mdash; AI Generated</div>
+  <h1>Christie.vip</h1>
+  <div class="subtitle">Japan Market Audio</div>
 
-  <div class="card">
-    <div class="card-header">
-      <div>
-        <div class="ep-label">Latest Episode</div>
-        <div class="ep-date" id="ep-date">&mdash;</div>
+  <div class="shows">
+    <a class="show" href="/tps/">
+      <div class="show-body">
+        <div class="show-name">The Papers Say</div>
+        <div class="show-desc">Japan&rsquo;s leading financial newspaper in plain English. Morning headlines before the open.</div>
+        <div class="show-ep" id="tps-date"></div>
       </div>
-      <div class="hosts" id="host-names">Alex &amp; Maya</div>
-    </div>
+      <div class="show-side">
+        <div class="show-time">Daily &middot; 05:50 JST</div>
+        <div class="show-arrow">&#8594;</div>
+      </div>
+    </a>
 
-    <div class="player">
-      <div class="waveform" id="waveform"></div>
-      <div class="player-row">
-        <button class="play-btn" id="play-btn" onclick="togglePlay()">
-          <svg id="play-icon" width="18" height="18" viewBox="0 0 24 24">
-            <path d="M8 5v14l11-7z"/>
-          </svg>
-        </button>
-        <div class="progress-track" id="progress-track" onclick="seek(event)">
-          <div class="progress-fill" id="progress-fill"></div>
-        </div>
-        <div class="time" id="time-display">0:00 / 0:00</div>
+    <a class="show" href="/to/">
+      <div class="show-body">
+        <div class="show-name">Tokyo Open</div>
+        <div class="show-desc">Pre-market brief. Overnight US moves, yen dynamics, and which stocks to watch at the open.</div>
+        <div class="show-ep" id="to-date"></div>
       </div>
-      <div class="speed-row">
-        <button class="speed-btn active" onclick="setSpeed(1)">1x</button>
-        <button class="speed-btn" onclick="setSpeed(1.25)">1.25x</button>
-        <button class="speed-btn" onclick="setSpeed(1.5)">1.5x</button>
+      <div class="show-side">
+        <div class="show-time">Daily &middot; 06:00 JST</div>
+        <div class="show-arrow">&#8594;</div>
       </div>
-    </div>
+    </a>
 
-    <div class="card-footer">
-      <div class="footer-note">Auto-generates 06:00 JST daily</div>
-    </div>
+    <a class="show" href="/tc/">
+      <div class="show-body">
+        <div class="show-name">Tokyo Close</div>
+        <div class="show-desc">After-market wrap. What moved in today&rsquo;s session and why. For London and New York waking up.</div>
+        <div class="show-ep" id="tc-date"></div>
+      </div>
+      <div class="show-side">
+        <div class="show-time">Daily &middot; 17:17 JST</div>
+        <div class="show-arrow">&#8594;</div>
+      </div>
+    </a>
   </div>
 
-  <div class="disclaimer">Disclaimer: This is a work in progress. It is 100% AI generated. AI&rsquo;s can hallucinate. Market data and analysis may contain errors. This is not financial advice.</div>
-  <a class="info-btn" href="/tokyoopen/about.html">&#9432; How It Works</a>
-  <a class="info-btn" href="/tps/" style="margin-top:10px">&#9656; The Papers Say</a>
-  <a class="info-btn" href="/area61/" style="margin-top:10px">&#9656; Area 61</a>
-
-  <audio id="audio" src="tokyoopen/latest.mp3" preload="metadata"></audio>
+  <div class="disclaimer">100% AI generated &mdash; Not financial advice</div>
 
   <script>
-    (function() {
-      const jst = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Tokyo'}));
-      const start = new Date(jst.getFullYear(), 0, 0);
-      const dayOfYear = Math.floor((jst - start) / 86400000);
-      document.getElementById('host-names').textContent =
-        dayOfYear % 2 === 0 ? 'Christie & Isla' : 'Alex & Maya';
-    })();
-
-    // Waveform bars
-    const wf = document.getElementById('waveform');
-    const N = 60;
-    const heights = Array.from({length: N}, () => Math.random() * 0.7 + 0.15);
-    heights.forEach(h => {
-      const b = document.createElement('div');
-      b.className = 'wave-bar';
-      b.style.height = (h * 100) + '%';
-      wf.appendChild(b);
-    });
-    const bars = wf.querySelectorAll('.wave-bar');
-
-    // Audio player
-    const audio = document.getElementById('audio');
-    audio.addEventListener('timeupdate', () => {
-      if (!audio.duration) return;
-      const pct = audio.currentTime / audio.duration;
-      document.getElementById('progress-fill').style.width = (pct * 100) + '%';
-      document.getElementById('time-display').textContent = fmt(audio.currentTime) + ' / ' + fmt(audio.duration);
-      const played = Math.floor(pct * N);
-      bars.forEach((b, i) => b.classList.toggle('played', i < played));
-    });
-    audio.addEventListener('ended', () => setIcon(false));
-
-    function fmt(s) {
-      return Math.floor(s / 60) + ':' + Math.floor(s % 60).toString().padStart(2, '0');
+    function loadDate(url, id) {
+      fetch(url + '?_=' + Date.now())
+        .then(r => r.json())
+        .then(d => {
+          const el = document.getElementById(id);
+          if (!el || !d.date) return;
+          el.textContent = new Date(d.date + 'T00:00:00').toLocaleDateString('en-GB',
+            {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+        })
+        .catch(() => {});
     }
-    function togglePlay() {
-      if (audio.paused) { audio.play(); setIcon(true); }
-      else { audio.pause(); setIcon(false); }
-    }
-    function setIcon(p) {
-      document.getElementById('play-icon').innerHTML = p
-        ? '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>'
-        : '<path d="M8 5v14l11-7z"/>';
-    }
-    function seek(e) {
-      audio.currentTime = (e.offsetX / e.currentTarget.offsetWidth) * audio.duration;
-    }
-    wf.addEventListener('click', e => {
-      audio.currentTime = (e.offsetX / wf.offsetWidth) * audio.duration;
-    });
-    function setSpeed(rate) {
-      audio.playbackRate = rate;
-      document.querySelectorAll('.speed-btn').forEach(b => b.classList.remove('active'));
-      event.currentTarget.classList.add('active');
-    }
-
-    fetch('tokyoopen/episode.json?_=' + Date.now()).then(r => r.json()).then(d => {
-      document.getElementById('ep-date').textContent =
-        new Date(d.date).toLocaleDateString('en-US',
-          {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
-    }).catch(() => {});
+    loadDate('/tps/episode.json', 'tps-date');
+    loadDate('/tokyoopen/episode.json', 'to-date');
+    loadDate('/tokyoclose/episode.json', 'tc-date');
   </script>
 </body>
 </html>
