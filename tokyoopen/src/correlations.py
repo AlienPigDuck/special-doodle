@@ -7,10 +7,10 @@ Used by the analysis layer to identify which JP names are likely to move.
 US_TO_JP = {
     # Semiconductors — kept distinct so the AI doesn't always resolve to the same two JP names
     "NVDA": [("8035.T", "Tokyo Electron", "chip equipment — primary link"), ("6857.T", "Advantest", "chip testing — primary link")],
-    "AMD":  [("6857.T", "Advantest", "chip testing"), ("6240.T", "Kioxia", "memory/storage demand")],
+    "AMD":  [("6857.T", "Advantest", "chip testing"), ("285A.T", "Kioxia", "memory/storage demand")],
     "AMAT": [("8035.T", "Tokyo Electron", "direct chip equipment competitor")],
     "ASML": [("8035.T", "Tokyo Electron", "lithography ecosystem")],
-    "MU":   [("6240.T", "Kioxia", "direct NAND/DRAM competitor"), ("4063.T", "Shin-Etsu Chemical", "silicon wafers")],
+    "MU":   [("285A.T", "Kioxia", "direct NAND/DRAM competitor"), ("4063.T", "Shin-Etsu Chemical", "silicon wafers")],
     "INTC": [("4063.T", "Shin-Etsu Chemical", "silicon wafers")],
 
     # Apple supply chain
@@ -177,7 +177,7 @@ CORE_JP_STOCKS = {
     "7012.T": "Kawasaki Heavy",
     "7013.T": "IHI",
     # Technology / Memory
-    "6240.T": "Kioxia",
+    "285A.T": "Kioxia",
     # Infrastructure / Cables
     "5801.T": "Furukawa Electric",
     "5803.T": "Fujikura",

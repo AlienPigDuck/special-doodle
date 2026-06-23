@@ -181,7 +181,7 @@ Answer these questions:
 1. RECURRING THEMES — What topics, company names, or tickers appeared in almost every episode this week? List them.
 2. BLIND SPOTS — What important market themes or sectors have been consistently absent or underrepresented?
 3. ANCHORING — Is the show still over-relying on the same 2–3 JP stock names regardless of news? Name them. If anchoring has reduced, say so explicitly.
-4. ANTI-ANCHOR CHECK — For each of the previously overused stocks (Kioxia 6240, Advantest 6857, Tokyo Electron 8035): did they appear this week? If so, was there a clear catalyst, or were they still used as reflexive filler?
+4. ANTI-ANCHOR CHECK — For each of the previously overused stocks (Kioxia 285A, Advantest 6857, Tokyo Electron 8035): did they appear this week? If so, was there a clear catalyst, or were they still used as reflexive filler?
 5. DIVERSITY — Are new or less-frequently-covered JP stocks appearing? Name any that stand out as fresh picks.
 6. UNINTENDED CONSEQUENCES — Does anything look worse since the changes? For example: are sectors being missed that were previously covered via the ETF hints? Is the show less specific or less grounded than before?
 7. YEN COVERAGE — Has USD/JPY and its implications been covered each day, or dropped some days?
