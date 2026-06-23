@@ -1,73 +1,77 @@
-[ALEX] Good morning, Tokyo. Brace yourselves — the chip world just took a body blow overnight, and we open with a lot to digest.
+[ALEX] Good morning, Tokyo. Wall Street just took a chip hammer to the face, and Japan's semiconductor names are right in the blast radius.
 
-[MAYA] A big one, Alex. The Philadelphia Semiconductor Index dropped nearly eight percent. Down 7.87 on the twenty-third. That's not a wobble.
+[MAYA] It was ugly, Alex. The Philadelphia Semiconductor Index dropped 7.87% in one session. That's a brutal day.
 
-[ALEX] No, that's a stampede. And remember — Tokyo missed a session. We closed the twenty-second, before all of this hit. So this is fresh news for us this morning.
+[ALEX] Let's set the scene. The Nasdaq fell 2.21%, the S&P 500 off 1.44%. But the Dow? Basically flat, down just 0.09%.
 
-[MAYA] Which means it's all still to be priced in. Let me set the table on the US close first.
+[MAYA] So it's a story of two markets. Tech bleeding, everything else holding up.
 
-[ALEX] Go for it. S&P 500 down 1.44 percent to 7,365. Nasdaq down 2.21 to 25,587. The Dow? Basically flat, off just 0.09.
+[ALEX] Right. Look at the sectors. Healthcare up 1.41%, Staples up 1.87%, even Energy green at plus 0.74%. The money rotated, it didn't leave.
 
-[MAYA] So a real split. Old economy holds, tech gets hammered.
+[MAYA] And the VIX jumped 12.79% to 19.49. Nervous, but not panic.
 
-[ALEX] And fear ticked up. The VIX jumped 13 percent to 19.54. Ten-year Treasury yield at 4.49.
+[ALEX] The trigger was Micron. Down a staggering 13.18% in the regular session, and another 11% after hours.
 
-[MAYA] Now the carnage. Micron — ticker MU — collapsed 13.18 percent. Applied Materials down 8.48. ASML down 7.82. AMD off 5.76.
+[MAYA] That hits home, literally. Micron is the direct read-across for Kioxia, ticker 285A. And Kioxia closed down 15.10% in Tokyo on the 23rd.
 
-[ALEX] That's the whole memory and equipment complex bleeding at once.
+[ALEX] So that pain is already in the price. Remember, Tokyo traded the same day as the US. This isn't fresh news for Kioxia.
 
-[MAYA] And it lands right on our doorstep. Watch Kioxia, ticker 285A, this morning. It already fell 15 percent in our last session. With Micron down another 13 overnight, the pressure isn't done.
+[MAYA] Good point. But watch the wafer angle. Micron weakness also flows to Shin-Etsu Chemical, ticker 4063. They make silicon wafers. Shin-Etsu only dipped 0.08%, so there could be catch-up selling.
 
-[ALEX] Micron is Kioxia's direct NAND rival. When Micron breaks, Kioxia feels it.
+[ALEX] And the equipment names. Applied Materials down 8.48%, ASML down 7.82%, NVIDIA off 4.13%.
 
-[MAYA] Same story for the equipment names. Tokyo Electron, 8035, and the materials supplier Shin-Etsu Chemical, 4063 — Shin-Etsu barely moved last session, down 0.08. It may have some catching down to do given the wafer read-through.
+[MAYA] That's Tokyo Electron, 8035, which already fell 6.22%, and Advantest, 6857. SoftBank Group, 9984, got crushed too, down 10.09%.
 
-[ALEX] And don't forget SoftBank Group, 9984. It already dropped 10 percent before this. With NVIDIA off 4.13 percent, sentiment there stays heavy.
+[ALEX] So the AI trade wobbled hard. The question is whether Tokyo bounces or extends the bleed.
 
-[MAYA] One bright spot in the gloom — Microsoft actually rose 1.80 percent. So it's not all of tech. It's the silicon, specifically.
+[MAYA] Here's a less obvious one. Corning, ticker GLW, dropped 7.51%. That's the fiber and cable read.
 
-[ALEX] Now, the elephant in the room. The yen.
+[ALEX] Which links to Furukawa Electric, 5801, and Fujikura, 5803.
 
-[MAYA] Forty-year lows, Alex.
+[MAYA] And it's fascinating. Furukawa already fell 15.52% in Tokyo. But Fujikura went the other way, up 5.29%. The fiber story is splitting.
 
-[ALEX] USD/JPY touched 161.93 on the twenty-second — knocking on that February 2025 low of 161.96. Finance Minister Katayama held emergency talks with US Treasury Secretary Bessent.
+[ALEX] Keep an eye on whether Corning's drop pulls Fujikura back down. Now, the yen.
 
-[MAYA] So intervention's on the table.
+[MAYA] The big macro one.
 
-[ALEX] On the table, yes. But here's the cold truth — the BOJ has said it'll act if "necessary and appropriate," and the January check barely dented the trend. JPMorgan sees the dollar near 164 yen into late 2026.
+[ALEX] USD/JPY is sitting at 161.52, barely moved, up 0.05%. But we're near a 39-year low. We touched 161.93 on the 22nd.
 
-[MAYA] So exporters keep the tailwind — Toyota, the autos — but importers and households eat the cost.
+[MAYA] And the Ministry of Finance is reportedly coordinating with the US Treasury on possible intervention.
 
-[ALEX] And it stacks onto your electricity bill. Even with crude falling, autumn power rates still reflect old highs. That lag is brutal.
+[ALEX] The market's skeptical. JPMorgan is projecting 164 to the dollar by year-end. Dollar strength is structural.
 
-[MAYA] Speaking of crude — the Middle East cooled off. US-Iran ceasefire signed the seventeenth. WTI down 1.84 percent to 73.44. Dubai crude hit a four-month low near 69.7.
+[MAYA] For exporters that's a tailwind. A weak yen flatters Toyota's overseas earnings.
 
-[ALEX] Relief in theory. But over 400 tankers still queued offshore, and the yen weakness eats much of the gain. Gold also slipped, down 1.22 percent to 4,131.
+[ALEX] Though Toyota, ticker 7203, has its own headache. They're cutting overseas production by 100,000 units through February 2027.
 
-[MAYA] Let's get to two homegrown stories that have nothing to do with chips. First — Nissan, ticker 7201.
+[MAYA] Supply chain again. Toyota only fell 1.29%, so the market's taking it in stride.
 
-[ALEX] The governance shock.
+[ALEX] On the importer side, here's relief. Dubai crude fell to around 69.7 a barrel on the 23rd, the lowest in four months.
 
-[MAYA] Exactly. Outside director nominee Motoi Nagai — a former Mizuho man — failed his shareholder vote on the twenty-third. And here's the kicker: Renault, which holds 15 percent, abstained.
+[MAYA] The US-Iran ceasefire doing the work. WTI was down 2.37% to 73.05.
 
-[ALEX] An unprecedented rejection. The market reads it as Renault blocking Mizuho's growing grip on Nissan's boardroom.
+[ALEX] But don't celebrate too early. There's a fuel-cost lag. Electricity rates spike September through November. A typical household faces roughly 840 yen more a month.
 
-[MAYA] So expect Nissan under pressure at the open. Governance uncertainty is never a friend to the share price.
+[MAYA] Gold also softened, down 1.26% to 4,129. Risk-off, but the safe haven didn't catch a bid.
 
-[ALEX] And the second?
+[ALEX] Now two real Tokyo catalysts that aren't about US chips at all.
 
-[MAYA] KDDI, ticker 9433. A mail system serving six ISP partners was breached — 14.22 million records leaked. Emails, passwords, possibly message contents.
+[MAYA] KDDI, ticker 9433. A data breach hitting 14.22 million email accounts across six carriers. Passwords and contents compromised.
 
-[ALEX] Third major telco breach in eighteen months. That's a confidence problem, not just a tech one.
+[ALEX] And this follows a corporate scandal back in January. Reputational risk is stacking up.
 
-[MAYA] KDDI actually rose 1.08 last session, but this could flip sentiment fast.
+[MAYA] KDDI actually closed up 1.08% last session, before this landed. I'd watch for a reversal on the open.
 
-[ALEX] One theme to keep on your radar — defense drones. Portugal's TEKEVER is opening a Japan hub with Marubeni co-developing, and Mitsubishi Heavy, 7011, is pushing its own drone program.
+[ALEX] The other is Nissan, ticker 7201. At the shareholders meeting, one director nominee got rejected. Renault abstained, citing weak independence.
 
-[MAYA] With a 1.5 trillion yen subsidy signposted for the supply chain. That's a multi-year story, not a one-day trade.
+[MAYA] A rare rebuke. New Chairman Yoshiyuki Shoji from Asahi inherits a messy stakeholder fight between Mizuho's influence and Renault.
 
-[ALEX] So — buckle up. A chip-led down day looks likely, the yen's testing nerves, and two domestic stories to watch closely.
+[ALEX] One bright spot for defense. The drone theme is heating up, and Mitsubishi Heavy is central to Japan's domestic supply chain push.
 
-[MAYA] Trade smart, stay calm, and we'll be right here tomorrow.
+[MAYA] An 830 billion yen global market by 2035. That's a slow-burn story worth tracking.
 
-[ALEX] Take care of yourselves, Tokyo.
+[ALEX] So today: chips on the back foot, yen pinned near lows, oil cooling. Pick your spots carefully.
+
+[MAYA] Watch Shin-Etsu and Fujikura for catch-up, and KDDI for breach fallout. Trade safe out there.
+
+[ALEX] That's your Tokyo Open. Have a good session, everyone.
