@@ -37,6 +37,8 @@ GOOGLE_VOICES = {
 PAUSE_BETWEEN_PARAGRAPHS = 0.45
 
 PRONUNCIATIONS = {
+    "Nikkei 225": "Nikkay two two five",
+    "nikkei 225": "nikkay two two five",
     "Nikkei": "Nikkay",
     "nikkei": "nikkay",
 }
