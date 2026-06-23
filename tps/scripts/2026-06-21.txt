@@ -1,0 +1,47 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Sunday, June 21st, 2026, and I'm glad you're with me.
+
+Let's start with something that may quietly be reshaping the way Japan works — and the way Japanese people get paid.
+
+According to the Nikkei this morning, knowing how to use artificial intelligence is now worth real money in the Japanese job market. We're talking wage premiums of twenty to thirty percent in white-collar work. A Tokyo recruitment data firm called Frog analyzed seventy million job postings, and what they found is striking. In administrative roles, in planning, in sales, AI expertise now commands premiums of fifteen to twenty-eight percent — and here's the kicker — that's higher than what employers pay traditional IT specialists.
+
+Now, to understand why this is a big deal, you need to know something about how pay has worked in Japan. For decades, the system was built on seniority. You joined a company, you stayed, and your salary climbed steadily with your age and your years of service — not with your skills. And there was an unwritten ceiling: if you changed jobs, you might get a ten percent raise, and that was about it.
+
+That ceiling is cracking. The Nikkei reports that in the first half of this year, thirty-nine percent of people who switched jobs got raises of more than ten percent. So this isn't just a story about AI. It's a story about Japan slowly shifting from a system that rewarded loyalty and age to one that rewards what you can actually do. That's a profound change for a country whose corporate culture has long prized the company over the individual.
+
+And it connects to something else in the paper. Microsoft's CEO, Satya Nadella, is promoting a concept he calls "token capital" — the idea that a company's use of AI is itself a form of corporate capital, sitting right alongside the people you employ. His argument is that companies need to bake their own proprietary knowledge into AI systems, rather than just renting someone else's model — or risk being pushed aside by pure AI firms. Put those two stories together and you get a clear message: AI is no longer a side project. It's becoming core to who gets hired, and who gets paid.
+
+Speaking of getting paid — let's turn to Japan's banks, where the money is flowing in record amounts.
+
+The three megabanks — Mitsubishi UFJ, Sumitomo Mitsui, and Mizuho — are set to pay out a combined two-point-one to two-point-two trillion yen in dividends this fiscal year. That tops two trillion yen for the first time ever. And to put it in perspective, it's roughly double what they paid in 2022.
+
+What changed? Interest rates. Back in 2022, the Bank of Japan still had negative rates — banks were lending money for almost nothing, and earning almost nothing for it. Once the BOJ ended that policy, lending rates climbed, and bank profits soared past five trillion yen last fiscal year. So the megabanks are now handing fifty to sixty percent of their earnings back to shareholders. It's a vivid illustration of how the end of cheap money is reshaping the whole financial landscape.
+
+Now to security and the wider region, where the news is heavier.
+
+The U.S. military is deploying what's called the Typhon mobile launching system at Japan's Kanoya Air Base, in the south of the country, from June through September. These launchers can fire Tomahawk cruise missiles with a range of sixteen hundred kilometers — far enough to reach Chinese territory from Kanoya. And after the exercise, the equipment stays stored at Japanese bases for rapid deployment if needed.
+
+This is a real escalation in deterrence. China has some eighteen hundred and fifty medium-range ballistic missiles, and Washington has been working to close that gap. When the U.S. first brought this system to Iwakuni base last year, Beijing pushed back hard. Expect the same again.
+
+That deployment dovetails with a joint exercise underway right now called Resolute Dragon — ninety-six hundred personnel from Japan's Self-Defense Forces and the U.S. military, running through June 30th. They're practicing deploying anti-ship missiles to remote islands and testing counter-strike operations — all clearly aimed at defending Japan's southwestern islands, the chain that stretches toward Taiwan.
+
+And there's a sharper edge to all of this. The Nikkei reports that China cut its exports of rare earth magnets to Japan by nearly thirty-five percent in May — down to just one hundred twenty-three tons, the lowest level since 2024. These are high-performance magnets, the kind containing an element called dysprosium, essential for everything from EVs to defense equipment. China is widely seen as retaliating over Prime Minister Takayama's remarks on Taiwan. So tension over Taiwan isn't just military — it's economic, and it's hitting Japan's supply chains right now.
+
+Meanwhile, in the Middle East, Iran's military has threatened to blockade the Strait of Hormuz — the narrow waterway through which a huge share of the world's oil flows. Iran accuses Israel of violating a U.S.-Iran ceasefire by continuing attacks on southern Lebanon. There's a U.S.-Iran implementation meeting scheduled for today in Switzerland, with Pakistan helping to mediate.
+
+And here's a quieter detail the Nikkei draws out: the architect of that ceasefire was Qatar. The tiny Gulf state spent five weeks shuttling between Washington and Tehran in back-channel talks. It's a reminder that some of the most consequential diplomacy happens far from the headlines.
+
+A couple of stories closer to home now.
+
+The government and the ruling coalition are finalizing a plan to cut the consumption tax on food — that's Japan's sales tax — down to one percent for two years, starting April 2027. The remaining one percent would be covered through income-linked payments to households. It's an attempt to answer opposition demands for relief while keeping the budget under some control.
+
+And there's a poignant story about the city of Yubari, up in Hokkaido. Yubari is Japan's only municipality to have gone formally bankrupt — and now, after twenty years, it's on track to finish repaying its debt by March 2029. To survive, it built itself into a "compact city," consolidating homes and services into just three areas to keep infrastructure costs down as its population kept shrinking. For a country full of aging, emptying towns, Yubari is becoming a model — proof that managed decline can still mean survival.
+
+A few quick business notes. Starbucks is reportedly exploring a sale of its Japan operations — surprising, given how beloved the chain is here for its cleanliness and service. And JX Metals is investing one hundred twenty billion yen to ramp up production of a specialized substrate used in optical communications — part of the race to replace copper wiring with fiber inside AI data centers, to cut power use.
+
+And now, the story that caught my eye — buried deep in today's paper, from Cambodia.
+
+Two payment apps there, called H-Waywan Pay and H-Pay, shut down suddenly in May. Between them, the Nikkei reports, they had processed cryptographic transactions exceeding seventy billion dollars. Seventy billion. And yet when they collapsed, the customers who got displaced were compensated, on average, less than twenty dollars each. Authorities still can't even calculate the actual losses.
+
+What this exposes is a kind of fintech Wild West across parts of Southeast Asia — where opaque regulation lets politically connected elites run enormous operations with almost no oversight. When patronage matters more than prudence, ordinary people are the ones left holding nothing. It's a story from one small country, but it's a warning that travels well beyond its borders.
+
+That's The Papers Say for June 21st. See you tomorrow.

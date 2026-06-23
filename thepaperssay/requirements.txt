@@ -1,0 +1,7 @@
+anthropic
+feedparser
+httpx
+requests
+google-cloud-texttospeech
+beautifulsoup4
+playwright

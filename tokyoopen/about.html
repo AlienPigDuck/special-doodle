@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tokyo Open — How It Works</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#080808;--card:#111117;--border:#222228;
+      --red:#e03131;--blue:#3b82f6;
+      --text:#eaeaea;--muted:#aaaaaa;
+      --mono:'Anonymous Pro',monospace;
+    }
+    body{background:var(--bg);color:var(--text);font-family:var(--mono);
+      padding:60px 20px;max-width:820px;margin:0 auto;line-height:1.7}
+    a{color:var(--blue);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .back{display:inline-block;font-size:14px;letter-spacing:2px;
+      text-transform:uppercase;color:var(--muted);margin-bottom:48px}
+    .back:hover{color:var(--text);text-decoration:none}
+    h1{font-size:36px;font-weight:700;letter-spacing:6px;text-transform:uppercase;
+      margin-bottom:8px}
+    .tagline{font-size:15px;color:var(--muted);letter-spacing:2px;
+      text-transform:uppercase;margin-bottom:56px;border-bottom:1px solid var(--border);
+      padding-bottom:28px}
+    h2{font-size:18px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
+      color:var(--red);margin:48px 0 18px}
+    h3{font-size:15px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+      color:var(--text);margin:28px 0 10px}
+    p{font-size:15px;color:var(--text);margin-bottom:14px}
+    .pipeline{display:flex;flex-direction:column;gap:0;margin:24px 0 36px}
+    .step{display:flex;align-items:flex-start;gap:20px;padding:20px 24px;
+      background:var(--card);border:1px solid var(--border);margin-bottom:-1px}
+    .step:first-child{border-radius:4px 4px 0 0}
+    .step:last-child{border-radius:0 0 4px 4px;margin-bottom:0}
+    .step-num{font-size:22px;font-weight:700;color:var(--red);
+      min-width:32px;line-height:1.3}
+    .step-body{}
+    .step-title{font-size:15px;font-weight:700;letter-spacing:1px;
+      text-transform:uppercase;margin-bottom:5px}
+    .step-desc{font-size:14px;color:var(--muted)}
+    .sources-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0 36px}
+    .source-card{background:var(--card);border:1px solid var(--border);
+      border-radius:4px;padding:20px}
+    .source-card h3{margin-top:0;font-size:13px;color:var(--red);margin-bottom:12px}
+    .source-card ul{list-style:none;padding:0}
+    .source-card li{font-size:13px;color:var(--muted);padding:3px 0;
+      border-bottom:1px solid var(--border)}
+    .source-card li:last-child{border-bottom:none}
+    .source-card li::before{content:'— ';color:var(--red)}
+    .ticker-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+      gap:10px;margin:16px 0 32px}
+    .ticker-card{background:var(--card);border:1px solid var(--border);
+      border-radius:4px;padding:14px 16px;font-size:13px}
+    .ticker-sym{color:var(--red);font-weight:700;font-size:15px;margin-bottom:4px}
+    .ticker-name{color:var(--muted)}
+    .corr-table{width:100%;border-collapse:collapse;margin:16px 0 36px;font-size:13px}
+    .corr-table th{text-align:left;padding:10px 14px;background:var(--card);
+      color:var(--red);letter-spacing:1px;text-transform:uppercase;font-size:12px;
+      border-bottom:1px solid var(--border)}
+    .corr-table td{padding:9px 14px;border-bottom:1px solid var(--border);
+      color:var(--text);vertical-align:top}
+    .corr-table td:first-child{color:var(--red);font-weight:700;white-space:nowrap}
+    .corr-table tr:last-child td{border-bottom:none}
+    .note{background:var(--card);border-left:3px solid var(--red);
+      padding:14px 18px;margin:20px 0 36px;font-size:14px;color:var(--muted)}
+    .disclaimer{margin-top:56px;padding-top:28px;border-top:1px solid var(--border);
+      font-size:13px;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
+    @media(max-width:600px){
+      .sources-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+  <a class="back" href="/">&larr; Back to Tokyo Open</a>
+
+  <h1>Tokyo Open</h1>
+  <div class="tagline">Architecture &amp; Data Sources</div>
+
+  <h2>What Is This?</h2>
+  <p>Tokyo Open is a fully automated daily podcast that briefs listeners on the Japanese stock market before the morning session opens. Every episode is generated end-to-end by AI — no human writes, records, or edits anything. It runs automatically at 6:00 AM Japan Standard Time every day.</p>
+  <p>Two AI hosts — <strong>Alex</strong> (male, macro-focused) and <strong>Maya</strong> (female, stock-picker) — discuss what happened overnight in US markets, what that means for Tokyo when the bell rings, and any analyst rating changes or significant news from Japan's morning press.</p>
+
+  <h2>Pipeline</h2>
+  <p>Each episode is produced in five stages, taking roughly 10&ndash;15 minutes from start to finish.</p>
+
+  <div class="pipeline">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <div class="step-title">Market Data Collection</div>
+        <div class="step-desc">Live prices, percentage changes, and after-hours moves are pulled from Yahoo Finance. This covers US indices, 10 sector ETFs, 34 key US stocks, and 41 key Japanese stocks from the previous Tokyo close. USD/JPY, crude oil, and gold are also fetched. Takes ~15 seconds.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <div class="step-title">News Collection</div>
+        <div class="step-desc">Two sources run in parallel. Six international RSS feeds are polled for articles from the past 14 hours. Simultaneously, a headless browser authenticates with a major Japanese news publication and scrapes the full morning newspaper edition — typically 120+ articles in Japanese spanning front page, markets, international, business, investment, and commodities sections.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <div class="step-title">News Digest (Claude Haiku)</div>
+        <div class="step-desc">All collected articles — including Japanese-language ones — are sent to Claude Haiku, which produces a structured six-section briefing: Market Movers, Macro &amp; FX, Sector Themes, Key Events &amp; Earnings, Surprises &amp; Risks, and Analyst Ratings. The Analyst Ratings section specifically extracts broker upgrades, downgrades, and price-target changes from major houses (Daiwa, Nomura, Jefferies, Mizuho, JPMorgan, Morgan Stanley, Goldman Sachs, and others). Takes ~10 seconds.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <div class="step-title">Script Generation (Claude Opus)</div>
+        <div class="step-desc">Market data, the news briefing, and a US&rarr;Japan correlation map are sent to Claude Opus, which writes a 600&ndash;800 word two-host dialogue. The script cites articles from Japan's morning press by name where relevant, and calls out analyst rating changes with the broker and new target. Takes ~30 seconds.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">5</div>
+      <div class="step-body">
+        <div class="step-title">Voice Synthesis &amp; Publish</div>
+        <div class="step-desc">The script is split into individual speaker lines and each is synthesised using Google Cloud Text-to-Speech with British English Journey voices — en-GB-Journey-D for Alex and en-GB-Journey-F for Maya. Segments are stitched together with silence gaps using ffmpeg and the final MP3 is pushed directly to this GitHub Pages site. Takes ~8 minutes.</div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Market Data Sources</h2>
+
+  <div class="sources-grid">
+    <div class="source-card">
+      <h3>US Indices &amp; Macro</h3>
+      <ul>
+        <li>S&amp;P 500</li>
+        <li>Nasdaq Composite</li>
+        <li>Dow Jones Industrial Average</li>
+        <li>VIX (fear gauge)</li>
+        <li>10-Year Treasury Yield</li>
+        <li>USD/JPY</li>
+        <li>Crude Oil (WTI)</li>
+        <li>Gold</li>
+        <li>Nikkei 225 (prev. close)</li>
+      </ul>
+    </div>
+    <div class="source-card">
+      <h3>US Sector ETFs</h3>
+      <ul>
+        <li>XLK — Technology</li>
+        <li>XLE — Energy</li>
+        <li>XLF — Financials</li>
+        <li>XLV — Healthcare</li>
+        <li>XLY — Consumer Discretionary</li>
+        <li>XLP — Consumer Staples</li>
+        <li>XLI — Industrials</li>
+        <li>XLB — Materials</li>
+        <li>XLU — Utilities</li>
+        <li>XLRE — Real Estate</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Key US Stocks Tracked (34)</h3>
+  <div class="ticker-grid">
+    <div class="ticker-card"><div class="ticker-sym">NVDA</div><div class="ticker-name">Nvidia</div></div>
+    <div class="ticker-card"><div class="ticker-sym">AAPL</div><div class="ticker-name">Apple</div></div>
+    <div class="ticker-card"><div class="ticker-sym">MSFT</div><div class="ticker-name">Microsoft</div></div>
+    <div class="ticker-card"><div class="ticker-sym">GOOGL</div><div class="ticker-name">Alphabet</div></div>
+    <div class="ticker-card"><div class="ticker-sym">META</div><div class="ticker-name">Meta</div></div>
+    <div class="ticker-card"><div class="ticker-sym">AMZN</div><div class="ticker-name">Amazon</div></div>
+    <div class="ticker-card"><div class="ticker-sym">NFLX</div><div class="ticker-name">Netflix</div></div>
+    <div class="ticker-card"><div class="ticker-sym">MU</div><div class="ticker-name">Micron</div></div>
+    <div class="ticker-card"><div class="ticker-sym">AMD</div><div class="ticker-name">AMD</div></div>
+    <div class="ticker-card"><div class="ticker-sym">AMAT</div><div class="ticker-name">Applied Materials</div></div>
+    <div class="ticker-card"><div class="ticker-sym">ASML</div><div class="ticker-name">ASML</div></div>
+    <div class="ticker-card"><div class="ticker-sym">TSLA</div><div class="ticker-name">Tesla</div></div>
+    <div class="ticker-card"><div class="ticker-sym">GM</div><div class="ticker-name">General Motors</div></div>
+    <div class="ticker-card"><div class="ticker-sym">BA</div><div class="ticker-name">Boeing</div></div>
+    <div class="ticker-card"><div class="ticker-sym">CAT</div><div class="ticker-name">Caterpillar</div></div>
+    <div class="ticker-card"><div class="ticker-sym">HON</div><div class="ticker-name">Honeywell</div></div>
+    <div class="ticker-card"><div class="ticker-sym">RTX</div><div class="ticker-name">RTX Corp</div></div>
+    <div class="ticker-card"><div class="ticker-sym">DE</div><div class="ticker-name">Deere &amp; Co</div></div>
+    <div class="ticker-card"><div class="ticker-sym">HD</div><div class="ticker-name">Home Depot</div></div>
+    <div class="ticker-card"><div class="ticker-sym">DHI</div><div class="ticker-name">D.R. Horton</div></div>
+    <div class="ticker-card"><div class="ticker-sym">LEN</div><div class="ticker-name">Lennar</div></div>
+    <div class="ticker-card"><div class="ticker-sym">JPM</div><div class="ticker-name">JPMorgan Chase</div></div>
+    <div class="ticker-card"><div class="ticker-sym">GS</div><div class="ticker-name">Goldman Sachs</div></div>
+    <div class="ticker-card"><div class="ticker-sym">BAC</div><div class="ticker-name">Bank of America</div></div>
+    <div class="ticker-card"><div class="ticker-sym">MET</div><div class="ticker-name">MetLife</div></div>
+    <div class="ticker-card"><div class="ticker-sym">VZ</div><div class="ticker-name">Verizon</div></div>
+    <div class="ticker-card"><div class="ticker-sym">XOM</div><div class="ticker-name">ExxonMobil</div></div>
+    <div class="ticker-card"><div class="ticker-sym">COP</div><div class="ticker-name">ConocoPhillips</div></div>
+    <div class="ticker-card"><div class="ticker-sym">LLY</div><div class="ticker-name">Eli Lilly</div></div>
+    <div class="ticker-card"><div class="ticker-sym">MRK</div><div class="ticker-name">Merck</div></div>
+    <div class="ticker-card"><div class="ticker-sym">WMT</div><div class="ticker-name">Walmart</div></div>
+    <div class="ticker-card"><div class="ticker-sym">COST</div><div class="ticker-name">Costco</div></div>
+    <div class="ticker-card"><div class="ticker-sym">PLD</div><div class="ticker-name">Prologis</div></div>
+    <div class="ticker-card"><div class="ticker-sym">GLW</div><div class="ticker-name">Corning</div></div>
+  </div>
+
+  <h3>Key Japanese Stocks Tracked (41)</h3>
+  <div class="ticker-grid">
+    <div class="ticker-card"><div class="ticker-sym">7203.T</div><div class="ticker-name">Toyota</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6758.T</div><div class="ticker-name">Sony</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6861.T</div><div class="ticker-name">Keyence</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8035.T</div><div class="ticker-name">Tokyo Electron</div></div>
+    <div class="ticker-card"><div class="ticker-sym">9984.T</div><div class="ticker-name">SoftBank Group</div></div>
+    <div class="ticker-card"><div class="ticker-sym">9983.T</div><div class="ticker-name">Fast Retailing</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8306.T</div><div class="ticker-name">MUFG</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8316.T</div><div class="ticker-name">SMFG</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8411.T</div><div class="ticker-name">Mizuho</div></div>
+    <div class="ticker-card"><div class="ticker-sym">4063.T</div><div class="ticker-name">Shin-Etsu Chemical</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6098.T</div><div class="ticker-name">Recruit Holdings</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6954.T</div><div class="ticker-name">Fanuc</div></div>
+    <div class="ticker-card"><div class="ticker-sym">7267.T</div><div class="ticker-name">Honda</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6902.T</div><div class="ticker-name">Denso</div></div>
+    <div class="ticker-card"><div class="ticker-sym">9433.T</div><div class="ticker-name">KDDI</div></div>
+    <div class="ticker-card"><div class="ticker-sym">9432.T</div><div class="ticker-name">NTT</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8766.T</div><div class="ticker-name">Tokio Marine</div></div>
+    <div class="ticker-card"><div class="ticker-sym">4568.T</div><div class="ticker-name">Daiichi Sankyo</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8058.T</div><div class="ticker-name">Mitsubishi Corp</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6301.T</div><div class="ticker-name">Komatsu</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6981.T</div><div class="ticker-name">Murata</div></div>
+    <div class="ticker-card"><div class="ticker-sym">4519.T</div><div class="ticker-name">Chugai Pharma</div></div>
+    <div class="ticker-card"><div class="ticker-sym">7974.T</div><div class="ticker-name">Nintendo</div></div>
+    <div class="ticker-card"><div class="ticker-sym">4661.T</div><div class="ticker-name">Oriental Land</div></div>
+    <div class="ticker-card"><div class="ticker-sym">1605.T</div><div class="ticker-name">Inpex</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8591.T</div><div class="ticker-name">Orix</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6367.T</div><div class="ticker-name">Daikin</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6857.T</div><div class="ticker-name">Advantest</div></div>
+    <div class="ticker-card"><div class="ticker-sym">5020.T</div><div class="ticker-name">Eneos</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8604.T</div><div class="ticker-name">Nomura</div></div>
+    <div class="ticker-card"><div class="ticker-sym">7011.T</div><div class="ticker-name">Mitsubishi Heavy</div></div>
+    <div class="ticker-card"><div class="ticker-sym">7012.T</div><div class="ticker-name">Kawasaki Heavy</div></div>
+    <div class="ticker-card"><div class="ticker-sym">7013.T</div><div class="ticker-name">IHI</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6240.T</div><div class="ticker-name">Kioxia</div></div>
+    <div class="ticker-card"><div class="ticker-sym">5801.T</div><div class="ticker-name">Furukawa Electric</div></div>
+    <div class="ticker-card"><div class="ticker-sym">5803.T</div><div class="ticker-name">Fujikura</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8801.T</div><div class="ticker-name">Mitsui Fudosan</div></div>
+    <div class="ticker-card"><div class="ticker-sym">8802.T</div><div class="ticker-name">Mitsubishi Estate</div></div>
+    <div class="ticker-card"><div class="ticker-sym">1925.T</div><div class="ticker-name">Daiwa House</div></div>
+    <div class="ticker-card"><div class="ticker-sym">1928.T</div><div class="ticker-name">Sekisui House</div></div>
+    <div class="ticker-card"><div class="ticker-sym">6326.T</div><div class="ticker-name">Kubota</div></div>
+  </div>
+
+  <h2>News Sources</h2>
+
+  <div class="sources-grid">
+    <div class="source-card">
+      <h3>International RSS Feeds</h3>
+      <ul>
+        <li>Reuters Business</li>
+        <li>MarketWatch</li>
+        <li>AP Business News</li>
+        <li>Bloomberg Markets</li>
+        <li>Japan Times — Business</li>
+        <li>Investing.com Japan</li>
+      </ul>
+    </div>
+    <div class="source-card">
+      <h3>Major Japanese News Publication</h3>
+      <ul>
+        <li>Front page (全面)</li>
+        <li>General news (総合)</li>
+        <li>Global markets</li>
+        <li>International</li>
+        <li>Business</li>
+        <li>Investment (投資)</li>
+        <li>Commodities (商品)</li>
+      </ul>
+    </div>
+  </div>
+
+  <p>The Japanese morning newspaper is accessed via an authenticated headless browser session. Articles are scraped in Japanese and translated inline by the AI digest step. Typically 120+ articles are collected each morning covering the full editorial range of the day's edition.</p>
+
+  <h2>US &rarr; Japan Correlation Map</h2>
+  <p>Claude is given a hardcoded map of US stocks to their Japanese equivalents. When a US name moves significantly, Claude knows which Tokyo names are likely to react and why.</p>
+
+  <table class="corr-table">
+    <thead>
+      <tr><th>US Stock</th><th>Japanese Equivalent(s)</th><th>Reason</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>NVDA</td><td>Tokyo Electron (8035.T), Advantest (6857.T)</td><td>Chip equipment &amp; testing</td></tr>
+      <tr><td>AMD</td><td>Advantest (6857.T), Kioxia (6240.T)</td><td>Chip testing, memory demand</td></tr>
+      <tr><td>AMAT</td><td>Tokyo Electron (8035.T)</td><td>Direct chip equipment competitor</td></tr>
+      <tr><td>ASML</td><td>Tokyo Electron (8035.T)</td><td>Lithography ecosystem</td></tr>
+      <tr><td>MU</td><td>Kioxia (6240.T), Shin-Etsu Chemical (4063.T)</td><td>NAND/DRAM competitor, silicon wafers</td></tr>
+      <tr><td>AAPL</td><td>Murata (6981.T), TDK (6762.T), Alps Alpine (6770.T)</td><td>iPhone component suppliers</td></tr>
+      <tr><td>TSLA</td><td>Toyota (7203.T), Honda (7267.T), Panasonic (6752.T)</td><td>EV competition &amp; battery supply</td></tr>
+      <tr><td>GM</td><td>Toyota (7203.T), Honda (7267.T), Nissan (7201.T)</td><td>Auto sector read-through</td></tr>
+      <tr><td>BA</td><td>Mitsubishi Heavy (7011.T), Kawasaki Heavy (7012.T), IHI (7013.T)</td><td>Major Boeing suppliers &amp; aircraft engines</td></tr>
+      <tr><td>RTX</td><td>Mitsubishi Heavy (7011.T), IHI (7013.T)</td><td>Defense &amp; jet engine overlap</td></tr>
+      <tr><td>HON</td><td>Fanuc (6954.T), Keyence (6861.T)</td><td>Industrial automation &amp; sensors</td></tr>
+      <tr><td>CAT</td><td>Komatsu (6301.T), Kubota (6326.T)</td><td>Construction &amp; agricultural machinery</td></tr>
+      <tr><td>DE</td><td>Kubota (6326.T)</td><td>Agricultural machinery</td></tr>
+      <tr><td>HD / DHI / LEN</td><td>Daiwa House (1925.T), Sekisui House (1928.T)</td><td>Construction &amp; homebuilders</td></tr>
+      <tr><td>PLD</td><td>Mitsui Fudosan (8801.T), Mitsubishi Estate (8802.T)</td><td>Real estate / logistics REIT</td></tr>
+      <tr><td>GLW</td><td>Furukawa Electric (5801.T), Fujikura (5803.T)</td><td>Fiber &amp; cable</td></tr>
+      <tr><td>JPM</td><td>MUFG (8306.T), SMFG (8316.T), Mizuho (8411.T)</td><td>Global banking sentiment</td></tr>
+      <tr><td>GS / MS</td><td>Nomura (8604.T), Daiwa Securities (8601.T)</td><td>Broker / investment bank</td></tr>
+      <tr><td>BAC</td><td>MUFG (8306.T), SMFG (8316.T)</td><td>Banking sector</td></tr>
+      <tr><td>MET</td><td>Tokio Marine (8766.T), MS&amp;AD (8725.T)</td><td>Insurance sector</td></tr>
+      <tr><td>VZ</td><td>NTT (9432.T), KDDI (9433.T)</td><td>Telecom sector</td></tr>
+      <tr><td>XOM / COP</td><td>Inpex (1605.T), Eneos (5020.T)</td><td>Upstream &amp; integrated energy</td></tr>
+      <tr><td>LLY</td><td>Daiichi Sankyo (4568.T), Chugai (4519.T)</td><td>Oncology / ADC partnership</td></tr>
+      <tr><td>MRK</td><td>Takeda (4502.T), Eisai (4523.T)</td><td>Pharma sector</td></tr>
+      <tr><td>AMZN / WMT / COST</td><td>Seven &amp; i Holdings (3382.T), Fast Retailing (9983.T)</td><td>Retail sector</td></tr>
+      <tr><td>MSFT</td><td>SoftBank (9984.T), Nintendo (7974.T)</td><td>Tech conglomerate / ARM stake, cloud &amp; gaming</td></tr>
+      <tr><td>GOOGL</td><td>SoftBank (9984.T), Keyence (6861.T)</td><td>AI / tech conglomerate sentiment</td></tr>
+      <tr><td>META</td><td>Nintendo (7974.T), Square Enix (9684.T)</td><td>Digital entertainment</td></tr>
+      <tr><td>NFLX</td><td>Sony (6758.T)</td><td>Content &amp; streaming overlap</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Automation</h2>
+  <p>The entire pipeline runs on GitHub Actions — no dedicated server required. A scheduled workflow fires at 21:00 UTC (06:00 JST) every day. The generated MP3 is pushed directly to this GitHub Pages site via the GitHub API, overwriting <code>latest.mp3</code>. The episode date metadata is updated in <code>episode.json</code>, which the player reads to display the correct date.</p>
+  <p>On-demand generation is available via the Generate Now button on the main page, which triggers the same workflow through the GitHub Actions API after credential verification.</p>
+
+  <div class="note">All market data is sourced from public APIs. News is pulled from publicly available RSS feeds and a licensed Japanese news publication. This project has no affiliation with any of the companies, exchanges, or publications mentioned.</div>
+
+  <div class="disclaimer">Disclaimer: This is a work in progress. It is 100% AI generated. AI&rsquo;s can hallucinate. Market data and analysis may contain errors. This is not financial advice.</div>
+
+</body>
+</html>

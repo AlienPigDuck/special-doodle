@@ -1,0 +1,57 @@
+/* Anonymous Pro font styles */
+.anonymous-pro-regular {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.anonymous-pro-bold {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+.anonymous-pro-regular-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+.anonymous-pro-bold-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Body Styles */
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    /* height: 100vh; */     /* 🔥 remove this */
+    /* overflow: hidden; */  /* 🔥 and this */
+}
+
+/* Top Bar Styles */
+.top-bar {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    height: 120px; /* Height of the bar */
+    background-color: black;
+    color: whitesmoke; /* Text color */
+    padding: 0; /* Padding on the sides */
+    position: relative; /* Ensure it's above the background */
+    z-index: 1; /* Ensure it's above the background image */
+}
+.top-bar img {
+    height: 100px; /* Height of the small image */
+    }
+
+
+/* Preformatted Text Styles */
+pre {
+    font-family: 'Anonymous Pro', monospace; /* Use Anonymous Pro font */
+    white-space: pre; /* Preserve whitespace */
+    margin-top: 1em; /* Maintain margin */
+    margin-right: 0px; /* Maintain margin */
+}
