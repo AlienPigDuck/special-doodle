@@ -1,61 +1,61 @@
-[ALEX] Good morning. If you went to bed thinking Tokyo was unstoppable, wake up. The Nikkei 225 closed at 69,788, down 3.55%. That's an ugly day.
+[ALEX] Good morning. If you went to bed thinking Tokyo was unstoppable, wake up. The Nikkei 225 closed at 69,788, down 3.55%.
 
-[MAYA] And it snaps the run. Eight straight days up, fresh all-time highs, and then this. The whole AI complex just got taken to the woodshed.
+[MAYA] After eight straight up days. The streak that took us from 60,000 to 72,000 at record speed — it snapped today, hard.
 
-[ALEX] It did. So let's set the scene. Overnight in the US, the Nasdaq fell 1.32%. The big-cap names led it lower — Alphabet down 4.99%, Amazon down 4.75%, Netflix off 5.82%, Microsoft down 3.18%.
+[ALEX] Brutally. This was the AI rally finally taking a breath, and it was not a gentle one.
 
-[MAYA] But here's the twist, Alex. The SOX — the Philadelphia Semiconductor Index — actually rose 2.04%. Micron jumped 6.82%, AMD up 2.65%, Applied Materials up 3.74%.
+[MAYA] Look at the wreckage. SoftBank Group down 10.09%. Murata down 10.16%. Tokyo Electron off 6.22%. Fanuc down 6.29%.
 
-[ALEX] So chips were green in America, and Tokyo torched them anyway.
+[ALEX] And the truly ugly ones below the index. Kioxia fell 15.10%. Furukawa Electric, 15.52%.
 
-[MAYA] That's the story of the day. This wasn't a clean sell-everything tape. It was surgical, and it gutted the most expensive, most crowded AI names in Japan.
+[MAYA] Which is wild, because Kioxia is the poster child for this whole run. Nikkei reported its market cap had hit the 60-trillion-yen range — second-biggest company in Japan, all on AI memory demand.
 
-[ALEX] Start with the headline disaster. SoftBank Group fell 10.09%. Ten percent. In a single session.
+[ALEX] So when the air comes out, it comes out of the names that ran the furthest.
 
-[MAYA] And it gets worse below the surface. Murata down 10.16%. Kioxia — the memory name — collapsed 15.10%. Furukawa Electric down 15.52%.
+[MAYA] Exactly. This was froth getting trimmed. The semis and the cable makers led the market up, and today they led it down.
 
-[ALEX] Furukawa is the AI-cable, AI-infrastructure trade. When that breaks 15% in a day, it tells you the speculative froth came off hard.
+[ALEX] The overnight US tape set the tone. Nasdaq down 1.32%, with the megacaps cracking — Alphabet fell 4.99%, Amazon 4.75%, Netflix 5.82%, Microsoft 3.18%.
 
-[MAYA] Tokyo Electron fell 6.22%, Fanuc 6.29%, Advantest down 2.30%. Anything tied to the AI capex story got sold.
+[MAYA] And the VIX jumped nearly 17% to 20.17. Risk appetite turned overnight, and Tokyo opened straight into it.
 
-[ALEX] Which is remarkable given the context. Remember, the Nikkei had just done the fastest thousand-point climb ever — 6,000 to 7,000 in two months. And the valuation warning was flashing red.
+[ALEX] Curiously, the Philadelphia Semiconductor Index actually rose 2.04% in the US. Micron up 6.82%, Applied Materials up 3.74%.
 
-[MAYA] Right. The 200-day deviation hit plus-34.7% — the highest since May 2013. When you're stretched that far above trend, you don't need much of a reason. The "buy the dip" crowd just blinked first.
+[MAYA] Right — so it wasn't a clean chip selloff in the States. But Tokyo's chip names sold off anyway. That tells you this was positioning, not fundamentals. People taking profits after eight green days.
 
-[ALEX] Now — one fascinating exception. Fujikura. While Furukawa cratered, Fujikura rose 5.29%.
+[ALEX] Not everything bled, though.
 
-[MAYA] A real split inside the same theme. Someone was rotating, not just dumping. But that's the outlier. The breadth was grim.
+[MAYA] No. Fujikura bucked the cable carnage — up 5.29% while Furukawa collapsed. Oriental Land rose 1.74%, KDDI up 1.08%, Fast Retailing eked out 0.78%. Defensive and domestic names held up.
 
-[ALEX] The banks didn't save you either. MUFG down 1.98%, SMFG down 2.81%, Mizuho down 2.77%, Nomura off 2.47%.
+[ALEX] Which makes sense given the rate backdrop. Remember, the BOJ raised to 1% on the 16th — a 31-year high. Long yields touched 2.8% in May.
 
-[MAYA] And that's notable, because US financials were up overnight — JPMorgan plus 1.92%, Bank of America plus 2.08%. The Japanese banks ignored the lead and followed the broad risk-off.
+[MAYA] And that rate story is crushing property. Mitsubishi Estate down 3.21% today, Mitsui Fudosan down 2.06%. Nikkei notes the whole sector's down 22 to 33% from late February, sitting near year-to-date lows.
 
-[ALEX] Heavy industry took it too. Mitsubishi Heavy down 4.27%, Kawasaki Heavy down 5.00%, IHI off 3.52%. The defense trade gave some back.
+[ALEX] Higher rates, higher borrowing costs, cooler housing demand. You saw the echo in the US — Lennar fell 2.55%, Home Depot 2.29%.
 
-[MAYA] So where could you hide? Almost nowhere, but a few names held. Fast Retailing eked out plus 0.78%. KDDI up 1.08%. Oriental Land — Tokyo Disney's operator — up 1.74%.
+[MAYA] And the banks didn't provide cover today either. MUFG down 1.98%, SMFG down 2.81%, Mizuho down 2.77%. Usually rising rates help them — but on a 3.5% down day, nothing was spared.
 
-[ALEX] The classic defensive tilt. Domestic, dividend, steady. When the AI engine stalls, that's where money parks.
+[ALEX] Now, the yen. USD/JPY closed at 161.55, basically flat on the day, up 0.07%.
 
-[MAYA] Even Toyota only fell 1.29%, Honda down 1.13% — modest by today's standards. The exporters weren't the problem today.
+[MAYA] But the context matters. It touched 161.80 on the 22nd — roughly a two-year low for the yen.
 
-[ALEX] And that's because the yen gave them no help and no hurt. USD/JPY sat at 161.46, essentially flat on the day, still near two-year lows for the yen.
+[ALEX] Then pulled back on headlines that Finance Minister Satsuki Katayama held an online meeting with US Treasury Secretary Bessent. FX was on the agenda.
 
-[MAYA] So the weak-yen tailwind for exporters is baked in now. It's not the swing factor. Today the swing factor was pure tech positioning.
+[MAYA] So jawboning put a temporary floor under the yen. But 161-and-change is still deeply weak. Normally a tailwind for exporters.
 
-[ALEX] Worth flagging the macro backdrop too. The BOJ raised to 1.0% last week — a 31-year high — and long JGB yields are sitting near 2.8%. Rising rates plus stretched valuations is not a friendly mix.
+[ALEX] Normally. But today even the exporters fell. Toyota down 1.29%, Honda 1.13%, Sony 0.75%. When the whole market's de-risking, a weak yen doesn't save you.
 
-[MAYA] You saw it in property. Mitsubishi Estate down 3.21%, Mitsui Fudosan down 2.06%. Higher yields, weaker real estate. Global theme, local pain.
+[MAYA] One more theme to flag — the heavy industrials. Mitsubishi Heavy down 4.27%, Kawasaki Heavy down 5.00%, IHI down 3.52%. These had been AI-power and defense darlings.
 
-[ALEX] So what do we watch tonight? Two things.
+[ALEX] And there's a real catalyst there. Nikkei reports JERA is building a 500-billion-yen gas plant in the US tied to AI data centers, with Mitsubishi Heavy planning to ramp turbine output. The story's intact — today was just the tide going out.
 
-[MAYA] Number one — Micron earnings, due tomorrow our time. Expectations are sky-high after that 6.82% pop. A miss could send the memory names down another leg, and Kioxia and Murata are already wounded.
+[MAYA] So what do we watch tonight?
 
-[ALEX] Number two — the VIX jumped 14.87% to 19.85. Fear is creeping back in. Watch whether US tech stabilizes overnight or whether the Nasdaq's slide accelerates.
+[ALEX] Two things. First, US megacap tech. If Alphabet and Amazon keep sliding, Tokyo's AI names get a second leg down tomorrow.
 
-[MAYA] And keep half an eye on oil. WTI slipped to 73.86, but with Middle East tensions in the headlines, energy can gap on you.
+[MAYA] And second, the yen. Watch for any follow-through from that Katayama-Bessent meeting. More intervention talk near 162 could shake exporters either way.
 
-[ALEX] The takeaway: Tokyo's record run hit a wall. Down 3.55%, led by a brutal unwind in SoftBank, memory and AI-infrastructure names — and not because chips fell overseas, but because the valuations finally cracked.
+[ALEX] The takeaway: after the fastest run from 60,000 to 70,000 on record, Tokyo had its reckoning. The Nikkei fell 3.55% to 69,788, led down by the very AI and chip names that drove it up.
 
-[MAYA] The yen didn't drive it, the banks didn't cushion it. This was a positioning purge. Watch Micron tonight — it tells you if today was a pause or the start of something bigger.
+[MAYA] A profit-taking day, not a thesis-breaking one. But when the leaders fall double digits, you respect the message. Watch the US tech tape tonight.
 
-[ALEX] That's Tokyo Close. Mind the gap.
+[ALEX] That's Tokyo Close.
