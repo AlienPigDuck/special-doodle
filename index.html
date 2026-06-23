@@ -98,6 +98,19 @@
       color:var(--muted);text-align:center;max-width:620px;
       text-transform:uppercase;opacity:.35
     }
+
+    /* ── Mobile ── */
+    @media (max-width:560px){
+      h1{font-size:clamp(26px,8.2vw,40px);letter-spacing:3px}
+      .subtitle{letter-spacing:3px;margin-bottom:40px}
+      .show{flex-direction:column;padding:22px 22px}
+      .show-desc{max-width:none}
+      .show-side{
+        flex-direction:row;align-items:center;justify-content:space-between;
+        padding-left:0;margin-top:18px;width:100%
+      }
+      .show-time{padding-top:0}
+    }
   </style>
 </head>
 <body>
