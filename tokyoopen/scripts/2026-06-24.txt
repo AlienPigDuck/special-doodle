@@ -1,0 +1,73 @@
+[ALEX] Good morning, Tokyo. Brace yourselves — the chip world just took a body blow overnight, and we open with a lot to digest.
+
+[MAYA] A big one, Alex. The Philadelphia Semiconductor Index dropped nearly eight percent. Down 7.87 on the twenty-third. That's not a wobble.
+
+[ALEX] No, that's a stampede. And remember — Tokyo missed a session. We closed the twenty-second, before all of this hit. So this is fresh news for us this morning.
+
+[MAYA] Which means it's all still to be priced in. Let me set the table on the US close first.
+
+[ALEX] Go for it. S&P 500 down 1.44 percent to 7,365. Nasdaq down 2.21 to 25,587. The Dow? Basically flat, off just 0.09.
+
+[MAYA] So a real split. Old economy holds, tech gets hammered.
+
+[ALEX] And fear ticked up. The VIX jumped 13 percent to 19.54. Ten-year Treasury yield at 4.49.
+
+[MAYA] Now the carnage. Micron — ticker MU — collapsed 13.18 percent. Applied Materials down 8.48. ASML down 7.82. AMD off 5.76.
+
+[ALEX] That's the whole memory and equipment complex bleeding at once.
+
+[MAYA] And it lands right on our doorstep. Watch Kioxia, ticker 285A, this morning. It already fell 15 percent in our last session. With Micron down another 13 overnight, the pressure isn't done.
+
+[ALEX] Micron is Kioxia's direct NAND rival. When Micron breaks, Kioxia feels it.
+
+[MAYA] Same story for the equipment names. Tokyo Electron, 8035, and the materials supplier Shin-Etsu Chemical, 4063 — Shin-Etsu barely moved last session, down 0.08. It may have some catching down to do given the wafer read-through.
+
+[ALEX] And don't forget SoftBank Group, 9984. It already dropped 10 percent before this. With NVIDIA off 4.13 percent, sentiment there stays heavy.
+
+[MAYA] One bright spot in the gloom — Microsoft actually rose 1.80 percent. So it's not all of tech. It's the silicon, specifically.
+
+[ALEX] Now, the elephant in the room. The yen.
+
+[MAYA] Forty-year lows, Alex.
+
+[ALEX] USD/JPY touched 161.93 on the twenty-second — knocking on that February 2025 low of 161.96. Finance Minister Katayama held emergency talks with US Treasury Secretary Bessent.
+
+[MAYA] So intervention's on the table.
+
+[ALEX] On the table, yes. But here's the cold truth — the BOJ has said it'll act if "necessary and appropriate," and the January check barely dented the trend. JPMorgan sees the dollar near 164 yen into late 2026.
+
+[MAYA] So exporters keep the tailwind — Toyota, the autos — but importers and households eat the cost.
+
+[ALEX] And it stacks onto your electricity bill. Even with crude falling, autumn power rates still reflect old highs. That lag is brutal.
+
+[MAYA] Speaking of crude — the Middle East cooled off. US-Iran ceasefire signed the seventeenth. WTI down 1.84 percent to 73.44. Dubai crude hit a four-month low near 69.7.
+
+[ALEX] Relief in theory. But over 400 tankers still queued offshore, and the yen weakness eats much of the gain. Gold also slipped, down 1.22 percent to 4,131.
+
+[MAYA] Let's get to two homegrown stories that have nothing to do with chips. First — Nissan, ticker 7201.
+
+[ALEX] The governance shock.
+
+[MAYA] Exactly. Outside director nominee Motoi Nagai — a former Mizuho man — failed his shareholder vote on the twenty-third. And here's the kicker: Renault, which holds 15 percent, abstained.
+
+[ALEX] An unprecedented rejection. The market reads it as Renault blocking Mizuho's growing grip on Nissan's boardroom.
+
+[MAYA] So expect Nissan under pressure at the open. Governance uncertainty is never a friend to the share price.
+
+[ALEX] And the second?
+
+[MAYA] KDDI, ticker 9433. A mail system serving six ISP partners was breached — 14.22 million records leaked. Emails, passwords, possibly message contents.
+
+[ALEX] Third major telco breach in eighteen months. That's a confidence problem, not just a tech one.
+
+[MAYA] KDDI actually rose 1.08 last session, but this could flip sentiment fast.
+
+[ALEX] One theme to keep on your radar — defense drones. Portugal's TEKEVER is opening a Japan hub with Marubeni co-developing, and Mitsubishi Heavy, 7011, is pushing its own drone program.
+
+[MAYA] With a 1.5 trillion yen subsidy signposted for the supply chain. That's a multi-year story, not a one-day trade.
+
+[ALEX] So — buckle up. A chip-led down day looks likely, the yen's testing nerves, and two domestic stories to watch closely.
+
+[MAYA] Trade smart, stay calm, and we'll be right here tomorrow.
+
+[ALEX] Take care of yourselves, Tokyo.
