@@ -33,7 +33,8 @@
     .hosts{font-size:16px;letter-spacing:1px;color:var(--muted)}
     .player{padding:30px}
     .waveform{display:flex;align-items:center;gap:2px;height:50px;
-      margin-bottom:18px;cursor:pointer}
+      margin-bottom:18px;cursor:pointer;touch-action:none;
+      -webkit-user-select:none;user-select:none}
     .wave-bar{flex:1;background:var(--border);border-radius:1px;transition:background .1s}
     .wave-bar.played{background:var(--red)}
     .player-row{display:flex;align-items:center;gap:16px}
@@ -44,10 +45,24 @@
     .play-btn svg{fill:white}
     .time{font-size:16px;color:var(--muted);letter-spacing:1px;
       font-variant-numeric:tabular-nums;white-space:nowrap}
-    .progress-track{flex:1;height:4px;background:var(--border);
-      border-radius:2px;cursor:pointer}
-    .progress-fill{height:100%;background:var(--red);border-radius:2px;width:0%}
-    .card-footer{padding:22px 30px;border-top:1px solid var(--border)}
+    .progress-track{flex:1;height:22px;background:var(--border);
+      border-radius:3px;cursor:pointer;position:relative;touch-action:none;
+      -webkit-user-select:none;user-select:none;padding:8px 0;
+      background-clip:content-box}
+    .progress-fill{height:100%;background:var(--red);border-radius:3px;width:0%;
+      position:relative;pointer-events:none}
+    .progress-fill::after{content:'';position:absolute;right:-7px;top:50%;
+      transform:translateY(-50%);width:14px;height:14px;border-radius:50%;
+      background:var(--red);box-shadow:0 0 0 4px rgba(224,49,49,.22);
+      transition:transform .12s}
+    .progress-track:active .progress-fill::after{transform:translateY(-50%) scale(1.2)}
+    .card-footer{padding:22px 30px;border-top:1px solid var(--border);
+      display:flex;align-items:center;justify-content:space-between;gap:14px}
+    .help-icon{flex-shrink:0;width:26px;height:26px;border-radius:50%;
+      border:1.5px solid #3b82f6;color:#93c5fd;display:flex;align-items:center;
+      justify-content:center;font-size:15px;font-weight:700;line-height:1;
+      text-decoration:none;transition:background .15s,color .15s}
+    .help-icon:hover{background:#2563eb;color:#fff}
     .footer-note{font-size:15px;color:var(--muted);letter-spacing:1px}
     .speed-row{display:flex;align-items:center;gap:8px;margin-top:14px}
     .speed-btn{font-family:var(--mono);font-size:13px;letter-spacing:1px;
@@ -90,7 +105,7 @@
             <path d="M8 5v14l11-7z"/>
           </svg>
         </button>
-        <div class="progress-track" id="progress-track" onclick="seek(event)">
+        <div class="progress-track" id="progress-track">
           <div class="progress-fill" id="progress-fill"></div>
         </div>
         <div class="time" id="time-display">0:00 / 0:00</div>
@@ -104,11 +119,11 @@
 
     <div class="card-footer">
       <div class="footer-note">Auto-generates after Tokyo Close (15:45 JST)</div>
+      <a class="help-icon" href="/tokyoclose/about.html" title="How It Works" aria-label="How It Works">?</a>
     </div>
   </div>
 
   <div class="btn-row">
-    <a class="info-btn" href="/tokyoclose/about.html">&#9432; How It Works</a>
     <a class="info-btn" href="/">&#8592; Home</a>
     <a class="info-btn" href="/to/">&#9656; Tokyo Open</a>
     <a class="info-btn" href="/tps/">&#9656; The Papers Say</a>
@@ -130,13 +145,20 @@
     const bars = wf.querySelectorAll('.wave-bar');
 
     const audio = document.getElementById('audio');
-    audio.addEventListener('timeupdate', () => {
-      if (!audio.duration) return;
-      const pct = audio.currentTime / audio.duration;
+    let scrubbing = false;
+
+    function updateUI(pct) {
+      pct = Math.max(0, Math.min(pct, 1));
       document.getElementById('progress-fill').style.width = (pct * 100) + '%';
-      document.getElementById('time-display').textContent = fmt(audio.currentTime) + ' / ' + fmt(audio.duration);
-      const played = Math.floor(pct * N);
+      document.getElementById('time-display').textContent =
+        fmt(audio.currentTime) + ' / ' + fmt(audio.duration || 0);
+      const played = Math.round(pct * N);
       bars.forEach((b, i) => b.classList.toggle('played', i < played));
+    }
+
+    audio.addEventListener('timeupdate', () => {
+      if (!audio.duration || scrubbing) return;
+      updateUI(audio.currentTime / audio.duration);
     });
     audio.addEventListener('ended', () => setIcon(false));
 
@@ -152,12 +174,34 @@
         ? '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>'
         : '<path d="M8 5v14l11-7z"/>';
     }
-    function seek(e) {
-      audio.currentTime = (e.offsetX / e.currentTarget.offsetWidth) * audio.duration;
+    function scrubTo(el, clientX) {
+      if (!audio.duration) return;
+      const rect = el.getBoundingClientRect();
+      const pct = Math.max(0, Math.min((clientX - rect.left) / rect.width, 1));
+      audio.currentTime = pct * audio.duration;
+      updateUI(pct);
     }
-    wf.addEventListener('click', e => {
-      audio.currentTime = (e.offsetX / wf.offsetWidth) * audio.duration;
-    });
+    function makeScrubbable(el) {
+      el.addEventListener('pointerdown', e => {
+        if (!audio.duration) return;
+        scrubbing = true;
+        try { el.setPointerCapture(e.pointerId); } catch (_) {}
+        scrubTo(el, e.clientX);
+        e.preventDefault();
+      });
+      el.addEventListener('pointermove', e => {
+        if (scrubbing) scrubTo(el, e.clientX);
+      });
+      const end = e => {
+        if (!scrubbing) return;
+        scrubbing = false;
+        try { el.releasePointerCapture(e.pointerId); } catch (_) {}
+      };
+      el.addEventListener('pointerup', end);
+      el.addEventListener('pointercancel', end);
+    }
+    makeScrubbable(wf);
+    makeScrubbable(document.getElementById('progress-track'));
     function setSpeed(rate) {
       audio.playbackRate = rate;
       document.querySelectorAll('.speed-btn').forEach(b => b.classList.remove('active'));
