@@ -69,8 +69,8 @@
 
   <h2>What Is This?</h2>
   <p>The Papers Say is a fully automated daily podcast that reads and discusses Japan's top news stories in English, for an international audience. Every episode is generated end-to-end by AI — no human writes, records, or edits anything. It runs automatically at 5:50 AM Japan Standard Time every day, just before the Tokyo market opens.</p>
-  <p>A single AI host — <strong>Sarah</strong> — presents the day's most important stories from Japan's morning press in a warm, public-radio style. She covers each story in plain English, explains the context, and ends every episode with one story that caught her eye from deeper in the paper.</p>
-  <p>The Papers Say is a companion show to <a href="/">Tokyo Open</a>, which covers the market implications of the same morning's news.</p>
+  <p>The host rotates on a 3-day cycle — <strong>Sarah</strong> (American female), <strong>Christie</strong> (male), or <strong>Maya</strong> (British female). Each episode presents the day's most important stories from Japan's morning press in a warm, public-radio style, covering each story in plain English, explaining the context, and ending with one story from deeper in the paper.</p>
+  <p>The Papers Say is a companion show to <a href="/to/">Tokyo Open</a>, which covers the market implications of the same morning's news.</p>
 
   <h2>Pipeline</h2>
   <p>Each episode is produced in four stages, taking roughly 10&ndash;12 minutes from start to finish.</p>
@@ -101,7 +101,7 @@
       <div class="step-num">4</div>
       <div class="step-body">
         <div class="step-title">Voice Synthesis &amp; Publish</div>
-        <div class="step-desc">The script is split into paragraphs and each is synthesised using Google Cloud Text-to-Speech with an American English Journey voice — en-US-Journey-F. Paragraphs are stitched together with short pauses using ffmpeg and the final MP3 is pushed directly to this GitHub Pages site. Takes ~8 minutes.</div>
+        <div class="step-desc">The script is split into paragraphs and each is synthesised using Google Cloud Text-to-Speech or ElevenLabs, depending on the host for the day. Sarah and Maya use Google Cloud TTS (en-US-Journey-F and en-GB-Journey-F respectively). Christie uses her ElevenLabs voice. Paragraphs are stitched together with short pauses using ffmpeg and the final MP3 is pushed directly to this GitHub Pages site. Takes ~8 minutes.</div>
       </div>
     </div>
   </div>
@@ -137,11 +137,10 @@
   <p>The newspaper is accessed via an authenticated headless browser. Articles are collected in their original Japanese and translated into English inline during the story selection step. The AI reads the full text of each article, not just the headline.</p>
 
   <h2>What It Is Not</h2>
-  <p>The Papers Say does not track stock prices, give market forecasts, or make investment recommendations. It is a news summary show, not a financial show. For market implications of the same morning's news, listen to <a href="/">Tokyo Open</a>.</p>
+  <p>The Papers Say does not track stock prices, give market forecasts, or make investment recommendations. It is a news summary show, not a financial show. For market implications of the same morning's news, listen to <a href="/to/">Tokyo Open</a>.</p>
 
   <h2>Automation</h2>
-  <p>The entire pipeline runs on GitHub Actions — no dedicated server required. A scheduled workflow fires at 20:50 UTC (05:50 JST) every day, ten minutes before Tokyo Open. The generated MP3 is pushed directly to this GitHub Pages site via the GitHub API, overwriting <code>latest.mp3</code>. The episode date metadata is updated in <code>episode.json</code>, which the player reads to display the correct date.</p>
-  <p>On-demand generation is available via the Generate Now button on the main page, which triggers the same workflow through the GitHub Actions API after credential verification.</p>
+  <p>The entire pipeline runs on GitHub Actions — no dedicated server required. A scheduled trigger fires at 5:50 AM Japan Standard Time every day. The generated MP3 is pushed directly to this GitHub Pages site via the GitHub API, overwriting <code>latest.mp3</code>. The episode date metadata is updated in <code>episode.json</code>, which the player reads to display the correct date.</p>
 
   <div class="note">Articles are sourced from a licensed Japanese news publication. This project has no affiliation with any of the companies, publications, or individuals mentioned in episodes.</div>
 

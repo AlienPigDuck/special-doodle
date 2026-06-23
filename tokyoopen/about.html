@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tokyo Open — How It Works</title>
+  <link rel="icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -76,7 +77,7 @@
 </head>
 <body>
 
-  <a class="back" href="/">&larr; Back to Tokyo Open</a>
+  <a class="back" href="/to/">&larr; Back to Tokyo Open</a>
 
   <h1>Tokyo Open</h1>
   <div class="tagline">Architecture &amp; Data Sources</div>
@@ -121,7 +122,7 @@
       <div class="step-num">5</div>
       <div class="step-body">
         <div class="step-title">Voice Synthesis &amp; Publish</div>
-        <div class="step-desc">The script is split into individual speaker lines and each is synthesised using Google Cloud Text-to-Speech with British English Journey voices — en-GB-Journey-D for Alex and en-GB-Journey-F for Maya. Segments are stitched together with silence gaps using ffmpeg and the final MP3 is pushed directly to this GitHub Pages site. Takes ~8 minutes.</div>
+        <div class="step-desc">The script is split into individual speaker lines and synthesised using Google Cloud Text-to-Speech — en-GB-Journey-D for Alex (British male) and en-GB-Journey-F for Maya (British female). On alternate days, ElevenLabs voices are used instead: Christie (male) voices Alex, and Isla voices Maya. All segments are stitched together with silence gaps using ffmpeg and the final MP3 is published to this site. Takes ~8 minutes.</div>
       </div>
     </div>
   </div>
@@ -135,6 +136,7 @@
         <li>S&amp;P 500</li>
         <li>Nasdaq Composite</li>
         <li>Dow Jones Industrial Average</li>
+        <li>Philadelphia Semiconductor Index (SOX)</li>
         <li>VIX (fear gauge)</li>
         <li>10-Year Treasury Yield</li>
         <li>USD/JPY</li>
@@ -233,7 +235,7 @@
     <div class="ticker-card"><div class="ticker-sym">7011.T</div><div class="ticker-name">Mitsubishi Heavy</div></div>
     <div class="ticker-card"><div class="ticker-sym">7012.T</div><div class="ticker-name">Kawasaki Heavy</div></div>
     <div class="ticker-card"><div class="ticker-sym">7013.T</div><div class="ticker-name">IHI</div></div>
-    <div class="ticker-card"><div class="ticker-sym">6240.T</div><div class="ticker-name">Kioxia</div></div>
+    <div class="ticker-card"><div class="ticker-sym">285A.T</div><div class="ticker-name">Kioxia</div></div>
     <div class="ticker-card"><div class="ticker-sym">5801.T</div><div class="ticker-name">Furukawa Electric</div></div>
     <div class="ticker-card"><div class="ticker-sym">5803.T</div><div class="ticker-name">Fujikura</div></div>
     <div class="ticker-card"><div class="ticker-sym">8801.T</div><div class="ticker-name">Mitsui Fudosan</div></div>
@@ -282,10 +284,10 @@
     </thead>
     <tbody>
       <tr><td>NVDA</td><td>Tokyo Electron (8035.T), Advantest (6857.T)</td><td>Chip equipment &amp; testing</td></tr>
-      <tr><td>AMD</td><td>Advantest (6857.T), Kioxia (6240.T)</td><td>Chip testing, memory demand</td></tr>
+      <tr><td>AMD</td><td>Advantest (6857.T), Kioxia (285A.T)</td><td>Chip testing, memory demand</td></tr>
       <tr><td>AMAT</td><td>Tokyo Electron (8035.T)</td><td>Direct chip equipment competitor</td></tr>
       <tr><td>ASML</td><td>Tokyo Electron (8035.T)</td><td>Lithography ecosystem</td></tr>
-      <tr><td>MU</td><td>Kioxia (6240.T), Shin-Etsu Chemical (4063.T)</td><td>NAND/DRAM competitor, silicon wafers</td></tr>
+      <tr><td>MU</td><td>Kioxia (285A.T), Shin-Etsu Chemical (4063.T)</td><td>NAND/DRAM competitor, silicon wafers</td></tr>
       <tr><td>AAPL</td><td>Murata (6981.T), TDK (6762.T), Alps Alpine (6770.T)</td><td>iPhone component suppliers</td></tr>
       <tr><td>TSLA</td><td>Toyota (7203.T), Honda (7267.T), Panasonic (6752.T)</td><td>EV competition &amp; battery supply</td></tr>
       <tr><td>GM</td><td>Toyota (7203.T), Honda (7267.T), Nissan (7201.T)</td><td>Auto sector read-through</td></tr>
@@ -314,8 +316,7 @@
   </table>
 
   <h2>Automation</h2>
-  <p>The entire pipeline runs on GitHub Actions — no dedicated server required. A scheduled workflow fires at 21:00 UTC (06:00 JST) every day. The generated MP3 is pushed directly to this GitHub Pages site via the GitHub API, overwriting <code>latest.mp3</code>. The episode date metadata is updated in <code>episode.json</code>, which the player reads to display the correct date.</p>
-  <p>On-demand generation is available via the Generate Now button on the main page, which triggers the same workflow through the GitHub Actions API after credential verification.</p>
+  <p>The entire pipeline runs on GitHub Actions — no dedicated server required. A scheduled trigger fires at 6:00 AM Japan Standard Time every day. The generated MP3 is pushed directly to this GitHub Pages site via the GitHub API, overwriting <code>latest.mp3</code>. The episode date metadata is updated in <code>episode.json</code>, which the player reads to display the correct date.</p>
 
   <div class="note">All market data is sourced from public APIs. News is pulled from publicly available RSS feeds and a licensed Japanese news publication. This project has no affiliation with any of the companies, exchanges, or publications mentioned.</div>
 
