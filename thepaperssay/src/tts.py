@@ -39,8 +39,14 @@ PAUSE_BETWEEN_PARAGRAPHS = 0.45
 PRONUNCIATIONS = {
     "Nikkei 225": "Nikkay two two five",
     "nikkei 225": "nikkay two two five",
-    "Nikkei": "Nikkay",
-    "nikkei": "nikkay",
+    "Nikkei":  "Nikkay",
+    "nikkei":  "nikkay",
+    "USD/JPY": "dollar yen",
+    "usd/jpy": "dollar yen",
+    "EUR/JPY": "euro yen",
+    "EUR/USD": "euro dollar",
+    "GBP/JPY": "pound yen",
+    "GBP/USD": "cable",
 }
 
 # ── TTS text normalisation ────────────────────────────────────────────────────
