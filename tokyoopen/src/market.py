@@ -154,9 +154,32 @@ def _jp_calendar_info(last_jp_session: str | None) -> dict:
     return {"jp_open_today": jp_open_today, "jp_holiday_gap": jp_holiday_gap}
 
 
+def _last_tse_session(today) -> str | None:
+    """Most recent XTKS (Tokyo) session strictly before `today`, taken from the
+    exchange calendar — authoritative and immune to yfinance's reporting lag on
+    ^N225 (which previously made the script claim Tokyo had 'missed a session')."""
+    try:
+        import exchange_calendars as xcals
+        import pandas as pd
+        cal = xcals.get_calendar("XTKS")
+        sessions = cal.sessions_in_range(
+            pd.Timestamp(today) - pd.Timedelta(days=12),
+            pd.Timestamp(today) - pd.Timedelta(days=1),
+        )
+        if len(sessions):
+            return sessions[-1].strftime("%Y-%m-%d")
+    except Exception as e:
+        log.warning("last_tse_session calendar lookup failed: %s", e)
+    return None
+
+
 def fetch_all() -> dict:
     log.info("Fetching market data...")
-    last_jp = _last_session_date("^N225")
+    jst = timezone(timedelta(hours=9))
+    today_jst = datetime.now(jst).date()
+    # JP session DATE comes from the TSE calendar (authoritative). yfinance ^N225
+    # can lag a day; relying on it made the script wrongly report a missed session.
+    last_jp = _last_tse_session(today_jst) or _last_session_date("^N225")
     cal     = _jp_calendar_info(last_jp)
     return {
         "indices":          fetch_indices(),
