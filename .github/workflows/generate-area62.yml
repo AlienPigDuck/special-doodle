@@ -1,8 +1,7 @@
 name: Generate Area 62
 
 on:
-  schedule:
-    - cron: '30 7 * * *'  # 16:30 JST — evening edition (GitHub-native cron)
+  # Triggered by the jpx-trigger container on the NAS at 16:30 JST (evening edition).
   workflow_dispatch:
 
 jobs:
