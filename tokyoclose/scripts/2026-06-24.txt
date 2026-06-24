@@ -1,0 +1,71 @@
+[ALEX] Good morning. If you slept through Wall Street last night, you missed a bloodbath in chips. And Tokyo felt it.
+
+[MAYA] It really did. Let's get the headline out. The Nikkei 225 closed at 69,174.97, down 0.88%.
+
+[ALEX] Down, but honestly? That's a soft landing given what came before it.
+
+[MAYA] Right. Because overnight, the Philadelphia Semiconductor Index — the SOX — fell 7.87%. Nearly eight percent in one session.
+
+[ALEX] And the trigger was Micron. Down 13.18%. Applied Materials off 8.48%, ASML down 7.82%, Nvidia down 4.13%.
+
+[MAYA] So the question this morning was simple — how much of that pain bleeds into Tokyo's chip names?
+
+[ALEX] Less than you'd fear. But it bled.
+
+[MAYA] Tokyo Electron was the obvious casualty — down 4.19%. That's your direct ASML and Applied Materials read-across. When the global tool-makers crater, Tokyo Electron goes with them.
+
+[ALEX] Shin-Etsu Chemical fell 2.75% too. Silicon wafers, same story. And Fujikura, exposed to data-centre cabling, down 2.68%.
+
+[MAYA] But here's what's interesting, Alex. Advantest barely moved — down just 0.73%. And Sony actually rallied.
+
+[ALEX] Sony up 2.88%. The standout on the Nikkei today.
+
+[MAYA] That's the split personality of this market. The semiconductor capital-equipment names got hit. But broader tech and content held up. Sony's image sensors, gaming, content — investors treated it as a safe harbour.
+
+[ALEX] SoftBank Group also pushed higher, up 1.29%. Keyence up 1.41%.
+
+[MAYA] So it wasn't a blanket tech sell-off. It was surgical. The market punished the chip-equipment supply chain and left the rest alone.
+
+[ALEX] Now the second story — and it's the one I keep coming back to. The yen.
+
+[MAYA] USD/JPY closed at 161.68. Nudged up another 0.07%.
+
+[ALEX] Which doesn't sound dramatic. But the spot rate touched 161.93 yesterday. We are pressing against 39-and-a-half-year lows on the yen.
+
+[MAYA] And the driver is the rate divergence. Markets are now pricing US rate hikes against the BOJ, which only got to 1.0% this June.
+
+[ALEX] So the carry trade is wide open again. Yen shorts have piled up past 150,000 contracts. Everyone's borrowing yen and chasing dollars.
+
+[MAYA] A weak yen should help exporters. But look at the autos today — Toyota was down 0.74%, Honda down 0.43%, Denso down 0.85%.
+
+[ALEX] Because there's a company-specific overhang. Toyota is cutting overseas production by 100,000 units through February 2027 — that's up from the 83,000 cut they flagged in May.
+
+[MAYA] Middle East demand collapsed, China's gone fuel-price sensitive, and EV competition is brutal. So a cheap yen can't paper over a volume problem.
+
+[ALEX] And the banks were ugly. MUFG down 1.90%, SMFG down 1.58%, Mizuho down 1.25%.
+
+[MAYA] Insurers worse — Tokio Marine fell 4.36%. That's a real move in a financial.
+
+[ALEX] Let's hit the stock-specific headlines, because there were two corporate stories worth your time.
+
+[MAYA] KDDI first. The stock actually closed up 0.58%, but there's a cloud over it — a data breach hitting 14.22 million records across its ISP brands. STNet, JCOM, Nifty, BigGlobe.
+
+[ALEX] A third-party software vulnerability. Their own mail service was untouched, but it follows the NTT West and IIJ breaches. Japan's telecom cybersecurity story isn't going away.
+
+[MAYA] And then Nissan — not in the 225, but worth flagging. At yesterday's AGM, shareholders rejected one of the proposed directors. Eleven of twelve approved.
+
+[ALEX] A rare rejection. Renault, the 15% holder, abstained — effectively opposing. ISS and Glass Lewis both flagged independence concerns over Mizuho's influence on the board.
+
+[MAYA] Equity holders versus the bank. That tension is going to simmer.
+
+[ALEX] One bright spot — defence. IHI rose 2.39%, and Mitsubishi Heavy held flat, up 0.03%, on the drone and SMR story.
+
+[MAYA] Okay, the handoff. What are we watching tonight?
+
+[ALEX] Two things. One — does the US semiconductor wreckage stabilise or keep cascading? The VIX jumped 12.79% to 19.49. If chips bounce overnight, Tokyo Electron and Shin-Etsu snap back tomorrow.
+
+[MAYA] Two — Prime Minister Takaichi's food consumption tax decision is due by end of June. A cut to 1% from 2027 is rattling food-service names. Watch the wires.
+
+[ALEX] So the takeaway: Tokyo absorbed a brutal US chip sell-off and only gave back 0.88%. The damage was contained to semiconductor equipment and the banks.
+
+[MAYA] Sony and SoftBank held the line, the yen's still grinding to multi-decade lows, and the chip floor is what to watch overnight. That's Tokyo Close.
