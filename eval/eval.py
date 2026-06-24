@@ -20,6 +20,16 @@ import requests
 import anthropic
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+import sys
+
+# JP stock codes appear bare in the TTS script (e.g. "285A", "8035", "ticker 9433"),
+# never as "8035.T" — so count them against the real universe from correlations.py.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tokyoopen" / "src"))
+try:
+    from correlations import CORE_JP_STOCKS
+    _JP_CODES = {str(t).split(".")[0] for t in CORE_JP_STOCKS}
+except Exception:
+    _JP_CODES = set()
 
 logging.basicConfig(
     level=logging.INFO,
@@ -96,8 +106,12 @@ def _prune(folder: str, keep: int) -> None:
 def _quality_gate_tokyo(script: str) -> list[str]:
     lines = []
     words = len(script.split())
-    tickers = set(re.findall(r'\b\d{4}\.T\b', script))
-    citations = len(re.findall(r'(?:According to|Nikkei reports|Nikkei is reporting|a Nikkei)', script, re.I))
+    tickers = ({c for c in _JP_CODES if re.search(rf'\b{re.escape(c)}\b', script)}
+               if _JP_CODES else set(re.findall(r'\b\d{3}[A-Z]\b|\b\d{4}\.T\b', script)))
+    citations = len(re.findall(
+        r"(?:according to|reported (?:this morning|that)|is reporting|"
+        r"the morning papers?|morning press|\bNikkei\b(?!\s*(?:225|two)))",
+        script, re.I))
     paragraphs = len([p for p in script.split("\n\n") if p.strip()])
     ratings = len(re.findall(r'(?:upgrade|downgrade|price target|rating)', script, re.I))
 

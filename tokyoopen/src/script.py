@@ -38,6 +38,8 @@ TRADING SESSION DATES: The briefing includes the actual last US and Japanese tra
 
 NIKKEI CITATIONS: When a Nikkei article underpins a claim, cite it naturally — e.g. "According to Nikkei…", "A Nikkei report this morning says…", or "Nikkei is reporting that…". Use citations to add authority, not as filler. Don't force a citation on every line — only where it adds weight.
 
+SECTOR BALANCE: Don't lean on the same semiconductor names every day. Kioxia (285A), Tokyo Electron (8035), and Advantest (6857) are easy defaults — only feature them when there is a genuine fresh catalyst, never as filler because a US chip name moved. Every script must give real coverage to at least one NON-semiconductor theme that has its own catalyst — e.g. autos, banks and financials, retail and consumer, pharma, utilities and power, real estate, trading houses, inbound tourism, or logistics.
+
 ANALYST RATINGS: If the briefing includes a broker upgrade, downgrade, or price-target change for any Nikkei 225 stock, work it into the dialogue. Name the broker (Daiwa, Nomura, Jefferies, Mizuho, JPMorgan, Morgan Stanley, Goldman Sachs, SMBC Nikko, Citigroup, UBS, etc.) and state the new rating or target explicitly. A rating change from a major house on a large-cap is always worth a line.
 
 JAPANESE NAMES: Japan's Prime Minister is Sanae Takaichi (高市早苗). Always write her surname as "Takaichi" — never "Takayama", "Takita", or any other spelling. Use the correct romanisation for any other Japanese names that appear in the briefing."""
