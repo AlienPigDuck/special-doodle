@@ -28,10 +28,10 @@ PAUSE_BETWEEN_TURNS = 0.40
 PAUSE_SAME_SPEAKER  = 0.15
 
 PRONUNCIATIONS = {
-    "Nikkei 225": "Nikkay two two five",
-    "nikkei 225": "nikkay two two five",
-    "Nikkei":  "Nikkay",
-    "nikkei":  "nikkay",
+    "Nikkei 225": "Neekay two two five",
+    "nikkei 225": "neekay two two five",
+    "Nikkei":  "Neekay",
+    "nikkei":  "neekay",
     "USD/JPY": "dollar yen",
     "usd/jpy": "dollar yen",
     "EUR/JPY": "euro yen",

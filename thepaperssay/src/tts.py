@@ -37,10 +37,10 @@ GOOGLE_VOICES = {
 PAUSE_BETWEEN_PARAGRAPHS = 0.45
 
 PRONUNCIATIONS = {
-    "Nikkei 225": "Nikkay two two five",
-    "nikkei 225": "nikkay two two five",
-    "Nikkei":  "Nikkay",
-    "nikkei":  "nikkay",
+    "Nikkei 225": "Neekay two two five",
+    "nikkei 225": "neekay two two five",
+    "Nikkei":  "Neekay",
+    "nikkei":  "neekay",
     "USD/JPY": "dollar yen",
     "usd/jpy": "dollar yen",
     "EUR/JPY": "euro yen",
