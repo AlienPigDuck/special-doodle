@@ -1,0 +1,41 @@
+name: Voice Sample (throwaway)
+
+# Renders a short Christie/Isla ElevenLabs clip (with the +3dB Christie boost and
+# the new livelier voice_settings) and uploads it as an artifact. Delete after use.
+on:
+  workflow_dispatch:
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          sudo apt-get install -y ffmpeg
+          pip install google-cloud-texttospeech
+
+      - name: Synthesize sample (forces ElevenLabs path)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          cd tokyoclose/src
+          python - <<'PY'
+          import tts
+          script = """[ALEX] Good morning. The Nikkei 225 closed at a record high today, up four point six one percent.
+          [MAYA] A huge session, Alex. The index gained over three thousand points in a single day.
+          [ALEX] All driven by Micron's blowout earnings overnight. Risk on, full throttle.
+          [MAYA] Let's get into the names that actually moved."""
+          tts._synthesize_elevenlabs(script, "/tmp/sample.mp3")
+          print("done")
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voice-sample
+          path: /tmp/sample.mp3
