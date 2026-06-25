@@ -1,69 +1,57 @@
-[ALEX] Good morning. If you slept through Tokyo, wake up — because today was extraordinary.
+[ALEX] Good morning. If you're just waking up in London or New York, sit down for this one. The Nikkei 225 closed at 72,366 — up 4.61%. That's a gain of 3,191 points.
 
-[MAYA] Extraordinary is one word. Try parabolic.
+[MAYA] A fresh record high. And it was up more than 3,400 points at one stage. This wasn't a drift higher, Alex. This was a stampede.
 
-[ALEX] The Nikkei 225 closed at 72,366. Up 4.61% in a single session.
+[ALEX] Three days of losses, wiped out in a single session. The verdict on the day? Risk-on, full throttle, led by anything with a chip in it.
 
-[MAYA] Four-point-six-one. In one day. That's not a rally, that's a melt-up.
+[MAYA] And the spark came from overnight America. Micron blew the doors off with earnings after the US close — and management talked up AI memory demand like there's no ceiling.
 
-[ALEX] And to be clear — that's a fresh all-time high. The index brushed 70,000 earlier this month and consolidated. Today it didn't just reclaim it, it blew straight through.
+[ALEX] Which lit a fire under the entire Japanese semiconductor complex. Maya, give me the names.
 
-[MAYA] So what lit the fuse, Alex? Because Wall Street overnight was a shrug. The S&P slipped 0.10%, the Nasdaq down 0.43%.
+[MAYA] Start with Advantest — up 15.06%. Fifteen percent in one day. The chip-tester is the purest AI-memory play on the board and it ran. Then Kioxia, up 12.27% — a direct Micron read-through, both make NAND.
 
-[ALEX] Two things. One — the yen. USD/JPY closed at 161.84, weaker by 0.15%, and the backdrop is a hawkish Fed. New Chair Walsh is talking tough on inflation, rate-hike odds are climbing, and that's keeping the yen on the floor.
+[ALEX] And the big-cap heavyweights followed.
 
-[MAYA] Which is rocket fuel for anything that earns in dollars.
+[MAYA] Tokyo Electron, up 7.78%. Murata, up 7.21%. This was wall-to-wall buying across the silicon chain.
 
-[ALEX] And two — the AI semiconductor trade went vertical. The SOX was actually down 0.18% in the US. Tokyo ignored it completely.
+[ALEX] But the single biggest swing factor on the index? SoftBank Group. Up 7.90%.
 
-[MAYA] Completely. Look at Advantest — up 15.06%. That's your chip-test king and it just went vertical.
+[MAYA] And that's not just the AI tape. Son held the shareholder meeting yesterday and lifted his 2040 net-asset-value target to a thousand trillion yen — from two hundred trillion. He said, and I quote, "no time to retire."
 
-[ALEX] Kioxia right behind it, up 12.27%.
+[ALEX] A five-fold bump in ambition. Whether you believe it or not, the market clearly bought the story today. SoftBank is the highest-weighted name in the Nikkei, so when it moves nearly 8%, the whole index lurches with it.
 
-[MAYA] And it doesn't stop. Tokyo Electron up 7.78%. Murata up 7.21%. This was a wholesale repricing of Japan's chip complex.
+[MAYA] Fast Retailing chipped in too — up 3.38%. Another index heavyweight pulling its weight.
 
-[ALEX] Part of the story is consolidation. SK Hynix is launching a Nasdaq ADR on July 10, raising around 4.7 trillion yen for HBM and capacity. That signals Asian chip players gearing up for AI demand — and Tokyo's names rode that wave.
+[ALEX] Now let's talk about what didn't work. Because not everyone got the party invite.
 
-[MAYA] Then there's SoftBank. Up 7.90%.
+[MAYA] Defence and heavy industry took a beating. Kawasaki Heavy down 3.87%, Mitsubishi Heavy down 3.34%, IHI down 2.28%. Komatsu down 3.56%. Profit-taking out of the old leaders and into the chip names.
 
-[ALEX] Son Masayoshi spoke at the shareholder meeting yesterday. He pledged another ten to fifteen years on AI, flagged 796 billion dollars in OpenAI equity, and laid out the RoboHD robotics play.
+[ALEX] And energy was soft. Inpex down 3.35%, Eneos down 1.33%. That ties to the macro. The Iran situation eased — Iran's started shipping crude that had been stuck in the Gulf, and the US has loosened some sanctions for a 60-day negotiating window.
 
-[MAYA] The market clearly liked the conviction. When Son talks AI and the chips are flying, SoftBank moves with them.
+[MAYA] WTI's hovering around 70 dollars. So the oil-price tailwind that's been supporting those names just deflated.
 
-[ALEX] Fast Retailing chipped in too, up 3.38% — a heavyweight that does real work on a day like this given its index weight.
+[ALEX] Mitsubishi Corp fell 2.87% as well — the trading houses lean energy. Sony was a notable laggard too, down 1.63%.
 
-[MAYA] But Maya's rule — not everything was green. Let's not pretend.
+[MAYA] But here's the thing that makes today unusual, Alex — this rally happened despite a jump in Japanese yields.
 
-[ALEX] No. The defense and heavy industrials got hit. Mitsubishi Heavy down 3.34%, Kawasaki Heavy down 3.87%, IHI down 2.28%.
+[ALEX] Exactly. The 10-year JGB touched 2.8% intraday. That's the new Wash regime at the Fed — the read on the new chair came across as more hawkish than expected, and now more market participants are talking about Japanese yields hitting 3% by year-end.
 
-[MAYA] Profit-taking after a strong run, and rotation. Money flooded out of those and into chips.
+[MAYA] Normally rising rates would hammer rate-sensitive sectors. But the banks held up fine — MUFG up 0.87% — and the AI mania simply overwhelmed everything else.
 
-[ALEX] Energy was ugly too. Inpex down 3.35%, Eneos down 1.33%. That tracks the oil tape — WTI closed at 69.58, off 1.08%.
+[ALEX] The yen. USD/JPY closed at 161.80, up 0.12%. So still weak, still north of 161.
 
-[MAYA] And there's a real story there. The Iran-US ceasefire from June 17 is easing crude. Iranian barrels are coming back through the shadow fleet — potentially 1.3 trillion yen in revenue if they sell near 70 dollars.
+[MAYA] And that's a quiet tailwind for the exporters underneath all this. Toyota up 0.54%, Honda up 1.62%. A soft yen flatters their repatriated earnings — though today it was a footnote next to the chip story.
 
-[ALEX] So the oil-conflict premium is bleeding out. Bad for Japanese energy names, fine for everyone who buys fuel.
+[ALEX] One political note for the bigger picture: PM Takaichi unveiled a mid-to-long-term economic plan running to fiscal 2040 — public and private investment topping 370 trillion yen, targeting 17 strategic fields including AI and semiconductors.
 
-[MAYA] Komatsu also stung — down 3.56%. And Mitsubishi Corp down 2.87%, the trading house dragged by softer commodities.
+[MAYA] Which fits the tape perfectly. The government wants to be all-in on chips, and today the market voted the same way.
 
-[ALEX] On the yen split — exporters won. Honda up 1.62%, Toyota up a modest 0.54%, Daikin up 1.53%.
+[ALEX] So what do we watch tonight, before Tokyo reopens? The handoff.
 
-[MAYA] And one domestic surprise — the real estate names. Mitsubishi Estate up 3.03%, Sekisui House up 2.28%. US homebuilders ripped overnight — D.R. Horton up 6.68%, Lennar up 6.41% — and that sentiment carried over.
+[MAYA] Two things. First, the US semiconductor tape — the SOX closed down 0.18% before all this Micron enthusiasm. If US chips chase Tokyo higher tonight, this rally has legs. If they fade, watch for profit-taking at the open.
 
-[ALEX] Sony was the notable laggard among the giants, down 1.63%. And the banks were quiet — MUFG up 0.87%, SMFG down 0.25%, Mizuho basically flat.
+[ALEX] And second, US homebuilders ripped — D.R. Horton up 6.68%, Lennar up 6.41%, Home Depot up 5.67%. That's a rate-cut whisper fighting the hawkish Fed read. Keep an eye on the Treasury 10-year at 4.40%.
 
-[MAYA] On a 4.6% index day, flat banks tells you this was a chip-and-AI story, full stop.
+[MAYA] The takeaway: Tokyo just printed a record on a Micron-fuelled AI surge, led by Advantest, Kioxia and SoftBank — but rising JGB yields and shaky energy names mean this melt-up is narrow.
 
-[ALEX] One macro thread to keep in mind — long-term JGB yields touched 2.8%. The market's eyeing 3% by year-end if Takaichi's spending plans materialize.
-
-[MAYA] Right — Takaichi unveiled a 370-trillion-yen investment roadmap to 2040 across 17 sectors, including 10.5 trillion yen earmarked for physical AI. That's structural tailwind for exactly the names that flew today.
-
-[ALEX] So what do we watch into tonight? US session first. Watch the Nasdaq and the chip tape — if NVIDIA and the SOX firm up, Tokyo's momentum has cover tomorrow. If they roll over, today's gap looks stretched.
-
-[MAYA] And watch the yen. 161.84 is doing a lot of heavy lifting. Any Fed walk-back, the yen firms, and the exporter trade cools fast.
-
-[ALEX] Plus oil — if the Iran ceasefire holds, energy stays under pressure into another Tokyo session.
-
-[MAYA] The takeaway: Tokyo just had a blowout day — Nikkei up 4.61% to a record 72,366 — built on a weak yen and a chip frenzy that Wall Street didn't even share. Powerful, but lopsided. Mind the gap.
-
-[ALEX] That's Tokyo Close. We'll see you after the next bell.
+[ALEX] Record high, narrow leadership. Enjoy it, but watch the chips tonight. That's Tokyo Close.
