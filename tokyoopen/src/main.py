@@ -147,6 +147,21 @@ def run() -> None:
     max_age = 96 if is_weekend else 14
     market_data      = market.fetch_all()
     articles         = collect.fetch_all(max_age_hours=max_age)
+
+    # Daily pre-open preview (（先読み株式相場）, ~07:30 JST) — a human-written read on
+    # the day ahead. Purely additive and fully defensive: if it's missing or the
+    # fetch fails, we log and carry on with the existing sources unchanged.
+    if not is_weekend:
+        try:
+            import mynews_preview
+            preview = mynews_preview.fetch()
+        except Exception as e:
+            log.warning("先読み preview step failed (%s) — continuing without it", e)
+            preview = []
+        if preview:
+            articles = preview + articles  # lead with the day-ahead preview
+            log.info("Tokyo Open: prepended （先読み株式相場）preview article as a source")
+
     briefing         = digest.generate(articles)
     recent_mentions  = _get_recent_mentions()
 
