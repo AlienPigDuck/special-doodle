@@ -32,6 +32,7 @@ import collect
 import digest
 import script
 import tts
+import mynews  # Tokyo Close primary source: Nikkei /mynews post-close articles
 
 logging.basicConfig(
     level=logging.INFO,
@@ -101,6 +102,21 @@ def run() -> None:
 
     max_age = 24 if (is_holiday or is_weekend) else 12
     articles = collect.fetch_all(max_age_hours=max_age)
+
+    # Primary source on trading days: Nikkei /mynews articles published after the
+    # 15:30 TSE close — the actual, human-written wrap of today's session.
+    if not (is_holiday or is_weekend):
+        close_dt = now_jst.replace(hour=15, minute=30, second=0, microsecond=0)
+        try:
+            close_articles = mynews.fetch(after=close_dt)
+        except Exception as e:
+            log.warning("MyNews fetch failed (%s) — continuing without it", e)
+            close_articles = []
+        if close_articles:
+            articles = close_articles + articles  # lead with the post-close coverage
+            log.info("Tokyo Close: %d post-close /mynews articles prepended as primary source",
+                     len(close_articles))
+
     briefing = digest.generate(articles)
 
     episode_script = script.generate_script(

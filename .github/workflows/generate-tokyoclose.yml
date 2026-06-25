@@ -1,8 +1,9 @@
 name: Generate Tokyo Close
 
 on:
-  # Triggered by the jpx-trigger container on the NAS at 15:45 JST (precise timing).
-  # GitHub's own cron was unreliable, so schedule: is intentionally removed.
+  # Triggered by the jpx-trigger container on the NAS at 16:15 JST (after the
+  # post-close market wrap is published). GitHub's own cron was unreliable, so
+  # schedule: is intentionally removed.
   workflow_dispatch:
 
 jobs:
