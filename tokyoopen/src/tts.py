@@ -33,7 +33,7 @@ EL_VOICES = {
     "MAYA": "h8eW5xfRUGVJrZhAFxqK",  # isla
 }
 EL_MODEL = "eleven_multilingual_v2"
-# Christie (ALEX) renders a touch quieter than Isla (MAYA); nudge her segments up.
+# Christie (ALEX, male) is a touch quieter than Isla (MAYA); nudge his segments up.
 CHRISTIE_GAIN_DB = 3
 
 # Google TTS — one pair (male, female) per accent; values are (voice_name, language_code)
@@ -196,7 +196,8 @@ def _el_synthesize_segment(api_key: str, text: str, voice_id: str, out: Path) ->
     payload = json.dumps({
         "text": text,
         "model_id": EL_MODEL,
-        "voice_settings": {"stability": 0.5, "similarity_boost": 0.75},
+        "voice_settings": {"stability": 0.4, "similarity_boost": 0.75,
+                           "style": 0.35, "use_speaker_boost": True},
     }).encode()
     req = urllib.request.Request(
         f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
