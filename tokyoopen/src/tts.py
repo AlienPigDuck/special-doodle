@@ -1,8 +1,11 @@
 """
 Two-host TTS for Tokyo Open.
-Alternates on a 2-day cycle (JST date mod 2):
+Rotates through 3 voice pairs on a 3-day cycle (JST day-of-year mod 3):
   0 → ElevenLabs  (christie = Alex, isla = Maya)
-  1 → Google TTS  (en-GB-Journey-D = Alex, en-GB-Journey-F = Maya)
+  1 → US Google   (en-US-Journey-D = Alex, en-US-Journey-F = Maya)
+  2 → UK Google   (en-GB-Journey-D = Alex, en-GB-Journey-F = Maya)
+Tokyo Close uses the same rotation with offset=1 so the two shows never use the
+same pair on the same day.
 """
 
 import os
@@ -31,10 +34,10 @@ EL_VOICES = {
 }
 EL_MODEL = "eleven_multilingual_v2"
 
-# Google TTS
-GOOGLE_VOICES = {
-    "ALEX": "en-GB-Journey-D",
-    "MAYA": "en-GB-Journey-F",
+# Google TTS — one pair (male, female) per accent; values are (voice_name, language_code)
+GOOGLE_PAIRS = {
+    "us": {"ALEX": ("en-US-Journey-D", "en-US"), "MAYA": ("en-US-Journey-F", "en-US")},
+    "gb": {"ALEX": ("en-GB-Journey-D", "en-GB"), "MAYA": ("en-GB-Journey-F", "en-GB")},
 }
 
 LINE_RE = re.compile(r"^\[(ALEX|MAYA)\]\s*(.+)$")
@@ -119,14 +122,15 @@ def normalize_for_tts(text: str) -> str:
     return text
 
 
-def _use_elevenlabs() -> bool:
+# 3-pair daily rotation by day-of-year (+ a per-show offset so Tokyo Open and
+# Tokyo Close never use the same pair on the same day):
+#   0 → ElevenLabs (christie + isla)   1 → US Google   2 → UK Google
+_ROTATION = ["elevenlabs", "us", "gb"]
+
+
+def _voice_mode(offset: int = 0) -> str:
     day = datetime.now(JST).timetuple().tm_yday
-    if day % 2 == 0:
-        if not os.environ.get("ELEVENLABS_API_KEY"):
-            log.warning("ElevenLabs day but no API key — falling back to Google TTS")
-            return False
-        return True
-    return False
+    return _ROTATION[(day + offset) % 3]
 
 
 def _fix_pronunciation(text: str, el: bool = False) -> str:
@@ -231,13 +235,13 @@ def _synthesize_elevenlabs(script: str, output_path: str) -> None:
 
 # ── Google TTS path ──────────────────────────────────────────────────────────
 
-def _synthesize_segment_google(client, text: str, voice_name: str, path: Path) -> None:
+def _synthesize_segment_google(client, text: str, voice_name: str, lang_code: str, path: Path) -> None:
     for attempt in range(6):
         try:
             response = client.synthesize_speech(
                 input=texttospeech.SynthesisInput(text=text),
                 voice=texttospeech.VoiceSelectionParams(
-                    language_code="en-GB",
+                    language_code=lang_code,
                     name=voice_name,
                 ),
                 audio_config=texttospeech.AudioConfig(
@@ -253,13 +257,14 @@ def _synthesize_segment_google(client, text: str, voice_name: str, path: Path) -
     raise RuntimeError(f"Failed to synthesize after retries: {text[:50]}")
 
 
-def _synthesize_google(script: str, output_path: str) -> None:
+def _synthesize_google(script: str, output_path: str, pair: dict) -> None:
     segments = _parse_script(script, el=False)
     if not segments:
         log.error("No [ALEX]/[MAYA] lines found in script")
         return
 
-    log.info("Google TTS: %d segments (Journey-D=Alex, Journey-F=Maya)", len(segments))
+    log.info("Google TTS: %d segments (%s=Alex, %s=Maya)",
+             len(segments), pair["ALEX"][0], pair["MAYA"][0])
     client = texttospeech.TextToSpeechClient()
 
     with tempfile.TemporaryDirectory() as _tmpdir:
@@ -267,8 +272,9 @@ def _synthesize_google(script: str, output_path: str) -> None:
         paths = [tmpdir / f"seg_{i:04d}_{spk}.mp3" for i, (spk, _) in enumerate(segments)]
 
         for i, (spk, text) in enumerate(segments):
+            voice_name, lang_code = pair[spk]
             try:
-                _synthesize_segment_google(client, text, GOOGLE_VOICES[spk], paths[i])
+                _synthesize_segment_google(client, text, voice_name, lang_code, paths[i])
                 time.sleep(0.5)
             except Exception as e:
                 log.error("Segment %d failed: %s", i, e)
@@ -278,14 +284,22 @@ def _synthesize_google(script: str, output_path: str) -> None:
 
 # ── Public entry point ───────────────────────────────────────────────────────
 
-def synthesize(script: str, output_path: str) -> None:
-    if _use_elevenlabs():
-        log.info("Tokyo Open voice: ElevenLabs (christie + isla)")
+def synthesize(script: str, output_path: str, offset: int = 0) -> None:
+    mode = _voice_mode(offset)
+
+    if mode == "elevenlabs" and not os.environ.get("ELEVENLABS_API_KEY"):
+        log.warning("ElevenLabs day but no API key — using US Google pair instead")
+        mode = "us"
+
+    if mode == "elevenlabs":
+        log.info("Voice today: ElevenLabs (christie + isla)")
         try:
             _synthesize_elevenlabs(script, output_path)
+            return
         except Exception as e:
-            log.warning("ElevenLabs failed (%s) — falling back to Google TTS", e)
-            _synthesize_google(script, output_path)
-    else:
-        log.info("Tokyo Open voice: Google TTS (Journey-D + Journey-F)")
-        _synthesize_google(script, output_path)
+            log.warning("ElevenLabs failed (%s) — falling back to US Google pair", e)
+            mode = "us"
+
+    log.info("Voice today: Google %s pair (%s + %s)",
+             mode.upper(), GOOGLE_PAIRS[mode]["ALEX"][0], GOOGLE_PAIRS[mode]["MAYA"][0])
+    _synthesize_google(script, output_path, GOOGLE_PAIRS[mode])

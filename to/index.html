@@ -138,8 +138,9 @@
       const jst = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Tokyo'}));
       const start = new Date(jst.getFullYear(), 0, 0);
       const dayOfYear = Math.floor((jst - start) / 86400000);
+      // 3-pair rotation: 0=ElevenLabs(Christie&Isla), 1=US Google, 2=UK Google
       document.getElementById('host-names').textContent =
-        dayOfYear % 2 === 0 ? 'Christie & Isla' : 'Alex & Maya';
+        ['Christie & Isla', 'Alex & Maya', 'Alex & Maya'][dayOfYear % 3];
     })();
 
     const wf = document.getElementById('waveform');

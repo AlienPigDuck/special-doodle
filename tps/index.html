@@ -133,13 +133,8 @@
   <audio id="audio" src="latest.mp3" preload="metadata"></audio>
 
   <script>
-    (function() {
-      const jst = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Tokyo'}));
-      const start = new Date(jst.getFullYear(), 0, 0);
-      const dayOfYear = Math.floor((jst - start) / 86400000);
-      const names = ['Sarah', 'Christie', 'Maya'];
-      document.getElementById('host-name').textContent = names[dayOfYear % 3];
-    })();
+    // The Papers Say is always read by Sarah now (static).
+    document.getElementById('host-name').textContent = 'Sarah';
 
     const wf = document.getElementById('waveform');
     const N = 60;

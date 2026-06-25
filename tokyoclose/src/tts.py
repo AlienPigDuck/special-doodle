@@ -1,15 +1,22 @@
 """
-Two-host Google TTS for Tokyo Close.
-ALEX = en-GB-Journey-D (male British)
-MAYA = en-US-Journey-F (female American)
-No ElevenLabs — Google TTS only.
+Two-host TTS for Tokyo Close.
+Rotates through 3 voice pairs on a 3-day cycle (JST day-of-year mod 3), offset by
+1 day from Tokyo Open so the two shows never use the same pair on the same day:
+  (day+1) % 3 == 0 → ElevenLabs  (christie = Alex, isla = Maya)
+                1 → US Google   (en-US-Journey-D = Alex, en-US-Journey-F = Maya)
+                2 → UK Google   (en-GB-Journey-D = Alex, en-GB-Journey-F = Maya)
 """
 
+import os
 import re
+import json
 import time
 import logging
 import subprocess
 import tempfile
+import urllib.request
+import urllib.error
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from google.cloud import texttospeech
@@ -17,10 +24,27 @@ from google.api_core.exceptions import ResourceExhausted
 
 log = logging.getLogger(__name__)
 
-GOOGLE_VOICES = {
-    "ALEX": ("en-GB-Journey-D", "en-GB"),
-    "MAYA": ("en-US-Journey-F", "en-US"),
+JST = timezone(timedelta(hours=9))
+
+# ElevenLabs
+EL_VOICES = {
+    "ALEX": "wJGkbGKuvsunqgB3PHyW",  # christie
+    "MAYA": "h8eW5xfRUGVJrZhAFxqK",  # isla
 }
+EL_MODEL = "eleven_multilingual_v2"
+
+# Google TTS — one pair (male, female) per accent; values are (voice_name, language_code)
+GOOGLE_PAIRS = {
+    "us": {"ALEX": ("en-US-Journey-D", "en-US"), "MAYA": ("en-US-Journey-F", "en-US")},
+    "gb": {"ALEX": ("en-GB-Journey-D", "en-GB"), "MAYA": ("en-GB-Journey-F", "en-GB")},
+}
+
+_ROTATION = ["elevenlabs", "us", "gb"]
+
+
+def _voice_mode(offset: int = 1) -> str:
+    day = datetime.now(JST).timetuple().tm_yday
+    return _ROTATION[(day + offset) % 3]
 
 LINE_RE = re.compile(r"^\[(ALEX|MAYA)\]\s*(.+)$")
 
@@ -173,13 +197,14 @@ def _synthesize_segment_google(client, text: str, voice_name: str, lang_code: st
     raise RuntimeError(f"Failed to synthesize after retries: {text[:50]}")
 
 
-def synthesize(script: str, output_path: str) -> None:
+def _synthesize_google(script: str, output_path: str, pair: dict) -> None:
     segments = _parse_script(script)
     if not segments:
         log.error("No [ALEX]/[MAYA] lines found in script")
         return
 
-    log.info("Google TTS: %d segments (Journey-D=Alex, Journey-F=Maya)", len(segments))
+    log.info("Google TTS: %d segments (%s=Alex, %s=Maya)",
+             len(segments), pair["ALEX"][0], pair["MAYA"][0])
     client = texttospeech.TextToSpeechClient()
 
     with tempfile.TemporaryDirectory() as _tmpdir:
@@ -187,7 +212,7 @@ def synthesize(script: str, output_path: str) -> None:
         paths = [tmpdir / f"seg_{i:04d}_{spk}.mp3" for i, (spk, _) in enumerate(segments)]
 
         for i, (spk, text) in enumerate(segments):
-            voice_name, lang_code = GOOGLE_VOICES[spk]
+            voice_name, lang_code = pair[spk]
             try:
                 _synthesize_segment_google(client, text, voice_name, lang_code, paths[i])
                 time.sleep(0.5)
@@ -195,3 +220,70 @@ def synthesize(script: str, output_path: str) -> None:
                 log.error("Segment %d (%s) failed: %s", i, spk, e)
 
         _stitch(segments, paths, tmpdir, output_path)
+
+
+# ── ElevenLabs path ──────────────────────────────────────────────────────────
+
+def _el_synthesize_segment(api_key: str, text: str, voice_id: str, out: Path) -> None:
+    payload = json.dumps({
+        "text": text,
+        "model_id": EL_MODEL,
+        "voice_settings": {"stability": 0.5, "similarity_boost": 0.75},
+    }).encode()
+    req = urllib.request.Request(
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
+        data=payload,
+        headers={"xi-api-key": api_key, "Content-Type": "application/json", "Accept": "audio/mpeg"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req) as r:
+            out.write_bytes(r.read())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode(errors="replace")
+        raise RuntimeError(f"ElevenLabs {e.code}: {body}") from e
+
+
+def _synthesize_elevenlabs(script: str, output_path: str) -> None:
+    api_key = os.environ["ELEVENLABS_API_KEY"]
+    segments = _parse_script(script)
+    if not segments:
+        log.error("No [ALEX]/[MAYA] lines found in script")
+        return
+
+    log.info("ElevenLabs: %d segments (christie=Alex, isla=Maya)", len(segments))
+    with tempfile.TemporaryDirectory() as _tmpdir:
+        tmpdir = Path(_tmpdir)
+        paths = [tmpdir / f"seg_{i:04d}_{spk}.mp3" for i, (spk, _) in enumerate(segments)]
+
+        for i, (spk, text) in enumerate(segments):
+            try:
+                _el_synthesize_segment(api_key, text, EL_VOICES[spk], paths[i])
+                time.sleep(0.3)
+            except Exception as e:
+                log.error("Segment %d failed: %s", i, e)
+
+        _stitch(segments, paths, tmpdir, output_path)
+
+
+# ── Public entry point ───────────────────────────────────────────────────────
+
+def synthesize(script: str, output_path: str, offset: int = 1) -> None:
+    mode = _voice_mode(offset)
+
+    if mode == "elevenlabs" and not os.environ.get("ELEVENLABS_API_KEY"):
+        log.warning("ElevenLabs day but no API key — using US Google pair instead")
+        mode = "us"
+
+    if mode == "elevenlabs":
+        log.info("Tokyo Close voice: ElevenLabs (christie + isla)")
+        try:
+            _synthesize_elevenlabs(script, output_path)
+            return
+        except Exception as e:
+            log.warning("ElevenLabs failed (%s) — falling back to US Google pair", e)
+            mode = "us"
+
+    log.info("Tokyo Close voice: Google %s pair (%s + %s)",
+             mode.upper(), GOOGLE_PAIRS[mode]["ALEX"][0], GOOGLE_PAIRS[mode]["MAYA"][0])
+    _synthesize_google(script, output_path, GOOGLE_PAIRS[mode])

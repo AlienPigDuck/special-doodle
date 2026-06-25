@@ -101,14 +101,9 @@ def normalize_for_tts(text: str) -> str:
 
 
 def _pick_voice() -> str:
-    day = datetime.now(JST).timetuple().tm_yday
-    names = ["sarah", "christie", "maya"]
-    chosen = names[day % 3]
-    if chosen == "christie" and not os.environ.get("ELEVENLABS_API_KEY"):
-        log.warning("ElevenLabs day but no API key — falling back to Sarah")
-        chosen = "sarah"
-    log.info("TPS voice today: %s (day %d)", chosen, day)
-    return chosen
+    # The Papers Say is always read by Sarah (American female Google voice).
+    log.info("TPS voice: sarah (en-US-Journey-F)")
+    return "sarah"
 
 
 def _fix_pronunciation(text: str) -> str:

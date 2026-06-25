@@ -37,6 +37,7 @@ jobs:
           NIKKEI_STATE: ${{ secrets.NIKKEI_STATE }}
           NIKKEI_USER: ${{ secrets.NIKKEI_USER }}
           NIKKEI_PASS: ${{ secrets.NIKKEI_PASS }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           OUTPUT_DIR: /tmp/podcast
         run: |
           mkdir -p /tmp/podcast
