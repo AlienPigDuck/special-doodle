@@ -74,6 +74,43 @@ def main():
         log.info("sample <time>/[datetime] values: %s", times)
         log.info("total <time>/[datetime] elements: %s",
                  page.evaluate("() => document.querySelectorAll('time,[datetime]').length"))
+
+        # ── Body-extraction test: visit a few real articles and compare selectors ──
+        real = [it["href"] for it in items
+                if "/article/" in it["href"] and it["time"]]
+        real = real[:3]
+        log.info("=== BODY TEST on %d articles ===", len(real))
+        for href in real:
+            url = href if href.startswith("http") else "https://www.nikkei.com" + href
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=25000)
+                page.wait_for_timeout(2500)
+                h1 = page.evaluate("() => (document.querySelector('h1')?.textContent||'').trim()")
+                cand = page.evaluate(r"""
+                  () => {
+                    const sels = ['article', 'main', 'div[class*="article_body"]',
+                      'div[class*="ArticleBody"]', 'section[class*="article"]',
+                      'div[class*="paywall"]', 'div[class*="container"]'];
+                    const r = {};
+                    for (const s of sels) {
+                      const el = document.querySelector(s);
+                      r[s] = el ? (el.innerText||'').trim().length : -1;
+                    }
+                    const ps = Array.from(document.querySelectorAll('p'))
+                      .map(p => (p.innerText||'').trim()).filter(t => t.length > 20);
+                    r['__P_JOINED_LEN'] = ps.join('\n').length;
+                    r['__P_SAMPLE'] = ps.slice(0,4).join(' | ').slice(0,400);
+                    r['__BODY_LEN'] = (document.body.innerText||'').length;
+                    return r;
+                  }
+                """)
+                log.info("ARTICLE %s", url)
+                log.info("  h1: %s", h1[:120])
+                log.info("  selector lengths: %s",
+                         {k: v for k, v in cand.items() if not k.startswith("__P_SAMPLE")})
+                log.info("  <p> sample: %s", cand.get("__P_SAMPLE"))
+            except Exception as e:
+                log.warning("  body fetch failed for %s: %s", url, e)
     finally:
         browser.close()
         pw.stop()
