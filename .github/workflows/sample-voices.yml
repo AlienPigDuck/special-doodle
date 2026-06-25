@@ -1,7 +1,8 @@
-name: Voice Sample (throwaway)
+name: Voice Sample (manual audition)
 
-# Renders a short Christie/Isla ElevenLabs clip (with the +3dB Christie boost and
-# the new livelier voice_settings) and uploads it as an artifact. Delete after use.
+# Kept tool — dispatch manually to audition voice changes. Renders a Christie/Isla
+# ElevenLabs clip with the CURRENT +3dB Christie boost + voice_settings, and uploads
+# it as an artifact (download with: gh run download <id> -n voice-sample).
 on:
   workflow_dispatch:
 
@@ -27,10 +28,14 @@ jobs:
           cd tokyoclose/src
           python - <<'PY'
           import tts
-          script = """[ALEX] Good morning. The Nikkei 225 closed at a record high today, up four point six one percent.
-          [MAYA] A huge session, Alex. The index gained over three thousand points in a single day.
-          [ALEX] All driven by Micron's blowout earnings overnight. Risk on, full throttle.
-          [MAYA] Let's get into the names that actually moved."""
+          script = """[ALEX] Good morning, Tokyo. If you just woke up, sit down for this one.
+          [MAYA] Big news, Alex. The Nikkei 225 closed at a record high, up four point six one percent.
+          [ALEX] That's a gain of more than three thousand points in a single session. A stampede, not a drift.
+          [MAYA] And the spark came from overnight America. Micron blew the doors off with earnings.
+          [ALEX] Management talked up AI memory demand like there's no ceiling. The whole chip complex lit up.
+          [MAYA] Tokyo Electron, Advantest, Kioxia, all flying. Risk on, full throttle.
+          [ALEX] So enjoy the party, but know where the exits are. The yen is near a thirty-nine year low.
+          [MAYA] Noted. Let's get into the names that actually moved, and what to watch at the open."""
           tts._synthesize_elevenlabs(script, "/tmp/sample.mp3")
           print("done")
           PY
