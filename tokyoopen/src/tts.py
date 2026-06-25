@@ -33,6 +33,8 @@ EL_VOICES = {
     "MAYA": "h8eW5xfRUGVJrZhAFxqK",  # isla
 }
 EL_MODEL = "eleven_multilingual_v2"
+# Christie (ALEX) renders a touch quieter than Isla (MAYA); nudge her segments up.
+CHRISTIE_GAIN_DB = 3
 
 # Google TTS — one pair (male, female) per accent; values are (voice_name, language_code)
 GOOGLE_PAIRS = {
@@ -211,6 +213,17 @@ def _el_synthesize_segment(api_key: str, text: str, voice_id: str, out: Path) ->
     log.info("  EL seg → %s (%d KB)", out.name, out.stat().st_size // 1024)
 
 
+def _apply_gain(path: Path, gain_db: float) -> None:
+    """Re-encode an MP3 segment with a volume gain (dB), in place."""
+    tmp = path.with_name(path.stem + ".gain.mp3")
+    subprocess.run(
+        ["ffmpeg", "-y", "-i", str(path), "-af", f"volume={gain_db}dB",
+         "-acodec", "libmp3lame", "-b:a", "128k", str(tmp)],
+        check=True, capture_output=True,
+    )
+    tmp.replace(path)
+
+
 def _synthesize_elevenlabs(script: str, output_path: str) -> None:
     api_key = os.environ["ELEVENLABS_API_KEY"]
     segments = _parse_script(script, el=True)
@@ -226,6 +239,8 @@ def _synthesize_elevenlabs(script: str, output_path: str) -> None:
         for i, (spk, text) in enumerate(segments):
             try:
                 _el_synthesize_segment(api_key, text, EL_VOICES[spk], paths[i])
+                if spk == "ALEX" and CHRISTIE_GAIN_DB:
+                    _apply_gain(paths[i], CHRISTIE_GAIN_DB)
                 time.sleep(0.3)
             except Exception as e:
                 log.error("Segment %d failed: %s", i, e)
