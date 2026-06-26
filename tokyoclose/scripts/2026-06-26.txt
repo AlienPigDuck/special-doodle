@@ -1,0 +1,69 @@
+[ALEX] Good morning. Big day in Tokyo, and not the easy kind. The Nikkei 225 closed at 69,360 — down 4.15%.
+
+[MAYA] A brutal one. TOPIX took its lumps too. After a record-breaking surge, Tokyo gave a big chunk of it back.
+
+[ALEX] Let's be clear about the verdict: this was a one-stock-wrecking-ball day, dressed up as a broad selloff.
+
+[MAYA] You're talking SoftBank.
+
+[ALEX] I am. SoftBank Group cratered 12.53%. That's a heavyweight in a price-weighted index. When SoftBank sneezes, the Nikkei catches pneumonia.
+
+[MAYA] And it wasn't alone. The whole AI-adjacent, semiconductor-memory complex got whipsawed today. Which is strange, because overnight the US gave us a roaring chip session.
+
+[ALEX] Right — the Philadelphia Semiconductor Index jumped 3.59%. Micron exploded 15.74% on blowout earnings. Applied Materials up 13.42%. ASML up 4.45%.
+
+[MAYA] Micron printed huge numbers — Nikkei reported revenue of 41.4 billion dollars and net income of 28.2 billion. AI data-center memory demand, fully confirmed.
+
+[ALEX] So you'd expect Tokyo's memory names to fly. And some did.
+
+[MAYA] Kioxia did — initially. Nikkei said it spiked nearly 15% intraday after its shareholder meeting, riding the Micron read-through and those long-term supply contracts. NAND prices are projected up over 70% quarter-on-quarter in the April–June window, per TrendForce.
+
+[ALEX] But it didn't hold.
+
+[MAYA] It did not. Kioxia closed down 11.24%. A classic buy-the-rumor, sell-the-fact unwind. The good news was already in the stock.
+
+[ALEX] And that reversal rippled. Furukawa Electric fell 9.29%. Murata dropped 8.92%. Advantest down 9.64%.
+
+[MAYA] Advantest stings, because that's a chip-test name that should love a Micron beat. Instead it got dragged into the late-day flush. Fujikura off 4.74%, Tokyo Electron down 3.21%, Shin-Etsu Chemical down 4.41%.
+
+[ALEX] So the headline machine — AI, memory, chips — turned into the day's biggest drag. Sentiment ran out of road.
+
+[MAYA] But here's what I love about today. Underneath the wreckage, there was a real rotation. Money didn't leave Tokyo. It moved.
+
+[ALEX] Into the old economy.
+
+[MAYA] Exactly. Toyota up 2.50%. Honda up 2.51%. Autos caught a bid, helped by a soft yen.
+
+[ALEX] Let's do the yen. USD/JPY closed at 161.66, barely changed on the day, down 0.06%. But 161 is a weak yen, full stop.
+
+[MAYA] And that's rocket fuel for exporters. It's why Toyota and Honda held firm while the chip names melted. Denso up 0.78%, too.
+
+[ALEX] Nikkei flagged the dollar story — the Fed leaning more hawkish out of its June meeting, the dollar index hitting a one-year-plus high. That's pinning the yen down here.
+
+[MAYA] The banks liked it as well. MUFG up 0.37%, SMFG up 0.80%, Mizuho up 0.89%. Higher-for-longer is a tailwind for the megabanks.
+
+[ALEX] And real estate had a quietly strong day. Mitsubishi Estate up 2.94%. Sekisui House up 1.83%, Daiwa House up 1.68%.
+
+[MAYA] Domestic defensives doing their job while the growth names puked.
+
+[ALEX] One more macro thread — energy. Crude fell 2.13%, WTI at 70.37. Nikkei reported the Hormuz blockade fears easing, with naphtha back below pre-conflict levels.
+
+[MAYA] And yet Inpex rose 1.95%, Eneos up 1.97%. That's the GX angle — PM Takaichi is due to deliver an energy diversification package by end of August. Nuclear, supply diversification, perovskite solar.
+
+[ALEX] Takaichi giving the energy names a domestic policy story to lean on.
+
+[MAYA] On the corporate desk — Nomura up 0.71% after Nikkei reported a partnership with Circle to launch instant FX settlement for Japanese firms by 2027, using USDC.
+
+[ALEX] And Takeda — Julie Kim named CEO, the first woman to lead the firm in its history. Heavy chunk of restructuring costs flagged.
+
+[MAYA] Now — the handoff. Alex, what are we watching tonight?
+
+[ALEX] Two things. One, the dollar. If the Fed narrative keeps pushing USD/JPY through 161, that's more pain for chips but more support for exporters tomorrow.
+
+[MAYA] And two — watch the US memory complex. Micron, Applied Materials, ASML. If that rally has legs overnight, Kioxia and Advantest could get a second chance. If it fades, today's Tokyo flush was the early warning.
+
+[ALEX] So the takeaway: Tokyo lost 4.15%, but this was SoftBank and an exhausted chip trade — not a collapse of the whole market.
+
+[MAYA] Autos, banks and property held the line. The yen at 161 is doing real work. This wasn't a verdict on Japan. It was a verdict on crowded AI positioning.
+
+[ALEX] That's Tokyo Close. Mind the dollar tonight.
