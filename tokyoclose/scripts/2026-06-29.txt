@@ -1,0 +1,71 @@
+[ALEX] Good morning. Tokyo just closed, and honestly? It clawed back from the brink.
+
+[MAYA] It really did. The Nikkei 225 finished at 69,468, up 0.15%. Doesn't sound like much.
+
+[ALEX] But at the worst point this morning it was down more than 1,300 yen. So that tiny green number hides a proper rescue mission.
+
+[MAYA] TOPIX did even better — up 0.47% to 3,982. Broader market, broader strength.
+
+[ALEX] So the verdict: a semiconductor scare in the morning, a domestic-led recovery in the afternoon. Two different days in one session.
+
+[MAYA] Let's start with the scare. The Philadelphia Semiconductor Index fell 5.29% overnight. That's a beating.
+
+[ALEX] Micron down 6.69%. Applied Materials down over 6%. There was a report that OpenAI's IPO is being delayed, and suddenly everyone's asking — is the AI payoff actually coming?
+
+[MAYA] Tokyo opened scared. SoftBank Group closed down 5.33%. That's your purest AI proxy in this market, and it got hit hardest.
+
+[ALEX] Kioxia down 4.05%. Fujikura down 4.01%, Furukawa Electric off 2.41% — the cable and AI-infrastructure names all sold off.
+
+[MAYA] Advantest down 1.51% too. So if the story ended there, this is a red day.
+
+[ALEX] But it didn't end there. Two things turned it around.
+
+[MAYA] First — a US-Iran ceasefire. Both sides agreed to halt attacks after that flare-up near the Strait of Hormuz over the weekend.
+
+[ALEX] And oil listened. WTI slipped below 70 dollars mid-session. That's the geopolitical risk premium leaking out.
+
+[MAYA] Which is fuel for domestic Japan. Lower energy, lower input costs, happier consumer.
+
+[ALEX] And second — Korea. The Lee Jae Myung government announced a chip investment plan north of 230 billion yen. Samsung and SK Hynix building new fabs.
+
+[MAYA] Double-edged, though. Great for Japanese equipment and materials makers. Tokyo Electron actually closed up 2.44%, Shin-Etsu Chemical up 1.57%.
+
+[ALEX] But not so great for Kioxia. More SK Hynix capacity means more NAND competition. That's part of why Kioxia stayed down.
+
+[MAYA] So the semis split. The afternoon money rotated straight into domestic and content names.
+
+[ALEX] And this is where it got fun. Nintendo up 5.25%.
+
+[MAYA] Sony up 3.13%. Oriental Land — that's Tokyo Disney — up 4.17%. Recruit Holdings up 2.31%.
+
+[ALEX] Pharma joined too. Chugai up 2.80%, Daiichi Sankyo up 3.10%. Healthcare was the strongest US sector overnight, with Eli Lilly up over 7%.
+
+[MAYA] My standout, though? Tokio Marine. Up a clean 5.00%. Insurers love this setup — lower geopolitical risk, steady domestic demand.
+
+[ALEX] The banks didn't get the memo, mind you.
+
+[MAYA] No. Mizuho down 1.82%, MUFG down 1.05%, SMFG off 0.74%. US financials were soft overnight too — Goldman down 4.27%.
+
+[ALEX] Now the yen, and this one's almost boring. USD/JPY basically flat at 161.80.
+
+[MAYA] Which is why exporters were a mixed bag rather than a clear winner. No fresh tailwind there.
+
+[ALEX] Toyota up just 0.14%, Honda did better at 1.83%. The yen wasn't the story today — the rotation was.
+
+[MAYA] One political note worth holding onto. Prime Minister Takaichi's cabinet support is at 68%, up two points.
+
+[ALEX] Over 60% for nine straight months. Unprecedented since 2002. That's policy stability, and markets quietly like stability.
+
+[MAYA] There's a food consumption tax cut proposal floating too — 1% for two years. Split support, but popular with under-39s. Watch that for the domestic consumer names.
+
+[ALEX] So, the handoff. What should you watch tonight before Tokyo wakes up again?
+
+[MAYA] The AI semi story. Was today's SOX drop a one-day wobble or the start of a real rotation out of mega-cap tech? Watch Nvidia, watch Micron tonight.
+
+[ALEX] And the ceasefire itself. It only halts attacks — sanctions and hostages are unresolved. Any crack, and oil and the yen both get jumpy again.
+
+[MAYA] Mine? Whether this domestic rotation has legs. If money keeps leaving chips for consumer and pharma, Tokyo can hold up even with semis soft.
+
+[ALEX] Takeaway: Tokyo stared down a 1,300-yen drop and ended green, because a ceaseire cooled oil and money rotated from AI into domestic Japan. The Nikkei held the line at 69,468 — but the semiconductor question is the one that decides tomorrow.
+
+[MAYA] Hold the line indeed. That's Tokyo Close.
