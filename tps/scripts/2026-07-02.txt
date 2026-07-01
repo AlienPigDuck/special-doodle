@@ -1,0 +1,39 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Thursday, the second of July, 2026, and I'm glad you're here.
+
+We start this morning with something small enough to fit in your pocket, and worrying enough to prompt a nationwide survey. The humble USB memory stick.
+
+Here's what happened. It's come to light that Japan's Self-Defense Forces — the country's military — were using virus-infected USB devices on their classified systems for nearly a year. The devices were manufactured in China. And this wasn't caught quickly. It went on for months, on some of the most sensitive networks the country has.
+
+Now the response. The Ministry of Internal Affairs and Communications will survey all 1,788 of Japan's municipalities this month about how they use USB devices. And crucially, they're widening the net. Until now, Japan's security checks focused mostly on networking equipment — routers, the backbone of the internet. Now they're looking at USB devices too. That's a real shift in policy.
+
+Why does this matter so much? Because in Japan, USB is still the primary way data moves around. People physically carry files from one machine to another on these little sticks. And Nikkei reports that municipal standards for managing them are dangerously inconsistent. Only ten percent of municipalities have strict criteria for the IT equipment they buy. Ninety percent don't. And here's the part that keeps security experts up at night — government and municipal networks are interconnected. So one compromised device, in one town hall somewhere, could cascade. A single infected stick becomes a national problem. It's a reminder that cybersecurity isn't just about firewalls and sophisticated code. Sometimes the vulnerability is a piece of plastic on someone's desk.
+
+That theme of concentrated technological power runs through our next story too. A United Nations expert panel has released its first-ever report assessing the benefits and risks of artificial intelligence. And the headline is disparity. AI capability, the panel says, is concentrated in just two countries — the United States and China. And the wealth AI creates is flowing to a handful of nations and a handful of companies.
+
+But the detail that stayed with me is about language. Major language groups are being left behind, and the consequences are life-threatening. The panel gives one chilling example: in Tigrinya — a language spoken by millions in the Horn of Africa — AI translation systems mistranslated the word "antibiotic" as "pesticide." Imagine that in a medical setting. A doctor, a patient, a prescription — and the machine tells you to take poison. The panel is calling for the creation of "AI Safety Research Institutes," and it warns that AI's growing power to persuade poses a genuine threat to democracy and human rights. A sobering first word from the UN on all this.
+
+Now, from the risks of technology to the promise of it. Prime Minister Sanae Takaichi has launched Japan's first major economic initiative under a framework called "Power Asia" — a plan for energy cooperation across the region. And the first project is with India.
+
+Here's the shape of it. The Japan Bank for International Cooperation, along with major Japanese banks, will provide up to eighty billion yen — that's around six hundred million dollars — to finance a high-voltage power line in India. It's a big one: 1,200 kilometers long, carrying renewable energy from solar and wind sources in the Kabuda desert, in Gujarat, all the way to the city of Nagpur.
+
+Why does this matter for India? Because India imports ninety percent of the oil it uses. Ninety percent. That leaves it painfully exposed to any turbulence in the Middle East — and as we'll hear later, there's been plenty of that. A grid that moves homegrown renewable power across the country reduces that dependency. For Japan, it's a way to build influence and partnership across Asia through infrastructure rather than politics.
+
+And Takaichi has been busy on the diplomatic front more broadly. Nikkei reports she's secured India's agreement to begin trade negotiations with Mercosur — that's the bloc of South America's five major economies. The goal there is stable supplies of food, energy, and rare-earth minerals. Which brings us to a tense little story from China.
+
+Beijing has detained two employees of Fuji Electric, the Japanese firm, on suspicion of illegally exporting rare-earth magnetic flux technology. Now, rare earths are the elements that go into everything from electric motors to defense equipment, and China dominates their supply. This detention isn't just about two individuals. It signals how tightly Beijing is now controlling the flow of what's called "dual-use" technology — things that have both civilian and military applications. And it lands squarely in the middle of already strained US-Japan-China trade relations. Something to watch.
+
+Let me stay overseas for a moment, because there's real news out of Washington and Seoul. In the United States, the Supreme Court has ruled that President Trump's executive order to end birthright citizenship is unconstitutional. The court upheld the Fourteenth Amendment — the guarantee that children born on American soil are automatically citizens. It's a significant setback for the administration's immigration agenda.
+
+And South Korea is having quite a year. Nikkei reports record exports for the first half of 2026 — eighty trillion yen worth, up forty-eight percent from last year, driven almost entirely by demand for AI chips. Semiconductor exports alone have already surpassed the entire full-year record from 2025. To smooth all that trade, Korea is also moving its currency, the won, to 24-hour trading starting this coming Monday — closing the nighttime gaps that leave exporters exposed when overseas markets move while Seoul sleeps.
+
+Now, a word about the yen, and I'll keep this to the facts. The Japanese currency has weakened to 162.80 against the dollar. That's a 39-and-a-half-year low. Markets are watching closely to see whether Japan's authorities step in to defend it. This affects everyone here — it makes imports more expensive, which brings me, at last, to the story that caught my eye this morning.
+
+It's buried deep in the paper, and it's one of those stories that shows you how a war on the other side of the world reaches into your medicine cabinet.
+
+You'll remember the recent Iran-US conflict — a hundred-day war, the UN calls it, that consumed a billion barrels of oil and pushed global inflation forecasts up sharply. Well, here's a consequence almost nobody is talking about. Japan is running short of pharmaceutical containers. The little plastic tubs and vials that hold your creams and ointments and pills. They're made from naphtha, which comes from oil — and with oil supplies disrupted, the plastic has become scarce.
+
+The numbers are striking. In Chiba Prefecture, eighty percent of surveyed pharmacies and hospitals report shortages. Twenty percent say it's actually disrupting their operations. And here's the part that would have been unthinkable in Japanese healthcare until recently: some medical facilities are now charging patients fifty-five to a hundred and ten yen — about fifty cents to a dollar — per container. Others are asking patients to bring back their used vials to be reused. Suppliers have ramped up production by twenty percent, and it still isn't enough. Lead times have stretched to eight, even twelve weeks.
+
+Think about who this hurts most. Elderly patients, who rely on creams and ointments dispensed in exactly these containers. Policymakers are watching headline oil prices. But the real cost of that hundred-day war may be showing up quietly, in a pharmacy in Chiba, one empty tube at a time.
+
+That's The Papers Say for Thursday, the second of July. See you tomorrow.
