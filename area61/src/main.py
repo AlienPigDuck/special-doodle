@@ -119,8 +119,6 @@ def build_output(articles: list[tuple[str, str, str]], titles_en: list[str]) -> 
 
     return {
         "date": now_jst.strftime("%Y-%m-%d"),
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "generated_at_jst": now_jst.strftime("%Y-%m-%d %H:%M JST"),
         "total": len(articles),
         "sections": [
             {"name": name, "articles": sections[name]}
@@ -194,7 +192,7 @@ def main():
     log.info("Area 61: built output — %d sections, %d articles", len(output["sections"]), output["total"])
 
     push_to_github(output, token)
-    log.info("Area 61: done — %s", output["generated_at_jst"])
+    log.info("Area 61: done — %s", output["date"])
 
 
 if __name__ == "__main__":

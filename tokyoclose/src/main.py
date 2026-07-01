@@ -78,7 +78,7 @@ def push_to_github(mp3_path: Path, script_txt: Path, date_str: str) -> None:
             mp3_path.read_bytes(), f"close: {date_str}")
     _gh_put(headers, f"tokyoclose/scripts/{date_str}.txt",
             script_txt.read_bytes(), f"close script: {date_str}")
-    episode = {"date": date_str, "generated_at": datetime.now(timezone.utc).isoformat()}
+    episode = {"date": date_str}
     _gh_put(headers, "tokyoclose/episode.json",
             json.dumps(episode, indent=2).encode(), f"close meta: {date_str}")
     log.info("GitHub push complete")

@@ -81,10 +81,7 @@ def push_to_github(mp3_path: Path, date_str: str) -> None:
     log.info("Pushing to GitHub...")
     _gh_put(headers, "tps/latest.mp3", mp3_path.read_bytes(), f"tps: {date_str}")
 
-    episode = {
-        "date": date_str,
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-    }
+    episode = {"date": date_str}
     _gh_put(
         headers,
         "tps/episode.json",
