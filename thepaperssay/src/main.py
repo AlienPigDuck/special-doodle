@@ -98,6 +98,9 @@ def run() -> None:
     jst = timezone(timedelta(hours=9))
     now_jst = datetime.now(jst)
     date_str = now_jst.strftime("%Y-%m-%d")
+    # Human-readable date WITH weekday — passed to the script so the model
+    # never has to infer the day of week from a bare ISO date (it guessed wrong).
+    display_date = now_jst.strftime("%A, %-d %B %Y")
 
     output_mp3  = OUTPUT_DIR / f"the-papers-say-{date_str}.mp3"
     script_txt  = OUTPUT_DIR / f"the-papers-say-{date_str}.txt"
@@ -110,7 +113,7 @@ def run() -> None:
     selected       = picker.pick(articles)
     stories_txt.write_text(selected, encoding="utf-8")
 
-    episode_script = script.generate_script(selected, date_str)
+    episode_script = script.generate_script(selected, display_date)
     script_txt.write_text(episode_script, encoding="utf-8")
     log.info("Script saved: %s", script_txt)
 
