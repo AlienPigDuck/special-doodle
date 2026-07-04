@@ -1,0 +1,83 @@
+[ALEX] Welcome back to Tokyo Open Weekend. Markets are shut, the coffee's hot, and we've got a lot to chew on.
+
+[MAYA] We really do, Alex. This was an AI week. Precision components, memory, bearings — the whole supply chain lit up.
+
+[ALEX] Let's start big-picture and work our way down. But you're right — the AI story is the spine of everything this week.
+
+[MAYA] So the headline for me? Minebea Mitsumi. They announced a five hundred and eighty billion yen capex programme. Cambodia and Thailand plants.
+
+[ALEX] That's a serious number.
+
+[MAYA] It is. They're lifting monthly capacity from four hundred million units to over five hundred million by fiscal 2030. And here's the kicker — datacenter precision bearing demand has grown more than threefold in the past three to four years.
+
+[ALEX] Bearings. Not the sexiest word in tech.
+
+[MAYA] Until you realize AI servers need cooling, and cooling needs motors, and motors need those bearings. It's a pick-and-shovel play on the whole AI buildout.
+
+[ALEX] And it's not just Minebea. Murata and Kyocera are both expanding ceramic capacitor production — the multilayer ones essential for AI servers.
+
+[MAYA] Right. Murata closed up almost two percent Friday in Tokyo. And Panasonic is putting roughly five hundred billion yen into AI infrastructure through fiscal 2029.
+
+[ALEX] So when three or four majors all commit capex at once, that tells you they believe this is structural, not a spike.
+
+[MAYA] Exactly. Now the other big one — memory. Micron held a groundbreaking on July 4th for their Hiroshima expansion.
+
+[ALEX] One point five trillion yen. With METI support up to five hundred thirty-six billion.
+
+[MAYA] Next-gen DRAM and HBM4E from the second half of 2028. It basically fills the void Elpida left when it collapsed back in 2012. Japan is now a genuine AI memory hub.
+
+[ALEX] And Kioxia is right in that fight. Sampling new high-density 3D NAND for datacenters. Kioxia jumped over nine percent Friday in Tokyo.
+
+[MAYA] Nine percent! That's the standout mover. Competing head-on with Micron on next-gen memory.
+
+[ALEX] But here's my note of caution, Maya. Look at the US tape from July 2nd. The chip names got hit hard.
+
+[MAYA] They did. Applied Materials down over seven percent. Micron itself down five and a half. AMD down four. The SOX index dropped nearly five and a half percent.
+
+[ALEX] And remember — Tokyo already traded on July 3rd after that US close. So some of that pain may already be baked into names like Tokyo Electron and Advantest.
+
+[MAYA] Good point. Don't assume Monday opens with fresh downside there. It may already be priced.
+
+[ALEX] Let's do the macro. The yen strengthened. Dollar-yen down about three-quarters of a percent, sitting around 161.3.
+
+[MAYA] A firmer yen usually pinches exporters. But it's a mixed bag right now.
+
+[ALEX] It is. And the ten-year Treasury yield is at 4.48 percent. Gold ripped — up 1.8 percent, over forty-one eighty.
+
+[MAYA] Gold's telling you people want safety. And the reason why is sitting on the front page.
+
+[ALEX] Iran. Naphtha prices are surging, and there's real Gulf supply risk. Japan imports nearly all its energy, so this matters.
+
+[MAYA] Watch the petrochemical names and LNG. Asia is openly talking about bigger strategic fuel buffers and diversifying suppliers after this crisis.
+
+[ALEX] Oil itself was quiet Friday — WTI barely moved, just above 68. But it's the tail risk that counts.
+
+[MAYA] On the world stage — the NATO summit in Ankara this week, July 7th and 8th. Trump is threatening a NATO withdrawal.
+
+[ALEX] And Japan isn't attending. Observers are calling Takaichi's absence an opportunity loss. But there's a defense angle for us.
+
+[MAYA] Huge one. The Japan-UK-Italy next-gen fighter programme — GIGO, or EdgeWing — announced a nine hundred ninety billion yen contract. Canada's eyeing a partnership too.
+
+[ALEX] Europe pledging defense spending toward 35 to 40 percent of GDP by 2035. That's a long tailwind for Japanese aerospace suppliers.
+
+[MAYA] One more I loved — Takeda. Julie Kim named CEO. First female top exec in 245 years.
+
+[ALEX] That's history. And it usually signals a strategy pivot. Watch for M&A or an R&D refocus.
+
+[MAYA] Now the week ahead. What's on your radar?
+
+[ALEX] Samsung interim earnings are due — that'll set the tone for memory sentiment globally, so watch Kioxia's reaction.
+
+[MAYA] And the wage story. The Rengo survey came in at a 5.01 percent average hike — third straight year above five percent.
+
+[ALEX] That's the reflation trade in a nutshell. Good for domestic consumption, and it keeps the BOJ's normalization case alive.
+
+[MAYA] Also watch Sony. They're ending disc-based game sales in January 2028 — download-only. Margin positive for Sony, tough for the electronics retailers.
+
+[ALEX] So the takeaway for the week?
+
+[MAYA] AI supply chain is the trade — bearings, capacitors, memory. But don't chase blindly after that US chip selloff.
+
+[ALEX] And keep one eye on Iran and the yen. Energy risk and a firmer currency could quietly reshape the whole session. Trade the theme, respect the risk.
+
+[MAYA] Have a good week, everyone.
