@@ -1,0 +1,68 @@
+name: Deploy to GitHub Pages
+
+# Replaces GitHub's uncontrolled "deploy from a branch" Pages build, which we
+# couldn't add error-handling to. This deploys the site ourselves with:
+#   - a concurrency queue (deploys run one at a time instead of racing/cancelling)
+#   - up to 3 deploy attempts (GitHub Pages' backend occasionally returns
+#     "Deployment failed, try again later" on a lone deploy — a retry clears it)
+# Net effect: no spurious failure emails, no stale site.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Queue, don't cancel — a new push waits for the in-flight deploy to finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy3.outputs.page_url || steps.deploy2.outputs.page_url || steps.deploy1.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Trim non-site files from the upload
+        run: rm -rf .git .github
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      # Attempt 1
+      - name: Deploy (attempt 1)
+        id: deploy1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      # Attempt 2 (only if #1 flaked)
+      - name: Back off before retry
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 45
+      - name: Deploy (attempt 2)
+        id: deploy2
+        if: steps.deploy1.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      # Attempt 3 (only if #2 also flaked) — final, allowed to fail the run
+      - name: Back off before final retry
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 60
+      - name: Deploy (attempt 3)
+        id: deploy3
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        uses: actions/deploy-pages@v4
