@@ -169,12 +169,33 @@ Script:
 """
 
 
+def _grounding() -> str:
+    """Prevents the grader (whose training knowledge may be stale) from flagging
+    real, recent facts as hallucinations. See the Archion/Takaichi false-positives."""
+    today = datetime.now(timezone(timedelta(hours=9))).strftime("%A, %-d %B %Y")
+    return f"""IMPORTANT CONTEXT — read before scoring:
+Today is {today}. Your own training knowledge may predate recent events, so you
+may not recognise companies, people, products, or corporate actions that are real
+and current. Known current facts (non-exhaustive):
+- Sanae Takaichi (高市早苗) is Japan's current Prime Minister — a woman, in office since 2025.
+- ARCHION is the Tokyo-listed holding company that merged Toyota's Hino Motors and
+  Daimler's Mitsubishi Fuso; it launched 1 April 2026.
+
+Do NOT flag a claim as invented, hallucinated, or an "accuracy risk" merely because
+you do not recognise a named entity or recent event — assume the writers had access
+to current news you may lack. Only raise accuracy concerns for internal
+contradictions, implausible figures, or claims contradicting well-established,
+unchanging facts.
+
+"""
+
+
 def _self_critique(script: str, project: str, client) -> str:
     prompt = _CRITIQUE_TOKYO if project == "tokyoopen" else _CRITIQUE_TPS
     msg = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=800,
-        messages=[{"role": "user", "content": prompt + script}],
+        messages=[{"role": "user", "content": _grounding() + prompt + script}],
     )
     return msg.content[0].text
 
