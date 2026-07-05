@@ -2,7 +2,7 @@ name: Daily Eval — Quality Gate, Self-Critique, Drift Report
 
 on:
   schedule:
-    - cron: '52 19 * * *'  # 04:52 JST
+    - cron: '0 23 * * *'  # 08:00 JST — after TPS/Area61/Tokyo Open, avoids Pages-deploy collision
   workflow_dispatch:
 
 jobs:
