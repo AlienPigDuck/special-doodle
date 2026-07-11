@@ -1,0 +1,43 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Sunday, the twelfth of July, 2026, and I'm glad you're with me.
+
+We begin this morning with a shift in the map of global money — the kind of change that happens slowly, and then all at once.
+
+According to the Nikkei this morning, Hong Kong has, for the first time, overtaken Switzerland as the world's leading destination for the offshore wealth of rich individuals. In 2025, Hong Kong managed some four hundred and eighty trillion yen in assets — that's around two-point-nine-five trillion dollars. Switzerland, the country whose name has been shorthand for discreet private banking for more than a century, has been eclipsed.
+
+Now, why is this happening? The short answer is China. Nearly sixty percent of the money Hong Kong manages already comes from the mainland, and Boston Consulting Group expects that to climb to sixty-eight percent by 2030. Here's the story behind the numbers. China's economy has slowed, and Beijing keeps a tight grip on money leaving the country. So wealthy mainlanders are looking for a way to move assets abroad — and Hong Kong is the natural gateway, close to home, plugged into global markets, but still under Chinese sovereignty.
+
+And the world's big financial names are following the money. UBS, the private equity firm Ardian, the trading firm Jane Street — all expanding in Hong Kong. What we're watching, the Nikkei suggests, is a structural drift of global finance away from its old Western centers, and it comes at a moment when questions about the dominance of the U.S. dollar are very much in the air. Keep an eye on this one. It won't make headlines every day, but it's the sort of quiet tide that reshapes coastlines.
+
+Staying with money and how it moves, there's a fascinating story on the front page much closer to home — about Japan's universities.
+
+The government plans to change the National University Corporation Law so that smaller regional universities can pool their money and invest together — in stocks and real estate — starting in fiscal 2026. Here's the problem it's trying to solve. Across Japan's eighty-five national universities, there's about four hundred billion yen in investment assets. But it's wildly uneven. A handful of wealthy institutions — the University of Tokyo, Tokyo Science University — run portfolios above sixty billion yen. Meanwhile, eighty percent of national universities hold less than five billion. And with inflation eating away at savings, a shrinking population meaning fewer students, and buildings that cost more to maintain every year, those smaller schools are watching their money erode. So the idea is to let them piggyback on the investment know-how of the big players. It's a modest-sounding reform, but it speaks to a real anxiety about the future of higher education in an aging country.
+
+That theme — Japan rethinking how it handles capital — runs through several stories today, and it's worth pausing on.
+
+The Toyota Group is unwinding what are called policy stocks — shares that Japanese companies have long held in one another simply to cement business relationships, not to make money. Toyota plans to sell more than nine hundred billion yen worth in fiscal 2026, shrinking its web of holdings to ninety-four listed companies, down from a hundred and forty just four years ago. Suppliers like Denso and Aisin are doing the same. There's one big unresolved question — Denso still owns three-point-four-five percent of Toyota itself, worth around one-point-four trillion yen. This is the slow dismantling of Japan's postwar model of interlocking corporate ownership, pushed along by investors who want companies focused on returns, not cozy alliances.
+
+And yet — here's the interesting tension — the government wants to slow the more aggressive side of that same movement. Nikkei reports Tokyo will amend its corporate governance code and issue new "Growth Investment Guidance" aimed at discouraging activist shareholders from squeezing companies for quick, short-term gains, and pushing instead for long-term investment in growth. So Japan is trying to have it both ways: more market discipline, but not the raw, extractive kind.
+
+You can see that defensive instinct at Seven & i Holdings, the company behind 7-Eleven. The Nikkei says it's in advanced talks to bring in around three hundred billion yen from SoftBank, PayPay, and Sumitomo Mitsui Card — to modernize its convenience stores with AI logistics and automation. Part of the logic here is protection: shoring up the company against activist investors or a foreign takeover bid.
+
+Speaking of the AI wave reshaping corporate Japan — Honda is now paying a premium for it. The Nikkei reports Honda will give monthly bonuses of up to a hundred and fifty thousand yen to employees certified as AI-proficient. So far about two hundred and eighty people among its forty-five thousand domestic staff qualify, with a target of a thousand. And Mitsubishi Corporation will soon require an AI certification for anyone hoping to be promoted into management. The message is unmistakable: Japanese firms know they've been slow on AI, and they're now paying — literally — to catch up.
+
+The appetite for that technology shows up in bricks and mortar, too. Mitsubishi Estate says it will invest one-point-five trillion yen to build large-scale data centers in Japan, with combined capacity of twenty-five hundred megawatts by around 2036. That's the physical backbone of the AI boom — the buildings and the power that make it run.
+
+Now, let's turn abroad, where the news is heavier.
+
+The Trump administration has taken a striking step: it's granted Ukraine a license to manufacture the Patriot air defense system on its own soil. This is rare. Only two other countries have ever had it — Japan, since 2008, and Germany, since 2022. So Ukraine now joins a very short list. Part of the reason is stark: America's own Patriot stockpile is depleted. The Nikkei reports that Israel's confrontation with Iranian attacks in February burned through half of the U.S. supply. Trump has pledged to coordinate with the makers, Lockheed Martin and RTX — the company formerly known as Raytheon — to transfer the know-how quickly, though analysts warn it could still take years.
+
+And on Iran itself, there may be an opening. The administration said on July tenth that Iran has asked to talk again, and Washington has agreed — with negotiations possibly resuming in Switzerland this week. This follows an exchange of missile attacks over the Strait of Hormuz on the seventh and eighth, under a shaky ceasefire. Trump paired the diplomacy with a threat, warning of a thousand missiles ready and thousands more behind them. So: an open hand and a clenched fist, at the same time.
+
+Two more from the international pages, briefly. The World Bank has told its board it will stop new lending to China by 2031, capping payments at two billion dollars a year until then. The argument, pressed by Washington and its allies, is simple — the world's second-largest economy no longer needs development aid. And China and North Korea marked the sixty-fifth anniversary of their 1961 defense treaty, with Xi Jinping and Kim Jong Un exchanging warm messages about an alliance built to withstand what Xi called challenges to U.S. dominance.
+
+Here at home, Prime Minister Takaichi appeared at a memorial gathering for the late former Prime Minister Shinzo Abe, where she pledged herself to what she called "combative politics" — casting herself firmly as the heir to Abe's reform legacy.
+
+And that brings me to the one that caught my eye this morning — a legal drama with a very human twist.
+
+Apple is suing OpenAI. According to the Nikkei, Apple has filed suit in a California federal court against OpenAI and a former executive — a man named Tan Tan, a design veteran who spent more than twenty years at Apple and rose to vice president. The allegation is remarkable: Apple claims Tan instructed incoming OpenAI hires to physically walk out with Apple prototypes and components — to smuggle out the actual hardware. OpenAI flatly denies it, saying it has no interest in anyone else's trade secrets.
+
+What makes this so striking is what it tells us about where the AI race is heading. It's no longer just about software and chatbots. It's about physical devices — the next thing you'll hold in your hand. And when a designer leaves one giant for another, both sides know exactly how much is riding on what he carries with him. We'll be watching that courtroom.
+
+That's The Papers Say for Sunday, the twelfth of July. See you tomorrow.
