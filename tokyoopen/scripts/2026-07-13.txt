@@ -1,0 +1,69 @@
+[ALEX] Good morning. There are missiles over the Strait of Hormuz and a robot maker just missed by half. Welcome to a Monday.
+
+[MAYA] What a way to start the week. Two very different stories, both landing on Tokyo at the same time.
+
+[ALEX] Let's set the table with the US close from Friday, July 10th. Nothing dramatic. The S&P 500 up 0.42% to 7,575. The Nasdaq up 0.29%. The Dow up the same, 0.29%, at 52,637.
+
+[MAYA] And the fear gauge actually fell. VIX down 5% to just over 15. So the US tape was calm.
+
+[ALEX] Calm on the surface. But the 10-year yield ticked up to 4.57%, and under the hood the chip story is more interesting than the index.
+
+[MAYA] Right — because NVIDIA jumped 4% and META was the star, up nearly 6%. But the SOX, the Philadelphia semiconductor index? Basically flat. Up 0.06%.
+
+[ALEX] That gap tells you everything. Two names lifted, the sector didn't follow. Traders are hedged into earnings season.
+
+[MAYA] The catalyst behind the chip mood was SK Hynix. Its US listing opened 14% above the IPO price on the 12th. Strong appetite for memory.
+
+[ALEX] Which brings us straight to a Tokyo name. Kioxia, ticker 285A.
+
+[MAYA] Yes. Kioxia could see early buying on that Hynix strength — they're both in the memory game. But the briefing is honest about it. The conviction may not be there to push the whole market higher.
+
+[ALEX] So a pop, maybe, not a trend. I'd keep expectations modest.
+
+[MAYA] Agreed. And here's the flip side of the AI trade, and it's a rough one. Yasukawa Electric.
+
+[ALEX] The robotics name. Give us the numbers.
+
+[MAYA] Q3 net profit came in at 5.4 billion yen. Down 22% year on year. And consensus was 10.7 billion. So they missed by roughly half.
+
+[ALEX] That's not a wobble. That's a chasm.
+
+[MAYA] And Yasukawa had been bought as an AI play — automation, factory robots, the whole capex story. A miss that size makes people ask if the capex cycle is really as strong as advertised.
+
+[ALEX] Which is why the contagion risk matters. Fanuc, ticker 6954, same sector, same story.
+
+[MAYA] Exactly. Fanuc actually rose 4.45% at Friday's Tokyo close, so it's been in favor. Watch whether Yasukawa's miss drags it back today. Same question mark now hangs over it.
+
+[ALEX] So the setup for the open is a tug of war. Memory names lifted by Hynix, robotics names weighed by Yasukawa.
+
+[MAYA] A split-screen market. And then there's the yen.
+
+[ALEX] USD/JPY sitting around 161.95, down about a quarter percent. So the yen firmed slightly.
+
+[MAYA] Modest, but the direction matters given the backdrop. A stronger yen is a headwind for exporters — your Toyota, ticker 7203, your Sony, 6758.
+
+[ALEX] And here's the risk the briefing flags. If the Hormuz situation escalates and it's read as an energy shock, you could get sharp yen appreciation as a safe haven. That would hit exporters hard.
+
+[MAYA] Which is the geopolitical piece. US Central Command struck Iran early this morning Japan time. Iran claiming it's reclosing the Strait of Hormuz, and the two sides are contradicting each other on whether shipping is even open.
+
+[ALEX] Oil moved on it. WTI up 3.21% to 73.7. Elevated, but — and this is important — not spiking to crisis levels.
+
+[MAYA] Bloomberg Intelligence's Mike McGlone makes that point. Markets are largely pricing in that the Strait holds, with alternative routes and Western Hemisphere supply cushioning the blow.
+
+[ALEX] So oil is nervous, not panicked. For Japan, an energy importer, a controlled move is livable. A confirmed closure is a different animal.
+
+[MAYA] Watch the domestic energy names on that — Inpex, ticker 1605, fell 1.93% Friday but would be squarely in play if crude keeps climbing.
+
+[ALEX] And gold, curiously, slipped a touch. Down 0.34% to 4,090. So not the classic panic hedge this morning.
+
+[MAYA] Which reinforces the calm-not-crisis read. On the futures, September Nikkei closed the night session 550 yen higher at 69,360.
+
+[ALEX] With cash sitting at 68,557. So the open leans mildly positive, but I wouldn't chase it.
+
+[MAYA] Split-screen day. Memory up, robots down, oil watching the Strait. Trade the names, not the noise.
+
+[ALEX] Well said. Keep an eye on Kioxia and Fanuc, mind the yen, and don't let the headlines rattle you.
+
+[MAYA] Have a great session, everyone. We'll see you tomorrow.
+
+[ALEX] Take care.
