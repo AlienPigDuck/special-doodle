@@ -1,0 +1,71 @@
+[ALEX] Good morning, Tokyo. The story today isn't a chip stock. It's a bank. Mitsubishi UFJ just became the most valuable company in Japan.
+
+[MAYA] For the first time ever, Alex. That's a headline.
+
+[ALEX] But before we celebrate the banks, let's talk about the pain overnight. Wall Street had a rough one on July 13th.
+
+[MAYA] The Nasdaq dropped 1.55%. The S&P down 0.79%. The Dow held up better, only off 0.26%.
+
+[ALEX] And the fear gauge woke up. The VIX jumped 14% to 17.16. Not panic, but people got nervous.
+
+[MAYA] The real bloodbath was in chips. The Philadelphia SOX index fell 4.78%. Nvidia down 3.52%, Micron down 4.32%, AMD off 4.21%.
+
+[ALEX] Which brings us to the elephant. Kioxia, ticker 285A. That stock got crushed.
+
+[MAYA] Down 12.86% at Tokyo's close on the 13th. There was a big sell-down in Korea tied to profit-taking, and it hit the whole AI-memory trade. At one point Kioxia was off 14% to 66,100 yen.
+
+[ALEX] And remember, that's already in the price. This isn't a fresh US catalyst for today's open — it already happened here.
+
+[MAYA] Right, but the mood matters. Micron fell again after-hours, down another 5%. So watch Kioxia and Shin-Etsu Chemical, 4063, for follow-through nerves.
+
+[ALEX] Here's the tension. DRAM prices are up more than six times in a year. That sounds bullish.
+
+[MAYA] But it's squeezing everyone else. Nikkei's been flagging that HBM for AI is eating capacity, so ordinary memory is short — and phone and PC makers are raising prices. Global shipments could drop 200 million units next year.
+
+[ALEX] So the AI story giveth, and taketh away. TSMC reports on the 16th, ASML around the same time. High expectations. TSMC net profit seen up 57%.
+
+[MAYA] If they miss, chips sell off harder. If they beat, we bounce. Nobody's relaxed into that.
+
+[ALEX] Let's get back to the good news. MUFG, 8306. Closed at 3,541 yen, a record, and now the biggest company in Japan by value.
+
+[MAYA] Up 2.31% on the day. And it dragged the sector — SMFG, 8316, up 1.63%. Mizuho, 8411, up 1.32%.
+
+[ALEX] The driver is rates. Japanese yields have been climbing. The 10-year hit 2.9% on the 10th, a thirty-year high, before settling to 2.79% on the 13th.
+
+[MAYA] Higher rates mean fatter lending margins. Plus MUFG's overseas business, especially that Morgan Stanley stake, is paying off.
+
+[ALEX] Nikkei's calling it a "revival" of the banks. After years in the wilderness, financials are back on top.
+
+[MAYA] Though there's a twist. The government's fiscal plan spooked the bond market — they're calling it the "kotsubuto shock." And now there's chatter about GPIF, the pension fund, propping up bonds.
+
+[ALEX] A "Reiwa-era PKO," some analysts say. Keep half an eye on that. It's why yields have been swinging.
+
+[MAYA] Now the theme I actually want to dig into — autos. And it's not a happy one.
+
+[ALEX] Toyota, 7203, and Honda, 7267. Both making big moves in China.
+
+[MAYA] Toyota launched its bZ7 EV there, and get this — they said they're at the stage of "getting cars from partners first." They're adopting a Chinese platform.
+
+[ALEX] Honda too. Nikkei reports Honda will use a Guangzhou Auto chassis in its own cars. That's a real turn from the go-it-alone philosophy.
+
+[MAYA] Honda's China sales could halve by 2025 versus 2023. That's brutal.
+
+[ALEX] And the scoreboard tells it. Chinese makers hit 25% of global share this year — double a decade ago. Japan slipped to 26%. They're about to be overtaken.
+
+[MAYA] Toyota closed down 0.60%, Honda basically flat. But this is a slow-burn story, not a one-day trade.
+
+[ALEX] Meanwhile, the yen keeps weakening. USD/JPY still stuck in the 162 range.
+
+[MAYA] That's a cushion for exporters, but importers feel the pinch — and with naphtha, watch the Strait of Hormuz. Traffic dropped to about eight ships on the 12th, lowest in a month.
+
+[ALEX] That's why energy popped. Exxon up 4%, ConocoPhillips up 3.49%. Good for Inpex if crude holds at 78 dollars.
+
+[MAYA] And gold sitting above 4,000. People want safety.
+
+[ALEX] So: banks on top, chips shaky, autos rethinking China. A lot to chew on.
+
+[MAYA] Watch MUFG, watch the memory names, and don't panic on Kioxia's move — it's old news.
+
+[ALEX] Trade smart, stay curious. We'll see you tomorrow, Tokyo.
+
+[MAYA] Have a great session, everyone.
