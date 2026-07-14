@@ -243,6 +243,33 @@ pre code{background:none;border:0;padding:0;white-space:pre;font-size:1.05rem;
 .toc a .nm{font-family:'Cinzel',serif;font-size:1.02rem;display:block}
 .toc a .ds{font-style:italic;color:var(--ink-soft);font-size:.95rem;display:block;margin-top:3px}
 
+/* ---------------- image lightbox ---------------- */
+.content img{cursor:zoom-in}
+body.lb-open{overflow:hidden}
+.lightbox{
+  position:fixed;inset:0;z-index:100;display:none;
+  align-items:center;justify-content:center;
+  background:rgba(15,10,6,.93);
+  padding:max(28px,env(safe-area-inset-top)) 22px max(28px,env(safe-area-inset-bottom));
+}
+.lightbox.open{display:flex}
+.lightbox img{
+  max-width:100%;max-height:100%;object-fit:contain;cursor:default;
+  background:#fbf6e8;border:1px solid var(--rule);border-radius:4px;padding:12px;
+  box-shadow:0 14px 55px rgba(0,0,0,.6);
+}
+.lightbox .x{
+  position:fixed;top:max(14px,env(safe-area-inset-top));
+  right:max(14px,env(safe-area-inset-right));
+  width:46px;height:46px;border-radius:50%;
+  border:1px solid var(--brass);color:#e8c86a;
+  background:linear-gradient(180deg,var(--sidebar-bg2),var(--sidebar-bg));
+  font-size:1.8rem;line-height:1;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 16px rgba(0,0,0,.55);
+}
+.lightbox .x:hover{color:#fff;border-color:#e8c86a}
+
 /* ---------------- responsive: sidebar → drawer ---------------- */
 @media (max-width:900px){
   .topbar{

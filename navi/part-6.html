@@ -119,6 +119,15 @@ const b=document.body,mb=document.querySelector('.menu-btn');
 if(mb){mb.addEventListener('click',()=>b.classList.toggle('nav-open'));
 document.querySelector('.scrim').addEventListener('click',()=>b.classList.remove('nav-open'));
 document.querySelectorAll('.sidebar a').forEach(a=>a.addEventListener('click',()=>b.classList.remove('nav-open')));}
+// diagram lightbox: click to enlarge, X / backdrop / Esc to close
+const lb=document.createElement('div');lb.className='lightbox';
+lb.innerHTML='<button class="x" aria-label="Close">&times;</button><img alt="">';
+b.appendChild(lb);const lbImg=lb.querySelector('img');
+function closeLb(){lb.classList.remove('open');b.classList.remove('lb-open');}
+lb.addEventListener('click',e=>{if(e.target!==lbImg)closeLb();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLb();});
+document.querySelectorAll('.content img').forEach(im=>im.addEventListener('click',()=>{
+  lbImg.src=im.currentSrc||im.src;lb.classList.add('open');b.classList.add('lb-open');}));
 </script>
 </body>
 </html>
