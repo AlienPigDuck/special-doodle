@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dead Reckoning — The Mariner’s Craft</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><button class="menu-btn" aria-label="Contents">☰</button><span class="t">The Mariner’s Craft</span></div>
+<div class="scrim"></div>
+<div class="wrap">
+<aside class="sidebar"><a class="brand" href="index.html">The Mariner’s Craft<small>Traditional Navigation</small></a><hr><nav><ol><li><a class="partlink" href="part-0.html">Part 0 · Orientation</a></li><li><a class="partlink" href="part-1.html">Part I · The Foundations</a></li><li><a class="partlink" href="part-2.html">Part II · Finding Latitude</a></li><li><a class="partlink" href="part-3.html">Part III · Finding Longitude</a></li><li><a class="partlink" href="part-4.html">Part IV · The Modern Sight</a></li><li class="current"><a class="partlink" href="part-5.html">Part V · Dead Reckoning</a><ol class="sections"><li><a href="#16-speed-and-distance-the-log-and-the-knot">16. Speed and distance — the log and the knot</a></li><li><a href="#17-the-compass-variation-and-deviation">17. The compass — variation and deviation</a></li><li><a href="#18-the-sailings-course-and-distance-into-position">18. The sailings — course and distance into position</a></li><li><a href="#19-set-drift-and-leeway-the-sea-s-own-vote">19. Set, drift, and leeway — the sea’s own vote</a></li></ol></li><li><a class="partlink" href="part-6.html">Part VI · Piloting &amp; Coastal Navigation</a></li><li><a class="partlink" href="part-7.html">Part VII · Natural Navigation</a></li><li><a class="partlink" href="part-8.html">Part VIII · Putting It Together</a></li></ol></nav></aside>
+<main class="content">
+<div class="eyebrow">Part V</div><h1>Dead Reckoning</h1><p class="lede">Sights are occasional; the sea is continuous. Between fixes — and through every
+night, fog, and overcast when no body can be shot — the navigator keeps position by
+<strong>dead reckoning (DR)</strong>: from a known start, apply the course steered and the
+distance run, and keep a running estimate of where you are. DR was the everyday
+backbone of navigation, used far more hours than the sextant, and a good DR is what
+lets a single Sun line become a fix.</p>
+<p>It rests on three things: knowing your <strong>speed</strong>, knowing your <strong>direction</strong>, and
+the trigonometry that turns <em>course and distance</em> into <em>change of position</em>.</p>
+<hr/>
+<h2 id="16-speed-and-distance-the-log-and-the-knot">16. Speed and distance — the log and the knot</h2>
+<p>To reckon distance you must measure speed. The old way is beautifully direct: the
+<strong>chip log</strong>. A wedge of wood on a long line is thrown over the stern; the line has
+<strong>knots tied at even intervals</strong>, and a <strong>sand glass</strong> times a fixed interval. Count
+the knots that run out in that time, and that <em>is</em> your speed — which is why a ship’s
+speed is given in <strong>knots</strong> to this day.</p>
+<p>The intervals are chosen so the arithmetic vanishes: with knots about <strong>47 feet 3
+inches</strong> apart and a <strong>28-second</strong> glass, one knot run out per glass = <strong>one
+nautical mile per hour</strong>. Heave the log every hour (or every change of speed),
+write it in the log-book, and the day’s run adds up.</p>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> The chip log and knotted line came into use in the 16th–17th
+centuries; before it, speed was judged by eye (“Dutchman’s log” — time a chip of
+wood passing between two marks on the rail).</p>
+</blockquote>
+<hr/>
+<h2 id="17-the-compass-variation-and-deviation">17. The compass — variation and deviation</h2>
+<p>Direction comes from the <strong>magnetic compass</strong>, but the needle does <em>not</em> point to
+true north. Two separate errors stand between the card and the truth:</p>
+<p><img alt="Three norths — variation and deviation" loading="lazy" src="img/compass-correction.png"/></p>
+<ul>
+<li><strong>Variation</strong> — the angle between true north and <em>magnetic</em> north, because the
+  Earth’s magnetic pole isn’t the geographic one. It depends on <em>where you are</em> and
+  is printed on the chart (and drifts slowly year to year). This is the same
+  quantity the sky-map calls “magnetic variation.”</li>
+<li><strong>Deviation</strong> — the angle between magnetic north and where <em>your</em> compass points,
+  because the ship’s own iron pulls the needle. It depends on the ship’s <strong>heading</strong>
+  and is tabulated on a <strong>deviation card</strong> swung for that vessel.</li>
+</ul>
+<p>To go from what you steer to a true course (<strong>correcting</strong>) you climb the ladder
+<em>Compass → Magnetic → True</em>, applying deviation then variation; to turn a desired
+true course into a compass course to steer (<strong>uncorrecting</strong>) you go back down. The
+sign rule: <strong>correcting, add easterly errors and subtract westerly</strong>; uncorrecting,
+reverse. The old mnemonic runs the ladder up: <em>“Can Dead Men Vote Twice — At
+Elections”</em> (Compass, Deviation, Magnetic, Variation, True; <strong>A</strong>dd <strong>E</strong>ast).</p>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> The magnetic compass reached European ships around the 12th
+century (from China, where it was used for navigation by the Song dynasty).
+Columbus recorded variation across the Atlantic in 1492. <strong>Deviation</strong> only became
+pressing with iron ships: <strong>Matthew Flinders</strong> identified the hull-iron effect
+(the vertical “<strong>Flinders bar</strong>” still corrects it), and <strong>George Airy</strong> worked
+out the compensating-magnet system in the 1830s.</p>
+</blockquote>
+<hr/>
+<h2 id="18-the-sailings-course-and-distance-into-position">18. The sailings — course and distance into position</h2>
+<p>Given a course and a distance, how far north and how far east have you gone? For
+short runs you may treat the patch of sea as flat — <strong>plane sailing</strong> — and solve a
+right triangle:</p>
+<p><img alt="Plane sailing" loading="lazy" src="img/plane-sailing.png"/></p>
+<ul>
+<li><strong>Difference of latitude:</strong> <code>D.Lat = Distance × cos(Course)</code> (north–south).</li>
+<li><strong>Departure:</strong> <code>Dep = Distance × sin(Course)</code> (east–west miles).</li>
+<li><strong>Difference of longitude:</strong> <code>D.Long = Departure ÷ cos(mid-latitude)</code> — because
+  the meridians crowd together as you go poleward, so a mile of easting is <em>more</em>
+  than a minute of longitude except on the equator (this refinement is
+  <strong>mid-latitude sailing</strong>).</li>
+</ul>
+<p>Since <strong>1 nautical mile = 1 minute of latitude</strong>, <code>D.Lat</code> in miles converts
+straight to degrees and minutes of latitude.</p>
+<div class="worked"><p><strong>Worked example.</strong> You steer <strong>040° T</strong> and run <strong>60 nautical miles</strong>, in the
+region of latitude 50°:</p><ul>
+<li><code>D.Lat = 60 × cos40° = 60 × 0.766 = 46.0′ N</code> → your latitude increases 0° 46′.</li>
+<li><code>Dep = 60 × sin40° = 60 × 0.643 = 38.6 nm east.</code></li>
+<li><code>D.Long = 38.6 ÷ cos50° = 38.6 ÷ 0.643 = 60.0′ = 1° 00′ E.</code></li>
+</ul></div>
+
+<p><strong>The family of sailings</strong>, in increasing accuracy and range:</p>
+<ul>
+<li><strong>Plane sailing</strong> — one flat right triangle; fine for a short leg.</li>
+<li><strong>Traverse sailing</strong> — sum many short legs of different courses (a <em>traverse
+  table</em> does the trig), the natural fit for a day of tacking; the sums give one net
+  D.Lat and departure.</li>
+<li><strong>Mid-latitude sailing</strong> — the departure-to-D.Long correction above, good for
+  moderate runs.</li>
+<li><strong>Mercator sailing</strong> — uses <strong>meridional parts</strong> (from tables) to get D.Long
+  exactly over long distances on a Mercator chart, where a straight course line (a
+  <strong>rhumb line</strong>) can be plotted directly.</li>
+<li><strong>Great-circle sailing</strong> — the <em>shortest</em> path over the globe, which on a Mercator
+  chart is a curve; sailed as a series of rhumb-line legs approximating the arc.</li>
+</ul>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> Plane and traverse sailing were worked out in the 16th–17th
+centuries. The Portuguese mathematician <strong>Pedro Nunes</strong> studied the rhumb line and
+great circles in the 1530s; <strong>Gerardus Mercator</strong>’s 1569 projection made rhumb
+lines straight, and <strong>Edward Wright</strong> (1599) supplied the mathematics of
+meridional parts that Mercator sailing needs.</p>
+</blockquote>
+<hr/>
+<h2 id="19-set-drift-and-leeway-the-sea-s-own-vote">19. Set, drift, and leeway — the sea’s own vote</h2>
+<p>Your DR assumes you go where you point at the speed you log. The sea disagrees:
+<strong>current</strong> carries the whole water mass, and <strong>wind</strong> shoves the hull sideways
+(<strong>leeway</strong>). Both are added to the DR as vectors:</p>
+<p><img alt="Set and drift" loading="lazy" src="img/set-and-drift.png"/></p>
+<ul>
+<li><strong>Set</strong> — the <em>direction</em> the current flows toward.</li>
+<li><strong>Drift</strong> — how <em>far</em> it carried you over the run (its speed × the time).</li>
+</ul>
+<p>Lay off your through-the-water DR track, then from its end lay off the current’s
+set and drift; the line from your start to that new point is your <strong>track made good
+over the ground</strong>, and the endpoint is your <strong>estimated position (EP)</strong> — a DR
+honest about the sea. Leeway is added the same way, as a small angle downwind of
+your heading.</p>
+<p>A navigator’s habit: trust the EP as the working truth, but treat it as <em>provisional</em>
+until the next fix confirms or corrects it — the discipline of doubt from the
+book’s preface.</p>
+<div class="chapnav"><a class="prev" href="part-4.html"><span class="lbl">← Previous</span><span class="ttl">Part IV · The Modern Sight</span></a><a class="next" href="part-6.html"><span class="lbl">Next →</span><span class="ttl">Part VI · Piloting &amp; Coastal Navigation</span></a></div>
+</main>
+</div>
+<script>
+const b=document.body,mb=document.querySelector('.menu-btn');
+if(mb){mb.addEventListener('click',()=>b.classList.toggle('nav-open'));
+document.querySelector('.scrim').addEventListener('click',()=>b.classList.remove('nav-open'));
+document.querySelectorAll('.sidebar a').forEach(a=>a.addEventListener('click',()=>b.classList.remove('nav-open')));}
+</script>
+</body>
+</html>

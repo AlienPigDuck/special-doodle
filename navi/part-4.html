@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Modern Sight — The Mariner’s Craft</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><button class="menu-btn" aria-label="Contents">☰</button><span class="t">The Mariner’s Craft</span></div>
+<div class="scrim"></div>
+<div class="wrap">
+<aside class="sidebar"><a class="brand" href="index.html">The Mariner’s Craft<small>Traditional Navigation</small></a><hr><nav><ol><li><a class="partlink" href="part-0.html">Part 0 · Orientation</a></li><li><a class="partlink" href="part-1.html">Part I · The Foundations</a></li><li><a class="partlink" href="part-2.html">Part II · Finding Latitude</a></li><li><a class="partlink" href="part-3.html">Part III · Finding Longitude</a></li><li class="current"><a class="partlink" href="part-4.html">Part IV · The Modern Sight</a><ol class="sections"><li><a href="#12-what-one-sight-really-tells-you-the-circle-of-position">12. What one sight really tells you — the circle of position</a></li><li><a href="#13-the-intercept-method-marcq-st-hilaire">13. The intercept method — Marcq St-Hilaire</a></li><li><a href="#14-the-running-fix-one-body-two-moments">14. The running fix — one body, two moments</a></li><li><a href="#15-a-day-s-work-in-navigation">15. A day’s work in navigation</a></li></ol></li><li><a class="partlink" href="part-5.html">Part V · Dead Reckoning</a></li><li><a class="partlink" href="part-6.html">Part VI · Piloting &amp; Coastal Navigation</a></li><li><a class="partlink" href="part-7.html">Part VII · Natural Navigation</a></li><li><a class="partlink" href="part-8.html">Part VIII · Putting It Together</a></li></ol></nav></aside>
+<main class="content">
+<div class="eyebrow">Part IV</div><h1>The Modern Sight</h1><p class="lede">The methods of Parts II and III each answered one coordinate at a time and leaned
+on the other being known. The nineteenth century found something cleaner: treat
+<strong>every</strong> sight of <strong>any</strong> body — Sun, Moon, planet, or star — the same way, as <em>a
+line you are somewhere on</em>. Cross two lines and you have a fix, with no assumption
+about which coordinate you’re solving. This is how celestial navigation has been
+done ever since.</p>
+<hr/>
+<h2 id="12-what-one-sight-really-tells-you-the-circle-of-position">12. What one sight really tells you — the circle of position</h2>
+<p>A single corrected altitude does not give a point. It gives a <strong>circle</strong>. The body
+stands directly over one spot on Earth at the instant of your sight — its
+<strong>geographical position (GP)</strong> — and <em>everyone</em> who measures the same altitude lies
+on a circle centred on that GP. You are somewhere on that circle of equal altitude.</p>
+<p><img alt="The circle of position" loading="lazy" src="img/circle-of-position.png"/></p>
+<p>Take a second body and you get a second circle. <strong>Two circles cross at two points</strong>
+— and since those points are usually thousands of miles apart, your dead reckoning
+tells you instantly which one is you. That intersection is your <strong>fix</strong>.</p>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> The insight was an accident. In 1837 the American captain <strong>Thomas
+Sumner</strong>, uncertain of his position approaching the Irish coast in thick weather,
+worked one sight three times for three assumed latitudes, plotted the three
+answers — and found they fell on a straight line that ran through a lighthouse he
+was looking for. The <strong>Sumner line</strong> was the first line of position.</p>
+</blockquote>
+<hr/>
+<h2 id="13-the-intercept-method-marcq-st-hilaire">13. The intercept method — Marcq St-Hilaire</h2>
+<p>Near land the circle of position is so vast that a short arc of it is, for all
+purposes, a straight line — a <strong>line of position (LOP)</strong>. The trick is to draw that
+short piece without plotting the whole circle. The <strong>intercept method</strong> does it by
+comparison: <em>guess</em> a nearby position, compute the altitude you <em>would</em> measure
+from there, and see how your real measurement differs.</p>
+<p><img alt="The intercept method" loading="lazy" src="img/intercept.png"/></p>
+<p>The steps:</p>
+<ol>
+<li><strong>Assumed position (AP).</strong> Pick a convenient position near your DR (whole
+   degrees of latitude, and a longitude that makes the hour angle whole, so the
+   tables are easy).</li>
+<li><strong>Reduce the sight.</strong> From the almanac get the body’s GHA and declination at the
+   exact Greenwich time; combine GHA with your AP longitude to get the <strong>local hour
+   angle (LHA)</strong>. Then solve the navigational triangle (Part III) for the
+   <strong>computed altitude Hc</strong> and the <strong>azimuth Zn</strong>:
+   <code>sin Hc = sin L · sin d + cos L · cos d · cos LHA</code>.</li>
+<li><strong>Intercept.</strong> Compare your measured <strong>Ho</strong> with the computed <strong>Hc</strong>. The
+   difference, in minutes of arc, is a distance in nautical miles.
+   <strong>Ho More → Toward</strong> the body (“HoMoTo”); Ho less → away.</li>
+<li><strong>Draw the LOP.</strong> From the AP, lay off the azimuth <code>Zn</code>, step the intercept
+   distance toward or away, and draw the line of position <strong>square across</strong> the
+   azimuth. You are on that line.</li>
+<li><strong>Fix.</strong> Two bodies give two LOPs; where they cross is your position.</li>
+</ol>
+<div class="worked"><p><strong>Worked example.</strong> AP at latitude <strong>34° N</strong>, longitude chosen so <strong>LHA = 45°</strong>;
+almanac declination <strong>d = 20° N</strong>; measured <strong>Ho = 48° 06′</strong>.</p><ul>
+<li><code>sin Hc = sin34°·sin20° + cos34°·cos20°·cos45°</code></li>
+<li><code>= (0.5592×0.3420) + (0.8290×0.9397×0.7071) = 0.1912 + 0.5508 = 0.7420</code></li>
+<li><strong>Hc = 47° 54′.</strong> Azimuth works out to <strong>Zn ≈ 262°</strong> (nearly due west).</li>
+<li><strong>Intercept = Ho − Hc = 48° 06′ − 47° 54′ = 12′ = 12 nautical miles, Toward.</strong></li>
+</ul></div>
+
+<p>So from the AP you draw a line toward bearing 262°, measure 12 miles along it, and
+rule your LOP at right angles there. Do the same for a second body and cross them.</p>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> The French naval officer <strong>Marcq de Saint-Hilaire</strong> published the
+intercept (“<em>méthode du point rapproché</em>”) in <strong>1875</strong>. Combined with printed
+<strong>sight-reduction tables</strong> (Ageton’s HO 211, then HO 214, 229, 249) that replaced
+the trigonometry with look-ups, it became — and remains — the standard method
+taught to every ship’s officer.</p>
+</blockquote>
+<hr/>
+<h2 id="14-the-running-fix-one-body-two-moments">14. The running fix — one body, two moments</h2>
+<p>You can cross two LOPs from <strong>the same body</strong> if you wait. Take a sight, note the
+time; sail on; take a second sight of the same body later. Because you’ve moved,
+the two lines aren’t parallel-useless — you <strong>advance the first LOP</strong> along your
+course by the distance run between the sights, then cross it with the second. That
+is a <strong>running fix</strong>, and it’s how a lone Sun serves all day when no other body is
+up. (The coastal version, using one landmark, is in Part VI.)</p>
+<hr/>
+<h2 id="15-a-day-s-work-in-navigation">15. A day’s work in navigation</h2>
+<p>The classic routine strings the whole book together into one day at sea:</p>
+<ul>
+<li><strong>Dawn</strong> — the <em>morning stars</em>. In the brief twilight when both horizon and
+  bright stars are visible, shoot three or four stars round the compass and cross
+  their LOPs for a fix.</li>
+<li><strong>Forenoon</strong> — a <em>Sun line</em> for longitude (a time sight, or a Sun LOP by the
+  intercept method).</li>
+<li><strong>Noon</strong> — the <em>meridian altitude</em> for latitude (Part II), and a check of
+  longitude at LAN.</li>
+<li><strong>Afternoon</strong> — another <em>Sun line</em>, run up to cross the morning’s line (a running
+  fix).</li>
+<li><strong>Dusk</strong> — the <em>evening stars</em>, another star fix.</li>
+<li><strong>Through it all</strong> — <strong>dead reckoning</strong> carried forward between fixes, so you
+  always have a working position to shoot from and to sanity-check the sky against.</li>
+</ul>
+<p>Dead reckoning is the thread that holds the day together — and it is a craft of its
+own. That is Part V.</p>
+<div class="chapnav"><a class="prev" href="part-3.html"><span class="lbl">← Previous</span><span class="ttl">Part III · Finding Longitude</span></a><a class="next" href="part-5.html"><span class="lbl">Next →</span><span class="ttl">Part V · Dead Reckoning</span></a></div>
+</main>
+</div>
+<script>
+const b=document.body,mb=document.querySelector('.menu-btn');
+if(mb){mb.addEventListener('click',()=>b.classList.toggle('nav-open'));
+document.querySelector('.scrim').addEventListener('click',()=>b.classList.remove('nav-open'));
+document.querySelectorAll('.sidebar a').forEach(a=>a.addEventListener('click',()=>b.classList.remove('nav-open')));}
+</script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Finding Longitude — The Mariner’s Craft</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><button class="menu-btn" aria-label="Contents">☰</button><span class="t">The Mariner’s Craft</span></div>
+<div class="scrim"></div>
+<div class="wrap">
+<aside class="sidebar"><a class="brand" href="index.html">The Mariner’s Craft<small>Traditional Navigation</small></a><hr><nav><ol><li><a class="partlink" href="part-0.html">Part 0 · Orientation</a></li><li><a class="partlink" href="part-1.html">Part I · The Foundations</a></li><li><a class="partlink" href="part-2.html">Part II · Finding Latitude</a></li><li class="current"><a class="partlink" href="part-3.html">Part III · Finding Longitude</a><ol class="sections"><li><a href="#9-the-time-sight-longitude-from-a-clock">9. The time sight — longitude from a clock</a></li><li><a href="#10-lunar-distances-the-sky-as-a-clock">10. Lunar distances — the sky as a clock</a></li><li><a href="#11-which-method-and-the-honest-limits">11. Which method, and the honest limits</a></li></ol></li><li><a class="partlink" href="part-4.html">Part IV · The Modern Sight</a></li><li><a class="partlink" href="part-5.html">Part V · Dead Reckoning</a></li><li><a class="partlink" href="part-6.html">Part VI · Piloting &amp; Coastal Navigation</a></li><li><a class="partlink" href="part-7.html">Part VII · Natural Navigation</a></li><li><a class="partlink" href="part-8.html">Part VIII · Putting It Together</a></li></ol></nav></aside>
+<main class="content">
+<div class="eyebrow">Part III</div><h1>Finding Longitude</h1><p class="lede">Longitude is the coordinate that broke navigators’ hearts for two thousand years.
+The principle is simple — longitude <em>is</em> the difference between your local time and
+Greenwich time, at 15° per hour (Part I, §5). The difficulty was always the same:
+<strong>how do you know Greenwich time in the middle of an ocean?</strong> This part gives the
+two historic answers — carry a clock, or read the sky as a clock — and the sight
+that turns local time into longitude.</p>
+<hr/>
+<h2 id="9-the-time-sight-longitude-from-a-clock">9. The time sight — longitude from a clock</h2>
+<p>Suppose you already know your <strong>latitude</strong> (from a noon sight, Part II) and you
+carry <strong>Greenwich time</strong> (from a chronometer). Then a single altitude of the Sun,
+taken well away from noon, yields longitude. This is the classic <strong>time sight</strong>.</p>
+<p>It works by solving the navigational triangle — the one triangle behind every
+celestial sight:</p>
+<p><img alt="The navigational triangle" loading="lazy" src="img/nav-triangle.png"/></p>
+<p>Measure the Sun’s altitude and correct it to Ho, noting the exact Greenwich time.
+With latitude <code>L</code> and the Sun’s declination <code>d</code> (from the almanac), solve the
+triangle for the <strong>meridian angle <code>t</code></strong> — how far, in angle, the Sun stands from
+your meridian:</p>
+<pre><code>cos t = (sin Ho − sin L · sin d) / (cos L · cos d)
+</code></pre>
+<p><code>t</code> is your <strong>Local Apparent Time</strong> expressed as arc (15° = 1 hour). Compare it
+with the Greenwich time of the sight, and the difference is your longitude.</p>
+<div class="worked"><p><strong>Worked example.</strong> Afternoon sight. Your latitude (from the day’s noon sight) is
+<strong>L = 40° N</strong>; the almanac gives the Sun’s declination <strong>d = 15° N</strong>; your corrected
+altitude is <strong>Ho = 25° 00′</strong>; the chronometer read <strong>19h 12m</strong> Greenwich (and the
+equation of time is ≈ 0 that day, so Greenwich <em>apparent</em> time ≈ 19h 12m).</p><ul>
+<li><code>cos t = (sin25° − sin40°·sin15°) / (cos40°·cos15°)</code></li>
+<li><code>= (0.4226 − 0.6428×0.2588) / (0.7660×0.9659) = 0.2563 / 0.7400 = 0.3463</code></li>
+<li><code>t = 69.7° = 4h 39m</code>. It’s afternoon, so the Sun is west of you by 4h 39m →
+  <strong>Local Apparent Time = 16h 39m.</strong></li>
+<li><strong>Longitude = (Greenwich time − Local time) × 15°/h</strong> = (19h 12m − 16h 39m) =
+  2h 33m = <strong>38.3° = 38° 15′ W</strong> (west, because your local time lags Greenwich).</li>
+</ul></div>
+
+<p>One altitude, your known latitude, and the clock — and you have longitude. In
+practice a navigator took the Sun in the forenoon for a longitude line, again at
+noon for latitude, and worked the two together: <strong>the “day’s work”</strong> of Part IV.</p>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> The method waited on the clock. The <strong>Longitude Act of 1714</strong> set
+a £20,000 prize; <strong>John Harrison</strong> spent his life on it, his sea-clock <strong>H4</strong>
+proving itself on a 1761–62 Atlantic crossing. Captain Cook carried Larcum
+Kendall’s copy <strong>K1</strong> on his second voyage (1772–75) and came home converted.
+Nathaniel Bowditch’s <em>American Practical Navigator</em> (1802) put the time sight
+into the hands of every literate mate.</p>
+</blockquote>
+<hr/>
+<h2 id="10-lunar-distances-the-sky-as-a-clock">10. Lunar distances — the sky as a clock</h2>
+<p>Chronometers were, for decades, ruinously expensive and delicate. The alternative
+was to read Greenwich time <em>off the sky itself</em>, using the one fast-moving body up
+there: the <strong>Moon</strong>, which slides eastward against the stars by about half a degree
+an hour — roughly its own width. That makes the Moon a slow clock hand.</p>
+<p>The method, called <strong>taking a lunar</strong>:</p>
+<ol>
+<li>With a sextant, measure the <strong>angular distance</strong> between the Moon’s edge and the
+   Sun (by day) or a listed bright star (by night).</li>
+<li>“<strong>Clear</strong>” that distance of refraction and the Moon’s large parallax — a fussy
+   calculation, since the Moon is near enough to shift with your viewpoint.</li>
+<li>The almanac tabulated the <em>predicted</em> Moon-to-body distance for every three
+   hours of <strong>Greenwich time</strong>. Find where your cleared distance fits, and you have
+   read Greenwich time out of the heavens — no clock aboard.</li>
+</ol>
+<p>With Greenwich time in hand, longitude follows exactly as in the time sight. Lunars
+were laborious — an hour of calculation was normal — but they needed no costly
+instrument beyond a good sextant, and they kept working when a chronometer stopped.</p>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> Johannes Werner proposed the idea in 1514; it became practical
+only when <strong>Tobias Mayer</strong>’s accurate lunar tables (1750s) let <strong>Nevil
+Maskelyne</strong>, Astronomer Royal, found the annual <strong><em>Nautical Almanac</em> in 1767</strong>,
+which tabulated lunar distances against Greenwich time. Lunars and chronometers
+ran side by side until reliable, affordable clocks won out in the mid-1800s.</p>
+</blockquote>
+<hr/>
+<h2 id="11-which-method-and-the-honest-limits">11. Which method, and the honest limits</h2>
+<ul>
+<li><strong>Chronometer + time sight</strong> — fast and simple <em>once you trust the clock</em>. The
+  risk is the clock: navigators carried two or three, compared them daily, and kept
+  a <strong>rate</strong> (how many seconds it gained or lost per day) to correct the reading.</li>
+<li><strong>Lunars</strong> — a clock in the sky, independent of any machine, but slow and
+  demanding of both sextant skill and arithmetic.</li>
+</ul>
+<p>Both share one weakness the time sight makes plain: <strong>an error in your assumed
+latitude feeds straight into the longitude.</strong> That flaw is exactly what the
+line-of-position methods of Part IV were invented to remove — by treating a sight
+not as “a longitude” or “a latitude” but as <em>a line you are somewhere on</em>, and
+crossing two of them.</p>
+<div class="chapnav"><a class="prev" href="part-2.html"><span class="lbl">← Previous</span><span class="ttl">Part II · Finding Latitude</span></a><a class="next" href="part-4.html"><span class="lbl">Next →</span><span class="ttl">Part IV · The Modern Sight</span></a></div>
+</main>
+</div>
+<script>
+const b=document.body,mb=document.querySelector('.menu-btn');
+if(mb){mb.addEventListener('click',()=>b.classList.toggle('nav-open'));
+document.querySelector('.scrim').addEventListener('click',()=>b.classList.remove('nav-open'));
+document.querySelectorAll('.sidebar a').forEach(a=>a.addEventListener('click',()=>b.classList.remove('nav-open')));}
+</script>
+</body>
+</html>

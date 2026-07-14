@@ -1,0 +1,270 @@
+/* The Mariner's Craft — Admiral FitzRoy / age-of-sail aesthetic */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English:ital@0;1&display=swap');
+
+:root{
+  --parch-1:#f2e7cb;   /* light parchment */
+  --parch-2:#e7d7ac;   /* mid parchment  */
+  --parch-3:#dcc793;   /* deep parchment */
+  --ink:#3a2a15;       /* sepia ink text */
+  --ink-soft:#5c4726;
+  --ink-faint:#8a7245;
+  --sea:#1d3a4a;       /* deep sea navy  */
+  --sea-2:#2c5468;
+  --brass:#8a6a1e;
+  --brass-hi:#b8901f;
+  --rust:#8a3f22;
+  --rule:#c3ab74;
+  --slate-bg:#efe2bf;
+  --aside-bg:#ece0be;
+  --sidebar-bg:#241812;   /* mahogany */
+  --sidebar-bg2:#3a2416;
+  --sidebar-ink:#e8d9b5;
+  --sidebar-hi:#e8c86a;
+  --maxw:720px;
+  --sbw:290px;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'EB Garamond',Georgia,serif;
+  color:var(--ink);
+  font-size:1.18rem;
+  line-height:1.72;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(255,255,255,.28), rgba(255,255,255,0) 55%),
+    radial-gradient(ellipse at 80% 100%, rgba(120,80,30,.12), rgba(120,80,30,0) 55%),
+    repeating-linear-gradient(0deg, rgba(120,90,40,.028) 0 2px, rgba(0,0,0,0) 2px 4px),
+    linear-gradient(160deg,var(--parch-1),var(--parch-2) 60%,var(--parch-3));
+  background-attachment:fixed;
+  min-height:100vh;
+  -webkit-text-size-adjust:100%;
+}
+
+/* ---------------- layout ---------------- */
+.wrap{display:flex;min-height:100vh}
+.content{
+  flex:1;min-width:0;
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:64px 30px 120px;
+  padding-left:max(30px, env(safe-area-inset-left));
+  padding-right:max(30px, env(safe-area-inset-right));
+}
+
+/* ---------------- sidebar ---------------- */
+.sidebar{
+  width:var(--sbw);flex-shrink:0;
+  background:linear-gradient(160deg,var(--sidebar-bg2),var(--sidebar-bg));
+  color:var(--sidebar-ink);
+  border-right:3px solid var(--brass);
+  box-shadow:inset -8px 0 24px rgba(0,0,0,.35), 2px 0 0 #14100a;
+  position:sticky;top:0;height:100vh;overflow-y:auto;
+  padding:34px 22px 60px;
+}
+.sidebar .brand{
+  font-family:'Cinzel',serif;font-weight:700;
+  font-size:1.15rem;letter-spacing:2px;line-height:1.3;
+  color:var(--sidebar-hi);text-transform:uppercase;
+  display:block;text-decoration:none;margin-bottom:4px;
+}
+.sidebar .brand small{display:block;font-family:'EB Garamond',serif;
+  font-weight:400;font-size:.72rem;letter-spacing:3px;text-transform:uppercase;
+  color:var(--ink-faint);color:#b89b63;margin-top:6px}
+.sidebar hr{border:0;border-top:1px solid rgba(232,200,106,.28);margin:22px 0}
+.sidebar nav ol{list-style:none}
+.sidebar nav > ol > li{margin:2px 0}
+.sidebar .partlink{
+  display:block;text-decoration:none;color:var(--sidebar-ink);
+  font-family:'Cinzel',serif;font-size:.82rem;letter-spacing:.5px;
+  padding:7px 10px;border-radius:3px;line-height:1.35;
+}
+.sidebar .partlink:hover{background:rgba(232,200,106,.12);color:#fff}
+.sidebar li.current > .partlink{background:rgba(232,200,106,.16);color:var(--sidebar-hi)}
+.sidebar .sections{list-style:none;margin:2px 0 10px 8px;
+  border-left:1px solid rgba(232,200,106,.25);padding-left:0}
+.sidebar .sections a{
+  display:block;text-decoration:none;color:#c9b789;
+  font-size:.92rem;padding:3px 10px;line-height:1.3;
+}
+.sidebar .sections a:hover{color:#fff}
+
+/* mobile drawer toggle */
+.topbar{display:none}
+.scrim{display:none}
+
+/* ---------------- typography ---------------- */
+.content h1{
+  font-family:'Cinzel',serif;font-weight:700;
+  font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;
+  color:var(--ink);letter-spacing:1px;
+  margin:.2em 0 .1em;text-wrap:balance;
+}
+.eyebrow{font-family:'Cinzel',serif;font-size:.72rem;letter-spacing:4px;
+  text-transform:uppercase;color:var(--rust);margin-bottom:10px}
+.content h2{
+  font-family:'Cinzel',serif;font-weight:600;
+  font-size:clamp(1.25rem,3vw,1.5rem);line-height:1.25;
+  color:var(--sea);margin:2.2em 0 .5em;scroll-margin-top:20px;
+}
+.content h3{font-family:'EB Garamond',serif;font-weight:600;font-style:italic;
+  font-size:1.2rem;color:var(--ink-soft);margin:1.6em 0 .3em}
+.content p{margin:0 0 1.05em}
+.content a{color:var(--sea-2);text-decoration:underline;text-underline-offset:2px;
+  text-decoration-color:var(--rule)}
+.content a:hover{color:var(--rust)}
+.content strong{font-weight:600;color:var(--ink)}
+.content em{font-style:italic}
+.content ul,.content ol{margin:0 0 1.1em 1.4em}
+.content li{margin:.28em 0}
+.content hr{border:0;height:26px;margin:1.6em auto;
+  background:center/contain no-repeat
+    radial-gradient(circle at 50% 50%, var(--brass) 0 2px, transparent 3px);
+  position:relative}
+.content hr::before,.content hr::after{
+  content:"";position:absolute;top:50%;height:1px;width:38%;
+  background:linear-gradient(90deg,transparent,var(--rule))}
+.content hr::before{left:2%}
+.content hr::after{right:2%;background:linear-gradient(270deg,transparent,var(--rule))}
+
+/* drop cap on the opening paragraph */
+.content .lede::first-letter{
+  font-family:'Cinzel',serif;font-weight:700;
+  float:left;font-size:3.5em;line-height:.72;
+  padding:6px 10px 0 0;color:var(--rust);
+}
+
+/* ---------------- images / figures ---------------- */
+.content img{max-width:100%;height:auto;display:block}
+.content p:has(> img){text-align:center}
+figure,p > img{margin:1.6em auto}
+.content img{
+  background:#fbf6e8;border:1px solid var(--rule);border-radius:4px;
+  padding:14px;margin:1.6em auto;
+  box-shadow:0 6px 18px rgba(58,32,12,.18),inset 0 0 0 4px #fbf6e8,inset 0 0 0 5px #e4d3a4;
+}
+
+/* ---------------- blockquote asides ("Who & when") ---------------- */
+blockquote{
+  background:
+    repeating-linear-gradient(0deg, rgba(120,90,40,.03) 0 1px, transparent 1px 3px),
+    linear-gradient(180deg,var(--aside-bg),#e4d6b0);
+  border:1px solid var(--rule);border-left:4px solid var(--brass);
+  border-radius:3px;
+  padding:16px 20px;margin:1.6em 0;
+  font-size:.98rem;line-height:1.62;color:var(--ink-soft);
+  box-shadow:0 3px 10px rgba(58,32,12,.10);
+}
+blockquote p{margin:0 0 .6em}
+blockquote p:last-child{margin-bottom:0}
+blockquote strong:first-child{
+  font-family:'Cinzel',serif;font-weight:600;font-size:.78rem;
+  letter-spacing:1.5px;text-transform:uppercase;color:var(--rust);
+  display:inline-block;
+}
+
+/* ---------------- worked examples ---------------- */
+.worked{
+  background:linear-gradient(180deg,var(--slate-bg),#e6d7b0);
+  border:1px solid var(--brass);border-radius:5px;
+  padding:8px 22px 16px;margin:1.7em 0;
+  box-shadow:0 4px 14px rgba(58,32,12,.16),inset 0 0 0 1px rgba(255,255,255,.25);
+}
+.worked::before{
+  content:"⚓ Worked Example";display:block;
+  font-family:'Cinzel',serif;font-weight:600;font-size:.74rem;
+  letter-spacing:2px;text-transform:uppercase;color:var(--rust);
+  border-bottom:1px solid var(--rule);
+  margin:0 -22px 12px;padding:10px 22px 8px;
+}
+.worked > p:first-of-type strong:first-child{display:none} /* hide redundant "Worked example." label */
+.worked ul,.worked ol{margin-left:1.1em}
+
+/* ---------------- code / formulae ---------------- */
+code{
+  font-family:'IM Fell English',Georgia,serif;font-style:italic;
+  font-size:1.02em;background:rgba(120,90,40,.10);
+  padding:.03em .35em;border-radius:3px;border:1px solid rgba(138,106,30,.22);
+  color:var(--ink);white-space:nowrap;
+}
+pre{
+  background:linear-gradient(180deg,#efe2bf,#e6d7b0);
+  border:1px solid var(--brass);border-left:4px solid var(--brass);
+  border-radius:4px;padding:14px 18px;margin:1.4em 0;overflow-x:auto;
+  box-shadow:inset 0 1px 4px rgba(58,32,12,.12);
+}
+pre code{background:none;border:0;padding:0;white-space:pre;font-size:1.05rem;
+  display:block;line-height:1.7}
+
+/* ---------------- prev / next footer ---------------- */
+.chapnav{
+  display:flex;justify-content:space-between;gap:14px;
+  margin-top:64px;padding-top:26px;border-top:2px solid var(--rule);
+}
+.chapnav a{
+  flex:1;text-decoration:none;color:var(--ink);
+  border:1px solid var(--rule);border-radius:4px;padding:14px 18px;
+  background:linear-gradient(180deg,#f0e4c4,#e7d8b2);
+  box-shadow:0 3px 8px rgba(58,32,12,.12);transition:transform .12s;
+}
+.chapnav a:hover{transform:translateY(-2px);border-color:var(--brass)}
+.chapnav a.next{text-align:right}
+.chapnav .lbl{display:block;font-family:'Cinzel',serif;font-size:.66rem;
+  letter-spacing:2px;text-transform:uppercase;color:var(--rust);margin-bottom:4px}
+.chapnav .ttl{font-size:1.05rem;font-weight:500}
+.chapnav a.disabled{visibility:hidden}
+
+/* ---------------- cover / contents page ---------------- */
+.cover{max-width:760px;margin:0 auto;padding:70px 30px 120px;text-align:center;
+  padding-left:max(30px,env(safe-area-inset-left));
+  padding-right:max(30px,env(safe-area-inset-right))}
+.cover .rose{font-size:3rem;color:var(--brass);line-height:1;margin-bottom:8px}
+.cover h1{font-family:'Cinzel',serif;font-weight:700;
+  font-size:clamp(2.2rem,7vw,3.6rem);letter-spacing:2px;color:var(--ink);
+  line-height:1.05;margin:.1em 0}
+.cover .tagline{font-style:italic;font-size:1.2rem;color:var(--ink-soft);
+  max-width:34ch;margin:12px auto 0}
+.cover .divider{margin:34px auto;height:1px;width:60%;
+  background:linear-gradient(90deg,transparent,var(--brass),transparent)}
+.cover .intro{text-align:left;font-size:1.12rem}
+.cover .intro p{margin:0 0 1em}
+.toc{text-align:left;margin:30px auto 0;max-width:640px}
+.toc h2{font-family:'Cinzel',serif;font-size:1rem;letter-spacing:3px;
+  text-transform:uppercase;color:var(--rust);text-align:center;margin-bottom:18px}
+.toc ol{list-style:none;counter-reset:part}
+.toc li{counter-increment:part;margin:0 0 4px}
+.toc a{display:block;text-decoration:none;color:var(--ink);
+  border:1px solid var(--rule);border-radius:4px;padding:14px 18px 14px 56px;
+  position:relative;background:linear-gradient(180deg,#f0e4c4,#e8d9b3);
+  box-shadow:0 2px 7px rgba(58,32,12,.10);transition:transform .12s,border-color .12s}
+.toc a:hover{transform:translateX(3px);border-color:var(--brass)}
+.toc a .pt{font-family:'Cinzel',serif;font-weight:700;color:var(--rust);
+  position:absolute;left:16px;top:50%;transform:translateY(-50%);font-size:1.15rem}
+.toc a .nm{font-family:'Cinzel',serif;font-size:1.02rem;display:block}
+.toc a .ds{font-style:italic;color:var(--ink-soft);font-size:.95rem;display:block;margin-top:3px}
+
+/* ---------------- responsive: sidebar → drawer ---------------- */
+@media (max-width:900px){
+  .topbar{
+    display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:30;
+    background:linear-gradient(180deg,var(--sidebar-bg2),var(--sidebar-bg));
+    color:var(--sidebar-hi);border-bottom:2px solid var(--brass);
+    padding:12px 16px;padding-top:max(12px,env(safe-area-inset-top));
+  }
+  .topbar button{
+    background:none;border:1px solid var(--brass);color:var(--sidebar-hi);
+    font-size:1.3rem;line-height:1;border-radius:4px;padding:4px 10px;cursor:pointer}
+  .topbar .t{font-family:'Cinzel',serif;font-weight:600;font-size:.9rem;
+    letter-spacing:1.5px;text-transform:uppercase}
+  .sidebar{
+    position:fixed;top:0;left:0;z-index:50;height:100dvh;
+    transform:translateX(-100%);transition:transform .25s ease;
+    box-shadow:6px 0 30px rgba(0,0,0,.5);
+  }
+  body.nav-open .sidebar{transform:translateX(0)}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;z-index:40;
+    background:rgba(10,6,4,.5)}
+  .content{padding-top:34px}
+  body{font-size:1.12rem}
+}
+@media (min-width:901px){ .topbar{display:none} }

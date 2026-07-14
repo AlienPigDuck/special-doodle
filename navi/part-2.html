@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Finding Latitude — The Mariner’s Craft</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><button class="menu-btn" aria-label="Contents">☰</button><span class="t">The Mariner’s Craft</span></div>
+<div class="scrim"></div>
+<div class="wrap">
+<aside class="sidebar"><a class="brand" href="index.html">The Mariner’s Craft<small>Traditional Navigation</small></a><hr><nav><ol><li><a class="partlink" href="part-0.html">Part 0 · Orientation</a></li><li><a class="partlink" href="part-1.html">Part I · The Foundations</a></li><li class="current"><a class="partlink" href="part-2.html">Part II · Finding Latitude</a><ol class="sections"><li><a href="#6-latitude-by-polaris-the-pole-star">6. Latitude by Polaris — the pole star</a></li><li><a href="#7-latitude-by-the-noon-sun-the-workhorse">7. Latitude by the noon Sun — the workhorse</a></li><li><a href="#8-latitude-by-a-meridian-star-and-by-zenith-stars">8. Latitude by a meridian star, and by zenith stars</a></li></ol></li><li><a class="partlink" href="part-3.html">Part III · Finding Longitude</a></li><li><a class="partlink" href="part-4.html">Part IV · The Modern Sight</a></li><li><a class="partlink" href="part-5.html">Part V · Dead Reckoning</a></li><li><a class="partlink" href="part-6.html">Part VI · Piloting &amp; Coastal Navigation</a></li><li><a class="partlink" href="part-7.html">Part VII · Natural Navigation</a></li><li><a class="partlink" href="part-8.html">Part VIII · Putting It Together</a></li></ol></nav></aside>
+<main class="content">
+<div class="eyebrow">Part II</div><h1>Finding Latitude</h1><p class="lede">Latitude is the easy coordinate: it needs no clock, only a measured height and,
+for the Sun, a table of where the Sun stands that day. This part gives you three
+ways to get it — one by night, one by day (the workhorse), and one that needs
+nothing written down at all.</p>
+<hr/>
+<h2 id="6-latitude-by-polaris-the-pole-star">6. Latitude by Polaris — the pole star</h2>
+<p>In the northern hemisphere the simplest latitude of all: <strong>the altitude of Polaris
+is your latitude.</strong> Polaris sits almost exactly over the North Pole, so its height
+above your horizon equals how far north you are (the geometry is in Part I, and
+Part 0 walks it from zero). Measure Polaris with the sextant, apply the
+corrections, and you have latitude within a degree straight away.</p>
+<p>Two refinements a careful navigator adds:</p>
+<ul>
+<li>Polaris is not <em>exactly</em> at the pole — it circles it by about ¾°. The almanac
+  gives a small <strong>“Polaris correction”</strong> (historically read off the position of the
+  <em>Guards</em>, the two bright stars of the Little Bear) to remove that wobble.</li>
+<li>It only works in the north, and only while Polaris is visible — see the
+  visibility table in Part 0 (§0.3). South of the equator there is no bright
+  pole star; you fall back on the noon Sun.</li>
+</ul>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> The “Regiment of the North Star” — rules for correcting Polaris
+using the Guards — was codified by the Portuguese school of navigation under
+Prince Henry the Navigator in the 15th century and printed in the <em>Regimento do
+Astrolábio e do Quadrante</em> around 1509.</p>
+</blockquote>
+<hr/>
+<h2 id="7-latitude-by-the-noon-sun-the-workhorse">7. Latitude by the noon Sun — the workhorse</h2>
+<p>Polaris is a night sight and northern-only. The method that actually carried ships
+across every ocean is the <strong>meridian altitude of the Sun</strong> — the <em>noon sight</em> —
+because it works by day, in both hemispheres, and needs only one measurement at
+one predictable moment.</p>
+<p>At <strong>Local Apparent Noon (LAN)</strong> the Sun crosses your meridian, due north or due
+south of you, at its highest point of the day. Watch it climb, catch its <strong>maximum
+altitude</strong>, and correct it to Ho. Then:</p>
+<p><img alt="The noon sight" loading="lazy" src="img/noon-sight.png"/></p>
+<p><strong>The rule, in two steps:</strong></p>
+<ol>
+<li><strong>Zenith distance:</strong> <code>z = 90° − Ho</code>. Give <code>z</code> a <em>name</em> (N or S) for the way the
+   Sun lies from you — if the Sun bore <em>south</em> at noon, the zenith is north of it,
+   so name <code>z</code> <strong>North</strong>.</li>
+<li><strong>Combine with declination:</strong> the almanac gives the Sun’s <strong>declination</strong> (how
+   far north or south of the equator the Sun is that day), with a name. Then
+   <code>Latitude = z ± Declination</code>: <strong>same name → add; contrary names → subtract and
+   keep the larger name.</strong></li>
+</ol>
+<div class="worked"><p><strong>Worked example.</strong> You are somewhere north of the tropics. At LAN the Sun bears
+due south; your corrected altitude is <strong>Ho = 47° 30′</strong>. The almanac gives the Sun’s
+declination as <strong>20° 00′ N</strong>.</p><ul>
+<li><code>z = 90° − 47° 30′ = 42° 30′</code>. The Sun bore south, so name z <strong>North</strong> → z =
+  42° 30′ N.</li>
+<li>Declination is 20° 00′ <strong>N</strong>. Same name (N and N) → <strong>add</strong>:
+  <code>42° 30′ + 20° 00′ = 62° 30′</code>.</li>
+<li><strong>Latitude = 62° 30′ N.</strong></li>
+</ul></div>
+
+<p>That’s the whole method — one sight, one almanac look-up, two lines of arithmetic,
+and no clock. (You <em>do</em> want the ship’s time of noon roughly, so you know when to
+be watching, and — combined with a chronometer — LAN also gives a check on
+longitude; see Part III.)</p>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> Practical noon-latitude sailing needed tables of the Sun’s daily
+declination. Regiomontanus (Johannes Müller) printed usable <em>Ephemerides</em> in
+1474; Abraham Zacuto’s <em>Almanach Perpetuum</em> (1496) gave the solar declination
+tables the Portuguese and Spanish explorers actually carried — Vasco da Gama and
+Columbus among them. This is the technique of the great age of discovery.</p>
+</blockquote>
+<hr/>
+<h2 id="8-latitude-by-a-meridian-star-and-by-zenith-stars">8. Latitude by a meridian star, and by zenith stars</h2>
+<p>The noon-Sun method is not special to the Sun. <strong>Any body</strong> crossing your meridian
+gives latitude the same way — measure its meridian altitude, take the zenith
+distance, combine with <em>its</em> declination from the almanac. A bright star crossing
+the meridian at twilight is a fine latitude sight when the Sun won’t serve.</p>
+<p>There is also an even older, table-free trick. A star whose declination equals your
+latitude passes <strong>directly through your zenith</strong> — straight overhead. So if you know
+that a particular star culminates at the zenith over, say, a home island, then
+seeing it pass overhead tells you that you have reached that latitude, no
+instrument required. Pacific navigators and Arab pilots both used such <strong>zenith
+stars</strong> as latitude markers for specific destinations.</p>
+<blockquote class="aside">
+<p><strong>Who &amp; when.</strong> Zenith-star latitude is genuinely ancient and independent of the
+European tradition — Micronesian and Polynesian navigators, and the Arab pilots
+of the Indian Ocean (with the kamal), all used a star’s overhead passage, or its
+height above the horizon, to hold a latitude and “run down the westing” to a
+landfall. More on their whole system in Part VII.</p>
+</blockquote>
+<hr/>
+<p><strong>The pattern to remember:</strong> latitude always comes from a <em>height</em> — the pole
+star’s, the noon Sun’s, a meridian star’s, or a zenith star’s — never from a clock.
+Longitude is the opposite, and harder; that is Part III.</p>
+<div class="chapnav"><a class="prev" href="part-1.html"><span class="lbl">← Previous</span><span class="ttl">Part I · The Foundations</span></a><a class="next" href="part-3.html"><span class="lbl">Next →</span><span class="ttl">Part III · Finding Longitude</span></a></div>
+</main>
+</div>
+<script>
+const b=document.body,mb=document.querySelector('.menu-btn');
+if(mb){mb.addEventListener('click',()=>b.classList.toggle('nav-open'));
+document.querySelector('.scrim').addEventListener('click',()=>b.classList.remove('nav-open'));
+document.querySelectorAll('.sidebar a').forEach(a=>a.addEventListener('click',()=>b.classList.remove('nav-open')));}
+</script>
+</body>
+</html>
