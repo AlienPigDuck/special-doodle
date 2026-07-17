@@ -1,0 +1,77 @@
+[ALEX] Welcome to Tokyo Open Weekend. Markets are closed, we're catching our breath, and Maya, what a breath it needs to be.
+
+[MAYA] Alex, this was a chip carnage week. I mean it. Let me start with the name that tells the whole story: Kioxia.
+
+[ALEX] The former Toshiba Memory. Only listed last month.
+
+[MAYA] Right. It went limit-down Friday. Down 16%, closing at 52,110 yen. And here's the gut punch — it's now down 50% from its June 22 IPO highs.
+
+[ALEX] Half its value gone in under a month.
+
+[MAYA] And it's not alone. Kioxia's parent, Kioxia Holdings, fell 16.1% on the Tokyo close. Tokyo Electron down 8.17%. Advantest down 7.2%. Murata off 9.14%. SoftBank Group dropped 9.01%.
+
+[ALEX] So this is the AI trade unwinding.
+
+[MAYA] It's the AI trade getting a reality check. The briefing calls it a "visibility check" phase. Growth expectations aren't broken — they were just pulled forward too fast. This whole complex rallied 2.8 times in six months.
+
+[ALEX] And the ugly part is the mechanics. This looks like forced selling. Credit buyers getting liquidated. That's leverage exhausting, not fundamentals collapsing.
+
+[MAYA] Exactly. And it lines up with the US Thursday session. Applied Materials fell 5.57%. Nvidia down 2.21%. The SOX chip index off 1.63%.
+
+[ALEX] Which feeds straight back into Tokyo Electron and Advantest. That correlation is direct.
+
+[MAYA] There was one bright spot, though. Nintendo actually rose 3.02%. And Netflix — that's the flip side.
+
+[ALEX] Netflix cratered over 7% in the US.
+
+[MAYA] Down 7.26%. Their guidance points to 11.7% revenue growth — a three-year low. Streaming time in the US is down 30% year on year. That's a warning shot for content names, though Sony held up fine, up 0.93% Friday.
+
+[ALEX] Let's zoom out to the macro, because this is where I live. The yen is still weak. Dollar-yen at 162.35.
+
+[MAYA] Even after all that intervention.
+
+[ALEX] Here's the striking figure — 11.7 trillion yen spent on intervention, and it wasn't enough to turn momentum. But the story's changing. The market now calls this "Takaichi weak yen." Policy-induced, not structural.
+
+[MAYA] Meaning it's about the fiscal plan.
+
+[ALEX] Right. 83% of an FX survey blames the Takaichi administration's aggressive fiscal policy. Big spending plus deferred rate hikes equals inflation risk equals yen selling. And real rates are near minus 0.5% — inching toward positive, but not there.
+
+[MAYA] And bond yields?
+
+[ALEX] This is the tension. The new 10-year JGB yield recently touched about 2.9% — a 30-year high. Meanwhile the government is reasserting that policy is "delegated to the BOJ." Markets are nervous that means suppressing rate hikes.
+
+[MAYA] Which is yen-negative again. What about energy? Because that hits Japan hard.
+
+[ALEX] Oil surged. WTI up 3.57% to 81.77. That's the Iran-US conflict flaring again. And LNG — the Asian JKM benchmark hit a four-month high. Strait of Hormuz closure fears.
+
+[MAYA] Terrible timing for Toyota, then.
+
+[ALEX] Awful. Toyota's guidance for the year ending March 2027 flags a 1.38 trillion yen hit from US tariffs, plus 400 billion from Middle East fuel costs. Toyota only slipped 0.33% Friday, but that's a heavy load.
+
+[MAYA] There's a workaround, though. Toyoda Tsusho launched a direct mixed-cargo shipping service, Japan to Mexico and Canada. Cuts costs 24 to 61%, dodging the US double-tariff trap.
+
+[ALEX] Smart logistics. And gold ticked up to 4,023, less than 1%. Classic safe-haven bid with the geopolitics.
+
+[MAYA] Now, one corner that's actually catching a bid — REITs. The East REIT Index is back at 1,846, matching its May highs, off the June bottom near 1,751.
+
+[ALEX] Money rotating out of equities into property.
+
+[MAYA] Regional banks and credit unions are accumulating via ETFs. And GLP is reporting rent hikes of 9 to 11% next year. That's real cash flow.
+
+[ALEX] So if the AI trade scares you, the REIT rotation is the counter-story. Let's get to the week ahead.
+
+[MAYA] The big one on the policy calendar — a consumption tax decision due early August. Food items possibly cut to 1% for two years. That's a consumer sentiment lever worth watching.
+
+[ALEX] Also the JFTC's new M&A guidelines. They'll now allow "beneficial" consolidation, even up to full domestic share, if the economic benefit is proven. That could unlock deal activity.
+
+[MAYA] And the FSA is putting major audit firms under year-round monitoring now, not the old two-year cycle. Governance is tightening.
+
+[ALEX] But honestly, Maya, the real event this week isn't scheduled. It's whether the chip liquidation finds a floor.
+
+[MAYA] Agreed. So here's my takeaway. Don't try to catch the falling knife in semis yet — wait for the forced selling to burn out. But watch REITs and the consumption tax story for where the money's actually going.
+
+[ALEX] And mine — this is a policy-driven yen and a geopolitics-driven oil price. Both point to inflation staying sticky. Position for volatility, not comfort. That's your week ahead.
+
+[MAYA] Trade safe, everyone.
+
+[ALEX] See you next weekend.
