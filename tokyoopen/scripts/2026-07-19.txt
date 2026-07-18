@@ -1,0 +1,127 @@
+[ALEX] Welcome to Tokyo Open Weekend. Alex here.
+
+[MAYA] And Maya. And wow, what a Friday to talk about.
+
+[ALEX] The Nikkei fell 2,694 yen on the 17th. Down 4% to 64,141.
+
+[MAYA] Below 63,000 intraday at one point. First time in about a month.
+
+[ALEX] And we're now more than 10% off the June 25 peak. That's officially an adjustment.
+
+[MAYA] Which is a polite way of saying the semiconductor party got raided.
+
+[ALEX] Tell them about Kioxia. This one still stuns me.
+
+[MAYA] Kioxia has literally halved from its peak. Cut in two.
+
+[ALEX] What happened there?
+
+[MAYA] Margin buying went wild. Credit balance ballooned to over one trillion yen. Back in March it was around 220 billion.
+
+[ALEX] So leverage on the way up.
+
+[MAYA] And forced liquidations on the way down. That's the ugly part. Down 16% on Friday alone.
+
+[ALEX] And it wasn't just Kioxia. Murata dropped 9% on the day.
+
+[MAYA] And Murata's down 40 to 50% from recent highs. It's an MLCC story — those tiny ceramic capacitors. Demand's soft, and AI capex is getting repriced hard.
+
+[ALEX] Tokyo Electron fell more than 8%. SoftBank down 9%. Advantest off 7%.
+
+[MAYA] The whole chip complex. And it lines up with what happened overnight in New York on the same day.
+
+[ALEX] Applied Materials dropped nearly 6% in the regular session, worse after hours. That fed straight into Tokyo Electron.
+
+[MAYA] And here's the trigger nobody saw coming. A Chinese startup called Moonshot dropped a model, Kimi K3.
+
+[ALEX] Scoring near Anthropic's Claude on benchmarks.
+
+[MAYA] Right. So suddenly the market's asking — are the hyperscalers overbuilding? Meta's sitting on idle cloud capacity. Add China's CXMT expanding DRAM supply, and memory chips get slammed.
+
+[ALEX] It's the DeepSeek fear all over again. Cheap AI means less hardware spend.
+
+[MAYA] And look at Korea for a preview of the damage. KOSPI down 25% from May highs.
+
+[ALEX] Thirty-seven circuit-breaker halts on leveraged ETFs this year. For context, 2008 had 26 all year.
+
+[MAYA] That's the leverage unwind, and it's contagious.
+
+[ALEX] Let's step back to the macro, because the yen is the other big character here.
+
+[MAYA] Still weak, right?
+
+[ALEX] Dollar-yen at 162.35. And the BOJ and Ministry of Finance keep threatening "decisive action."
+
+[MAYA] And the yen bears keep shrugging.
+
+[ALEX] One technical model, from Vikram Murarka, even flags 170 as possible.
+
+[MAYA] Which normally is great for exporters. But this time there's a sting.
+
+[ALEX] Import costs. Naphtha especially.
+
+[MAYA] That's my segue to the story people are ignoring. Supermarkets.
+
+[ALEX] The unglamorous stuff.
+
+[MAYA] Life Corporation — sales up 6%, but operating profit down 15%. Packaging costs. Naphtha feeds the plastic trays and film.
+
+[ALEX] United Super Markets actually posted an operating loss.
+
+[MAYA] They can't pass costs to shoppers. Private-label helps a bit, not enough. Watch the whole food-retail shelf.
+
+[ALEX] And oil is fueling that. WTI jumped 4.48% Friday to 82.49.
+
+[MAYA] Middle East tensions. Iran-US escalation. Japan imports 40% of its naphtha from that region.
+
+[ALEX] The government's even weighing strategic naphtha stockpiling. Gasoline's held at that 170 yen ceiling with subsidy — 169.9 nationally on the 13th.
+
+[MAYA] Gold firm too, up 0.68% to 4,012.
+
+[ALEX] The safety bid is on. VIX popped 12% to 18.77.
+
+[MAYA] Not panic. But nerves.
+
+[ALEX] World news for Japan investors — the big one is trade. July 24.
+
+[MAYA] What happens then?
+
+[ALEX] The interim 10% Section-122 tariffs expire. The administration pivots to 301-Section tariffs. Sixty countries, 10 to 12.5%, on forced-labor grounds.
+
+[MAYA] Where does Japan sit?
+
+[ALEX] The 12.5% group. But the prior 15% inclusive cap is said to hold.
+
+[MAYA] So no fresh shock for exporters, if that holds. Worth watching Thursday.
+
+[ALEX] And keep an eye on Taiwan money flowing into Japanese real estate. Geopolitical hedging.
+
+[MAYA] Which is a quiet positive for Tokyo property. Speaking of — Mori Building announced a big Toranomon redevelopment. Forty thousand square meters next to Toranomon Hills.
+
+[ALEX] No stock reaction yet. It's a capex-recovery positioning play.
+
+[MAYA] Long game. File it away.
+
+[ALEX] So the week ahead, Maya. What matters?
+
+[MAYA] First, Monday's Tokyo open. New York was ugly Friday — Nasdaq down 1.4%, the SOX chip index off 1.63%.
+
+[ALEX] And Netflix cratered 7.26%. Watch Sony there for any content read-through, though that's a soft link.
+
+[MAYA] The chip names are the ones to stress about. If forced Kioxia liquidations continue, that overhang stays.
+
+[ALEX] Then Thursday, July 24 — the tariff transition.
+
+[MAYA] And keep watching dollar-yen. Any real intervention would jolt the exporters.
+
+[ALEX] So the takeaway for the week?
+
+[MAYA] We're in a confirmed correction, led by semiconductors and leverage unwinding. Don't try to catch Kioxia or Murata with both hands.
+
+[ALEX] And respect the two crosscurrents — a weak yen that's now a cost problem, and oil feeding into everyday sectors like supermarkets.
+
+[MAYA] Watch the July 24 tariff switch, watch for BOJ action on the yen, and let the forced selling burn out before hunting bargains.
+
+[ALEX] Patient this week. That's Tokyo Open Weekend.
+
+[MAYA] Trade safe. See you next weekend.
