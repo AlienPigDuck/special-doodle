@@ -1,0 +1,79 @@
+[ALEX] Welcome to Tokyo Open Weekend. Markets are closed, so let's catch our breath after a rough Friday.
+
+[MAYA] Rough is putting it kindly, Alex. The Nikkei dropped 1,811 yen on July 24. That's 2.7 percent, closing at 64,611.
+
+[ALEX] And it wasn't broad-based panic. It was concentrated. Guess where.
+
+[MAYA] Chips. Tokyo Electron fell nearly 5 percent. Advantest down 6. And SoftBank Group got hammered, off 7 percent.
+
+[ALEX] The memory names were even worse. Kioxia dropped almost 9 and a half percent on Friday.
+
+[MAYA] That tracks the US tape. Micron fell 7 percent in New York, and after hours it was down even more. Kioxia is Micron's direct NAND rival, so it moves in sympathy.
+
+[ALEX] So the theme of the week is AI capex nerves. The market's suddenly worried hyperscalers might over-invest and then pull back.
+
+[MAYA] The Philadelphia semiconductor index fell over 4 percent Friday, and it's down 13 percent since the end of June. That's a real drawdown.
+
+[ALEX] Here's the twist, though. Intel actually reported a strong quarter. Sales up 25 percent year on year to 16.1 billion dollars. They swung to a 1.7 billion dollar operating profit.
+
+[MAYA] Right, so the demand is there. The market just doesn't trust the discipline. Everyone's scared of the capex cliff, not the current numbers.
+
+[ALEX] Which brings us to the second big story. Oil.
+
+[MAYA] WTI is around 90 dollars. That's up roughly 30 percent since the end of June. Iran–US escalation, and this scary "double blockade" scenario, Hormuz plus the Red Sea.
+
+[ALEX] Friday oil actually slipped 1.87 percent, but the level is what matters. Ninety dollars changes the whole Japan cost equation.
+
+[MAYA] It's a split. Refiners and trading houses get a near-term tailwind. But chemical makers are getting squeezed on naphtha costs.
+
+[ALEX] And that dovetails with the macro picture, which honestly is dominated by one thing right now. The yen.
+
+[MAYA] Give people the number, Alex.
+
+[ALEX] USD/JPY hit 163.99 on July 23. That's the weakest in 39 years and 8 months. Friday it was around 163.79, up another 0.44 percent.
+
+[MAYA] Nearly a four-decade low. That's stunning.
+
+[ALEX] And the driver is the rate gap. The Fed's turned hawkish. Waller says inflation won't be tolerated, Dallas Fed's Logan sees room to hike. Meanwhile the market thinks the BOJ is behind the curve.
+
+[MAYA] The ten-year Treasury yield actually ticked down Friday to 4.68 percent. But the direction of travel on Fed expectations is up.
+
+[ALEX] For Japan, weak yen is the usual double-edged sword. Great for exporter margins, brutal on imported food and energy costs. And with oil at 90, that import pain is real.
+
+[MAYA] Let's talk world news, because the FOMC is the one to watch.
+
+[ALEX] July 28 to 29. And here's the shift. The market now prices a 24 percent chance of a hike, up from about 10 percent a week ago. Futures see over 80 percent odds of a hike by September.
+
+[MAYA] That's a big repricing. If the Fed sounds hawkish, the yen could push toward 165, and that keeps pressure on chip names globally.
+
+[ALEX] Then there's the trade wall. Trump's 12.5 percent tariffs on Japan take effect August 1.
+
+[MAYA] But read the fine print. Autos and semiconductors are mostly carved out. It's naphtha-derived chemicals and light chemical products getting hit, over 360 products reclassified.
+
+[ALEX] So chemical makers, watch out. Autos, less exposed than the headline suggests.
+
+[MAYA] Which is why I'm not panicking on Toyota, even though it fell 1.8 percent Friday. Japan's actually in the lowest tariff tier among 60 countries.
+
+[ALEX] Now the week ahead. The main event for us is the BOJ, July 30 to 31.
+
+[MAYA] Consensus is a hold at 1.0 percent. Nine members, no back-to-back hike urgency.
+
+[ALEX] But two things to listen for. Nikkei-style reporting suggests the BOJ may revise FY2026 growth up from 0.5 percent, citing AI production strength. And they may trim the inflation forecast down from 2.8 percent because of energy subsidy extensions.
+
+[MAYA] So growth up, inflation down. That's a dovish combination that keeps the yen weak. Ueda's press conference is where he'll hint at autumn timing.
+
+[ALEX] Two central banks, back to back. FOMC first, then BOJ. The rate gap story gets its answer.
+
+[MAYA] And a data-heavy week. US CPI and employment, plus Japan household consumption and industrial production.
+
+[ALEX] One more name for the long-term file. Fast Retailing. Nikkei reporting Uniqlo plans 100 stores in India by 2031, up from 20 in June. That's an emerging-market growth story, not a this-week trade.
+
+[MAYA] So what's the takeaway, Alex?
+
+[ALEX] Two central bank meetings collide with an AI capex scare and 90-dollar oil. Expect volatility, especially in chips.
+
+[MAYA] My playbook: tread carefully on semiconductors into the FOMC. Watch chemical makers ahead of the August 1 tariffs. And if the yen breaks toward 165, exporters get a lift but your grocery bill doesn't.
+
+[ALEX] Patience over heroics this week. Let the central banks show their cards first.
+
+[MAYA] That's Tokyo Open Weekend. Plan your week, and we'll see you at the next open.
