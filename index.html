@@ -6,161 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Christie.vip</title>
   <link rel="icon" href="/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="canonical" href="/tps/">
+  <!-- christie.vip goes straight to The Papers Say. Tokyo Open was decommissioned
+       2026-07-25 (not deleted — its page /to/, /tokyoopen/ assets, and the
+       generate-podcast.yml workflow all remain). The former multi-show hub page is
+       preserved in git history; restore this file from history to bring it back. -->
+  <meta http-equiv="refresh" content="0; url=/tps/">
   <style>
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    :root{
-      --bg:#080808;--card:#111117;--border:#222228;
-      --red:#e03131;--red-dim:rgba(224,49,49,.12);
-      --text:#eaeaea;--muted:#ffffff;
-      --mono:'Anonymous Pro',monospace;
-    }
-    body{
-      background:var(--bg);color:var(--text);font-family:var(--mono);
-      min-height:100vh;display:flex;flex-direction:column;
-      align-items:center;justify-content:center;padding:40px 20px
-    }
-    .sun{
-      width:72px;height:72px;border-radius:50%;background:var(--red);
-      margin:0 auto 20px;opacity:.9;
-      animation:pulse 3s ease-in-out infinite
-    }
-    @keyframes pulse{
-      0%,100%{box-shadow:0 0 0 0 rgba(224,49,49,.45)}
-      55%{box-shadow:0 0 0 18px rgba(224,49,49,0)}
-    }
-    h1{
-      font-size:40px;font-weight:700;letter-spacing:8px;text-transform:uppercase;
-      text-align:center;margin-bottom:8px
-    }
-    .subtitle{
-      font-size:13px;letter-spacing:4px;text-transform:uppercase;
-      color:var(--muted);text-align:center;margin-bottom:52px;opacity:.55
-    }
-
-    /* ── Show list ── */
-    .shows{width:100%;max-width:620px;display:flex;flex-direction:column}
-
-    .show{
-      display:flex;align-items:stretch;justify-content:space-between;
-      background:var(--card);border:1px solid var(--border);
-      border-bottom-width:0;
-      text-decoration:none;color:var(--text);
-      padding:26px 30px;
-      transition:background .15s,border-color .15s;
-      position:relative;overflow:hidden;cursor:pointer
-    }
-    .show:first-child{border-radius:4px 4px 0 0}
-    .show:last-child{border-radius:0 0 4px 4px;border-bottom-width:1px}
-    .show:hover{background:#141420;border-color:rgba(224,49,49,.45)}
-    .show:hover + .show{border-top-color:rgba(224,49,49,.45)}
-
-    /* red left-edge accent that slides in */
-    .show::before{
-      content:'';position:absolute;left:0;top:0;bottom:0;
-      width:3px;background:var(--red);
-      transform:scaleY(0);transform-origin:center;
-      transition:transform .2s ease
-    }
-    .show:hover::before{transform:scaleY(1)}
-
-    .show-body{flex:1;min-width:0}
-    .show-name{
-      font-size:20px;font-weight:700;letter-spacing:5px;text-transform:uppercase;
-      color:var(--text);margin-bottom:9px
-    }
-    .show-desc{
-      font-size:14px;letter-spacing:.4px;color:var(--muted);
-      line-height:1.75;opacity:.75;max-width:390px
-    }
-    .show-ep{
-      font-size:12px;letter-spacing:1px;color:var(--red);
-      margin-top:13px;min-height:16px;opacity:.9
-    }
-
-    .show-side{
-      display:flex;flex-direction:column;align-items:flex-end;
-      justify-content:space-between;padding-left:28px;flex-shrink:0
-    }
-    .show-time{
-      font-size:11px;letter-spacing:2px;text-transform:uppercase;
-      color:var(--muted);opacity:.45;white-space:nowrap;padding-top:2px
-    }
-    .show-arrow{
-      font-size:20px;color:var(--border);
-      transition:color .15s,transform .2s ease
-    }
-    .show:hover .show-arrow{color:var(--red);transform:translateX(5px)}
-
-    /* ── Footer ── */
-    .disclaimer{
-      margin-top:28px;font-size:12px;letter-spacing:1.5px;
-      color:var(--muted);text-align:center;max-width:620px;
-      text-transform:uppercase;opacity:.35
-    }
-
-    /* ── Mobile ── */
-    @media (max-width:560px){
-      h1{font-size:clamp(26px,8.2vw,40px);letter-spacing:3px}
-      .subtitle{letter-spacing:3px;margin-bottom:40px}
-      .show{flex-direction:column;padding:22px 22px}
-      .show-desc{max-width:none}
-      .show-side{
-        flex-direction:row;align-items:center;justify-content:space-between;
-        padding-left:0;margin-top:18px;width:100%
-      }
-      .show-time{padding-top:0}
-    }
+    body{background:#080808;color:#ffffff;font-family:monospace;
+      min-height:100vh;display:flex;align-items:center;justify-content:center;margin:0}
+    a{color:#93c5fd}
   </style>
+  <script>location.replace('/tps/');</script>
 </head>
 <body>
-  <div class="sun"></div>
-  <h1>Christie.vip</h1>
-  <div class="subtitle">Japan Market Audio</div>
-
-  <div class="shows">
-    <a class="show" href="/tps/">
-      <div class="show-body">
-        <div class="show-name">The Papers Say</div>
-        <div class="show-desc">Highlights from Japan&rsquo;s leading financial newspaper in English. Morning headlines before the open.</div>
-        <div class="show-ep" id="tps-date"></div>
-      </div>
-      <div class="show-side">
-        <div class="show-time">Daily &middot; 05:00 JST</div>
-        <div class="show-arrow">&#8594;</div>
-      </div>
-    </a>
-
-    <a class="show" href="/to/">
-      <div class="show-body">
-        <div class="show-name">Tokyo Open</div>
-        <div class="show-desc">Pre-market brief. Overnight US moves, yen dynamics, and which stocks to watch today.</div>
-        <div class="show-ep" id="to-date"></div>
-      </div>
-      <div class="show-side">
-        <div class="show-time">Daily &middot; 07:35 JST</div>
-        <div class="show-arrow">&#8594;</div>
-      </div>
-    </a>
-  </div>
-
-  <div class="disclaimer">100% AI generated &mdash; Not financial advice</div>
-
-  <script>
-    function loadDate(url, id) {
-      fetch(url + '?_=' + Date.now())
-        .then(r => r.json())
-        .then(d => {
-          const el = document.getElementById(id);
-          if (!el || !d.date) return;
-          el.textContent = new Date(d.date + 'T00:00:00').toLocaleDateString('en-GB',
-            {weekday:'long', day:'numeric', month:'long', year:'numeric'});
-        })
-        .catch(() => {});
-    }
-    loadDate('/tps/episode.json', 'tps-date');
-    loadDate('/tokyoopen/episode.json', 'to-date');
-  </script>
+  <p>Redirecting to <a href="/tps/">The Papers Say</a>&hellip;</p>
 </body>
 </html>
