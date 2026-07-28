@@ -1,0 +1,43 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Wednesday, the 29th of July, 2026, and I'm afraid we begin today with hard news out of Kyushu.
+
+A magnitude 7.1 earthquake struck Kumamoto Prefecture yesterday afternoon, at 4:27 p.m. It registered the maximum seismic intensity — a 7 on Japan's scale — in Uki City and in the town of Hikawa. That's the strongest shaking Japan has felt since the Noto Peninsula earthquake in early 2024. And if you remember our coverage of that disaster, you'll understand what that number means. Intensity 7 is where buildings fail, where the ground itself feels unreliable underfoot.
+
+The Nikkei reports that at least two people have been killed, and ten are still missing. The deaths came from an explosion — a paper plant, Japan Paper's Yashiro facility, sits near the Aeon Mall in the town of Kashima, and something at that site detonated in the aftermath. The two workers who died were at that plant. Fires have spread across the region, and infrastructure damage is widespread.
+
+Prime Minister Sanae Takaichi has activated a national emergency disaster response headquarters and dispatched 3,600 Self-Defense Force personnel. The government has invoked the Disaster Relief Act for twenty-one municipalities. That's the legal mechanism that unlocks central government funding and coordination for rescue, shelter, and rebuilding — and invoking it across twenty-one municipalities tells you how broad this event is.
+
+I'll say what I always say at moments like this: the first hours matter enormously, and the numbers we have this morning are almost certainly not the final numbers. We'll keep you updated as the week goes on. For now, our thoughts are with everyone in Kumamoto.
+
+Let's turn now to the government's other pressing concern — the price of rice, and the price of everything.
+
+The Nikkei reports the government is preparing to buy back its strategic rice reserves — the emergency stockpiles it released back in 2025 to calm prices. A decision is expected by late August, once officials can see how this year's crop is coming in. Here's why this matters: those reserves have fallen to a nine-year low of 320,000 tons. The threshold Japan considers adequate is one million tons. So the country is sitting at roughly a third of where it wants to be, and that's raised genuine food security concerns. Releasing rice to cool prices worked, but it left the cupboard bare.
+
+Food is at the center of the political debate too. The ruling coalition met to discuss a proposal to cut the consumption tax on food to just one percent, starting in April 2027, for two years — followed by cash relief afterward. It sounds appealing, but lawmakers voiced real worries. Where does the money come from? And there's a subtler fear: that a big fiscal giveaway could weaken the yen further, which would make imported food more expensive — the very problem you were trying to solve.
+
+Meanwhile, wages are moving. Japan's Central Minimum Wage Council set a 2026 target of 1,176 yen an hour nationally. That's a 4.9 percent increase — 55 yen. And notably, the gap between regions is narrowing, with the lower-paying prefectures getting the bigger raises. That's a deliberate effort to slow the drain of workers from the countryside toward Tokyo and Osaka.
+
+And on Prime Minister Takaichi herself — the Nikkei has fresh polling. Her approval rating slipped just below 60 percent in July, but that's still remarkably strong. What's interesting is why people support her. It's shifted. Voters now cite personal qualities — trustworthiness, leadership — above her actual policy record. The Nikkei draws a comparison to Junichiro Koizumi, the reformist prime minister of the early 2000s, who governed on charisma as much as on program. It's a reminder that in Japanese politics, as anywhere, the messenger can outshine the message.
+
+Let me touch quickly on money and banking, because there are two threads here worth pulling.
+
+First, Seven Bank — the banking arm of the company behind 7-Eleven — plans to let retailers launch their own branded "banks" without needing a banking license. Think of a supermarket offering a bank that carries its name. Seven Bank provides the plumbing behind the scenes, leaning on its network of 28,000 ATMs. It's a bet that physical convenience still matters, even in a digital age.
+
+But higher interest rates cut both ways. Credit Central Bank is injecting about 20 billion yen into Wakkanai Shinkin Bank — a small cooperative lender up in Hokkaido. Its balance sheet has deteriorated because rising rates have saddled it with losses on the bonds it holds. When rates go up, older bonds lose value. This is the second such rescue since the Bank of Japan started raising rates in 2024, and it's a quiet signal that the era of cheap money leaves casualties on the way out.
+
+Overseas now, and a story with real weight for the world's dinner tables.
+
+The Nikkei reports that the war in the Black Sea is escalating in a way that threatens the global grain supply. Ukrainian drones have disabled roughly 200 Russian vessels in July alone, targeting military supplies and the so-called "shadow fleet" — the ships Russia uses to move goods around sanctions. The result: Russian grain exports are down 30 percent year-on-year. Combine that with drought in major growing regions, and wheat futures have hit a two-year high. Goldman Sachs estimates food prices could climb nearly 16 percent through the end of 2028 if a strong El Niño develops. This connects directly to our rice story at home. Food security isn't an abstraction — it's geopolitics arriving at the checkout counter.
+
+A few faster items from abroad. Chinese AI startup Moon Shot unveiled a model called Kimi K3, said to rival America's best. Washington accuses Chinese firms of "distillation" — essentially, training your model by extracting knowledge from someone else's. Treasury Secretary Janet Yellen warned of possible sanctions; Beijing shot back that American firms do the same thing, calling the US stance "hegemonic." Expect more of this.
+
+In corporate news, some pain out of Germany. Mercedes-Benz cut its full-year outlook, now expecting a slight sales decline, after Chinese sales slumped 30 percent. And Porsche will cut 5,000 more jobs by 2035 — on top of 4,000 already announced. The German auto establishment is being squeezed hard by China. Closer to home, Panasonic will close its television plant in Malaysia by March 2027, consolidating production in Taiwan. About 400 workers are affected. Chinese price competition, again, is the culprit.
+
+And a happier note from Seoul: HYBE, the K-pop giant behind BTS, posted its first profitable quarter in eighteen months. Operating profit jumped fourfold, to 109.7 billion won, as BTS finished their mandatory military service and returned to the stage — bringing in 647.6 billion won in concert revenue. Though investors are nervous about how much rides on one band.
+
+And that brings me to the one that caught my eye this morning — from down in the world of servers and seawater.
+
+South Korea is building data centers underwater. The Nikkei reports a pilot project off the coast of Ulsan, where server containers will be sunk twenty meters below the surface. The logic is elegant. Data centers run hot and demand enormous cooling, and they eat up scarce land. Put them on the seabed, and the ocean cools them for free. Microsoft and China have tried versions of this, but South Korea is aiming big — a capacity of 100,000 servers by 2031.
+
+There's something quietly poetic about it. The artificial intelligence boom is famously thirsty and power-hungry, an industry that feels weightless but consumes the physical world at an astonishing rate. And here's one answer: sink it into the sea, and let the cold water do the work. Whether it proves practical, we'll see. But it's a glimpse of how strange the infrastructure of our digital lives is becoming — humming away, in the dark, beneath the waves.
+
+That's The Papers Say for Wednesday, the 29th of July, 2026. See you tomorrow.
