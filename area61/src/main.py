@@ -57,6 +57,9 @@ SECTION_TRANSLATIONS = {
     'other':          'Other',
 }
 
+# Sections to omit from Area 61 — keep it to news/markets, drop the arts/society pages.
+EXCLUDE_SECTIONS = {'詩歌・教養', '読書１', '読書２', '社会１', '社会２', '文化'}
+
 
 TRANSLATE_BATCH = 40  # keep each request well under the output token limit
 
@@ -179,6 +182,10 @@ def main():
     if not articles:
         log.error("Area 61: no articles collected — aborting")
         sys.exit(1)
+
+    n0 = len(articles)
+    articles = [a for a in articles if a[2] not in EXCLUDE_SECTIONS]
+    log.info("Area 61: dropped %d articles from excluded sections (%d remain)", n0 - len(articles), len(articles))
 
     log.info("Area 61: translating %d titles...", len(articles))
     titles_ja = [title for _, title, _ in articles]
