@@ -90,6 +90,20 @@ def _load_paper(page: Page) -> None:
     page.wait_for_timeout(3000)   # let the self-redirect settle before extracting
 
 
+def _extract_retry(page, tries: int = 5):
+    """Run the extractor, retrying while the SPA's self-redirect keeps destroying
+    the execution context. Returns links once the page holds still."""
+    for i in range(tries):
+        try:
+            return page.evaluate(_EXTRACT_JS, [ALL_SECTIONS])
+        except Exception as e:
+            if "Execution context was destroyed" in str(e) and i < tries - 1:
+                log.warning("Area 61: context destroyed mid-extract — retry %d", i + 1)
+                page.wait_for_timeout(2500)
+            else:
+                raise
+
+
 def fetch() -> list[tuple[str, str, str]]:
     """Return list of (url, title_ja, section_ja) from today's morning edition listing."""
     result = make_page("nikkei_jp")
@@ -99,7 +113,7 @@ def fetch() -> list[tuple[str, str, str]]:
 
     try:
         _load_paper(page)
-        links = page.evaluate(_EXTRACT_JS, [ALL_SECTIONS])
+        links = _extract_retry(page)
         log.info("Area 61: %d article links collected from listing page", len(links))
         return [(url, title, section) for url, title, section in links]
     finally:

@@ -129,17 +129,31 @@ def _load_paper(page: Page) -> None:
     page.wait_for_timeout(3000)   # let the self-redirect settle before extracting
 
 
+def _eval_retry(page: Page, js, *args, tries: int = 5):
+    """Run page.evaluate, retrying while the SPA's self-redirect keeps destroying
+    the execution context, until the page holds still."""
+    for i in range(tries):
+        try:
+            return page.evaluate(js, *args)
+        except Exception as e:
+            if "Execution context was destroyed" in str(e) and i < tries - 1:
+                log.warning("Nikkei JP: context destroyed mid-extract — retry %d", i + 1)
+                page.wait_for_timeout(2500)
+            else:
+                raise
+
+
 def _extract_links(page: Page) -> list[tuple[str, str, str]]:
     """
     Extract article links from the morning edition page.
     Returns list of (url, title, section).
     Falls back to all paper articles if section detection yields nothing.
     """
-    links = page.evaluate(_EXTRACT_JS, [list(KEEP_SECTIONS), list(_ALL_SECTIONS)])
+    links = _eval_retry(page, _EXTRACT_JS, [list(KEEP_SECTIONS), list(_ALL_SECTIONS)])
 
     if not links:
         log.warning("Nikkei JP: section detection found 0 articles — falling back to all paper articles")
-        links = page.evaluate(_FALLBACK_JS)
+        links = _eval_retry(page, _FALLBACK_JS)
 
     log.info("Nikkei JP: %d article links found", len(links))
     return links
