@@ -113,25 +113,20 @@ _FALLBACK_JS = """
 """
 
 
-def _get_morning_url(page: Page) -> str:
-    """Navigate to /paper/ and return today's morning edition URL."""
-    jst = timezone(timedelta(hours=9))
-    today = datetime.now(jst).strftime('%Y%m%d')
+def _load_paper(page: Page) -> None:
+    """Load the Nikkei /paper/ morning listing. The page does a client-side
+    self-redirect to /paper/, so a plain goto raises 'interrupted by another
+    navigation'. Navigating with wait_until='commit' returns before that fires;
+    we then let the SPA settle and scrape whatever it rendered."""
     try:
-        page.goto(PAPER_URL, wait_until="domcontentloaded", timeout=30000)
-        for a in page.query_selector_all('a[href*="/paper/morning/"]'):
-            href = a.get_attribute('href') or ''
-            # Only follow a real dated path link; skip the deprecated ?b=…&d=0 form,
-            # which Nikkei now client-redirects to /paper/ (that crashes page.goto).
-            if today in href and '?' not in href:
-                url = f"{BASE_URL}{href}" if href.startswith('/') else href
-                log.info("Nikkei JP: morning edition link found: %s", url)
-                return url
+        page.goto(PAPER_URL, wait_until="commit", timeout=30000)
     except Exception as e:
-        log.warning("Nikkei JP: /paper/ navigation failed: %s", e)
-
-    log.info("Nikkei JP: no dated morning link — scraping /paper/ directly")
-    return PAPER_URL
+        log.warning("Nikkei JP: /paper/ goto hiccup: %s", e)
+    try:
+        page.wait_for_load_state("domcontentloaded", timeout=15000)
+    except Exception:
+        pass
+    page.wait_for_timeout(3000)   # let the self-redirect settle before extracting
 
 
 def _extract_links(page: Page) -> list[tuple[str, str, str]]:
@@ -177,15 +172,7 @@ def fetch(max_age_hours: int = 14) -> list[Article]:
     articles: list[Article] = []
 
     try:
-        morning_url = _get_morning_url(page)
-        try:
-            page.goto(morning_url, wait_until="domcontentloaded", timeout=30000)
-        except Exception as e:
-            # Nikkei may client-redirect the morning URL back to /paper/; that lands
-            # on the same listing, so recover instead of crashing the run.
-            log.warning("Nikkei JP: morning nav interrupted (%s) — scraping /paper/", e)
-            page.goto(PAPER_URL, wait_until="domcontentloaded", timeout=30000)
-
+        _load_paper(page)
         links = _extract_links(page)
         seen_urls: set[str] = set()
 
