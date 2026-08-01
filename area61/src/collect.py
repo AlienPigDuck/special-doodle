@@ -78,21 +78,21 @@ _EXTRACT_JS = """
 def _get_morning_url(page: Page) -> str:
     jst = timezone(timedelta(hours=9))
     today = datetime.now(jst).strftime('%Y%m%d')
-    fallback = f"{BASE_URL}/paper/morning/?b={today}&d=0"
-
     try:
         page.goto(PAPER_URL, wait_until="domcontentloaded", timeout=30000)
         for a in page.query_selector_all('a[href*="/paper/morning/"]'):
             href = a.get_attribute('href') or ''
-            if today in href:
+            # Only follow a real dated path link; skip the deprecated ?b=…&d=0 form,
+            # which Nikkei now client-redirects to /paper/ (that crashes page.goto).
+            if today in href and '?' not in href:
                 url = f"{BASE_URL}{href}" if href.startswith('/') else href
                 log.info("Area 61: morning edition link found: %s", url)
                 return url
     except Exception as e:
-        log.warning("Area 61: /paper/ navigation failed: %s — using fallback URL", e)
+        log.warning("Area 61: /paper/ navigation failed: %s", e)
 
-    log.info("Area 61: using constructed morning URL: %s", fallback)
-    return fallback
+    log.info("Area 61: no dated morning link — scraping /paper/ directly")
+    return PAPER_URL
 
 
 def fetch() -> list[tuple[str, str, str]]:
@@ -104,7 +104,12 @@ def fetch() -> list[tuple[str, str, str]]:
 
     try:
         morning_url = _get_morning_url(page)
-        page.goto(morning_url, wait_until="domcontentloaded", timeout=30000)
+        try:
+            page.goto(morning_url, wait_until="domcontentloaded", timeout=30000)
+        except Exception as e:
+            # Nikkei may client-redirect the morning URL back to /paper/; recover.
+            log.warning("Area 61: morning nav interrupted (%s) — scraping /paper/", e)
+            page.goto(PAPER_URL, wait_until="domcontentloaded", timeout=30000)
         links = page.evaluate(_EXTRACT_JS, [ALL_SECTIONS])
         log.info("Area 61: %d article links collected from listing page", len(links))
         return [(url, title, section) for url, title, section in links]
