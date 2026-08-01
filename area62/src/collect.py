@@ -12,6 +12,7 @@ log = logging.getLogger(__name__)
 
 BASE_URL  = "https://www.nikkei.com"
 PAPER_URL = "https://www.nikkei.com/paper/"
+EVENING_URL = "https://www.nikkei.com/paper/evening/"
 
 # Nikkei evening edition (夕刊) section names, in natural paper order.
 ALL_SECTIONS = [
@@ -70,24 +71,39 @@ _EXTRACT_JS = """
 """
 
 
-def _get_evening_url(page: Page) -> str:
-    jst = timezone(timedelta(hours=9))
-    today = datetime.now(jst).strftime('%Y%m%d')
-    fallback = f"{BASE_URL}/paper/evening/?b={today}&d=0"
-
+def _load_evening(page: Page) -> None:
+    """Load the canonical evening-edition listing. Nikkei's /paper/ pages do a
+    client-side self-redirect (a plain goto raises 'interrupted by another
+    navigation'); wait_until='commit' returns before that fires. If there is no
+    evening edition (weekends/holidays) the page redirects to /paper/ — the caller's
+    guard detects that from the final URL."""
     try:
-        page.goto(PAPER_URL, wait_until="domcontentloaded", timeout=30000)
-        for a in page.query_selector_all('a[href*="/paper/evening/"]'):
-            href = a.get_attribute('href') or ''
-            if today in href:
-                url = f"{BASE_URL}{href}" if href.startswith('/') else href
-                log.info("Area 62: evening edition link found: %s", url)
-                return url
+        page.goto(EVENING_URL, wait_until="commit", timeout=30000)
     except Exception as e:
-        log.warning("Area 62: /paper/ navigation failed: %s — using fallback URL", e)
+        log.warning("Area 62: /paper/evening/ goto hiccup: %s", e)
+    try:
+        page.wait_for_load_state("domcontentloaded", timeout=15000)
+    except Exception:
+        pass
+    page.wait_for_timeout(3000)   # let the self-redirect settle
+    try:                          # wait for the listing to actually render
+        page.wait_for_selector('a[href*="/paper/article/"]', timeout=20000)
+    except Exception:
+        pass
 
-    log.info("Area 62: using constructed evening URL: %s", fallback)
-    return fallback
+
+def _extract_retry(page, tries: int = 5):
+    """Run the extractor, retrying while the SPA's self-redirect keeps destroying
+    the execution context / leaving document.body null, until the page holds still."""
+    for i in range(tries):
+        try:
+            return page.evaluate(_EXTRACT_JS, [ALL_SECTIONS])
+        except Exception as e:
+            if i < tries - 1:
+                log.warning("Area 62: extract attempt %d failed (%s) — retrying", i + 1, str(e)[:90])
+                page.wait_for_timeout(2500)
+            else:
+                raise
 
 
 def fetch() -> list[tuple[str, str, str]]:
@@ -98,10 +114,9 @@ def fetch() -> list[tuple[str, str, str]]:
     pw, browser, page = result
 
     try:
-        evening_url = _get_evening_url(page)
-        page.goto(evening_url, wait_until="domcontentloaded", timeout=30000)
+        _load_evening(page)
         final_url = page.url
-        links = page.evaluate(_EXTRACT_JS, [ALL_SECTIONS])
+        links = _extract_retry(page)
         log.info("Area 62: landed on %s — %d article links", final_url, len(links))
 
         # Guard: only accept a genuine evening edition. If the site redirected away

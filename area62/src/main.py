@@ -156,8 +156,9 @@ def main():
     log.info("Area 62: collecting from Nikkei evening edition...")
     articles = collect.fetch()
     if not articles:
-        log.error("Area 62: no articles collected — aborting (no evening edition today?)")
-        sys.exit(1)
+        # No 夕刊 today is normal (weekends/holidays) — skip cleanly, don't fail the run.
+        log.info("Area 62: no evening edition today — skipping (normal on weekends/holidays)")
+        return
 
     log.info("Area 62: translating %d titles...", len(articles))
     titles_ja = [title for _, title, _ in articles]
