@@ -126,7 +126,11 @@ def _load_paper(page: Page) -> None:
         page.wait_for_load_state("domcontentloaded", timeout=15000)
     except Exception:
         pass
-    page.wait_for_timeout(3000)   # let the self-redirect settle before extracting
+    page.wait_for_timeout(3000)   # let the self-redirect settle
+    try:                          # wait for the listing to actually render
+        page.wait_for_selector('a[href*="/paper/article/"]', timeout=20000)
+    except Exception:
+        pass
 
 
 def _eval_retry(page: Page, js, *args, tries: int = 5):
@@ -136,8 +140,10 @@ def _eval_retry(page: Page, js, *args, tries: int = 5):
         try:
             return page.evaluate(js, *args)
         except Exception as e:
-            if "Execution context was destroyed" in str(e) and i < tries - 1:
-                log.warning("Nikkei JP: context destroyed mid-extract — retry %d", i + 1)
+            # SPA self-redirect can destroy the context or leave document.body null
+            # mid-load; both clear once the page settles, so retry on any error.
+            if i < tries - 1:
+                log.warning("Nikkei JP: extract attempt %d failed (%s) — retrying", i + 1, str(e)[:90])
                 page.wait_for_timeout(2500)
             else:
                 raise
