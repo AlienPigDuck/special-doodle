@@ -1,29 +1,33 @@
 {
-  "date": "2026-08-09",
-  "total": 52,
+  "date": "2026-08-10",
+  "total": 49,
   "sections": [
     {
       "name": "Front Page",
       "articles": [
         {
-          "title": "Sports drinks counterproductive for heat stroke? Risk of 'PET bottle syndrome' — oral rehydration solution recommended during dehydration",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061740Y6A800C2MM0000"
+          "title": "Current account surplus of 17.4 trillion yen in first half, up 22.5% - Export expansion contributes; June sees deficit for first time in 17 months",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076670Q6A810C2MM0000"
         },
         {
-          "title": "Yen surges temporarily on US jobs shock, retreats to 157 yen range as selling pressure persists",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061810Y6A800C2MM0000"
+          "title": "Double rice cropping in Hokuriku region - Regenerated harvested paddies; area expands due to global warming",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076740Q6A810C2MM0000"
         },
         {
-          "title": "Summer vacation peak for overseas travel — Haneda Airport crowded with travelers",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061850Y6A800C2MM0000"
+          "title": "Netanyahu rejects Gaza peace roadmap - U.S. plan faces setback",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076780Q6A810C2MM0000"
         },
         {
-          "title": "Trump reconsiders removing Fed board member — pressure continues after Supreme Court ruling",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061900Y6A800C2MM0000"
+          "title": "Khamenei meets with president - Aims to dispel health concerns",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076790Q6A810C2MM0000"
         },
         {
-          "title": "Words on memorial monument — actress Nao Toda",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061970Y6A800C2MM0000"
+          "title": "Apple tests Chinese-made memory - U.S. reports consider adoption",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076810Q6A810C2MM0000"
+        },
+        {
+          "title": "3,500-year-old aesthetics - Pia CEO Hiroshi Yanai",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076860Q6A810C2MM0000"
         }
       ]
     },
@@ -31,56 +35,48 @@
       "name": "Business",
       "articles": [
         {
-          "title": "Regional focus: Hiroshima Prefecture — protecting students' eyes with sunglasses — high school clubs adopt eyewear, 'Zoff' partners nationwide",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98059920Y6A800C2BZ0000"
+          "title": "Negotiations intensify over 'equal merger' - Yamada Denki and Edion differ on personnel policy",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075470Q6A810C2BZ0000"
         },
         {
-          "title": "New water quality monitoring device facility to be developed — Kyoritsu Denki responds to cold and warm regions",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060100Y6A800C2BZ0000"
+          "title": "Japanese firms eye U.S. geothermal startup - Advance use of fusion technology; Idemitsu and JERA invest",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075590Q6A810C2BZ0000"
         },
         {
-          "title": "Popular US hot dog chain arrives in Japan — 'Pink's' to open first store in Tokyo",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060010Y6A800C2BZ0000"
+          "title": "90% of companies say 'management negative impact' - Survey on effects of energy price surge",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075540Q6A810C2BZ0000"
         },
         {
-          "title": "Central Asia's largest airport — Sojitz participates in development",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060150Y6A800C2BZ0000"
+          "title": "In AI era, 'improve user experience first' - LINE Yahoo senior executive officer Atsushi Masuda",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075710Q6A810C2BZ0000"
         },
         {
-          "title": "Motor without rare earth elements — Mitsuba supplies to German luxury car makers",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060220Y6A800C2BZ0000"
+          "title": "Tsubaki Nakashima to sell renewable energy - Orix sources from new solar facility",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075770Q6A810C2BZ0000"
         },
         {
-          "title": "Laser nuclear fusion organization launched — major corporations and startups participate, to propose policies",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060260Y6A800C2BZ0000"
+          "title": "Hotel and leisure sector 6.13% wage increase - Service union exceeds demand target",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075830Q6A810C2BZ0000"
         },
         {
-          "title": "40% of hiring managers check job seekers' SNS — wary of viral scandals",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060300Y6A800C2BZ0000"
+          "title": "Terra Drone ships to Belgium - Operations management system for defense ministry",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075880Q6A810C2BZ0000"
         },
         {
-          "title": "'Pilgrimage' tourism to attract international visitors to regional areas — JR four companies and JAL collaborate on attracting tourists",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060340Y6A800C2BZ0000"
+          "title": "Meiji raises prices on 37 products including Vivas - Raw material costs for protein products rise",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075910Q6A810C2BZ0000"
         },
         {
-          "title": "Taiwan joint venture to be dissolved — Mitsubishi Gas Chemical due to weak generic product sales",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060420Y6A800C2BZ0000"
+          "title": "NTT Data to acquire majority stake - NTT West-affiliated call center",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075940Q6A810C2BZ0000"
         },
         {
-          "title": "Large hydraulic pumps to enter mass production — Kawasaki Heavy Industries for construction machinery",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060450Y6A800C2BZ0000"
+          "title": "Establishes transaction partner shareholding association - Ikuyo shares shareholder value",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075970Q6A810C2BZ0000"
         },
         {
-          "title": "Support Self-Defense Forces' operational planning — Preferred Networks undertakes demonstration project",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060480Y6A800C2BZ0000"
-        },
-        {
-          "title": "Regional support through Alaska donation — FamilyMart announces results",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060510Y6A800C2BZ0000"
-        },
-        {
-          "title": "Powder compatible with personal bottles — Otsuka Pharmaceutical launches stick-type product",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060540Y6A800C2BZ0000"
+          "title": "Tsumura partners with Kumamoto Prefecture - Boost medicinal herb productivity",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076000Q6A810C2BZ0000"
         }
       ]
     },
@@ -88,72 +84,68 @@
       "name": "General News",
       "articles": [
         {
-          "title": "US Senate passes anti-Russia sanctions bill — tariffs up to 100% on targeted countries including China",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061350Y6A800C2EAF000"
+          "title": "EU ambassador Paka: Japan-Europe security 'closer than ever' - Expects defense industry cooperation",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077320Q6A810C2EAF000"
         },
         {
-          "title": "Speculative yen selling drops 70% — post-intervention, yen appreciation remains limited",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061390Y6A800C2EAF000"
+          "title": "Rate hike 'pace-up necessary' - Bank of Japan July meeting main opinions",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077360Q6A810C2EAF000"
         },
         {
-          "title": "Japan-US coordinated intervention sells euro — European ripples, 'blindsided'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061540Y6A800C2EAF000"
+          "title": "Italian rail major orders from Hitachi subsidiary - Announces entry into UK-France routes by 2029",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077380Q6A810C2EAF000"
         },
         {
-          "title": "US property insurers see 19% net profit increase in April-June — expand small business insurance",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061420Y6A800C2EAF000"
+          "title": "Cuba's continued exodus - Population falls below 10 million; oil shortage amid U.S. pressure",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077430Q6A810C2EAF000"
         },
         {
-          "title": "US invests 310 billion yen in critical mineral development — aims to reduce China dependence",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061440Y6A800C2EAF000"
+          "title": "Wildfire evacuation 20,000 people - Canadian province declares state of emergency",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077450Q6A810C2EAF000"
         },
         {
-          "title": "Peru, Mexico restore diplomatic relations — President Fujimori orders resumption",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061460Y6A800C2EAF000"
+          "title": "Solomon Islands agrees maritime security pact with U.S. - 'Pro-China' shift reverses",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077480Q6A810C2EAF000"
         },
         {
-          "title": "Boeing 737 MAX ordered inspection",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061480Y6A800C2EAF000"
+          "title": "Global food prices at highest in 3.5 years",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077510Q6A810C2EAF000"
         },
         {
-          "title": "US sanctions Iran exchange houses — targets fund transfer networks",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061500Y6A800C2EAF000"
+          "title": "Zelenskyy visits Serbia",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077520Q6A810C2EAF000"
         },
         {
-          "title": "ASEAN chair calls for Suu Kyi's release — welcomes Red Cross representative meeting",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061580Y6A800C2EAF000"
+          "title": "Uganda erects statue of Netanyahu's brother",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077530Q6A810C2EAF000"
         },
         {
-          "title": "White House state dinner venue — high court also halts ground construction",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061630Y6A800C2EAF000"
+          "title": "U.S. Senate confirms attorney general appointment",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077540Q6A810C2EAF000"
         },
         {
-          "title": "Key personnel appointments approved including vice finance minister",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061650Y6A800C2EAF000"
+          "title": "Nikkei average rebounds, briefly recovers 67,000 yen",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077860Q6A810C2EAF000"
         },
         {
-          "title": "China's gold holdings increase for 21 consecutive months",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061660Y6A800C2EAF000"
+          "title": "Yen rises against dollar",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98077920Q6A810C2EAF000"
         },
         {
-          "title": "China exports surge 23.9%, semiconductors expand",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061670Y6A800C2EAF000"
+          "title": "Awamori and pig's feet - Okinawa's ultimate standard drinks and snacks - Takeo Koizumi",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075220Q6A810C2LIFP00"
         },
         {
-          "title": "Gold eyes another rally opportunity",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060830Y6A800C2ENI000"
+          "title": "Proust effect - Memories guided by scent",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075330Q6A810C2LIFP00"
         },
         {
-          "title": "Exchange rates: Yen rebounds to 157.80-90 yen",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060980Y6A800C2ENI000"
+          "title": "Middle school edition: Don't rely on cram schools for calculation skills - Analyze by watching writing and identifying weaknesses - Kyoko Yasunami, middle school exam counselor",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075110Q6A810C2LIFP00"
         },
         {
-          "title": "QUICK monthly survey: Bonds",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98060880Y6A800C2ENI000"
-        },
-        {
-          "title": "Mitsubishi Heavy 'flexibly respond to gas turbine demand'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061010Y6A800C2ENI000"
+          "title": "Job hunting thoughts: Company culture comes across in internships - Engage with current employees - Takayoshi Kurita",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98075390Q6A810C2LIFP00"
         }
       ]
     },
@@ -161,60 +153,52 @@
       "name": "News Plus",
       "articles": [
         {
-          "title": "Japanese Lolita fashion captivates young people in China",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98059130Y6A800C2EAC000"
+          "title": "What are the rules of corporate acquisition? - Consider factors beyond price",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98074640Q6A810C2EAC000"
         },
         {
-          "title": "Nara Park deer reach record high",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98059190Y6A800C2EAC000"
+          "title": "Nihonbashi Bentsu Sohonten CEO Junichi Higuchi - Weaving food culture through bento (1)",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98074830Q6A810C2EAC000"
         },
         {
-          "title": "'Conduct' meaning 'to perform'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98059250Y6A800C2EAC000"
+          "title": "Matsunaga K Sanzo - My hurried journey",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98074950Q6A810C2EAC000"
         },
         {
-          "title": "Komatsu Ryutei 'A woman in love is ○○○'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98059350Y6A800C2EAC000"
+          "title": "100-kilometer ultra-marathon offers journey-like experience - Participant numbers grow; many events feature scenic views",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076390Q6A810C2CE0000"
         },
         {
-          "title": "96-year-old depicts devastation of atomic bombing — Nagasaki 'must convey message' — determined at 90 to tell story, over 50 works created, 'for as long as I live'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98062300Y6A800C2CE0000"
+          "title": "'I'm afraid the house will collapse...' - Family continues vehicle living - Hyakawa Town, Kumamoto",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076450Q6A810C2CE0000"
         },
         {
-          "title": "Former U.S. post-war atomic bomb survey committee employee: 'I worked without knowing about military use'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98062370Y6A800C2CE0000"
+          "title": "Kumamoto-Yatsushiro Route 3, transport minister: 'Congestion relief within month' - Temporary bridge restoration",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076480Q6A810C2CE0000"
         },
         {
-          "title": "Kumamoto earthquake's strong seismic motion possibly influenced by soft ground layer in Yatsushiro Plain: Kyoto University survey",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98062420Y6A800C2CE0000"
+          "title": "16 tons of drinking water from U.S. military; Kumamoto governor thanks ambassador - Meets with ambassador",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076620Q6A810C2CE0000"
         },
         {
-          "title": "Beppu hot spring 'heals disaster victims': Voices of joy at temporary facility in Yatsushiro",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98062470Y6A800C2CE0000"
+          "title": "\"Remember the 3 PUSHes\" - AED usage training workshop held in observance of \"Healthy Heart Day\"",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076530Q6A810C2CE0000"
         },
         {
-          "title": "SpaceX debris lunar impact traces captured: South Korea releases images",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98062500Y6A800C2CE0000"
+          "title": "High sugar content and rich aroma: Ibaraki strawberries made into beer by local university students",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076560Q6A810C2CE0000"
         },
         {
-          "title": "Hiroshima couple assault case: 29-year-old man not indicted, newly indicted for arson and trespassing",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98062520Y6A800C2CE0000"
+          "title": "78-year-old man dies after being hit by car; arrested on dangerous driving charges",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076630Q6A810C2CE0000"
         },
         {
-          "title": "New Japan Coast Guard commandant holds inaugural press conference: 'Enhance operational capabilities, unite all divisions'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98062570Y6A800C2CE0000"
+          "title": "Flag Football strives for LA Olympics; secures entry to World Championships top ranks - Men's and women's representatives aim for gold in inaugural implementation",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076220Q6A810C2US0000"
         },
         {
-          "title": "New National Tax Agency commissioner holds inaugural press conference: 'Business reform and change are essential'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98062560Y6A800C2CE0000"
-        },
-        {
-          "title": "Figure skaters Riku and Ryuu showcase charm at ice show where couples competition takes center stage",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061180Y6A800C2US0000"
-        },
-        {
-          "title": "National high school girls baseball: Fukushima's Gakuhou Ishikawa reaches final four for first time; reflects rise of Tohoku region and expansion of participation base",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98061240Y6A800C2US0000"
+          "title": "Unwritten rules of relay plays; limited discretion for players - Major League Baseball by Masayoshi Niwa",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98076300Q6A810C2US0000"
         }
       ]
     },
@@ -222,16 +206,20 @@
       "name": "Culture",
       "articles": [
         {
-          "title": "Shiro Shiroyama's 'A Step's Distance' in Otsu City: 'There's not a single airplane, and yet they call it an air unit'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98059460Y6A800C2BE0P00"
+          "title": "Concluding the serialization of the novel \"Sorbet of Poirot\" by Kyoko Nakajima - Freed from \"one's nature\"",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98074100Q6A810C2BE0P00"
         },
         {
-          "title": "Film 'Moana': Lead actor Langaia says 'Bringing our culture into form'",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98059570Y6A800C2BE0P00"
+          "title": "Shogi Master, 9-dan rank Terushichi Aono (1) - Shogi board and pieces purchased on loan",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98074230Q6A810C2BE0P00"
         },
         {
-          "title": "Kyoko Nakajima's 'Poirot's Sorbet' (245)",
-          "url": "https://www.nikkei.com/paper/article/?b=20260808&ng=DGKKZO98059660Y6A800C2BE0P00"
+          "title": "Fumio Kohinata: \"The stage is always a great wall\"",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98074330Q6A810C2BE0P00"
+        },
+        {
+          "title": "Tomoka Shibasaki \"The Visitors\" (1)",
+          "url": "https://www.nikkei.com/paper/article/?b=20260810&ng=DGKKZO98074420Q6A810C2BE0P00"
         }
       ]
     }
