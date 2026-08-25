@@ -1,0 +1,43 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Wednesday, the twenty-sixth of August, 2026, and I'm glad you're with me.
+
+We begin today with a story about the plumbing of Japan's financial system — and I promise that's more interesting than it sounds. Nikkei reports this morning that Prime Minister Sanae Takaichi's government, together with the Bank of Japan, is preparing to build a blockchain-based settlement system for government bonds and stocks. The goal is round-the-clock, near-instant settlement.
+
+Now, here's why that matters. Right now, when you buy or sell a Japanese government bond or a share of stock, the actual transfer of money and ownership takes one to two days to fully complete. That delay ties up capital. Money that could be reinvested is sitting in limbo. The new system would use blockchain — the same underlying technology behind digital currencies — to make those transfers happen almost immediately, any hour of the day.
+
+There's a striking detail here. Part of the plan involves converting some of the deposits that commercial banks hold at the Bank of Japan into digital "tokens." In plain terms, that's a real-world application of what's called a central bank digital currency — digital money issued by the central bank itself. A study committee launches this summer, the details are meant to be finalized by early 2027, and the system could go live sometime in the early 2030s. So this is a long horizon. But it's a serious signal that Tokyo wants to keep its capital markets competitive with New York, London, and Singapore.
+
+Staying with government policy, the Takaichi administration is thinking hard about energy security this morning — and you can feel the anxiety about the Middle East running through it.
+
+The government will support the construction of alternative pipelines to bypass the Strait of Hormuz. That's the narrow waterway at the mouth of the Persian Gulf through which a huge share of the world's oil passes — and a chokepoint that keeps Japanese planners awake at night. The Prime Minister unveiled what's being called the "Energy Supply Structure Resilience Comprehensive Package." It includes subsidies through JOGMEC — Japan's national oil, gas, and metals corporation — and it would reimburse the higher transport costs of crude that avoids the Hormuz route. There's also a regional cooperation idea called "Power Asia." The budget behind this is real: the economy ministry is requesting nearly two trillion yen for energy and green transformation next year, with a hundred and fifty billion yen earmarked specifically for diversifying oil supply.
+
+And at the household level, the Prime Minister confirmed the government will keep gasoline capped at around 170 yen per liter — instructing her finance and economy ministers to find the funding. So on energy, the message is consistent: protect supply abroad, protect consumers at home.
+
+Which brings us to the land itself — because Japan's farmland is in trouble, and the paper tells that story from two angles this morning.
+
+On the front page, the Ministry of Agriculture is weighing reforms to how farmland is inherited. Here's the problem. Roughly twenty percent of Japan's farmland — over a million hectares — has owners who are absent or simply unknown. Land gets divided up through inheritance, generation after generation, until nobody's quite sure who owns what, and it can't be farmed efficiently. The demographics are stark: seventy percent of individual farmers are over sixty-five, and the number of farming households has fallen sixty percent in just two decades. The idea is to use trust arrangements so land stays productive even when heirs have no interest in farming. Details are due by year-end.
+
+But hold that thought, because the deeper agricultural story is the one I've saved for the end of today's program — and it complicates this rosy picture considerably.
+
+Before that, let me take you overseas, where the Middle East keeps casting a long shadow.
+
+The United States has announced sweeping new sanctions on Iran. Treasury Secretary Bessent called it "economic exile" — measures across five areas: digital assets, technology, gold, aviation, and shipping. Critically, these include secondary sanctions, meaning any country or company that keeps trading with Iran could itself be penalized. Nikkei is candid that the effectiveness is uncertain, given the complicated state of US-China trade relations. China, of course, is a major buyer of Iranian oil.
+
+And the ripples reach an unexpected place. London's Heathrow Airport has lost its title as Europe's busiest airport — a title it held for thirty years. Middle East instability cut its traffic by one and a half percent in July, and Istanbul's airport has now overtaken it. Heathrow's runway constraints don't help.
+
+Two more from the wider world. Australia is tightening its Working Holiday visas — those short-term permits that let young travelers work while they explore the country. Amid a housing crunch and rising anti-immigration sentiment, processing times are stretching past the usual twenty-five days. The catch is that Australian agriculture leans heavily on those young workers, so farms are feeling the pinch.
+
+And the European Union's climate service reports that global ocean surface temperatures hit 21.1 degrees Celsius on August twenty-second — the highest since records began in 1979. That's driven by El Niño and climate change, and it threatens more extreme weather, coral bleaching, and disruption to fisheries.
+
+Turning to business at home, there's a story here about who's spending money in Japan right now. Three major department store chains are planning over 120 billion yen in capital investment this fiscal year — the highest in seven years. They're pouring it into luxury brands and flagship renovations. Why? Because Japan's stock market gains have created a wealthier consumer at the top, and the department stores want that spending.
+
+Meanwhile Daikin — Japan's air-conditioning giant — is investing about ten billion yen in a third Mexican plant, this one making cooling equipment for data centers. Daikin wants to grow that business more than fivefold, to 800 billion yen a year by 2030. The reason is the AI boom: those data centers run hot, and someone has to keep them cool.
+
+A quick look at markets, and a theme jumps out — nervousness about money itself. Gold has climbed above 4,600 dollars a troy ounce, a three-month high, as investors move away from dollar assets. US federal debt has now passed forty trillion dollars. When people worry about a currency losing value, they tend to reach for gold — and that's exactly what's happening. Corn futures, meanwhile, hit a three-year high on weather worries in the American Midwest and heat waves in France.
+
+And now, the one that caught my eye — and it's a sobering one, tucked deeper in the paper.
+
+While the government talks about keeping farmland productive, Japan's rice farmers are facing what Nikkei describes as a viability crisis. Early-season rice prices from Kyushu and Shikoku are running twenty to forty percent below last year. New-crop Koshihikari in Chiba is trading at 18,000 yen per sixty kilograms — sixty percent cheaper than a year ago. One supermarket chain predicts a five-kilogram bag could fall to 2,500 yen.
+
+Now, cheaper rice sounds like good news for shoppers. But listen to the farmers. Veteran growers say the economics have simply collapsed — especially for those who took on debt for new equipment, new processing facilities, new export channels. Even doing everything right, the revenue is too unstable to continue. And here's the paradox that stops you cold: this is happening at the very moment global supply chains are shaky and Japan says it wants domestic food resilience. You can't build resilience if the farmers walk away. It's the human cost behind those inheritance reforms — and a reminder that behind every policy paper are people deciding whether to keep planting.
+
+That's The Papers Say for Wednesday, the twenty-sixth of August. See you tomorrow.
