@@ -1,8 +1,9 @@
 name: Daily Eval — Quality Gate, Self-Critique, Drift Report
 
 on:
-  schedule:
-    - cron: '0 23 * * *'  # 08:00 JST — after TPS/Area61/Tokyo Open, avoids Pages-deploy collision
+  # PAUSED 2026-09-03 (token budget, ~1 month) — everything is on hold; uncomment to resume the 08:00 JST daily eval:
+  #schedule:
+  #  - cron: '0 23 * * *'  # 08:00 JST — after TPS/Area61/Tokyo Open, avoids Pages-deploy collision
   workflow_dispatch:
 
 jobs:
