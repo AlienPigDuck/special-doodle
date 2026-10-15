@@ -21,6 +21,8 @@
     a:hover{text-decoration:underline}
     .wrap{max-width:1040px;margin:0 auto}
 
+    .prompt{font-size:16px;color:var(--muted);text-align:center;padding:18px 0 4px;font-style:italic}
+    .prompt q{color:var(--text);quotes:'\201C' '\201D'}
     .tabs{display:flex;justify-content:safe center;gap:28px;padding:16px 0 0;border-bottom:1px solid var(--border);margin-bottom:48px;overflow-x:auto}
     .tabs span{font-size:14px;color:var(--muted);padding:6px 4px 12px;white-space:nowrap}
     .tabs span.on{color:var(--accent);border-bottom:2px solid var(--accent)}
@@ -96,6 +98,8 @@
 </head>
 <body>
 <div class="wrap">
+
+  <p class="prompt"><q>Hey Claude, make a website that explains the chef tab on the tracking app</q>&hellip;&hellip; this is what it came up with</p>
 
   <div class="tabs" aria-hidden="true">
     <span>Home</span><span>Nutrition</span><span>Training</span><span>Progress</span><span class="on">Chef</span><span>Coach</span>
