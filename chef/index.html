@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Chef — how it works</title>
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#0b0f17;--surface:#151b28;--surface-2:#1c2434;--border:#2a3345;
+      --text:#ffffff;--muted:#c3cad6;--accent:#f5a623;--good:#4ade80;--warn:#fb923c;
+      --link:#93c5fd;
+      --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
+    }
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:17px;line-height:1.65;
+      padding:0 20px 80px;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1040px;margin:0 auto}
+
+    /* top strip, mimicking the app's tab bar */
+    .tabs{display:flex;justify-content:safe center;gap:28px;padding:16px 0 0;border-bottom:1px solid var(--border);margin-bottom:48px;overflow-x:auto}
+    .tabs span{font-size:14px;color:var(--muted);padding:6px 4px 12px;white-space:nowrap}
+    .tabs span.on{color:var(--accent);border-bottom:2px solid var(--accent)}
+
+    header h1{font-size:44px;font-weight:800;letter-spacing:-.5px;line-height:1.1}
+    header .sub{font-size:20px;color:var(--muted);margin-top:6px}
+    header .lede{font-size:18px;max-width:720px;margin-top:24px}
+    header .lede p+p{margin-top:12px}
+    .hat{display:inline-block;color:var(--accent);font-size:40px;line-height:1;margin-bottom:10px}
+
+    /* three-tool summary */
+    .trio{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:40px 0 64px}
+    .tool{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px}
+    .tool .n{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700}
+    .tool h3{font-size:19px;margin:6px 0 8px}
+    .tool p{font-size:15.5px;color:var(--muted)}
+    .tool .tag{display:inline-block;margin-top:12px;font-size:12.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+      padding:3px 10px;border-radius:999px;background:var(--bg);border:1px solid var(--border)}
+    .tag.ai{color:var(--accent)}
+    .tag.det{color:var(--good)}
+
+    section{margin:0 0 72px}
+    section>h2{font-size:30px;font-weight:800;letter-spacing:-.3px;margin-bottom:6px}
+    section>.kicker{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:6px}
+    section>p.intro{font-size:18px;color:var(--muted);margin-bottom:28px;max-width:760px}
+
+    .split{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:36px;align-items:start}
+    .split.rev .shot{order:-1}
+    .prose p{margin-bottom:14px}
+    .prose ul,.prose ol{margin:0 0 16px 22px}
+    .prose li{margin-bottom:8px}
+    .prose strong{color:var(--text)}
+    .prose h3{font-size:18px;margin:22px 0 8px}
+    .shot{margin:0}
+    .shot img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--border);
+      box-shadow:0 20px 50px rgba(0,0,0,.45)}
+    .shot figcaption{font-size:14px;color:var(--muted);margin-top:10px;text-align:center}
+    .shot+.shot{margin-top:22px}
+
+    .note{background:var(--surface);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;
+      padding:14px 18px;margin:18px 0 20px;font-size:15.5px}
+    .note.good{border-left-color:var(--good)}
+
+    /* step list */
+    .steps{counter-reset:s;list-style:none;margin:20px 0 0}
+    .steps li{counter-increment:s;display:flex;gap:16px;background:var(--surface);border:1px solid var(--border);
+      padding:16px 20px;margin-bottom:-1px}
+    .steps li:first-child{border-radius:14px 14px 0 0}
+    .steps li:last-child{border-radius:0 0 14px 14px}
+    .steps li::before{content:counter(s);font-weight:800;font-size:22px;color:var(--accent);min-width:30px;line-height:1.2}
+    .steps b{display:block;margin-bottom:3px}
+    .steps span{font-size:15.5px;color:var(--muted)}
+
+    /* fillers table */
+    table{width:100%;border-collapse:collapse;font-size:15.5px;margin:12px 0 10px}
+    th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+    th{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+    td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+    th.num{text-align:right}
+    .tblwrap{overflow-x:auto}
+
+    /* stats */
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0 24px}
+    .stat{background:var(--surface-2);border-radius:12px;padding:14px 12px;text-align:center}
+    .stat .v{font-size:28px;font-weight:800;line-height:1.1}
+    .stat .l{font-size:13px;color:var(--muted);margin-top:4px}
+
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}
+    .chips span{font-size:14px;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:4px 12px}
+
+    footer{border-top:1px solid var(--border);padding-top:24px;font-size:14.5px;color:var(--muted)}
+    footer p+p{margin-top:8px}
+
+    @media(max-width:860px){
+      .trio{grid-template-columns:1fr}
+      .split{grid-template-columns:1fr}
+      .split.rev .shot{order:0}
+      .stats{grid-template-columns:repeat(2,1fr)}
+      header h1{font-size:36px}
+      .tabs{gap:18px}
+      section>h2{font-size:26px}
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="tabs" aria-hidden="true">
+    <span>Home</span><span>Nutrition</span><span>Training</span><span>Progress</span><span class="on">Chef</span><span>Coach</span>
+  </div>
+
+  <header>
+    <div class="hat">🍳</div>
+    <h1>Chef</h1>
+    <div class="sub">On-demand meal plans that hit your macros</div>
+    <div class="lede">
+      <p>Chef is one tab of <strong>Fit</strong>, a self-hosted fitness app that tracks a diet and training plan.
+      The rest of the app knows the day's targets: calories, protein, fat and carbs. Chef turns those numbers
+      into actual food, so the question "what do I eat today?" never has to be answered from scratch.</p>
+      <p>It does three jobs, shown below in the order they appear on the page. One is pure arithmetic over a
+      recipe library. The other two hand the arithmetic to an AI and let it do the talking.</p>
+    </div>
+  </header>
+
+  <div class="trio">
+    <div class="tool">
+      <div class="n">Tool 1</div>
+      <h3>Give me a meal plan for today</h3>
+      <p>Builds a whole day, lunch and dinner plus sides, that lands on the targets. Two taps: Simple or Fancy.</p>
+      <span class="tag det">No AI · deterministic</span>
+    </div>
+    <div class="tool">
+      <div class="n">Tool 2</div>
+      <h3>Fill the rest of my day</h3>
+      <p>Reads what has already been eaten today, works out what is left, and suggests three ways to finish the day.</p>
+      <span class="tag ai">AI, grounded in the maths</span>
+    </div>
+    <div class="tool">
+      <div class="n">Tool 3</div>
+      <h3>Ask the chef</h3>
+      <p>A chat with a cook who knows the targets, the staple foods and what a Japanese supermarket stocks.</p>
+      <span class="tag ai">AI, with a persona</span>
+    </div>
+  </div>
+
+  <!-- ============ TOOL 1 ============ -->
+  <section id="plan">
+    <div class="kicker">Tool 1</div>
+    <h2>Give me a meal plan for today</h2>
+    <p class="intro">Tap <strong>Simple</strong> or <strong>Fancy</strong> and a full day appears a moment later.
+    No AI is involved here. The plan comes from a library of 89 recipes and a handful of fixed side items,
+    assembled by a small scoring routine.</p>
+
+    <div class="split">
+      <div class="prose">
+        <h3>What you get</h3>
+        <ul>
+          <li><strong>A lunch and a dinner</strong>, each a real recipe with calories and macros, a prep time,
+            and a fold-out recipe (ingredients, numbered method, and a note on substitutions for Japan where needed).</li>
+          <li><strong>"On the side"</strong>: protein shakes, Greek yoghurt, rice, fruit, a few almonds or a
+            teaspoon of olive oil. These are the levers that pull the day onto target.</li>
+          <li><strong>A scoreboard</strong> at the top: the day's total against each target, with the
+            difference in green when it is close and orange when it is not.</li>
+        </ul>
+        <h3>Simple versus Fancy</h3>
+        <p>Lunch is always drawn from the quick recipes, because lunch on a work day has to be quick.
+        <strong>Simple</strong> draws dinner from the same quick pool. <strong>Fancy</strong> draws dinner from the
+        recipes that take more effort, for an evening when cooking is the point.</p>
+        <h3>After the plan appears</h3>
+        <ul>
+          <li><strong>New plan</strong> rerolls the whole day and will not repeat the mains you were just shown.</li>
+          <li><strong>Keep dinner</strong> holds the dinner you liked and rerolls everything around it.</li>
+          <li><strong>Log this day</strong> writes every item straight into today's food diary, so a day that
+            was planned here counts as eaten once you follow it.</li>
+        </ul>
+      </div>
+      <figure class="shot">
+        <img src="img/meal-plan.png" alt="A generated Simple plan: scoreboard showing 2023 kcal against 2000, lunch Gyudon, dinner Ground Chicken Stir Fry, and a list of sides">
+        <figcaption>A Simple plan. The scoreboard reads total / target and the difference beneath.</figcaption>
+      </figure>
+    </div>
+
+    <h3 style="font-size:20px;margin-top:40px">How the planner decides</h3>
+    <ol class="steps">
+      <li><div><b>Shortlist the mains</b><span>Only recipes that can be a lunch or dinner, have a named protein
+        source, have macros, and are not flagged as impractical to shop for in Japan. That leaves 45 of the 89: 38 quick ones and 7 for Fancy.</span></div></li>
+      <li><div><b>Draw a dinner, then a lunch</b><span>Random picks from the right pool. The lunch is steered away
+        from the dinner's protein source, so you are not eating chicken twice.</span></div></li>
+      <li><div><b>Fill the gaps with sides</b><span>A fixed sequence: up to two whey shakes until protein is close,
+        then yoghurt if still short; rice portions and then fruit until carbs are close; then almonds or olive oil
+        until the fat floor is met. Every step stops if the day is already well over its calories.</span></div></li>
+      <li><div><b>Score the day</b><span>Protein shortfall is punished hardest, then carbs, then distance from the
+        calorie target. Landing under the fat floor or the protein floor adds a flat penalty. Going far over calories adds another.</span></div></li>
+      <li><div><b>Repeat 140 times, keep the best of each pairing</b><span>Every lunch-and-dinner combination keeps
+        only its best-scoring version. The plan shown is a random pick from the top six, so repeat taps give
+        variety without giving up accuracy.</span></div></li>
+    </ol>
+
+    <div class="note good">Protein and fat are treated as <strong>floors</strong>, not targets. The diet method behind
+    the app says protein protects muscle while cutting and a minimum of fat protects hormones. Carbs and total
+    calories are the flex. An earlier version ignored fat entirely and most generated days came in well under the
+    floor, which is why almonds and olive oil now appear on the side.</div>
+
+    <h3 style="font-size:20px;margin-top:28px">The side items</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>Item</th><th>Role</th><th class="num">kcal</th><th class="num">Protein</th><th class="num">Carbs</th><th class="num">Fat</th><th class="num">Max per day</th></tr></thead>
+      <tbody>
+        <tr><td>Whey protein shake, one big scoop in water</td><td>protein</td><td class="num">140</td><td class="num">30 g</td><td class="num">4 g</td><td class="num">2 g</td><td class="num">2</td></tr>
+        <tr><td>Greek yoghurt, 150 g plain 2%</td><td>protein top-up</td><td class="num">90</td><td class="num">15 g</td><td class="num">6 g</td><td class="num">4 g</td><td class="num">1</td></tr>
+        <tr><td>Rice, 150 g cooked, white or genmai</td><td>carbs</td><td class="num">234</td><td class="num">4 g</td><td class="num">56 g</td><td class="num">0 g</td><td class="num">2</td></tr>
+        <tr><td>Banana, berries (150 g) or apple</td><td>carbs</td><td class="num">85–105</td><td class="num">0–1 g</td><td class="num">20–27 g</td><td class="num">0 g</td><td class="num">2</td></tr>
+        <tr><td>Almonds, 15 g</td><td>fat floor</td><td class="num">87</td><td class="num">3 g</td><td class="num">3 g</td><td class="num">7.5 g</td><td class="num" rowspan="2">4 combined</td></tr>
+        <tr><td>Olive oil, 1 tsp on the veg or salad</td><td>fat floor, small step</td><td class="num">40</td><td class="num">0 g</td><td class="num">0 g</td><td class="num">4.5 g</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <!-- ============ TOOL 2 ============ -->
+  <section id="fill">
+    <div class="kicker">Tool 2</div>
+    <h2>Fill the rest of my day</h2>
+    <p class="intro">For the more common situation: it is mid-afternoon, lunch is already in the diary, and the
+    question is what dinner needs to be to finish the day on target.</p>
+
+    <div class="split rev">
+      <figure class="shot">
+        <img src="img/fill-remaining.png" alt="The Fill the rest of my day card: eaten 652 of 2000 kcal, with 1348 kcal, 89 g protein, 163 g carbs and 39 g fat left, and a Suggest what to eat button">
+        <figcaption>The card before asking. The remaining numbers come from the food diary, not from the AI.</figcaption>
+      </figure>
+      <div class="prose">
+        <h3>The app does the sums</h3>
+        <p>The card reads today's food log and shows what is left of each target: calories, protein, carbs and fat.
+        If a number has gone negative it flips to <strong>over</strong> and turns orange. This part is plain
+        arithmetic and works whether or not the AI is configured.</p>
+        <h3>The AI picks the food</h3>
+        <p>Tapping <strong>Suggest what to eat</strong> sends the AI a tightly written brief: the daily targets,
+        the list of what has been eaten with its macros, the totals so far, and the exact remaining numbers. It is
+        asked for <strong>three distinct options</strong>, each with specific metric amounts and an estimated total,
+        and told to say in one line if an option cannot hit every macro.</p>
+        <h3>The rules it is given</h3>
+        <ul>
+          <li>Protein is the priority. Get close to the remaining protein even if that runs calories slightly over.</li>
+          <li>Adjust serving sizes freely to hit the numbers. "180 g chicken breast + 200 g cooked rice", not "some chicken".</li>
+          <li>If the day is already <strong>over the fat floor</strong>, the brief changes: favour lean protein and
+            low-fat carbs and keep added fat minimal, because the fat calories have already been spent. The card warns
+            about this too.</li>
+          <li>If fat is still short, top up toward the floor.</li>
+        </ul>
+      </div>
+    </div>
+
+    <figure class="shot" style="max-width:760px;margin:28px auto 0">
+      <img src="img/fill-suggestions.png" alt="Three suggested options for the rest of the day: salmon and rice bowl, beef stir-fry with rice, and tofu with eggs, each with amounts and estimated totals">
+      <figcaption>The reply. Three options, amounts in grams, an estimated total for each, and a one-line verdict on which is cleanest.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ============ TOOL 3 ============ -->
+  <section id="ask">
+    <div class="kicker">Tool 3</div>
+    <h2>Ask the chef</h2>
+    <p class="intro">Free-form chat. "How do I make this?", "What can I do with chicken and rice?", "Is there a swap
+    for the salmon?" The answers are short and come with macros attached.</p>
+
+    <div class="split">
+      <div class="prose">
+        <h3>Who you are talking to</h3>
+        <p>The AI is given a persona and a set of standing instructions before every message. In short: a practical,
+        upbeat personal chef for someone who is busy, wants tasty, simple, varied food, and is currently cutting.</p>
+        <ul>
+          <li>Keep it simple and quick unless asked for something involved.</li>
+          <li>Prefer the staple foods and things buyable in a normal Japanese supermarket.</li>
+          <li>Give calories and macros with any dish or swap, and say they are estimates.</li>
+          <li>Metric units. Ingredients as a short list, method as a few numbered steps.</li>
+          <li>Sweet things are budgeted rather than banned. If the day's numbers leave room, a treat is fine.</li>
+        </ul>
+        <h3>What it knows about today</h3>
+        <p>Current body weight, the diet phase, the day's four targets, and that a recipe library of 89 dishes
+        exists in the app. It also knows the eating pattern: breakfast skipped, lunch and dinner the two meals,
+        dinner the bigger one, training around six in the evening.</p>
+        <h3>Memory</h3>
+        <p>The conversation is stored, so follow-up questions work ("make that spicier", "and without the rice?").
+        The <strong>clear</strong> link at the top of the card wipes it and starts fresh.</p>
+      </div>
+      <figure class="shot">
+        <img src="img/ask-the-chef.png" alt="A chat exchange: the user asks whether to compensate the day after missing a protein target, and the chef answers with a short practical rule">
+        <figcaption>A typical exchange. Questions on the right, answers on the left.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ UNDER THE HOOD ============ -->
+  <section id="hood">
+    <div class="kicker">Under the hood</div>
+    <h2>What is AI and what is not</h2>
+    <p class="intro">A deliberate split. Anything that must be exactly right is computed by the app. The AI
+    is only ever asked to choose foods and write sentences around numbers it has been handed.</p>
+
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>Job</th><th>Done by</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Daily targets (calories, protein, fat, carbs)</td><td>The app, from the current diet block</td><td>They are the plan. Nothing in Chef can change them.</td></tr>
+        <tr><td>Building a day from the recipe library</td><td>The app, scoring routine</td><td>Repeatable, instant, and it never invents a recipe or a macro.</td></tr>
+        <tr><td>What is eaten so far and what is left</td><td>The app, from the food diary</td><td>The remaining numbers must be correct before anyone reasons about them.</td></tr>
+        <tr><td>Suggesting food for the rest of the day</td><td>AI (Claude), given the exact numbers</td><td>Choosing tasty combinations and scaling portions is what a language model is good at.</td></tr>
+        <tr><td>Cooking questions, swaps, recipes</td><td>AI (Claude), with the chef persona</td><td>Open-ended, and the answers are advice, not records.</td></tr>
+        <tr><td>Writing a plan into the diary</td><td>The app, on "Log this day"</td><td>Only a tap commits anything. Nothing is logged automatically.</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="note">Every macro figure that comes from the AI is labelled an <strong>estimate</strong>, and
+    the chef is instructed to say so itself. The recipe library's numbers are fixed; 32 of the 89 recipes carry
+    an "estimated" flag where the source did not give full nutrition data, and the plan marks those with "≈ est".</div>
+
+    <p class="prose" style="margin-top:12px">The AI calls go straight to the Anthropic API from the app's own server,
+    with the model set to run at low effort. That keeps each answer cheap and quick, which is right for meal
+    suggestions. If no API key is configured, the page says so, and Tool 1 and the arithmetic in Tool 2 keep working
+    without it.</p>
+  </section>
+
+  <!-- ============ RECIPE LIBRARY ============ -->
+  <section id="library">
+    <div class="kicker">The raw material</div>
+    <h2>The recipe library</h2>
+    <p class="intro">Eighty-nine high-protein recipes, each with calories, macros, prep time, servings, ingredients
+    and a numbered method. They were gathered from a personal recipe collection and loaded into the app as data,
+    not scraped at run time.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="v">89</div><div class="l">recipes</div></div>
+      <div class="stat"><div class="v">71 / 18</div><div class="l">simple / fancy</div></div>
+      <div class="stat"><div class="v">45</div><div class="l">usable by the planner</div></div>
+      <div class="stat"><div class="v">15–30</div><div class="l">minutes prep, typically</div></div>
+    </div>
+
+    <div class="prose">
+      <p><strong>Protein sources</strong>, which the planner uses to keep lunch and dinner different:</p>
+      <div class="chips">
+        <span>chicken 16</span><span>whey 21</span><span>beef 9</span><span>egg 9</span><span>salmon 7</span>
+        <span>fish 5</span><span>turkey 5</span><span>tofu 2</span><span>mixed 7</span><span>steak 1</span><span>greek yoghurt 1</span>
+      </div>
+      <p>The whey-based entries are mostly breakfasts, bars and shakes. They are in the library for "Ask the chef"
+      to draw on but are not used as mains by the planner.</p>
+      <p><strong>Japan notes.</strong> The app is used in Japan, so each recipe was checked against what a normal
+      supermarket there stocks. Twenty-four carry a substitution note (ground turkey is hard to find, use chicken or
+      beef and fresh chilli; that kind of thing). Ten are flagged as impractical and are excluded from the planner
+      altogether, though they remain readable.</p>
+      <p>Some of the Japanese dishes in the library: Gyudon, Oyakodon, Teriyaki Salmon Bowls, Miso Salmon,
+      High Protein Mapo Tofu, Korean Ground Beef with gochujang, Shrimp Poke Bowl, Air Fryer Teriyaki Chicken.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Chef is one page of Fit, a private, self-hosted app. The screenshots are from a real day on a 2,000 kcal,
+    150 g protein cut. Nothing here is medical or dietary advice for anyone else.</p>
+    <p><a href="/">christie.vip</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
