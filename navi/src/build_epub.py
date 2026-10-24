@@ -6,7 +6,7 @@ light book stylesheet, renders a cover, and calls Calibre's `ebook-convert` to
 produce the EPUB with a nested Part/section table of contents and embedded images.
 
     python3 navi/src/build_epub.py
-Output: "/home/neil/Documents/Books and manuals/The Mariner's Craft/The Mariner's Craft.epub"
+Output: "/home/neil/Books/Books and manuals/The Mariner's Craft/The Mariner's Craft.epub"
 """
 import os, re, html, shutil, subprocess
 import markdown
@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 HERE = os.path.dirname(os.path.abspath(__file__))
 IMG_SRC = os.path.join(os.path.dirname(HERE), "img")          # navi/img
 BUILD = "/tmp/navi-epub"
-OUTDIR = "/home/neil/Documents/Books and manuals/The Mariner's Craft"
+OUTDIR = "/home/neil/Books/Books and manuals/The Mariner's Craft"
 TITLE = "The Mariner's Craft"
 SUBTITLE = "Finding your way by sky, sea, and reckoning — a practical book of traditional navigation"
 AUTHOR = "christie.vip"
