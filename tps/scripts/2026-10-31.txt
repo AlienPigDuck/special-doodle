@@ -1,0 +1,45 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Saturday, the thirty-first of October, 2026. I'm glad you're with me.
+
+We begin today with a headline thirteen years in the making. The Bank of Japan announced this morning that underlying inflation has finally reached its 2% target — the first time since the central bank adopted that goal all the way back in 2013. Governor Kazuo Ueda called it, simply, "a milestone." And all nine members of the policy board agreed.
+
+Now, if you've followed Japan's economy for any length of time, you understand why this matters so much. For most of the last three decades, Japan's problem wasn't prices going up — it was prices going down, or simply not moving at all. Deflation. A sort of economic stillness, where companies couldn't raise wages, consumers held off on spending because things might be cheaper tomorrow, and the whole economy felt stuck in neutral. Reaching 2% inflation was supposed to break that spell. And now, Nikkei reports, the Bank of Japan says it has.
+
+Here's the significant shift. The BOJ's job is now changing. For thirteen years, it was trying to *push* inflation up. Now its mission is the opposite — to *stabilize* inflation around 2%, and to keep it from running away. The bank held interest rates at 1.25% this time, but it signaled clearly that more rate hikes are coming, possibly as soon as December. This is a central bank moving from offense to defense.
+
+But — and this is important — not everyone is ready to pop the champagne. Economic Minister Takeshio is holding back from declaring a formal end to deflation. He wants to confirm that the balance between supply and demand is genuinely sustainable before making it official. So the government is being cautious even as the evidence mounts that the price-and-wage cycle has restarted.
+
+And there's a very human reason for that caution, which I'll come back to at the end of the program — because it's the story that caught my eye today, and it complicates this whole triumphant picture.
+
+Let's turn to a remarkable shift in the global tech hierarchy. According to the Nikkei this morning, five major memory chipmakers — led by Japan's Kioxia — posted combined operating profit of 32 trillion yen last quarter. That's more than the 25 trillion yen earned by the American tech giants: Alphabet, Microsoft, Amazon, Meta, and Apple, combined. For the first time, the companies that make the memory chips are out-earning the companies that make the products.
+
+The reason is artificial intelligence. AI data centers are devouring NAND flash memory, and that demand has turned memory into a bottleneck — the thing everyone needs and can't get enough of. Kioxia alone recorded nearly 2 trillion yen in operating profit, twenty-three times what it earned a year ago. Its production capacity is sold out through fiscal 2027, and half of its 2028 orders are already booked. Kioxia has even revised its forecast upward and promised a 70-yen dividend — up from nothing at all.
+
+And it's not just Kioxia riding this wave. Tokyo Electron is forecasting a record 865 billion yen net profit, up 51%. Murata Manufacturing is committing one trillion yen over five years to expand production of tiny ceramic capacitors for AI data centers. Panasonic raised its profit forecast on AI server materials. And TDK is investing 100 billion yen in Niigata to triple production of sensors — for humanoid robots and what the industry calls "physical AI."
+
+But here's where I have to sound a note of caution — not advice, just observation. All of this profit depends on one assumption: that the big tech companies keep spending enormous sums on AI. And the markets had a wobble this week. The Nikkei 225 fell more than 1,300 points — over 2% — in its steepest single-day drop in weeks. The trigger was disappointing earnings from Intel, which spooked the whole semiconductor sector. Investors are starting to whisper a worrying word: overcapacity. What if the AI spending boom slows? Money is flowing out of tech stocks and into the safety of government bonds. So the celebration and the anxiety are living side by side right now.
+
+Now, two more stories from the front page, both about Japan opening doors.
+
+Daiwa Securities has set up a fund to buy the office and retail portions of a Tokyo complex in Kioicho — the site of the former Akasaka Prince Hotel — for more than 300 billion yen, buying it from Blackstone. And here's the genuinely novel part: Daiwa plans to *tokenize* that real estate. In plain terms, they'll turn roughly 300 billion yen of prime office space into digital securities that ordinary individual investors can buy into. It's a first for Japan — a way of letting regular people own a slice of the kind of institutional-grade property that was once reserved for the giants.
+
+And on cybersecurity: Nikkei reports the government is asking American AI firms — Anthropic and OpenAI — to expand Japan's access to their most advanced models, specifically to hunt for vulnerabilities in critical systems. Prime Minister Takaichi's administration will announce a cybersecurity package next week. The reasoning is sobering. Attackers are now using powerful AI to break into systems at a speed and scale that simply wasn't possible before. Japan's defenders need equal firepower — and for now, that means relying on American technology.
+
+A few notes from overseas. In Israel, election results show Netanyahu's bloc as the largest faction with 53 seats — but short of the 60 needed for a majority. Coalition talks begin now, and the outcome is uncertain. Notably, Arab parties surged to 19 seats.
+
+Taiwan posted stunning growth — second-quarter GDP up more than 14% year-on-year, driven, once again, by AI-related semiconductor and server exports. That same AI engine.
+
+Bangladesh's prime minister visited Tokyo and came away with one trillion yen in Japanese private investment commitments over five years. Japan is clearly looking to deepen ties with Bangladesh's 170-million-person market — in part to counter China's influence in the region.
+
+And in Ukraine, an eighty-hour ceasefire has begun around Russian-occupied Oreshki, mediated by the Trump administration. A humanitarian corridor has opened to evacuate 750 civilians, with American and Russian delegations overseeing it.
+
+Quick corporate notes: BYD, the Chinese electric-vehicle maker, saw profit rise 28% even as its domestic sales fell — overseas EV sales more than doubled, and it's planning three new European factories to get around EU tariffs. And Daiwa Securities, beyond that real estate deal, posted a 37% jump in net profit, with its retail and wealth-management arms hitting record highs.
+
+And now, the story that caught my eye — and it's the shadow beneath today's big celebration.
+
+While the headlines trumpet Japan finally hitting 2% inflation after thirteen years, a Nikkei analysis points to a far more sobering reality underneath. For the average household, real purchasing power has collapsed. Consider the everyday items. A Seven-Eleven onigiri — that humble rice ball that's a staple of daily life here — is up 41% since the end of 2021. A pair of Uniqlo pants costs a thousand yen more than it did back then.
+
+And this is the tension at the very heart of today's program. The economists and the central bankers are celebrating. The 2% target was reached. The spell of deflation is breaking. And on paper, that's an achievement. But for the person standing at the convenience store counter, inflation isn't an abstract milestone — it's the rice ball that costs noticeably more than it used to. Wages are supposed to rise to match. Sometimes they do. Often they lag behind.
+
+This is exactly why Economic Minister Takeshio is holding off on declaring victory over deflation. The numbers say one thing. The lived experience of ordinary people says another. And bridging that gap — making sure the end of deflation actually feels like good news in people's kitchens — may be the real challenge of the years ahead.
+
+That's The Papers Say for Saturday, the thirty-first of October. See you tomorrow.
