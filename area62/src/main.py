@@ -9,6 +9,8 @@ import sys
 import json
 import base64
 import logging
+import re
+import unicodedata
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
@@ -25,16 +27,50 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
+# English names by base section (page numbers stripped and re-appended: 総合2 → General News 2).
 SECTION_TRANSLATIONS = {
-    '１面':             'Front Page',
-    'ビジネス':         'Business',
-    '総合':             'General News',
+    '1面':             'Front Page',
+    '総合':            'General News',
+    '政治・外交':      'Politics & Diplomacy',
+    '経済・政策':      'Economy & Policy',
+    '金融経済':        'Finance',
+    'グローバル市場':  'Global Markets',
+    '国際':            'International',
+    'アジアBiz':       'Asia Business',
+    'ビジネス':        'Business',
+    '投資':            'Investment',
+    '商品':            'Commodities',
+    '社説':            'Editorial',
+    'オピニオン':      'Opinion',
+    '経済教室':        'Economics Classroom',
+    'マネーのまなび':  'Money & Investing',
+    '医療・介護・健康': 'Healthcare',
+    '詩歌・教養':      'Poetry & Culture',
+    '読書':            'Books',
+    '東京・首都圏経済': 'Tokyo & Metro Economy',
+    '地域経済':        'Regional Economy',
+    'スポーツ':        'Sports',
+    '社会':            'Society',
+    '社会・スポーツ':  'Society & Sports',
+    '文化':            'Culture',
     'マーケット・投資': 'Markets & Investment',
-    'ニュースぷらす':   'News Plus',
-    '社会':             'Society',
-    '文化':             'Culture',
-    'other':            'Other',
+    'ニュースぷらす':  'News Plus',
+    'プラス1':         'Plus 1',
+    'The STYLE':       'The STYLE',
+    'unknown':         'Other',
 }
+
+
+def _section_base(name: str) -> str:
+    """'総合２' → '総合', '１面' → '1面'."""
+    return re.sub(r'\d+$', '', unicodedata.normalize('NFKC', name or '').strip())
+
+
+def _translate_section(name: str) -> str:
+    norm = unicodedata.normalize('NFKC', name or '').strip()
+    base = _section_base(norm)
+    num = norm[len(base):]
+    return SECTION_TRANSLATIONS.get(base, base) + (f" {num}" if num else "")
 
 
 TRANSLATE_BATCH = 40  # keep each request well under the output token limit
@@ -90,7 +126,7 @@ def build_output(articles: list[tuple[str, str, str]], titles_en: list[str]) -> 
     section_order: list[str] = []
 
     for (url, title_ja, section_ja), title_en in zip(articles, titles_en):
-        section_en = SECTION_TRANSLATIONS.get(section_ja, section_ja)
+        section_en = _translate_section(section_ja)
         if section_en not in sections:
             sections[section_en] = []
             section_order.append(section_en)

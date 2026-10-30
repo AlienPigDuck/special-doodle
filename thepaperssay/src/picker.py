@@ -5,6 +5,8 @@ briefing of the top stories from Japan's morning newspaper.
 
 import os
 import logging
+import re
+import unicodedata
 import anthropic
 
 log = logging.getLogger(__name__)
@@ -47,16 +49,20 @@ Rules:
 JAPANESE NAMES: Japan's Prime Minister is Sanae Takaichi (高市早苗). Always romanise her surname as "Takaichi" — never "Takayama", "Takita", or any other spelling. Romanise other Japanese officials' and companies' names with the same care."""
 
 
-_SECTION_PRIORITY = {
-    '１面': 0,
-    '総合１': 1, '総合２': 1, '総合３': 1, '総合４': 1, '総合５': 1,
-    'グローバル市場': 2,
+_SECTION_PRIORITY = {  # by base section name — '総合２' → '総合' (see _section_base)
+    '1面': 0,
+    '総合': 1, '政治・外交': 1, '経済・政策': 1,
+    '金融経済': 2, 'グローバル市場': 2,
     '国際': 3,
     'アジアBiz': 4,
-    'ビジネス１': 5, 'ビジネス２': 5,
-    '投資１': 6, '投資２': 6,
+    'ビジネス': 5,
+    '投資': 6,
     '商品': 7,
 }
+
+
+def _section_base(name: str) -> str:
+    return re.sub(r'\d+$', '', unicodedata.normalize('NFKC', name or '').strip())
 _CHAR_BUDGET = 150_000
 
 
@@ -67,7 +73,7 @@ def pick(articles) -> str:
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-    ordered = sorted(articles, key=lambda a: _SECTION_PRIORITY.get(a.section or "", 99))
+    ordered = sorted(articles, key=lambda a: _SECTION_PRIORITY.get(_section_base(a.section), 99))
     blocks = []
     used_chars = len(_PROMPT)
     skipped = 0

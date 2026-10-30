@@ -6,6 +6,8 @@ The briefing output is what script.py receives instead of raw headlines.
 
 import os
 import logging
+import re
+import unicodedata
 import anthropic
 from collectors.base import Article
 
@@ -48,16 +50,20 @@ JAPANESE NAMES: Japan's Prime Minister is Sanae Takaichi (高市早苗). Always 
 
 # Section priority — highest value articles go in first with full bodies.
 # Lower-priority sections get included only if budget allows.
-_SECTION_PRIORITY = {
-    '１面': 0,
-    '総合１': 1, '総合２': 1, '総合３': 1, '総合４': 1, '総合５': 1,
-    'グローバル市場': 2,
+_SECTION_PRIORITY = {  # by base section name — '総合２' → '総合' (see _section_base)
+    '1面': 0,
+    '総合': 1, '政治・外交': 1, '経済・政策': 1,
+    '金融経済': 2, 'グローバル市場': 2,
     '国際': 3,
     'アジアBiz': 4,
-    'ビジネス１': 5, 'ビジネス２': 5,
-    '投資１': 6, '投資２': 6,
+    'ビジネス': 5,
+    '投資': 6,
     '商品': 7,
 }
+
+
+def _section_base(name: str) -> str:
+    return re.sub(r'\d+$', '', unicodedata.normalize('NFKC', name or '').strip())
 _RSS_PRIORITY = 8  # RSS articles after all Nikkei priority sections
 _CHAR_BUDGET = 150_000  # ~50-60K tokens; leaves headroom under the 200K limit
 
@@ -65,7 +71,7 @@ _CHAR_BUDGET = 150_000  # ~50-60K tokens; leaves headroom under the 200K limit
 def _prioritised(articles: list[Article]) -> list[Article]:
     def key(a):
         if a.source == "Nikkei JP":
-            return _SECTION_PRIORITY.get(a.section or "", 99)
+            return _SECTION_PRIORITY.get(_section_base(a.section), 99)
         return _RSS_PRIORITY
     return sorted(articles, key=key)
 

@@ -12,92 +12,71 @@ log = logging.getLogger(__name__)
 
 BASE_URL  = "https://www.nikkei.com"
 PAPER_URL = "https://www.nikkei.com/paper/"
-EVENING_URL = "https://www.nikkei.com/paper/evening/"
+_JST = timezone(timedelta(hours=9))
 
-# Nikkei evening edition (夕刊) section names, in natural paper order.
-ALL_SECTIONS = [
-    '１面',
-    'ビジネス',
-    '総合',
-    'マーケット・投資',
-    'ニュースぷらす',
-    '社会',
-    '文化',
-]
+# Nikkei redesigned its 朝刊・夕刊 pages in October 2026. Each edition now has its own
+# URL — /paper/YYYYMMDDM101 (morning) and /paper/YYYYMMDDE101 (evening) — and article
+# links look like /paper/<edition>/<pageID>/article/<articleID>. Section names are the
+# <h2> headings above each group of links, e.g. 1面, 総合1, 政治・外交, ビジネス2 (page
+# numbers are half-width digits now; the old pages used full-width ones).
 
-# The evening edition is small; the morning edition runs ~150-200 articles. If we
-# pull far more than an evening edition could hold, the evening URL was served the
-# morning edition instead (it falls back to morning when no 夕刊 exists yet —
-# early morning, Sundays, holidays).
-EVENING_MAX_ARTICLES = 120
-
+# Walks the DOM in document order. An <h2> starts a new section; every anchor whose
+# href is a paper article is collected with the headline (the <h3> inside the anchor —
+# the anchor's own text also carries the lead paragraph) and the current section.
 _EXTRACT_JS = """
-([allSections]) => {
-    const all = new Set(allSections);
+() => {
+    const re = /\\/paper\\/(?:\\d{8}[A-Z]\\d+\\/[A-Z0-9]+\\/)?article\\//;
     const results = [];
     const seen = new Set();
-    let currentSection = null;
-
+    let section = null;
     const iter = document.createNodeIterator(document.body, NodeFilter.SHOW_ELEMENT);
     let el;
     while ((el = iter.nextNode())) {
-        const directText = Array.from(el.childNodes)
-            .filter(n => n.nodeType === 3)
-            .map(n => n.textContent.trim())
-            .filter(t => t.length > 0)
-            .join('');
-
-        if (all.has(directText)) {
-            currentSection = directText;
+        if (el.tagName === 'H2') {
+            const t = (el.textContent || '').trim();
+            if (t && t.length <= 24) section = t;
         }
-
-        if (el.tagName === 'A') {
-            const href = el.getAttribute('href') || '';
-            if (href.includes('/paper/article/') && !seen.has(href)) {
-                seen.add(href);
-                const title = (el.textContent || '').trim();
-                if (title.length > 8) {
-                    results.push([
-                        href.startsWith('/') ? 'https://www.nikkei.com' + href : href,
-                        title.substring(0, 120),
-                        currentSection || 'other'
-                    ]);
-                }
-            }
+        if (el.tagName !== 'A') continue;
+        const href = el.getAttribute('href') || '';
+        if (!re.test(href) || seen.has(href)) continue;
+        seen.add(href);
+        const h = el.querySelector('h3, h2, h4');
+        const title = ((h ? h.textContent : el.textContent) || '').trim();
+        if (title.length > 8) {
+            results.push([
+                href.startsWith('/') ? 'https://www.nikkei.com' + href : href,
+                title.substring(0, 120),
+                section || 'unknown',
+            ]);
         }
     }
     return results;
 }
 """
 
-
-def _load_evening(page: Page) -> None:
-    """Load the canonical evening-edition listing. Nikkei's /paper/ pages do a
-    client-side self-redirect (a plain goto raises 'interrupted by another
-    navigation'); wait_until='commit' returns before that fires. If there is no
-    evening edition (weekends/holidays) the page redirects to /paper/ — the caller's
-    guard detects that from the final URL."""
+def _goto_settle(page: Page, url: str) -> None:
+    """Navigate and let the SPA settle (it self-redirects, which interrupts a plain goto)."""
     try:
-        page.goto(EVENING_URL, wait_until="commit", timeout=30000)
+        page.goto(url, wait_until="commit", timeout=30000)
     except Exception as e:
-        log.warning("Area 62: /paper/evening/ goto hiccup: %s", e)
+        log.warning("Area 62: goto hiccup at %s: %s", url, e)
     try:
         page.wait_for_load_state("domcontentloaded", timeout=15000)
     except Exception:
         pass
-    page.wait_for_timeout(3000)   # let the self-redirect settle
-    try:                          # wait for the listing to actually render
-        page.wait_for_selector('a[href*="/paper/article/"]', timeout=20000)
+    page.wait_for_timeout(3000)
+    try:
+        page.wait_for_selector('a[href*="/article/"]', timeout=20000)
     except Exception:
         pass
 
 
-def _extract_retry(page, tries: int = 5):
-    """Run the extractor, retrying while the SPA's self-redirect keeps destroying
-    the execution context / leaving document.body null, until the page holds still."""
+def _eval_retry(page: Page, js, *args, tries: int = 5):
+    """Run page.evaluate, retrying while the SPA's self-redirect keeps destroying
+    the execution context, until the page holds still."""
     for i in range(tries):
         try:
-            return page.evaluate(_EXTRACT_JS, [ALL_SECTIONS])
+            return page.evaluate(js, *args)
         except Exception as e:
             if i < tries - 1:
                 log.warning("Area 62: extract attempt %d failed (%s) — retrying", i + 1, str(e)[:90])
@@ -106,31 +85,36 @@ def _extract_retry(page, tries: int = 5):
                 raise
 
 
+def _load_links(page: Page) -> list[tuple[str, str, str]]:
+    """Load today's 夕刊 edition and return (url, title, section) for every
+    article in it. Tries the explicit edition URL first, then /paper/ (whatever edition
+    the site defaults to) — a page is accepted only if its title says 夕刊."""
+    today = datetime.now(_JST).strftime("%Y%m%d")
+    for url in (f"{BASE_URL}/paper/{today}E101", PAPER_URL):
+        _goto_settle(page, url)
+        title = page.title()
+        links = _eval_retry(page, _EXTRACT_JS)
+        if links and '夕刊' in title:
+            log.info("Area 62: %s — %d article links (%s)", title, len(links), page.url)
+            return links
+        log.warning("Area 62: %s gave %d links, page title %r — %s", url, len(links), title,
+                    "trying /paper/" if url != PAPER_URL else "giving up")
+    return []
+
+
 def fetch() -> list[tuple[str, str, str]]:
-    """Return list of (url, title_ja, section_ja) from today's evening edition listing."""
+    """Return list of (url, title_ja, section_ja) from today's 夕刊 listing.
+    Empty when there is no 夕刊 today (weekends/holidays for the 夕刊)."""
     result = make_page("nikkei_jp")
     if not result:
         return []
     pw, browser, page = result
 
     try:
-        _load_evening(page)
-        final_url = page.url
-        links = _extract_retry(page)
-        log.info("Area 62: landed on %s — %d article links", final_url, len(links))
-
-        # Guard: only accept a genuine evening edition. If the site redirected away
-        # from /paper/evening/ or served the much larger morning edition, there is
-        # no 夕刊 right now — skip rather than publish morning content as evening.
-        if "/paper/evening/" not in final_url or len(links) > EVENING_MAX_ARTICLES:
-            log.warning("Area 62: no evening edition available (url=%s, %d articles) — skipping",
-                        final_url, len(links))
-            return []
-
-        # Log distinct sections seen — confirms the evening section labels on first runs
-        seen_sections = sorted({section for _, _, section in links})
-        log.info("Area 62: sections detected: %s", seen_sections)
-        return [(url, title, section) for url, title, section in links]
+        links = _load_links(page)
+        log.info("Area 62: %d article links collected; sections: %s",
+                 len(links), sorted({sec for _, _, sec in links}))
+        return links
     finally:
         browser.close()
         pw.stop()

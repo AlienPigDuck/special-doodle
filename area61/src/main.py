@@ -9,6 +9,8 @@ import sys
 import json
 import base64
 import logging
+import re
+import unicodedata
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
@@ -25,40 +27,53 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
+# English names by base section (page numbers stripped and re-appended: 総合2 → General News 2).
 SECTION_TRANSLATIONS = {
-    '１面':           'Front Page',
-    '総合１':         'General News 1',
-    '総合２':         'General News 2',
-    '総合３':         'General News 3',
-    '総合４':         'General News 4',
-    '総合５':         'General News 5',
-    'グローバル市場': 'Global Markets',
-    '国際':           'International',
-    'アジアBiz':      'Asia Business',
-    'ビジネス１':     'Business 1',
-    'ビジネス２':     'Business 2',
-    '投資１':         'Investment 1',
-    '投資２':         'Investment 2',
-    '商品':           'Commodities',
-    '社説':           'Editorial',
-    'オピニオン':     'Opinion',
-    'マネーのまなび１': 'Money & Investing 1',
-    'マネーのまなび２': 'Money & Investing 2',
+    '1面':             'Front Page',
+    '総合':            'General News',
+    '政治・外交':      'Politics & Diplomacy',
+    '経済・政策':      'Economy & Policy',
+    '金融経済':        'Finance',
+    'グローバル市場':  'Global Markets',
+    '国際':            'International',
+    'アジアBiz':       'Asia Business',
+    'ビジネス':        'Business',
+    '投資':            'Investment',
+    '商品':            'Commodities',
+    '社説':            'Editorial',
+    'オピニオン':      'Opinion',
+    '経済教室':        'Economics Classroom',
+    'マネーのまなび':  'Money & Investing',
     '医療・介護・健康': 'Healthcare',
-    '詩歌・教養':     'Poetry & Culture',
-    '読書１':         'Books 1',
-    '読書２':         'Books 2',
+    '詩歌・教養':      'Poetry & Culture',
+    '読書':            'Books',
     '東京・首都圏経済': 'Tokyo & Metro Economy',
-    'スポーツ１':     'Sports 1',
-    'スポーツ２':     'Sports 2',
-    '社会１':         'Society 1',
-    '社会２':         'Society 2',
-    '文化':           'Culture',
-    'other':          'Other',
+    '地域経済':        'Regional Economy',
+    'スポーツ':        'Sports',
+    '社会':            'Society',
+    '社会・スポーツ':  'Society & Sports',
+    '文化':            'Culture',
+    'マーケット・投資': 'Markets & Investment',
+    'ニュースぷらす':  'News Plus',
+    'プラス1':         'Plus 1',
+    'The STYLE':       'The STYLE',
+    'unknown':         'Other',
 }
 
+
+def _section_base(name: str) -> str:
+    """'総合２' → '総合', '１面' → '1面'."""
+    return re.sub(r'\d+$', '', unicodedata.normalize('NFKC', name or '').strip())
+
+
+def _translate_section(name: str) -> str:
+    norm = unicodedata.normalize('NFKC', name or '').strip()
+    base = _section_base(norm)
+    num = norm[len(base):]
+    return SECTION_TRANSLATIONS.get(base, base) + (f" {num}" if num else "")
+
 # Sections to omit from Area 61 — keep it to news/markets, drop the arts/society pages.
-EXCLUDE_SECTIONS = {'詩歌・教養', '読書１', '読書２', '社会１', '社会２', '文化'}
+EXCLUDE_SECTIONS = {'詩歌・教養', '読書', '社会', '文化'}  # base names, see _section_base
 
 
 TRANSLATE_BATCH = 40  # keep each request well under the output token limit
@@ -114,7 +129,7 @@ def build_output(articles: list[tuple[str, str, str]], titles_en: list[str]) -> 
     section_order: list[str] = []
 
     for (url, title_ja, section_ja), title_en in zip(articles, titles_en):
-        section_en = SECTION_TRANSLATIONS.get(section_ja, section_ja)
+        section_en = _translate_section(section_ja)
         if section_en not in sections:
             sections[section_en] = []
             section_order.append(section_en)
@@ -184,7 +199,7 @@ def main():
         sys.exit(1)
 
     n0 = len(articles)
-    articles = [a for a in articles if a[2] not in EXCLUDE_SECTIONS]
+    articles = [a for a in articles if _section_base(a[2]) not in EXCLUDE_SECTIONS]
     log.info("Area 61: dropped %d articles from excluded sections (%d remain)", n0 - len(articles), len(articles))
 
     log.info("Area 61: translating %d titles...", len(articles))
