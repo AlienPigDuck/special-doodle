@@ -1,16 +1,16 @@
 name: Generate Area 61
 
 on:
-  # Triggered by the jpx-trigger container on the NAS at 05:40 JST (morning edition).
+  # Triggered by the jpx-trigger container on the NAS at 07:00 JST (morning edition).
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: "pip"

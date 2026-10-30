@@ -107,6 +107,12 @@ def run() -> None:
     log.info("=== The Papers Say | %s ===", date_str)
 
     articles       = collect.fetch_all()
+    if not articles:
+        # Nothing to read from means a content-free episode would be published
+        # over yesterday's real one. Fail the run instead (seen 2026-10-30 when
+        # the saved Nikkei session had expired).
+        log.error("No articles collected — aborting without publishing")
+        sys.exit(1)
     selected       = picker.pick(articles)
     stories_txt.write_text(selected, encoding="utf-8")
 
