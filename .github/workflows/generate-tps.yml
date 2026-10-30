@@ -1,7 +1,7 @@
 name: Generate The Papers Say
 
 on:
-  # Triggered by the jpx-trigger container on the NAS at 05:30 JST (precise timing).
+  # Triggered by the jpx-trigger container on the NAS at 05:40 JST (precise timing).
   # GitHub's own cron was unreliable, so schedule: is intentionally removed.
   workflow_dispatch:
 
@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
       - name: Install ffmpeg
-        run: sudo apt-get install -y ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Install Python deps
         run: pip install -r thepaperssay/requirements.txt
