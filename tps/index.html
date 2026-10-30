@@ -210,6 +210,10 @@
       document.getElementById('ep-date').textContent =
         new Date(d.date).toLocaleDateString('en-US',
           {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
+      // latest.mp3 is overwritten every morning at the same address; a browser that
+      // cached the previous episode (Pages sends max-age=600) can stall partway
+      // through the new one. Give each episode its own URL via the date.
+      audio.src = 'latest.mp3?v=' + encodeURIComponent(d.date);
     }).catch(() => {});
   </script>
 </body>
