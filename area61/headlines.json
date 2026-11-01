@@ -1,179 +1,307 @@
 {
-  "date": "2026-11-01",
-  "total": 69,
+  "date": "2026-11-02",
+  "total": 88,
   "sections": [
     {
       "name": "Front Page",
       "articles": [
         {
-          "title": "AI Money Competition Spreads to Japan; Yen-Denominated Bond Issuance Reaches Record 2.5 Trillion Yen",
-          "url": "https://www.nikkei.com/paper/20261101M101/MM80000/article/DGXZQOUB062QC0W6A001C2000000"
+          "title": "World nuclear power plant construction at 79 projects, highest level in 40 years due to energy price surge and AI demand",
+          "url": "https://www.nikkei.com/paper/20261102M101/MM80000/article/DGXZQOGR232O00T20C26A9000000"
         },
         {
-          "title": "BOJ Halfway to Becoming 'Normal Central Bank'; Lingering Costs of Unconventional Easing",
-          "url": "https://www.nikkei.com/paper/20261101M101/MM80000/article/DGXZQOUB2866V0Y6A021C2000000"
+          "title": "Government and Bank of Japan hesitate over 'deflation exit declaration' as they struggle with monetary easing exit",
+          "url": "https://www.nikkei.com/paper/20261102M101/MM80000/article/DGXZQOUB2866Z0Y6A021C2000000"
         },
         {
-          "title": "GMO Unauthorized Access; System Vulnerability Identified Two Years Ago, Subsidiary Warning Ignored",
-          "url": "https://www.nikkei.com/paper/20261101M101/MM80000/article/DGXZQOUC30A460Q6A031C2000000"
+          "title": "Factory built again on former factory site, soil contamination survey no longer required to promote reuse and reduce burden",
+          "url": "https://www.nikkei.com/paper/20261102M101/MM80000/article/DGXZQOUA192RY0Z11C26A0000000"
         },
         {
-          "title": "Taxation on Domestic Real Estate Owned by Overseas Residents in Rental Business; Ministry of Internal Affairs Considering Equity Measures",
-          "url": "https://www.nikkei.com/paper/20261101M101/MM80000/article/DGXZQOUA264QC0W6A021C2000000"
+          "title": "Flexible funding for economic security research including AI, utilizing over 500 billion yen in national funds",
+          "url": "https://www.nikkei.com/paper/20261102M101/MM80000/article/DGXZQOUA010J30R01C26A1000000"
         },
         {
-          "title": "Spring and Autumn (November 1); Fast Pass",
-          "url": "https://www.nikkei.com/paper/20261101M101/MM80000/article/DGXZQODK310RK0R31C26A0000000"
+          "title": "Chunqing and Schwarzman: Spring and Autumn (November 2)",
+          "url": "https://www.nikkei.com/paper/20261102M101/MM80000/article/DGXZQODK311S20R31C26A0000000"
         }
       ]
     },
     {
-      "name": "General News 1",
+      "name": "総合・政治",
       "articles": [
         {
-          "title": "Direct Statement: Tax Reform for Shared Prosperity Between Tokyo and Regions; Governor Yuriko Koike 'Leveraging Regional Strengths'",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA10000/article/DGXZQOCC162OD0W6A011C2000000"
+          "title": "Feature report: Collapse of Zen-Toshin shakes restaurants, 'Sales money finally returned'",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOUC287J40Y6A021C2000000"
         },
         {
-          "title": "[Editorial] Nidec's Path to Regaining Trust Remains Distant",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA10000/article/DGXZQODK310P30R31C26A0000000"
+          "title": "Defined benefit pensions reducing salaries, labor ministry to request 'employee explanation' as public pensions decline",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOUA196NV0Z11C26A0000000"
         },
         {
-          "title": "[Editorial] Risks Lurking in China's 'Strict Governance'",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA10000/article/DGXZQODK308L90Q6A031C2000000"
+          "title": "Japan-US-Australia-India foreign ministers meeting allocates 85 million dollars for Indo-Pacific AI technology support",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOUA312NV0R31C26A0000000"
+        },
+        {
+          "title": "Foreign Minister Motegi 'candid exchange with Russian counterpart,' details undisclosed after G20 ends",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOUA010220R01C26A1000000"
+        },
+        {
+          "title": "Former LDP tax commission chair Miyazawa Yoichi says he 'intends to support' consumption tax cut bill",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOUA286T90Y6A021C2000000"
+        },
+        {
+          "title": "Fukuoka mayoral election, record 13 candidates running, no clear issues emerge in chaotic race",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOCC010M20R01C26A1000000"
+        },
+        {
+          "title": "Kumamoto mayoral election, 5 current and new candidates running, effectively one-on-one contest",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOCC010BY0R01C26A1000000"
+        },
+        {
+          "title": "Prime Minister Takaichi's schedule for November 1",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOUA010QC0R01C26A1000000"
+        },
+        {
+          "title": "[Editorial] Present realistic countermeasures for era of rapid population decline",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQODK305S80Q6A031C2000000"
+        },
+        {
+          "title": "[Editorial] Brazilian president should promote domestic harmony",
+          "url": "https://www.nikkei.com/paper/20261102M101/PE80000/article/DGXZQOCD307HI0Q6A031C2000000"
         }
       ]
     },
     {
-      "name": "General News 2",
+      "name": "総合・経済",
       "articles": [
         {
-          "title": "U.S. Midterm Elections: 'Blue Wave' Could Mean Weaker Dollar and Lower Rates; Three Scenarios",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA20000/article/DGXZQOUB302YX0Q6A031C2000000"
+          "title": "US midterm elections, three post-Trump paths face voters: MAGA, moderates, and progressives",
+          "url": "https://www.nikkei.com/paper/20261102M101/NN10000/article/DGXZQOGN0100J0R01C26A1000000"
         },
         {
-          "title": "U.S. Opinion Poll 1% Response Rate, Election Results Diverge from Pre-Election Forecasts After Trump's Emergence",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA20000/article/DGXZQOGN304BI0Q6A031C2000000"
+          "title": "Monday economic outlook: Naphtha procurement 'volume' concerns ease, Sumitomo Rubber president discusses tires and economy",
+          "url": "https://www.nikkei.com/paper/20261102M101/NN10000/article/DGXZQOUA287QE0Y6A920C2000000"
         },
         {
-          "title": "Trump Gives Speeches in Battleground States During Final Weekend; Changes Course After Earlier Cancellation",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA20000/article/DGXZQOGN310JD0R31C26A0000000"
+          "title": "Binance attack, FBI says 'North Korean hackers involved,' company compensates 95% of damages",
+          "url": "https://www.nikkei.com/paper/20261102M101/NN10000/article/DGXZQOUB0112O0R01C26A1000000"
         },
         {
-          "title": "Philippines 'Last Frontier' Achieves Peace; Accelerates Resource Development Including Nickel",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA20000/article/DGXZQOGM2877E0Y6A021C2000000"
+          "title": "OPEC Plus decides to maintain December production quotas for third consecutive month",
+          "url": "https://www.nikkei.com/paper/20261102M101/NN10000/article/DGXZQOGR0103X0R01C26A1000000"
         },
         {
-          "title": "Today's Term: Samurai Bonds - Yen-Denominated Bonds Issued by Overseas Governments and Companies",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA20000/article/DGXZQOUB209PB0Q6A021C2000000"
+          "title": "Today's word: Soil contamination countermeasures law prevents health damage from hazardous substances underground",
+          "url": "https://www.nikkei.com/paper/20261102M101/NN10000/article/DGXZQOUA011270R01C26A1000000"
         }
       ]
     },
     {
-      "name": "General News 3",
+      "name": "International",
       "articles": [
         {
-          "title": "Disaster Management Agency Launches November 2; Promotes Exports of Disaster Mitigation Technology, Rainfall Prediction and Remote Recovery Work",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOUD191MV0Z11C26A0000000"
+          "title": "US Secretary of State Rubio 'Iran counterattack undecided,' focuses on continuing dialogue",
+          "url": "https://www.nikkei.com/paper/20261102M101/FF80000/article/DGXZQOGN312L10R31C26A0000000"
         },
         {
-          "title": "Foreign Minister Motegi Meets Russian Counterpart After 5 Years; No Clear Prospects for Immediate Release of Japanese Journalist",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOUA310WK0R31C26A0000000"
+          "title": "Michigan midterm elections: Progressive left breaks pro-Israel tradition, gains momentum in Democratic party",
+          "url": "https://www.nikkei.com/paper/20261102M101/FF80000/article/DGXZQOGN293HS0Z21C26A0000000"
         },
         {
-          "title": "Securing Fiscal Resources with Three-Front Strategy by Year-End; Consumption Tax Cuts, Defense Strengthening, Growth Investment",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOUA29CJ50Z21C26A0000000"
+          "title": "US midterm elections, governing party disadvantaged by criticism of administration, opposition party held House majority only once in past 40 years",
+          "url": "https://www.nikkei.com/paper/20261102M101/FF80000/article/DGXZQOGN2410A0U6A021C2000000"
         },
         {
-          "title": "EU and Canada Form Future Alliance, Collaborate on AI and Resources; Joint Statement Makes No Mention of 'Associate Membership'",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOGR30D0G0Q6A031C2000000"
+          "title": "Chinese Communist Party cracks down on corruption using big data, strengthens online surveillance of party members",
+          "url": "https://www.nikkei.com/paper/20261102M101/FF80000/article/DGXZQOGM011L70R01C26A1000000"
         },
         {
-          "title": "Weathervane: Japan's Trauma Imprinted on Kim Jong Un; Prime Minister Takayama's Precarious 'Trump Reliance'",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOGM22AAF0S6A021C2000000"
+          "title": "Germany holds mass protests demanding education reform 'Generation Z stands up,' some turn violent",
+          "url": "https://www.nikkei.com/paper/20261102M101/FF80000/article/DGXZQOGR29CSB0Z21C26A0000000"
         },
         {
-          "title": "Fitch Downgrades France's Sovereign Debt Outlook to 'Negative'",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOCD310PF0R31C26A0000000"
+          "title": "North Korea tests cluster munitions, promises deployment by year-end, claims 'scorched earth with high density'",
+          "url": "https://www.nikkei.com/paper/20261102M101/FF80000/article/DGXZQOGM010AE0R01C26A1000000"
         },
         {
-          "title": "Japan, U.S., Australia, India Coordinate for Summit; Third Foreign Ministers Meeting This Year",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOGN310NS0R31C26A0000000"
+          "title": "Russia and Ukraine agree to continue support in ceasefire areas, over 750 people hope to evacuate",
+          "url": "https://www.nikkei.com/paper/20261102M101/FF80000/article/DGXZQOCB011K70R01C26A1000000"
         },
         {
-          "title": "Japan, U.S., South Korea Foreign Ministers Sign Arctic Ocean Cooperation Memorandum; Meeting Coincides with G20",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOUA310CB0R31C26A0000000"
-        },
-        {
-          "title": "Gold Falls to Year-Low; Caution on U.S. Rate Hikes and Oil Surge",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOUB30CHO0Q6A031C2000000"
-        },
-        {
-          "title": "Foreign Minister Motegi Tells Turkish Counterpart on Iran Situation 'Respect for Mediation'; Accelerates EPA Negotiations",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOUA310IH0R31C26A0000000"
-        },
-        {
-          "title": "Prime Minister Takayama's Activities on the 31st",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA30000/article/DGXZQOUA310UF0R31C26A0000000"
+          "title": "US Embassy in Russia issues 'threat information' warning in Moscow, coordinates with local authorities",
+          "url": "https://www.nikkei.com/paper/20261102M101/FF80000/article/DGXZQOGR3133S0R31C26A0000000"
         }
       ]
     },
     {
-      "name": "General News 4",
+      "name": "Opinion 1",
       "articles": [
         {
-          "title": "Toyota to Release April-September Earnings on the 5th; Can Strong Hybrid Sales Offset Weak China Performance",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA40000/article/DGXZQOFD28BAG0Y6A021C2000000"
-        },
-        {
-          "title": "iDeCo Significantly Expands in December, Focus on Enrollment of 'Corporate Pension Underdogs' to Boost Usage",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA40000/article/DGXZQOCD271680X21C26A0000000"
-        },
-        {
-          "title": "Daiki Hashimoto Wins Fourth Consecutive All-Around Title at Gymnastics World Championships; Aims to Reclaim Gold at LA Olympics",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA40000/article/DGXZQODH2610K0W6A021C2000000"
-        },
-        {
-          "title": "U.S. Midterm Elections and Toyota Earnings Announcements; This Week's Schedule November 1 Onward",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA40000/article/DGXZQOCD260TB0W6A021C2000000"
+          "title": "Opinion/Debate: Is reflation policy really over? Asking Masaaki Wakita and Asana Nakasora",
+          "url": "https://www.nikkei.com/paper/20261102M101/TCS0000/article/DGXZQOCD1668Y0W6A011C2000000"
         }
       ]
     },
     {
-      "name": "General News 5",
+      "name": "Opinion 2",
       "articles": [
         {
-          "title": "Beer and Third Category Tax Reform Varies More Than Tax Amount; Average Price Difference Narrows from 46 Yen to 23 Yen",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA50000/article/DGXZQOUC159060V11C26A0000000"
+          "title": "World: Two-year watershed begins after US midterm elections, tests democracy's corrective power",
+          "url": "https://www.nikkei.com/paper/20261102M101/TCT0000/article/DGXZQODK273UQ0X21C26A0000000"
         },
         {
-          "title": "'iPhone Duo' Malfunction Reports Mount; Screen Defects, Apple Offers Device Replacement",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA50000/article/DGXZQOUC2784A0X21C26A0000000"
-        },
-        {
-          "title": "CXMT Final Profit 3.1 Trillion Yen in Jan-Sept; Expands DRAM Share, Chases Korean Competitors",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA50000/article/DGXZQOGM233AX0T21C26A0000000"
-        },
-        {
-          "title": "Five Oil Majors Double Profits 2.4 Times on High Fuel Prices; U.S. Exxon Invests 1.6 Trillion Yen",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA50000/article/DGXZQOGN2705Q0X21C26A0000000"
-        },
-        {
-          "title": "Spotify Enables AI-Generated Cover Songs; Revenue Distributed to Original Artist",
-          "url": "https://www.nikkei.com/paper/20261101M101/EA50000/article/DGXZQOGR308WY0Q6A031C2000000"
+          "title": "[FT] US voters judge Trump's 'corruption'",
+          "url": "https://www.nikkei.com/paper/20261102M101/TCT0000/article/DGXZQOCB294K00Z21C26A0000000"
         }
       ]
     },
     {
-      "name": "Asia Views",
+      "name": "Business 1",
       "articles": [
         {
-          "title": "Indonesia's Emissions Trading Business Faces Existential Crisis from Forest Fires; Threatened Shortly After Restart",
-          "url": "https://www.nikkei.com/paper/20261101M101/TM70000/article/DGXZQOCB282Z20Y6A021C2000000"
+          "title": "Honda and Mazda raise car loan interest rates, consumers face double hardship of high new car prices",
+          "url": "https://www.nikkei.com/paper/20261102M101/TB10000/article/DGXZQOUC052UL0V01C26A0000000"
         },
         {
-          "title": "[FT] China's Mountain Villages See Limited Benefits from Data Centers",
-          "url": "https://www.nikkei.com/paper/20261101M101/TM70000/article/DGXZQOCB280KF0Y6A021C2000000"
+          "title": "Management perspective: AI and productivity dilemma, Sumitomo Life's solution compresses work hours to impose discipline on workers",
+          "url": "https://www.nikkei.com/paper/20261102M101/TB10000/article/DGXZQOCD241630U6A021C2000000"
+        },
+        {
+          "title": "Mitsubishi Heavy Industries expands US gas turbine base, invests 77 billion yen to respond to increased power demand",
+          "url": "https://www.nikkei.com/paper/20261102M101/TB10000/article/DGXZQOUC277H60X21C26A0000000"
+        },
+        {
+          "title": "NTT Data contractor suffers unauthorized access, corporate bond service used by Rakuten Securities and others",
+          "url": "https://www.nikkei.com/paper/20261102M101/TB10000/article/DGXZQOUC010BF0R01C26A1000000"
+        },
+        {
+          "title": "GMO affiliate leaks 45,000 customer records, configuration error exposed data for 9 years",
+          "url": "https://www.nikkei.com/paper/20261102M101/TB10000/article/DGXZQOUC010ZZ0R01C26A1000000"
+        },
+        {
+          "title": "Leader's Voice: Twitch CEO on gaming livestreams 'social media has too much AI, rather causing isolation'",
+          "url": "https://www.nikkei.com/paper/20261102M101/TB10000/article/DGXZQOUC241WC0U6A920C2000000"
+        }
+      ]
+    },
+    {
+      "name": "Business 2",
+      "articles": [
+        {
+          "title": "50 emerging companies in drones and space advance to Fukushima's Hamadori, utilizing reconstruction support for experiments",
+          "url": "https://www.nikkei.com/paper/20261102M101/TB20000/article/DGXZQOUC2532E0V21C26A0000000"
+        }
+      ]
+    },
+    {
+      "name": "ビジュアルストーリー",
+      "articles": [
+        {
+          "title": "Space food features Fukuoka heritage chicken and Miyagi kamaboko, exploring why local companies take up the challenge",
+          "url": "https://www.nikkei.com/paper/20261102M101/TL80000/article/DGXZQOFH0992Y0Z00C26A9000000"
+        },
+        {
+          "title": "Gunma-based 'unlimited car wash from 980 yen per month,' tunnel-style high turnover processes 60 vehicles per hour",
+          "url": "https://www.nikkei.com/paper/20261102M101/TL80000/article/DGXZQOCA256R80V20C26A9000000"
+        }
+      ]
+    },
+    {
+      "name": "Economics Classroom",
+      "articles": [
+        {
+          "title": "Economic Classroom: Art Management, Polish Values That Won't Lose to AI — Takashi Nawa",
+          "url": "https://www.nikkei.com/paper/20261102M101/KE80000/article/DGXZQOCD140JV0U6A910C2000000"
+        },
+        {
+          "title": "Personal Views: The Wealthy Also Have a Role in Government Bond Interest Payments — Kei Ehara",
+          "url": "https://www.nikkei.com/paper/20261102M101/KE80000/article/DGXZQOCD312BP0R30C26A8000000"
+        },
+        {
+          "title": "Easy Economics: Considering Energy Costs (7) Points to Note in Energy Productivity Assessment",
+          "url": "https://www.nikkei.com/paper/20261102M101/KE80000/article/DGXZQOCD184AV0Y6A910C2000000"
+        }
+      ]
+    },
+    {
+      "name": "法税務",
+      "articles": [
+        {
+          "title": "\"Converting Days Off to Work Days\" Leads to Consecutive Company Defeats — Judiciary Takes Strict Stance on Flexible Working Hour Systems",
+          "url": "https://www.nikkei.com/paper/20261102M101/TCJ0000/article/DGXZQOUB074KT0X01C26A0000000"
+        },
+        {
+          "title": "International Minimum Tax Rate, Application Form Exceeds 10,000 Pages — Experts: \"Hinders Japanese Companies' Competitiveness\"",
+          "url": "https://www.nikkei.com/paper/20261102M101/TCJ0000/article/DGXZQOUB170Q00X10C26A9000000"
+        },
+        {
+          "title": "Major Law Firms Head to Dubai — Nishimura & Asahi and TMI Establish Offices",
+          "url": "https://www.nikkei.com/paper/20261102M101/TCJ0000/article/DGXZQOUB2158Z0R21C26A0000000"
+        }
+      ]
+    },
+    {
+      "name": "インサイドアウト",
+      "articles": [
+        {
+          "title": "Next-Generation Nuclear Power, U.S. Business Is \"Our Last Hope\" — Betting on Massive Investment from Japan-U.S. Agreement",
+          "url": "https://www.nikkei.com/paper/20261102M101/TL50000/article/DGXZQOUC19AH40Z11C26A0000000"
+        }
+      ]
+    },
+    {
+      "name": "ダイバーシティ",
+      "articles": [
+        {
+          "title": "Marriage Hunting Without Hiding Disabilities — Specialized Consultation Services and Matching Apps Provide Support",
+          "url": "https://www.nikkei.com/paper/20261102M101/TYA0000/article/DGXZQOUD084UP0Y6A900C2000000"
+        },
+        {
+          "title": "Achieving Diversity Ultimately Depends on Corporate Governance",
+          "url": "https://www.nikkei.com/paper/20261102M101/TYA0000/article/DGXZQOUD261DR0W6A021C2000000"
+        }
+      ]
+    },
+    {
+      "name": "教育",
+      "articles": [
+        {
+          "title": "\"Should We Close Schools Because the Child Population Is Declining?\" Diversifying Needs, Importance of Ensuring Learning",
+          "url": "https://www.nikkei.com/paper/20261102M101/CK80000/article/DGXZQOCD231CX0T21C26A0000000"
+        },
+        {
+          "title": "Exam Considerations: Write Neatly for Junior High School Entrance Exams — Illegible Writing Results in Wrong Answers",
+          "url": "https://www.nikkei.com/paper/20261102M101/CK80000/article/DGXZQOCD250R80V21C26A0000000"
+        },
+        {
+          "title": "Science Fiction Vehicles Also Appear — LEGO Exhibition Transforms Play Into Disaster Prevention Learning",
+          "url": "https://www.nikkei.com/paper/20261102M101/CK80000/article/DGXZQOFH042F00U6A001C2000000"
+        }
+      ]
+    },
+    {
+      "name": "滋賀経済特集",
+      "articles": [
+        {
+          "title": "Shiga: Japan's Hidden Confectionery Kingdom — Taneya G, Kanishoujuan, Lotte and Calbee Also Have Bases",
+          "url": "https://www.nikkei.com/paper/20261102M101/M101000/article/DGXZQOUF0934F0Z01C26A0000000"
+        },
+        {
+          "title": "Shiga University President Akimichi Takemura: \"Nurturing Talent That Can Verify AI\"",
+          "url": "https://www.nikkei.com/paper/20261102M101/M101000/article/DGXZQOUF301G80Q6A930C2000000"
+        },
+        {
+          "title": "Shiga Prefecture Issues First Gender Equality Bond — Aims to Correct Male-Female Wage Gap",
+          "url": "https://www.nikkei.com/paper/20261102M101/M101000/article/DGXZQOUF2330B0T21C26A0000000"
+        },
+        {
+          "title": "Shiga Economy: From Lake Biwa to the World — Global Niche Top Companies Emerging One After Another",
+          "url": "https://www.nikkei.com/paper/20261102M101/M102000/article/DGXZQOUF15AGX0V11C26A0000000"
+        },
+        {
+          "title": "Ritsumeikan University in Kusatsu City, Shiga Spawns Startups — Next Challenge Is Space",
+          "url": "https://www.nikkei.com/paper/20261102M101/M102000/article/DGXZQOUF089YM0Y6A001C2000000"
         }
       ]
     },
@@ -181,84 +309,64 @@
       "name": "Sports 1",
       "articles": [
         {
-          "title": "Akuryuu Iwasaki Takes Lead; Banteリン Tokai Men's Golf Third Round",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH310G70R31C26A0000000"
+          "title": "Akari Sakuma Wins with Updated Consecutive Bogey-Free Record — Mitsubishi Electric Women's Golf",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH312CP0R31C26A0000000"
         },
         {
-          "title": "Arihito Katsukawa of European Golf V Endures with Par; Banteリン Tokai Third Round",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH310GD0R31C26A0000000"
+          "title": "Akari Sakuma Secures Local Victory with New Bogey-Free Record — Mitsubishi Electric Women's Golf",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH0109F0R01C26A1000000"
         },
         {
-          "title": "Akari Sakuma Takes Lead, Tied with Sakura Koshiwai and Aki Yamaji; Mitsubishi Electric Women's Golf",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH310GR0R31C26A0000000"
+          "title": "Mayuko Yamashita Holds On for Back-to-Back Win, Achieves 5th U.S. Career Victory — U.S. Women's Golf Final Day",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH011CY0R01C26A1000000"
         },
         {
-          "title": "Akari Sakuma Posts Consecutive Days Without Bogeys at Hometown Tournament; Mitsubishi Electric Women's Golf Second Round",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH310HC0R31C26A0000000"
+          "title": "Mayuko Yamashita Wins Consecutive Title with Precision and Skill — U.S. Women's Golf Maybank Championship",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH011ZL0R01C26A1000000"
         },
         {
-          "title": "Miyuu Yamashita Maintains Solo Lead; U.S. Women's Golf Third Day",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH311N50R31C26A0000000"
+          "title": "Yuto Katsuragawa Wins Two Consecutive Weeks in Europe and Japan — Bantellin Tokai Men's Golf",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH0109O0R01C26A1000000"
         },
         {
-          "title": "American golfer Yuri Yoshida rises to 9th place with steady performance; confidence high after first victory last week",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH311S30R31C26A0000000"
+          "title": "Yuto Katsuragawa Captures Triumphant Victory with Dramatic Birdie Finish — Bantellin Tokai Golf",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH0109Y0R01C26A1000000"
         },
         {
-          "title": "Kenseii Hirata 2nd, Keita Nakajima 20th in US men's golf Day 2",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQOKC310JW0R31C26A0000000"
+          "title": "Kenseiumi Hirata Drops to 9th, Keita Nakajima in 22nd Place — U.S. Men's Golf Day 3",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQOKC010850R01C26A1000000"
         },
         {
-          "title": "Nozomi Osuga wins women's golf secondary tour",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH311DC0R31C26A0000000"
+          "title": "Asia-Pacific Amateur Golf: Kaito Sato in 9th Place — Laopakdee Claims Back-to-Back Title",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQOKC010ZY0R01C26A1000000"
         },
         {
-          "title": "Rishi Nakada takes SP lead, Kazuki Tomono 3rd as Figure Skating GP Skate Canada opens",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQOKC310SZ0R31C26A0000000"
+          "title": "Waseda Wins All Japan University Ekiden in 16 Years — Sets Meet Record",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQOKC010S50R01C26A1000000"
         },
         {
-          "title": "Figure skater Rishi Nakada leads but unsatisfied; unexpected 'zero points' on spin",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH311JM0R31C26A0000000"
+          "title": "Waseda Wins All Japan University Ekiden for First Time in 16 Years, First-Year \"Three Crows\" Run Brilliantly",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH010E20R01C26A1000000"
         },
         {
-          "title": "Figure skater Kazuki Tomono falls, SP 3rd place as concerns materialize at Skate Canada",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH311JV0R31C26A0000000"
+          "title": "Nippon Ham's Taikai Ito Pursues Major League Baseball Challenge — Posting Application Procedure Underway",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH0119A0R01C26A1000000"
         },
         {
-          "title": "Basketball W-League opens; Fujitsu and others start with wins",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH312AF0R31C26A0000000"
+          "title": "World Wrestling: Zensuke Aoyagi Advances to Third-Place Match — 74kg Division",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQOKC312N60R31C26A0000000"
         },
         {
-          "title": "Basketball's Haruka Oowaki, Fujitsu's promising rookie, contributes 15 points to opening victory",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH311SN0R31C26A0000000"
+          "title": "Corporate Baseball: Defending Champion Yamaha and Others Advance to Second Round — Japan Championship",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH011PO0R01C26A1000000"
         },
         {
-          "title": "Brewers celebrate World Series championship parade; first title in franchise history",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQOKC3106R0R31C26A0000000"
+          "title": "All Japan Rhythmic Gymnastics: Mikinō Kita Wins Four Apparatus Titles in Women's Division",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQODH011E90R01C26A1000000"
         },
         {
-          "title": "Seibu's Kaima Taira determined for US challenge; 'produce results wherever'",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQOKC310NY0R31C26A0000000"
-        },
-        {
-          "title": "All Japan Corporate Baseball Championship opens; Panasonic advances to second round",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH311ZM0R31C26A0000000"
-        },
-        {
-          "title": "All Japan Rhythmic Gymnastics: Reina Matsusaka and Ayumi Honda claim first national titles in all-around",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH312E40R31C26A0000000"
-        },
-        {
-          "title": "All Japan Fencing: Shido Tsumori and Tamaki Terayama win titles",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH3129D0R31C26A0000000"
-        },
-        {
-          "title": "Japan loses to Wales in women's rugby international tournament",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH312C40R31C26A0000000"
-        },
-        {
-          "title": "Toray Women's Tennis: Schneider and others advance to finals",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU10000/article/DGXZQODH312BS0R31C26A0000000"
+          "title": "Ryo Hirakawa Makes F1 Debut with Haas — Mexico GP Qualifying 18th",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU10000/article/DGXZQOKC010GC0R01C26A1000000"
         }
       ]
     },
@@ -266,65 +374,68 @@
       "name": "Sports 2",
       "articles": [
         {
-          "title": "FC Tokyo dominates for provisional J1 lead; Hiroshima also wins convincingly",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH312000R31C26A0000000"
+          "title": "Mao Shimada Leads SP at GP Debut — Rishi Nakada Misses Victory at Skate Canada",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQOKC0105I0R01C26A1000000"
         },
         {
-          "title": "Vissel Kobe's Yoshinori Muto scores with 'striker's instinct'; involved in all 3 goals",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH311YA0R31C26A0000000"
+          "title": "Figure Skating's Rishi Nakada Feels the Senior Wall — Fails to Win on First GP Appearance",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH010YI0R01C26A1000000"
         },
         {
-          "title": "Goalkeeper Shusaku Nishikawa reaches J1 record appearances, ties Yasuhito Endo at 672 matches; 'ongoing growth'",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH312DC0R31C26A0000000"
+          "title": "Mao Shimada Delivers Polished Performance as GP Debut Courtesy — Skate Canada SP Leader",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH0114N0R01C26A1000000"
         },
         {
-          "title": "Kashiwa Reysol's Yoshiho Koizumi scores opener against former club Urawa; 'added value'",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH3121P0R31C26A0000000"
+          "title": "Marin Honda and Shoma Uno Pair Finish 4th in Debut — All Japan Ice Dance Qualifying",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQOKC010KY0R01C26A1000000"
         },
         {
-          "title": "J1 Mito continues winless streak at 7 after managerial change; 3 goals conceded despite numerical disadvantage",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH311KC0R31C26A0000000"
+          "title": "Horse Racing Emperor's Prize Fall: Danon Desaile Wins — Jockey Keita Tosaki Achieves First Victory",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH010HL0R01C26A1000000"
         },
         {
-          "title": "J1 Kyoto Sanga wins decisively with 2 goals from Rafael Elias",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQOUF3116R0R31C26A0000000"
+          "title": "Danon Desaile Wins Emperor's Prize Fall from Outermost Lane — Decisive Victory Washes Away String of Near Misses",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH011D90R01C26A1000000"
         },
         {
-          "title": "World Wrestling: Arashi Yoshida misses historic first title; Wataru Harada finishes 3rd",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQOKC30CR20Q6A031C2000000"
+          "title": "U.S. Horse Racing's Premier Breeders' Cup: Forever Young Finishes 5th, Misses Back-to-Back",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH010XF0R01C26A1000000"
         },
         {
-          "title": "Wrestler Arashi Yoshida one step from historic gold; falls to defending champion's resolve",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH311JG0R31C26A0000000"
+          "title": "Breeders' Cup in U.S. Horse Racing: Forever Young Slows Down on Straight, Finishes 5th",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH011L50R01C26A1000000"
         },
         {
-          "title": "Wrestler Wataru Harada captures bronze with aggressive stance; women's 55kg",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH311LW0R31C26A0000000"
+          "title": "J1: Machida draws, drops to 3rd place - Results and analysis from the 1st",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH011OE0R01C26A1000000"
         },
         {
-          "title": "Emperor's Prize Autumn: favorites Croisé du Nord and Mascarade Ball differ in head-to-head record",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH310K40R31C26A0000000"
+          "title": "Yokohama M ends four-game draw streak with victory - Strong pressing, Toono Daiya scores among four goals",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH0112C0R01C26A1000000"
         },
         {
-          "title": "Waseda University confident of consecutive Big Three Ekiden win; All Japan University Ekiden on November 1st",
-          "url": "https://www.nikkei.com/paper/20261101M101/UU20000/article/DGXZQODH3110P0R31C26A0000000"
-        }
-      ]
-    },
-    {
-      "name": "科学の扉",
-      "articles": [
-        {
-          "title": "Tokyo University launches '100-meter telescope' in space for extraterrestrial life search; using 3 small satellites",
-          "url": "https://www.nikkei.com/paper/20261101M101/TYC0000/article/DGXZQOSG278DT0X20C26A7000000"
+          "title": "Gamba Osaka's GK Higashiguchi Nobuaki contributes to scoreless draw in season debut start",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH011Q00R01C26A1000000"
         },
         {
-          "title": "HPV vaccine routine vaccination for males should be judged without fixating on cost-effectiveness",
-          "url": "https://www.nikkei.com/paper/20261101M101/TYC0000/article/DGXZQODK200XI0Q6A021C2000000"
+          "title": "Sakamoto Tatsuhiro scores first Premier League goal - Suzuki Ayen concedes own goal",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQOKC0107G0R01C26A1000000"
         },
         {
-          "title": "Dogs instantly detect owner's 'unease'; brain wave disruptions suggest neural-level reaction",
-          "url": "https://www.nikkei.com/paper/20261101M101/TYC0000/article/DGXZQOSG273VE0X21C26A0000000"
+          "title": "All Japan Ski Jumping: Itoh Yuki wins - Nihonkaido Ren claims second consecutive title",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH011OH0R01C26A1000000"
+        },
+        {
+          "title": "Triathlon Japan Championship: Hayashi Sayume wins women's - Sato Ren also wins men's inaugural title",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH011320R01C26A1000000"
+        },
+        {
+          "title": "All Japan Fencing: Iimura Kazuki and Kaneko Yuina win first titles",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQODH011PB0R01C26A1000000"
+        },
+        {
+          "title": "Toray Women's Tennis: Schneider wins first title",
+          "url": "https://www.nikkei.com/paper/20261102M101/UU20000/article/DGXZQOKC011R40R01C26A1000000"
         }
       ]
     }
