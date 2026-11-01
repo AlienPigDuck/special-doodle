@@ -1,0 +1,43 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Monday, the second of November, 2026, and I'm glad you're here.
+
+Let's start with a story that's unfolding quietly all over the world, in concrete and steel: nuclear power is back.
+
+According to the Nikkei this morning, there are now seventy-nine nuclear reactors under construction around the globe. That's the highest number in four decades — since 1986, the year of the Chornobyl disaster. For most of my adult life, the story of nuclear energy was a story of retreat. After Fukushima in 2011, country after country pledged to walk away. And now, suddenly, they're walking back.
+
+Why the reversal? Two forces, mostly. The first is cost. Instability in the Middle East has driven fossil fuel prices up, and governments are tired of being at the mercy of oil and gas markets. The second is more surprising — it's artificial intelligence. AI data centers are enormous consumers of electricity, and they need power that's steady, around the clock, and increasingly, that doesn't come with a carbon footprint. Nuclear fits all three.
+
+China is leading the charge, with thirty-eight of those seventy-nine reactors. India has eight, Russia seven. And the World Nuclear Association projects that by 2040, the world could have more than six hundred reactors running — up from four hundred forty-three today.
+
+The most striking part, to me, is Europe's about-face. This is the continent that embraced phase-outs most enthusiastically. And now Italy, Sweden, and Belgium have all abandoned their anti-nuclear policies. France is weighing up to fourteen new reactors. Back in March, the European Union went so far as to call its rejection of nuclear "strategically mistaken." That's not a phrase bureaucracies use lightly.
+
+In the United States, the government is backing an eighty-billion-dollar push to pair data centers with nuclear power, and tech giants are funding something called small modular reactors — SMRs, factory-built units that are smaller and, in theory, quicker to deploy. But here's the catch. There are seventy different SMR designs in development, and safety standards haven't caught up with the engineering. And then there's fuel. The enrichment of uranium is dominated by Russia's state firm, Rosatom — which leaves Western supply chains uncomfortably dependent on Moscow. So: a renaissance, yes. But not a simple one.
+
+Now, closer to home — and this is a fascinating bit of economic theater. For decades, Japan has chased a single goal: escaping deflation. Getting prices to rise a healthy two percent a year. Well, in October, the Bank of Japan announced that it has finally hit that target. Mission accomplished, you'd think.
+
+And yet, Nikkei reports, the government won't say so out loud. The Cabinet Office confirms all four of its deflation-exit indicators have been met — for two years running. But Finance Minister Jiro Shioji and his colleagues are refusing to formally declare that Japan has beaten deflation.
+
+Why on earth would they hesitate after thirty years of trying? Because declaring victory would mean the emergency is over — and that would make it much harder to justify all the crisis-level support still flowing: the consumption tax cuts, the energy subsidies. There's an international angle too. An official declaration could invite pressure from the U.S. Treasury to normalize policy — to raise rates, tighten the belt. And domestically, telling consumers who are still wincing at grocery prices that deflation is "over" could sound badly tone-deaf. So Japan has reached the finish line it spent three decades sprinting toward — and it's quietly refusing to cross it.
+
+Speaking of those higher rates, you can feel them in people's wallets. Honda Finance has raised its auto-loan rates to 6.2 percent. For a popular SUV like the Vezel, that adds about five hundred yen to the monthly payment and twenty thousand yen over a three-year loan. Mazda, Nissan, and Suzuki are hiking rates too. This is the Bank of Japan's higher policy rate working its way into everyday life — and Nikkei notes it's pushing younger and lower-income buyers toward the used-car market.
+
+Let me group a few government stories together, because they share a theme: the Takaichi administration is reshaping industrial policy around national security and speed.
+
+First, the Environment Ministry is relaxing rules on contaminated industrial land. Right now, if you want to redevelop an old factory site, the required soil surveys can cost more than the land itself — so sites just sit idle. Under the new rules, aimed at 2027, if the land is reused as a factory and groundwater tests clean, you can skip the formal soil survey. The reason is urgent: eighty percent of Japan's prefectures expect to run short of industrial land within five years. The administration wants to turn aging petrochemical and steel plants into hubs for what it calls Green Transformation — green industry.
+
+Second, the government is overhauling its economic security research program — the so-called K Program, which has already deployed five hundred billion yen. The reform frees program directors from a rigid five-year cycle, letting them adjust budgets and goals on the fly. The money is aimed at dual-use technologies — civilian and military — like AI, quantum computing, rare earths, and cyber-defense. Prime Minister Takaichi has summed up her approach as "crisis management and growth investment," and you can see that philosophy threaded through all of this.
+
+Turning abroad, the Middle East is holding its breath. U.S. Secretary of State Rubio signaled openness to a diplomatic resolution with Iran, saying President Trump hasn't yet decided on retaliatory strikes. There's quiet back-channel correspondence underway, and talk of ceasefire terms — though, Nikkei notes, military options remain on the table.
+
+There's also a sobering alert out of Moscow. The U.S. Embassy has issued a credible terrorism warning for the southern part of the city, near the Tsaritsyno museum. Russia's security service, the FSB, confirms it received the threat intelligence through American channels. The echo here is painful — a similar warning preceded the 2024 Crocus concert-hall attack that killed scores of people.
+
+And on the Ukrainian front, a small, human piece of good news. Russia and Ukraine have agreed to keep humanitarian aid flowing to the isolated town of Oreshki, allowing more than seven hundred fifty residents to evacuate. Pope Leo the Fourteenth has appealed for cooperation — and, remarkably, Nikkei reports that First Lady Melania Trump helped mediate this localized ceasefire.
+
+A couple of quick notes from the business pages. Mitsubishi Heavy Industries is investing four hundred ninety million dollars to double its gas-turbine factory in Georgia, hiring more than two hundred twenty engineers — again, to feed those hungry American data centers. And a tough week for data security: an NTT Data contractor suffered a breach affecting more than forty-five thousand bond investors, touching firms like Rakuten Securities and Nomura. Separately, a GMO Internet subsidiary leaked some forty-five thousand customer records — records that had been exposed since 2017 through a misconfigured cloud server.
+
+And now, the one that caught my eye.
+
+Sumitomo Life, the big insurer, is cutting its employees' workday — from eight hours to seven and a half — while keeping their pay exactly the same. Half an hour back, every day, no pay cut.
+
+But this isn't simply a gift. It's a gamble. The company is betting that artificial intelligence will make its people so much more efficient that they'll produce the same work in less time. It's investing twenty billion yen in AI over three years. And here's the clever, slightly nervous part: Sumitomo Life is deliberately shrinking the workday to force employees to get organized — to prevent what Nikkei calls "AI time-wasting," where people simply fill the hours freed up by automation with more busywork. It's an experiment in human behavior as much as technology. Give people less time, and trust them to use it better. We'll see if the gamble pays off.
+
+That's The Papers Say for Monday, the second of November. See you tomorrow.
