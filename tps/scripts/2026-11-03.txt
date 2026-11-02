@@ -1,0 +1,43 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Tuesday, the third of November, 2026, and we've got a lot to get through today — a corporate reckoning over cybersecurity, driverless cars without steering wheels, and a constitution turning eighty. Let's begin.
+
+Our lead story this morning is a cautionary tale about what happens when a warning goes unheard. GMO Internet Group — one of Japan's biggest internet companies, with businesses spanning web hosting, finance, and payments — has admitted that it saw this coming, and still couldn't stop it.
+
+Here's what happened. On Monday, GMO's chairman and president, Masatoshi Kumagai, revealed that back in April of 2024, the company had identified a vulnerability in its systems. One of its subsidiaries flagged it. But the warning never reached the top of the company, and the problem was never fully fixed. Then, this past August, attackers exploited that very weakness. According to the Nikkei, as many as 26,739 servers that GMO provides to customers were affected by the breach.
+
+Now, you could call this a technology failure, but Kumagai himself framed it as something else — a governance failure. The red flag went up inside the company and simply didn't travel up the chain. "We will reform the reporting system itself," he said, apologizing publicly. The Tokyo Metropolitan Police have now set up an investigation team of seventy officers, pursuing the case under Japan's law against unauthorized computer access.
+
+Why does this matter beyond GMO? Because this is a group managing around 155 trillion yen in business assets. When a company that large discovers it had the answer two years early and couldn't act on it, every boardroom in Japan takes notice. The lesson here isn't just "patch your systems." It's that information has to flow — that the person at the top needs to actually hear what the engineers three floors down already know.
+
+Let's move to the front page, and a very different vision of technology — one looking forward rather than cleaning up the past.
+
+Japan's transport ministry has decided that starting in December, it will approve fully self-driving vehicles — we're talking Level 4 and Level 5 autonomy — without requiring a steering wheel or pedals at all. Let me unpack that briefly. Level 4 means the car can drive itself completely within certain conditions; Level 5 means it can do it anywhere, anytime, no human needed. Until now, the rules assumed a person might need to grab the wheel. Not anymore.
+
+The practical effects are real. Without a steering column and pedals, manufacturers can cut production costs and completely rethink the inside of a car — imagine a vehicle designed as a living room rather than a cockpit. And because Japan is aligning with international standards here, the Nikkei expects competition to heat up with overseas players like Tesla. The government's goal is to have ten thousand Level 4 vehicles on the road by fiscal 2030.
+
+Also on the front page — and this one is quietly important — a story about the smallest town in Japan. Hayakawa, in Yamanashi Prefecture, has a population of just 798 people. And it's doing something that more and more shrinking towns are being forced to do: reviewing every single subsidy it pays, fifty-five of them, from zero. Not trimming around the edges — starting from scratch and asking which ones are still justified.
+
+Hayakawa isn't alone. Misaki in Okayama Prefecture is cutting its public facilities by thirty percent. Hida in Gifu Prefecture is bringing residents directly into budget deliberations. The Nikkei calls this the philosophy of "smart shrinking" — the idea that as populations fall, the goal isn't just to cut, but to choose carefully. To put limited resources where they still matter. It's one of the defining challenges of rural Japan, and these tiny towns are, in a way, pioneers.
+
+And one more from the front page, fitting for today's date. Japan's postwar constitution turns eighty years old today — eighty years since it was promulgated, and in all that time, not amended once. In Japanese there's a word for turning eighty, sanju — a milestone age — and the Nikkei uses it here with a touch of affection. The document has endured because its core principles, like popular sovereignty, took deep root.
+
+But Prime Minister Sanae Takaichi has made clear she wants to change that. She's signaled real intent to move toward a formal proposal for amendment. The focus areas: an emergency-powers clause, and explicitly writing the Self-Defense Forces into the constitution. That second one has long been a flashpoint, because the constitution famously renounces war. Takaichi knows, though, that amendment requires broad public understanding — and that remains the hard part.
+
+Let's turn to politics and the economy, where the Takaichi government is busy on several fronts.
+
+Finance Minister Satsuki Katayama says the funding for a consumption-tax cut is coming together. She described it as a "Japanese version of DOGE" — a reference to aggressive spending reviews — and said they're on track to find around five trillion yen by overhauling subsidies and funds. Helping the math: national tax revenue for April through September came in at 23.78 trillion yen, up 12.2 percent on the year, driven by strong corporate earnings and wage increases. The Nikkei notes fiscal 2026 could top ninety trillion yen in tax revenue for the first time ever.
+
+Not everyone's on board with the tax cut, though. The party Team Mirai has decided to oppose it, arguing it mainly benefits high earners. Their counterproposal: a cash payment of sixty thousand yen a year instead.
+
+Elsewhere, the government has launched a new Disaster Prevention Agency, with Goshi Hosono as its first minister, aiming to make Japan, in their words, the world's leading disaster-ready nation. And a small but telling corporate note — Misumi Group is now paying high school graduates and university graduates the same starting salary: 303,000 yen a month. Their reasoning? In the age of AI, what matters isn't your diploma, but your ability to define problems.
+
+Overseas, all eyes are on the United States, where the midterm elections are being voted today. The Nikkei reports the Senate has seven tightly contested states, while Democrats look poised to retake the House. Both sides are fighting hard for blue-collar voters — and there's a fierce battle even in Ohio, the home turf of Vice President Trump.
+
+Meanwhile, in the Middle East, Israeli Prime Minister Netanyahu has reportedly pressed President Trump to strike Iran right after the midterms. American reporting says the two spoke on the 31st of October. Trump, for his part, is being cautious.
+
+And a genuinely unusual item from Ukraine: a six-day local ceasefire in the south has just concluded — remarkable not only for happening at all, but for who brokered it. First Lady Melania Trump was involved in mediating it, and nearly eight hundred residents were evacuated during the window.
+
+On the business pages quickly — Japan's two big airlines, JAL and ANA, both saw profits fall in the first half, hit by fuel costs that rose by 230 billion yen between them. By contrast, shipping is booming: Nippon Yusen is raising its annual dividend to 330 yen, and Mitsui O.S.K. Lines has raised its profit forecast by 41 percent, to 300 billion yen, buoyed by stable LNG shipping.
+
+And finally, the one that caught my eye — tucked into the international pages. North Korea's economy reportedly grew 3.5 percent in real terms in 2025. Let that sit for a second. A country under some of the heaviest sanctions on Earth, growing. The Nikkei suggests the sanctions are being hollowed out — more goods flowing in from China and Russia, new rail bridges opening, logistics strengthening. The main driver appears to be a wartime windfall from supplying Russia's war in Ukraine. Whether it lasts is anyone's guess. But it's a striking reminder that isolation, in practice, is rarely as complete as it looks on paper.
+
+That's The Papers Say for Tuesday, the third of November. See you tomorrow.
