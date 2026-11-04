@@ -1,0 +1,41 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Thursday, the fifth of November, 2026, and today the biggest story isn't from Tokyo at all. It's from Washington — but its tremors are being felt all across Japan.
+
+Let's start there.
+
+Democrats have swept to control of both houses of the United States Congress in Tuesday's midterm elections. And this wasn't close. Nikkei is describing it this morning as a historic rout — a repudiation of President Trump and his Republican Party. The Democrats took the Senate with at least fifty-four seats — they needed fifty-one — and they took the House with two hundred twenty-eight, comfortably above the two hundred eighteen required.
+
+So what drove it? According to the Nikkei, two things above all. First, inflation — much of it traced back to Trump's military conflict with Iran and to his tariff policies. And second, a broad public disgust with perceived corruption involving the Trump family and those around him. Voters, it seems, were angry about the cost of living and angry about the conduct of the administration.
+
+Now here's why this matters, and why it's the lead. Trump still has two years and change left in his term. But with Democrats controlling Congress, the power balance in Washington has shifted dramatically. Democrats now control military appropriations — the money. They control confirmation of senior officials, including Federal Reserve board members. And they hold the power of impeachment.
+
+On that last point, let's be precise, because the Nikkei is careful here. The House can begin impeachment — they can subpoena witnesses, they can block spending. But convicting a president and removing him requires a two-thirds majority in the Senate. With Republicans in the minority, that is not going to happen. So think of this less as removal, and more as a two-year brake on the president's agenda.
+
+And that brake reaches all the way to Tokyo. Here's the first way it landed: the stock market.
+
+The Nikkei 225 plunged more than three thousand points at one stage yesterday, closing down one-point-four percent at 62,188 — its lowest level in three months. The fear? That a Democratic Congress will regulate artificial intelligence and pull back subsidies for data centers. And that terrifies Japan's semiconductor and AI-adjacent companies, which have ridden the AI boom hard. The selling eased later in the day — partly because Trump said he would accept the results and work with Democrats — but the lesson stands. Tokyo stocks are now hostage to every shift in global AI sentiment.
+
+And there's a quieter signal of that same anxiety buried in the markets pages. Meta — the parent of Facebook — just issued fifteen billion dollars in bonds, around two-point-four trillion yen, to fund its AI infrastructure. And the price it had to pay has roughly doubled since April. The gap between what Meta pays and what the U.S. government pays to borrow has widened to two hundred twenty basis points. In plain terms: investors are starting to wonder whether all this AI spending will actually pay off. That's worth watching.
+
+Now, the political fallout in Japan. The Nikkei reports that Prime Minister Takaichi — and former Prime Minister Kishida — are navigating real uncertainty about whether the U.S. alliance stays stable. Japanese officials are already quietly cultivating relationships with the Democratic Party, hedging against Trump's unpredictability. And here's their deeper worry: that a cornered Trump might rush into hasty "deals" with China, Russia, or North Korea — deals that could cut against Japan's own security interests. It's a striking anxiety for an ally.
+
+The reaction abroad tells the same story from different angles. Iran's parliament speaker, Ghalibaf, called the result an American rejection of war — and warned Washington that ignoring that message invites, in his word, a "nightmare." China's foreign ministry struck a warmer note, saying it wants strategic stability and is eyeing talks with Trump at the upcoming APEC meeting in Guangdong. And from Moscow, analysts suggested the Democratic Congress could tie Trump's hands on rolling back Russia sanctions or pressing Ukraine into concessions. Everyone, it seems, is recalculating.
+
+Let me turn now to a story that's purely domestic, and purely enormous.
+
+Mitsui Chemicals is buying JSR — the semiconductor materials giant — for more than one-point-three trillion yen. The Nikkei calls it the largest-ever merger in Japan's chemical industry. JSR is being sold by the state-backed Innovation Network Corporation of Japan, and the Japan Development Bank is co-investing about ten percent through preferred shares.
+
+Here's why it matters. JSR makes photoresists — the light-sensitive chemicals used to etch patterns onto computer chips — and it is a world leader at it. Mitsui wants to pair that with its own specialty materials to build something that dominates the chip supply chain from end to end. And the motive underneath it all is China. Japanese firms are racing to consolidate so they can stay ahead of surging Chinese rivals in these high-value materials. It's industrial strategy as much as it is a deal.
+
+Staying with security of a different kind — tomorrow the government unveils an emergency cybersecurity package, and the numbers behind it are sobering. The email service Arara suffered a breach affecting seventy-seven million accounts, with over seven million phishing emails sent. The new measures include asking U.S. tech giants to share software vulnerabilities they haven't disclosed, broadening audits of critical infrastructure, and requiring companies to delete personal data they don't actually need. The Nikkei's framing is sharp: AI hasn't just helped the defenders. It's supercharged the attackers.
+
+A few quicker items from home. Finance Minister Katayama has shelved a plan to broaden inheritance taxes on closely held small-business stock — a sign of pushback from LDP backbenchers. Meanwhile Prime Minister Takaichi is courting the Kokumin-Minshu party, trimming proposed cuts to Diet seats from forty-five down to thirty-one, clearly hoping to widen her coalition after the party leadership vote in 2027. And a reminder that her majority isn't what it was: passing consumption tax cuts now requires opposition support in the upper house. The leverage has shifted.
+
+One note from the region. In Seoul, a high court has upheld the guilty verdict against former President Yoon for false statements during his 2022 campaign. If it becomes final, it would automatically nullify his election and require him to repay 39.7 billion won in campaign spending. An extraordinary turn.
+
+And now, the one that caught my eye — and it's a lovely bit of history tucked into the business pages.
+
+The Japan Automotive Hall of Fame has inducted Umakichi Yanase. If you've spent time in Japan, you may know the name Yanase — it's long been the country's premier importer of luxury foreign cars. Well, back in 1915 — more than a century ago — Umakichi Yanase began bringing in luxury vehicles, including Cadillacs, at a time when cars themselves were a rare sight on Japanese roads. He didn't just sell automobiles. He helped introduce an entire idea — that a car could be an object of aspiration.
+
+What I love about this is the family thread. His son Jiro was inducted back in 2001. So this is now two generations of one family honored for essentially opening Japan's doors to the automobile. In a week dominated by AI fears and electoral earthquakes, there's something grounding about a story that reaches back to 1915 — to a man who looked at a Cadillac and saw the future.
+
+That's The Papers Say for Thursday, the fifth of November. See you tomorrow.
