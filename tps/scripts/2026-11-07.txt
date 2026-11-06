@@ -1,0 +1,41 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Saturday, the seventh of November, 2026, and we have a dramatic one today. The kind of morning where the front page is painted in red.
+
+Let's start with the number that's hard to look away from: three and a half trillion dollars. That's how much value vanished from global stock markets in a single day — roughly five hundred and fifty trillion yen, gone. And here in Tokyo, the Nikkei average plunged three thousand six hundred and forty-three points. That's a six percent drop in one session, closing at fifty-seven thousand four hundred and thirty-four. It's the third-worst single-day decline on record, and the lowest level we've seen in seven months.
+
+So what happened? In a word: America voted. The U.S. midterm elections handed the Democratic Party a decisive win — both chambers of Congress, and five governorships flipped from the Republicans. And the thing that spooked the markets isn't abstract. The Democrats have been talking about regulating data centers and putting controls on AI infrastructure. And that, for investors, cuts right to the heart of the story that has powered this entire rally since late 2022.
+
+Here's why that matters so much. Almost everything in the market right now — the chipmakers, the cloud companies, the power suppliers — has been riding the assumption that AI will keep expanding, endlessly, and that means building data centers, which means buying semiconductors. So when the new political reality suggests those data centers might get delayed or regulated, the whole chain starts to wobble. The Philadelphia Semiconductor Index, which tracks America's chip stocks, fell more than twelve percent. Taiwan's TSMC — the world's most important chipmaker — briefly hit its daily limit-down, meaning it fell as far as the exchange would allow in a single day.
+
+And the Nikkei reports the real fear underneath all this: that the broader economic story holding up 2026's rally may simply be collapsing. For years we've been told AI justifies the valuations. Now investors are asking whether that premise was ever as solid as it looked.
+
+You could see the tremors everywhere. Copper futures dropped to a three-month low. Tin hit a seven-month low. These are the raw materials of a building boom — and when they fall, it's the market quietly betting the boom slows down. Even Japan's own Government Pension Investment Fund, the GPIF, reported a loss of five and a quarter trillion yen for the July-to-September quarter, driven by rising interest rates abroad and a stronger yen. That's the pension money of ordinary Japanese people, and it's a reminder that these market swings aren't just numbers on a screen.
+
+One small, almost poetic detail from the markets pages: as money fled the giant AI names, some investors rotated into smaller, overlooked semiconductor companies. A firm called Taiyodensetsu actually rose one percent — up, on a day of carnage. When everything's falling, sometimes the cheapest forgotten corner of the market looks like shelter.
+
+Now, let's turn to Japan's own response — because this election in America is reshaping how Tokyo sees the world.
+
+Prime Minister Sanae Takaichi has ordered a review of Japan's Active Cyber Defense Law — that's the law passed just last year to let Japan respond to serious cyberattacks. She wants to strengthen the country's ability to gather information before attacks happen. The government's approved a ten-billion-yen emergency package, and interestingly, it includes partnerships with American AI firms — Anthropic and OpenAI — to spot system vulnerabilities before they become public knowledge.
+
+But here's the tension. The proposed changes would expand surveillance of domestic communications and require more companies to report breaches. And Japan's constitution protects the secrecy of communications. So this runs straight into a civil-liberties question that will need legal clarification before 2027. It's a genuinely difficult balance: how do you defend a country in cyberspace without eroding the privacy of the people you're defending?
+
+And the threat is real. The Nikkei reports that North Korean hackers are now responsible for eighty-nine percent of all cryptocurrency theft in 2026. The FBI blames the regime for October's breach at Binance — a staggering six-point-three billion dollars. These are state-sponsored criminals using AI to forge documents and impersonate workers. It's espionage and bank robbery rolled into one.
+
+On the home front, there's a political fight brewing over your grocery bill. The lower house has passed the government's plan to cut the consumption tax on food — down to just one percent for two years, starting April 2027. Every opposition party voted against it. And here's the catch: the bill passed without saying how it'll be paid for. Critics are calling it "half-baked." And the ruling coalition doesn't control the upper house, so this is far from settled. Takaichi has promised to clarify the details by year-end — including who qualifies for cash assistance, targeting at least thirty percent of workers.
+
+Let's move to the corporate world, where — remarkably — not everyone is having a bad week.
+
+Mitsubishi Heavy Industries is forecasting a record net profit of four hundred and forty billion yen, up thirty-two percent, driven by booming demand for gas turbines. They're announcing a three hundred billion yen share buyback and over a trillion yen in future investment, focused on turbines, defense, and nuclear power. In a world nervous about energy and security, Mitsubishi Heavy is suddenly in exactly the right businesses.
+
+And here's a lovely one: the company behind Sushiro, the conveyor-belt sushi chain — FOOD & LIFE COMPANIES — posted a record profit of thirty-five point three billion yen, up fifty-four percent. For the first time, their overseas business has surpassed their domestic one. They want to double foreign stores to more than seven hundred by 2029. Although — and this is a nice little detail — their planned New York opening has been delayed, held up by permitting troubles tied to the American midterm elections. Even sushi, it seems, can't escape politics.
+
+Not everyone had good news, though. Muji — the beloved minimalist retailer, Ryohin Keikaku — has suspended its online store after a data breach exposed information on more than twenty-seven million customers, including over a million credit-card records. A sobering reminder that the cyber threats we talked about earlier aren't just about governments.
+
+And now, the one that caught my eye — tucked deeper in the paper, but genuinely striking.
+
+President Putin has signed a decree placing Japan Tobacco's four Russian subsidiaries under state management. Essentially, Russia has seized them. And this isn't a small matter. Japan Tobacco holds forty percent of the Russian cigarette market — and those operations generate about a hundred and seventy billion yen in annual profit. That's a quarter of the entire group's earnings. Gone, under state control, with a signature.
+
+What makes this story resonate is what it reveals about Japan's position in the world. Tokyo has filed formal protests, but observers quoted by the Nikkei describe Japan's negotiating posture as weak. The Takaichi government has actually pursued a kind of rapprochement with Moscow — a trade mission in May, foreign minister talks in October — all while Russia continues to hold a Hokkaido newspaper reporter in custody.
+
+And here's the bind. Japan depends on Russian liquefied natural gas. That dependence makes it hard to push back. Normally, Tokyo might lean on Washington for support — but with a new political order taking shape in America, that backing is suddenly far less certain. Experts warn that if trading concessions for protection only emboldens Moscow, other Japanese firms could be next. It's a quiet story, but it tells you something about how a changing America ripples all the way to a cigarette factory in Russia.
+
+That's The Papers Say for Saturday, the seventh of November, 2026. See you tomorrow.
