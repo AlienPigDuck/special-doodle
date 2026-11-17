@@ -1,0 +1,51 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Wednesday, the 18th of November, 2026, and I'm glad you're here.
+
+We begin this morning with a story that sounds technical but touches the very backbone of Japan's local economy — the humble credit union.
+
+Here's the background. The Bank of Japan has been raising interest rates, and the big commercial banks have followed along. They've lifted the interest they pay on ordinary savings accounts to half a percent. That's good news for savers — your money finally earns a little something again.
+
+But Nikkei reports this morning that Japan's shinkin banks — those are regional credit unions, there are 254 of them across the country — are struggling to keep up. Eight out of ten of them haven't matched that half-percent rate. And about one in five are still stuck at under 0.2 percent. That's a big gap.
+
+So why does it matter? Because when the bank down the street pays you almost nothing and the big national bank pays you more, people start moving their money. Nikkei warns that deposit outflows could accelerate — savers simply walking out the door.
+
+And the credit unions are caught in a structural trap. Many of them made loans at fixed interest rates, locked in years ago. So when rates rise, their income doesn't rise with it. The spread between what they earn and what they pay — what bankers call the margin — gets squeezed. They can't afford to pay savers more.
+
+Here's the part that should concern all of us. These credit unions are the quiet lifeblood of local Japan. They lend to the small and mid-sized businesses that big banks often overlook — the family factory, the regional contractor, the neighborhood shop. If they weaken, that lending weakens too. So this isn't just a story about interest rates. It's a story about whether small-town Japan can keep getting the credit it runs on.
+
+Now, to the front page, and a genuinely unsettling security story.
+
+Nikkei reports that the GPS location data of thousands of smartphones has been exposed at Japan's nuclear power plants. Investigators obtained location data from an overseas data broker — and found 3,235 device IDs that had spent twenty days or more inside the grounds of 17 nuclear plants across the country.
+
+Think about what that means. These are presumably the phones of people who work at these facilities. And their movements — where they go, how long they stay, even data from inside the plants — were sitting in a commercial database that anyone could buy.
+
+The concern here is nuclear security. That kind of information could help a spy identify and approach plant workers, or help a hostile actor map out a sensitive site. Nikkei says the power companies are now being forced to rethink their rules on smartphone use for nuclear personnel. It's a reminder that in the age of location tracking, the biggest security hole may be the phone in your pocket.
+
+Staying on the front page, two more stories worth your attention.
+
+The government has decided, in its tax reform plan for fiscal 2027, not to give special tax breaks to individual government bonds. There had been a proposal to fold these bonds into NISA — that's Japan's tax-free investment program — or to ease inheritance taxes on them. The answer is no. The reasoning is interesting. NISA exists to push people "from saving to investing" — to get households out of cash and into the markets. But government bonds guarantee your principal. They're about as safe and savings-like as it gets. So putting them inside an investment program meant to encourage risk-taking just didn't fit. Instead, the government will try to make the bonds themselves more appealing — looking at compound-interest versions and 20-year bonds.
+
+And in diplomacy, the Quad leaders — Japan, the United States, Australia, and India — met in the Philippines and issued a pointed warning. They expressed serious concern about the "arbitrary" export restrictions on critical minerals. They didn't name China, but everyone knows who they mean — China controls the rare earths essential to everything from electric cars to defense equipment. The four agreed to strengthen their supply chains and confirmed they'll hold joint patrol-aircraft training in 2027.
+
+That theme runs right through Prime Minister Takaichi's diplomacy this week. Nikkei reports she joined that Quad summit with a clear focus: diversifying where Japan gets its critical minerals. And she's not stopping there. She's set to meet the leaders of Chile and Peru — both major mineral producers — with talk of a defense equipment transfer agreement and deals to broaden Japan's supply sources.
+
+There's also delicate diplomacy with Japan's neighbors. Takaichi and South Korean President Lee Jae-myung confirmed they'll continue what's called shuttle diplomacy — regular back-and-forth visits — and invited President Lee to Japan in January 2027. And a Japan-Russia summit is being arranged, with Takaichi looking to use the upcoming APEC meeting to speak with President Putin — though Tokyo is wary that Moscow will push for sanctions relief.
+
+But there's friction too. Japan has refused entry to Cho Kuk, South Korea's former justice minister, over his landing on the disputed islands Japan calls Takeshima and Korea calls Dokdo. Tokyo insists this isn't a sanction — just, in its words, a "mechanical response." We'll see how Seoul takes it.
+
+At home, a big political fight is beginning. A proposal to cut 31 seats from the lower house of parliament has entered deliberation. That would be the largest reduction since the war. The ruling bloc is pushing it, but opposition parties are angry — they say cutting proportional-representation seats hurts smaller parties most.
+
+Now to the business pages, where this morning the headline is data breaches — and there are a lot of them.
+
+Rakuten Securities has suffered a leak of up to 15.7 million customer records. Through unauthorized access, information including customers' annual incomes and financial assets was exposed — though, thankfully, not their passwords. And it's not alone. Companies including the eyewear maker JINS and the apparel firm World also had customer data leaked — traced back to a breach at Plaid, a marketing-support company they all used. One weak link, and the damage spreads. Even Muji's parent company is affected — Nikkei reports it's switching its shareholder perks from electronic back to paper after an attack made security too hard to guarantee. A quiet little sign of the times: a company retreating from digital because digital stopped feeling safe.
+
+In corporate deals, here's one for the food lovers. House Foods is considering selling CoCo Ichibanya — that beloved curry chain, "CoCo Ichi" to its fans — to the investment firm KKR, in a deal worth around 170 billion yen. House wants to simplify its corporate structure and focus its energy on its spice business.
+
+And OpenAI, the maker of ChatGPT, is bringing in four outside research institutions to audit the safety of its AI. Nikkei frames this against the backdrop of AI systems that are beginning to improve themselves — a development serious enough that the company wants independent eyes checking its internal work.
+
+And now, the one that caught my eye this morning — and it comes from the business page, buried beneath all those data breaches.
+
+NGK, a Japanese manufacturer, has decided to pay employees a lump sum of three million yen — that's around twenty thousand dollars — when they transfer overseas. And it's sharply raising allowances for workers who have to relocate without their families.
+
+Why does this small item say so much? Because it captures how Japan's working life is changing. For generations, the tanshin funin — the employee sent off alone to a distant posting while the family stayed behind — was simply accepted as the cost of a salaryman's loyalty. But now, with far more dual-income couples, that arrangement is painful in a new way. You can't just uproot a spouse who has their own career. So companies are having to pay — literally — to make these moves work, especially with prices rising everywhere. It's a quiet signal that the old corporate bargain, where the company came first and the family simply followed, is finally giving way.
+
+That's The Papers Say for Wednesday, the 18th of November. See you tomorrow.
