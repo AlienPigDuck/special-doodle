@@ -1,0 +1,53 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Saturday, the 21st of November, 2026, and I'm glad you're with me.
+
+We're going to start this morning in the countryside, with a story that sounds quiet but touches something fundamental — what Japan grows, and whether it can keep growing it.
+
+The Nikkei has published an investigation into Japan's protected farmland. In Japanese there's a category of land called "aochi" — think of it as agricultural land the state has specifically set aside for farming, land that's supposed to stay in cultivation. And what the paper found is that a great deal of it quietly isn't farming anymore.
+
+Using artificial intelligence to comb through satellite images, Nikkei identified more than 1,350 plots — across 241 municipalities — that have been illegally converted to other uses. Not farms, but material storage yards, parking lots, and business facilities. Altogether, nearly one square kilometer of protected farmland, now paved over or stacked with crates.
+
+Now, why does this matter? Japan imports a staggering share of its food. Its food self-sufficiency is among the lowest in the developed world. And when global food prices swing wildly — as they have in recent years — the ability to produce at home isn't an abstraction. It's security. So losing productive land, quietly, plot by plot, chips away at exactly the cushion Japan most needs.
+
+And here's the part that struck me. The government has confirmed the findings — but admits it has no systematic way to catch this. No real enforcement mechanism to detect these conversions at scale. It took a newspaper with an AI tool to find them. That tells you something about where oversight stands.
+
+Let's stay with artificial intelligence, because today it's everywhere in the paper — and it comes with sticker shock.
+
+Japan's flagship domestic AI project goes by the name Noetra. It's a state-backed effort to build homegrown AI capability over five years, through fiscal 2030. And the price tag has ballooned. The original estimate was around one trillion yen. It's now as high as 1.8 trillion. The drivers? The soaring cost of GPU semiconductors — those specialized chips that power AI — and the weak yen, which makes imported hardware more expensive.
+
+Here's the number that jumps out. The government has already committed 387 billion yen this fiscal year. Private investors — forty-four of them — have put in, collectively, one billion yen. That's not a typo. The public purse is carrying almost all of this, and the Nikkei notes that the project's returns remain, frankly, uncertain.
+
+That uncertainty is the mood across markets this morning. AI developer Anthropic — the American firm known for its emphasis on AI safety — went public on NASDAQ. The stock popped seventeen percent, giving it a market value of 1.27 trillion dollars, bigger than the pharmaceutical giant Eli Lilly. A triumph on paper. But investors immediately asked the hard question: can AI companies actually earn enough to justify all this spending?
+
+The numbers behind that question are sobering. Apollo Global Management estimates the industry needs between 1.5 and 2 trillion dollars in annual revenue by 2028 to make the current build-out pay off. That's an enormous gap to close.
+
+And the doubt rippled straight into Tokyo. The Nikkei 225 fell 3,007 yen — about five percent — to just over 56,000, a seven-month low. Chip and AI names led the slide. Global indices fell more than two percent. So you have this fascinating split: a blockbuster IPO and a market selloff, happening in the same breath. Enthusiasm and anxiety, side by side.
+
+Now, that market drop had a political angle too. One of the biggest losers was what traders call the "Takaichi trade" — defense-related stocks that had rallied on expectations of heavy military spending under Prime Minister Takaichi.
+
+But the Nikkei reports the Takaichi cabinet is now planning to compress its five-year defense budget — the plan running 2027 through 2031 — to somewhere between 50 and 60 trillion yen. The earlier talk had been 70 to 80 trillion. That's a meaningful trim, and it disappointed both defense contractors and the investors who'd bet on them.
+
+There's a thread running through several of today's political stories, and it's about trust — in information, and in institutions.
+
+The government is preparing a foreign agent registration system, to be submitted to the Diet in 2027. The idea is public disclosure of people who lobby or run information campaigns on behalf of foreign governments — a measure aimed at transparency around foreign influence.
+
+But then, in a move that raised eyebrows, the government featured a conspiracy-theory YouTuber known as NaokiMan in an official public-relations campaign about security policy. Critics pointed out the obvious contradiction: how do you fight misinformation while handing a megaphone to someone known for it? And this is happening as the government plans to spend 353 billion yen on communications next fiscal year — ten times what it spent before.
+
+Which brings me to today's buried story — tucked deep in the paper, but, I'd argue, one of the most important.
+
+Japan's shared government cloud system — call it the GSS — has been breached. Again. This is the second unauthorized access incident, affecting 25 agencies, including the Cabinet Office, the Ministry of Economy, and the Ministry of Justice. Files were exfiltrated over roughly three and a half months, from late July to mid-November — documents covering collaboration between ministries and private companies. The government has not disclosed the full scope of what was taken.
+
+And this follows an earlier breach that exposed the records of 246,000 civil servants. Taken together, the Nikkei suggests something structural: Japan's public-sector digital defenses simply aren't keeping up. In a world of sharpening geopolitical tension, the deliberations inside a government are themselves a target. This deserves more than a buried headline.
+
+A few quick turns around the rest of the world before we go.
+
+A historic summit brought together the United States, China, and Russia — but it produced only a tepid agreement to talk about reducing nuclear risk. Concrete arms control stalled, with China refusing broader disarmament talks. And European leaders — Britain, France, Germany — are uneasy, warning against a return to great-power "spheres of influence," the kind of carve-up that leaves smaller nations out of decisions about their own fate, including Ukraine.
+
+At the International Court of Justice, a landmark ruling: Myanmar has been found responsible for genocide against the Rohingya. The judgment carries legal weight, though no real enforcement mechanism — and observers note it sets a precedent for future accountability cases.
+
+On the corporate side, a sign of the times: Honda is launching a next-generation hybrid platform, aiming to roughly triple sales to 2.5 million units by 2030. And it's not alone — General Motors is putting 750 million dollars into expanding hybrid lines. Electric vehicle demand has cooled, and the humble hybrid is having a moment.
+
+And finally, the one that caught my eye. It comes from South Korea, where students sat their famously grueling university entrance exam — the test that can shape an entire future. This year, administrators logged 111 instances of electronic cheating, including students wearing smartglasses. Smartglasses. To catch hidden phones, proctors took to sending emergency alert messages mid-exam, hoping a buzz from a pocket would give someone away.
+
+I find it strangely human — the oldest pressure in the world, the desire to pass, meeting the very newest technology. And a reminder that for all our talk of AI reshaping everything, some things never change: a nervous teenager, a ticking clock, and a very high-tech way to try to beat the system.
+
+That's The Papers Say for Saturday, the 21st of November. See you tomorrow.
