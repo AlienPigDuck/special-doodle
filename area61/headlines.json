@@ -1,33 +1,29 @@
 {
-  "date": "2026-11-20",
-  "total": 137,
+  "date": "2026-11-21",
+  "total": 129,
   "sections": [
     {
       "name": "Front Page",
       "articles": [
         {
-          "title": "US, China, Russia establish nuclear dialogue framework; First trilateral summit, Xi says 'regularly'",
-          "url": "https://www.nikkei.com/paper/20261120M101/MM80000/article/DGXZQOGM181310Y6A111C2000000"
+          "title": "Agricultural land abandonment spreading from unauthorized use: Over 1,300 plots converted to material storage and parking",
+          "url": "https://www.nikkei.com/paper/20261121M101/MM80000/article/DGXZQOUE2053G0Q6A021C2000000"
         },
         {
-          "title": "Trump says he does not support Taiwan independence; Follows stance of previous US administrations in talks with Xi",
-          "url": "https://www.nikkei.com/paper/20261120M101/MM80000/article/DGXZQOGN197ME0Z11C26A1000000"
+          "title": "App location data sent externally without sufficient user explanation: Government guidelines becoming hollow",
+          "url": "https://www.nikkei.com/paper/20261121M101/MM80000/article/DGXZQOUE180YH0Y6A011C2000000"
         },
         {
-          "title": "Japan Tobacco revises down earnings by 1.386 trillion yen due to Russia business losses; Loss of control of subsidiary",
-          "url": "https://www.nikkei.com/paper/20261120M101/MM80000/article/DGXZQOUB196SK0Z11C26A1000000"
+          "title": "Domestic AI Noether support inflated by 8 billion yen due to semiconductor surge: Heavy burden on government",
+          "url": "https://www.nikkei.com/paper/20261121M101/MM80000/article/DGXZQOUA164VE0W6A111C2000000"
         },
         {
-          "title": "Server software 'nginx' has vulnerability discovered by Japanese hackers",
-          "url": "https://www.nikkei.com/paper/20261120M101/MM80000/article/DGXZQOUC191DA0Z11C26A1000000"
+          "title": "Anthropic IPO surges 17% with strong debut: AI risks 'can be averted'",
+          "url": "https://www.nikkei.com/paper/20261121M101/MM80000/article/DGXZQOGN18CL00Y6A111C2000000"
         },
         {
-          "title": "International Court of Justice makes first genocide ruling; Myanmar's persecution of Rohingya",
-          "url": "https://www.nikkei.com/paper/20261120M101/MM80000/article/DGXZQOGR1905W0Z11C26A1000000"
-        },
-        {
-          "title": "Spring and Autumn (November 20): Keiko and Sanae",
-          "url": "https://www.nikkei.com/paper/20261120M101/MM80000/article/DGXZQODK190SB0Z11C26A1000000"
+          "title": "Spring and Autumn (November 21): Word of the year",
+          "url": "https://www.nikkei.com/paper/20261121M101/MM80000/article/DGXZQODK2071Y0Q6A121C2000000"
         }
       ]
     },
@@ -35,24 +31,24 @@
       "name": "General News 1",
       "articles": [
         {
-          "title": "US-China-Russia trilateral summit, great powers gather around round table; Xi at center for commemorative photo",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA10000/article/DGXZQOCB19APZ0Z11C26A1000000"
+          "title": "Data shows regional revitalization expanding: International schools with Baccalaureate certification up 70%, drawing high-skilled foreign workers to relocate",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA10000/article/DGXZQOUF020U70S6A101C2000000"
         },
         {
-          "title": "China and Russia emphasize 'victor' status; In trilateral talks with Trump, with Japan in mind",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA10000/article/DGXZQOGN1932V0Z11C26A1000000"
+          "title": "'Foreign agent' information published online, government announces overview: Penalties for identity fraud",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA10000/article/DGXZQOUA203A70Q6A121C2000000"
         },
         {
-          "title": "Alert over 'establishment' of US-China-Russia talks; PM Takagi holds phone talks with Trump",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA10000/article/DGXZQOUA193HI0Z11C26A1000000"
+          "title": "Advanced AI cyberattacks recreated in virtual space: Government provides data to companies",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA10000/article/DGXZQOUA0819R0Y6A101C2000000"
         },
         {
-          "title": "JT faces massive Russia loss, losses mounting under 'interim management', risks remain for 100 Japanese companies",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA10000/article/DGXZQOUC198150Z11C26A1000000"
+          "title": "[Editorial] Anthropic IPO reflects light and shadow of AI",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA10000/article/DGXZQODK205ZA0Q6A121C2000000"
         },
         {
-          "title": "[Editorial] World order cannot be entrusted to US, China, and Russia",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA10000/article/DGXZQODK191K30Z11C26A1000000"
+          "title": "[Editorial] Rohingya ruling upholds rule of law",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA10000/article/DGXZQODK2054S0Q6A121C2000000"
         }
       ]
     },
@@ -60,110 +56,147 @@
       "name": "General News 2",
       "articles": [
         {
-          "title": "Long gap in Japan-China political dialogue; Summit not realized at APEC",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA20000/article/DGXZQOUA150GV0V11C26A1000000"
+          "title": "Anthropic's massive IPO fails to dispel AI concerns: Can China's rise be stopped",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA20000/article/DGXZQOGN1941B0Z11C26A1000000"
         },
         {
-          "title": "Expert views on APEC and ASEAN summit diplomacy",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA20000/article/DGXZQOCB196Z70Z11C26A1000000"
+          "title": "Global stock sell-off accelerates risk aversion stemming from semiconductors: Nikkei 225 falls 3,007 yen",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA20000/article/DGXZQOUB203RT0Q6A121C2000000"
         },
         {
-          "title": "Anthropic heads for IPO at 24 trillion yen, existing shares rise 7.2 times; Amazon becomes largest shareholder",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA20000/article/DGXZQOGN1851O0Y6A111C2000000"
+          "title": "'H3' privatized, JAXA focuses on development: Capable of carrying 16 small satellites",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA20000/article/DGXZQOSG202HS0Q6A121C2000000"
         },
         {
-          "title": "BlackRock CEO warns US economy could fall into recession if AI regulation strengthened",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA20000/article/DGXZQOUB114LD0R11C26A1000000"
-        },
-        {
-          "title": "Today's term: Nuclear disarmament; Limits on warhead numbers, US-Russia treaty expires",
-          "url": "https://www.nikkei.com/paper/20261120M101/EA20000/article/DGXZQOCB197EK0Z11C26A1000000"
+          "title": "Today's word: Foreign agents: Those who conduct lobbying under direction of foreign governments; overseas countries require legal registration",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA20000/article/DGXZQOUA206XO0Q6A121C2000000"
         }
       ]
     },
     {
-      "name": "Politics & Diplomacy",
+      "name": "General News 3",
       "articles": [
         {
-          "title": "LDP lays groundwork to raise postal savings limit; Postpones national bond tax breaks to ease regional bank concerns",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA188780Y6A111C2000000"
+          "title": "Conspiracy theorist YouTubers in government PR contradicts disinformation countermeasures: Opposition says 'erodes trust'",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUA190VW0Z11C26A1000000"
         },
         {
-          "title": "JSDF to enable missile launch drills in India; Japan and India adjust toward 2027",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA187HT0Y6A111C2000000"
+          "title": "US, China, Russia far from nuclear disarmament: Trump says 'difficult but will work on it' as inferior China strengthens",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOGN200E30Q6A121C2000000"
         },
         {
-          "title": "Government and ruling coalition decide to shelve cuts to high school dependent deductions; Maintains retirement income deductions",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA18B5R0Y6A111C2000000"
+          "title": "European leaders warn 'Yalta approach won't bring peace': Vigilance over US-China-Russia talks on Ukraine",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOGR19C520Z11C26A1000000"
         },
         {
-          "title": "PM seeks 'relationship where communication with Putin is possible'; Exchange views on release of Japanese nationals",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA196S10Z11C26A1000000"
+          "title": "China's coordinated and cold-shoulder diplomacy: Proposes 'community' at APEC while maintaining hardline stance on Japan",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOGM150590V11C26A1000000"
         },
         {
-          "title": "Expert views: 'Dialogue continuation with Russia important', 'Strategy to avoid being used'",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA190IU0Z11C26A1000000"
+          "title": "China's Foreign Ministry repeatedly demands correction of PM Takaichi's remarks: Over Taiwan issue",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOGM2088R0Q6A121C2000000"
         },
         {
-          "title": "PM Takagi on defense spending increase: 'Not amount-first, but buildup-based'; Emphasizes fiscal consideration",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA196UZ0Z11C26A1000000"
+          "title": "File leak from government system possible, may contain personal information: Digital Agency announces",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUA20A0V0Q6A121C2000000"
         },
         {
-          "title": "Income-linked benefits target annual income floor around 560,000 yen; Finance Minister Katayama signals review",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA19APV0Z11C26A1000000"
+          "title": "LDP Secretary Sekine's party attended by JFTC and Cabinet Office staff: Total of 5 events",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUD20AM80Q6A121C2000000"
         },
         {
-          "title": "Russian bombers and patrol aircraft fly toward Japan Sea; Air Self-Defense Force scrambles fighters",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA19AWH0Z11C26A1000000"
+          "title": "Ishin's former Maehara, security committee chair demands increased defense spending 'over 5 years to 70 trillion yen'",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUA207WY0Q6A121C2000000"
         },
         {
-          "title": "Komeito decides to oppose bill reducing lower house seats by 31; Proportional representation alone lacks balance",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA1981R0Z11C26A1000000"
+          "title": "Komeito demands 6 revisions to consumption tax bill: Secretary Nishida says 'won't support without them'",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUA192IZ0Z11C26A1000000"
         },
         {
-          "title": "Government uses YouTuber for public relations; Chief Cabinet Secretary says 'past posts not scrutinized'",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA198PM0Z11C26A1000000"
+          "title": "PM Takaichi to meet with ICC Prosecutor Karim Khan on 24th: Discuss US sanctions response",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUA20AEM0Q6A121C2000000"
         },
         {
-          "title": "Education Minister Sekine's party fundraiser issue; PM Takagi says 'person should explain first'",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA18BNM0Y6A111C2000000"
+          "title": "PM holds talks with Peru and Chile on diversifying mineral resource procurement: Copper and lithium",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUA198UE0Z11C26A1000000"
         },
         {
-          "title": "Movements of PM Takagi on November 19",
-          "url": "https://www.nikkei.com/paper/20261120M101/PD00000/article/DGXZQOUA199U20Z11C26A1000000"
+          "title": "93% say China relations 'not good': Cabinet Office opinion poll",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUA198GG0Z11C26A1000000"
+        },
+        {
+          "title": "PM Takaichi's movements on the 20th",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA30000/article/DGXZQOUA2063G0Q6A121C2000000"
         }
       ]
     },
     {
-      "name": "Economy & Policy",
+      "name": "General News 4",
       "articles": [
         {
-          "title": "Drug price hike to match overseas, MHLW considers expansion; Response to US policy",
-          "url": "https://www.nikkei.com/paper/20261120M101/EP00000/article/DGXZQOUA150NZ0V11C26A1000000"
+          "title": "'Reconsider lowering income threshold' for 30% medical costs for those over 70: Government expert meeting",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA1987E0Z11C26A1000000"
         },
         {
-          "title": "Gold smuggling countermeasures, consumption tax payment 'buyer obligation' proposal; Finance Ministry to present",
-          "url": "https://www.nikkei.com/paper/20261120M101/EP00000/article/DGXZQOUA18BJS0Y6A111C2000000"
+          "title": "'Market confidence crucial now more than ever': Fiscal Commission submits recommendations",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA205S80Q6A121C2000000"
         },
         {
-          "title": "Personal information breaches surge to 830 cases in half month; 'Management should not collect excessive data'",
-          "url": "https://www.nikkei.com/paper/20261120M101/EP00000/article/DGXZQOUA064WS0W6A101C2000000"
+          "title": "Communication shutdown for cybersecurity measures 'has major side effects': Cautious views at telecommunications ministry meeting",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA186B30Y6A111C2000000"
         },
         {
-          "title": "Imports of clothing under 200,000 yen get simplified tariff procedure; Heavy customs burden from increased China EC usage",
-          "url": "https://www.nikkei.com/paper/20261120M101/EP00000/article/DGXZQOUA179K90X11C26A1000000"
+          "title": "Pacific bluefin tuna catch quota: Japan agrees to 25% increase for large fish from 2027",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA192850Z11C26A1000000"
         },
         {
-          "title": "Government stockpiled rice to undergo additional buyback of 100,000 tons; Agriculture ministry",
-          "url": "https://www.nikkei.com/paper/20261120M101/EP00000/article/DGXZQOUB1967Z0Z11C26A1000000"
+          "title": "Consumer prices up 2.2%, semiconductor inflation spreading: Digital products 10% higher",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA124TI0S6A111C2000000"
         },
         {
-          "title": "Rice acreage diversion subsidy raised for processed and export-oriented production; Amount increases with yield",
-          "url": "https://www.nikkei.com/paper/20261120M101/EP00000/article/DGXZQOUA192730Z11C26A1000000"
+          "title": "Japan and Saudi Arabia agree to triple joint oil reserve stockpiles: Agreement between ministers",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA20ATW0Q6A121C2000000"
         },
         {
-          "title": "Appeal for burden based on ability to pay; Japan Chamber of Commerce submits proposals on social security reform",
-          "url": "https://www.nikkei.com/paper/20261120M101/EP00000/article/DGXZQOUA198WD0Z11C26A1000000"
+          "title": "Vocational training for uninsured workers: Labor Ministry considers increasing monthly allowance to 100,000 yen",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA2026Z0Q6A121C2000000"
+        },
+        {
+          "title": "Government rice reserves: Announces official purchase of additional 100,000 tons: Agriculture Minister Takebe",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA200SI0Q6A121C2000000"
+        },
+        {
+          "title": "Japan Post Holdings says 'legal framework necessary' for merger with Japan Post: Privatization commission",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUA204370Q6A121C2000000"
+        },
+        {
+          "title": "Tokyo Electric Power postpones completion of terrorist countermeasure facility for nuclear plant: Kashiwazaki-Kariwa Unit 7",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA40000/article/DGXZQOUC205P80Q6A121C2000000"
+        }
+      ]
+    },
+    {
+      "name": "General News 5",
+      "articles": [
+        {
+          "title": "Asahi Group Hit by ransomware invests 13.5 billion yen: AI detects intrusions and attacks",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA50000/article/DGXZQOUC276AC0X21C26A0000000"
+        },
+        {
+          "title": "Plaid's 'KARTE' suffers unauthorized access affecting 10 million+ cases: Possible expansion to other services",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA50000/article/DGXZQOUC205O10Q6A121C2000000"
+        },
+        {
+          "title": "Supercomputer Fugaku subject to unauthorized access, 430 authentication credentials leaked: Riken establishes investigation committee",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA50000/article/DGXZQOSG203R00Q6A121C2000000"
+        },
+        {
+          "title": "JT shocked by Russia exclusion, heat-not-burn tobacco strategy faces trial as IQOS falls behind",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA50000/article/DGXZQOUC19CE20Z11C26A1000000"
+        },
+        {
+          "title": "Tamahome recognized insurance fraud claims in March 2026, external lawyers investigating other stores",
+          "url": "https://www.nikkei.com/paper/20261121M101/EA50000/article/DGXZQOUC206A80Q6A121C2000000"
         }
       ]
     },
@@ -171,53 +204,12 @@
       "name": "Opinion",
       "articles": [
         {
-          "title": "[FT] Show all work to AI? Resistance to excessive transparency",
-          "url": "https://www.nikkei.com/paper/20261120M101/TCR0000/article/DGXZQOCB18A670Y6A111C2000000"
+          "title": "Income-linked benefits lose focus, pursuit of 'redistribution without excess or deficit' must not be abandoned",
+          "url": "https://www.nikkei.com/paper/20261121M101/TCR0000/article/DGXZQOCD1378A0T11C26A1000000"
         },
         {
-          "title": "Economist 360° perspective: Caution points on automation driven by labor shortage; Masayuki Morikawa",
-          "url": "https://www.nikkei.com/paper/20261120M101/TCR0000/article/DGXZQOCD0938M0Z01C26A1000000"
-        }
-      ]
-    },
-    {
-      "name": "Finance",
-      "articles": [
-        {
-          "title": "Regional bank securities firms achieve three straight quarters of profit growth through affluent shift; Transition away from structured bond dependence",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOUB178OZ0X11C26A1000000"
-        },
-        {
-          "title": "JPMorgan president: 'AI investment phase where winners and losers emerge'; Volatility is inevitable",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOGN1308L0T11C26A1000000"
-        },
-        {
-          "title": "Sumitomo Mitsui FG launches corporate card for SMEs; Up to 2% cashback on deposits",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOUB174AA0X11C26A1000000"
-        },
-        {
-          "title": "Major non-life insurers' net profit down 15% in Apr-Sep period; cyber attacks increase insurance payouts",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOUB11C100R11C26A1000000"
-        },
-        {
-          "title": "BOJ Governor Ueda: Personal consumption 'to recover ahead'; rate-hike policy continues",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOUB194KS0Z11C26A1000000"
-        },
-        {
-          "title": "FSA issues reporting order to Rakuten Securities over customer data breach",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOUB19ADX0Z11C26A1000000"
-        },
-        {
-          "title": "Tama Home billing fraud issue; major insurers call for 'third-party committee establishment'",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOUB196MD0Z11C26A1000000"
-        },
-        {
-          "title": "Norinchukin's net profit surges 92% in Apr-Sep; fund management revenue improves",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOUB195NH0Z11C26A1000000"
-        },
-        {
-          "title": "Suruga Bank's business improvement order 'NOT to be lifted'; Upper House Finance Committee passes resolution",
-          "url": "https://www.nikkei.com/paper/20261120M101/EE90000/article/DGXZQOUB191PG0Z11C26A1000000"
+          "title": "Is China an incubator for cutting-edge medicine? By Ruby Wong",
+          "url": "https://www.nikkei.com/paper/20261121M101/TCR0000/article/DGXZQOCD125BW0S6A111C2000000"
         }
       ]
     },
@@ -225,57 +217,20 @@
       "name": "Global Markets",
       "articles": [
         {
-          "title": "Funds flee to European stocks; Nestle and Novartis hit highs, non-AI sectors become diversification targets",
-          "url": "https://www.nikkei.com/paper/20261120M101/ENG0000/article/DGXZQOUB132UB0T11C26A1000000"
+          "title": "Bessent's magic touch dimming? Persistent yen weakness and U.S. bond decline scenario refuses to fade",
+          "url": "https://www.nikkei.com/paper/20261121M101/ENG0000/article/DGXZQODK19C3U0Z11C26A1000000"
         },
         {
-          "title": "Oil tanker traffic through Strait of Hormuz falls to '1/10th before collision' by 2035, IEA analysis shows",
-          "url": "https://www.nikkei.com/paper/20261120M101/ENG0000/article/DGXZQOGR1804Z0Y6A111C2000000"
+          "title": "\"Ultra-long bonds attractive\" investment heads of Japan Life and Dai-ichi Life, AI investment becomes selective",
+          "url": "https://www.nikkei.com/paper/20261121M101/ENG0000/article/DGXZQOUB168NR0W6A111C2000000"
         },
         {
-          "title": "Canadian dollar hits 20-month low against US dollar; interest rate differential and trade negotiation setbacks weigh",
-          "url": "https://www.nikkei.com/paper/20261120M101/ENG0000/article/DGXZQOUB193HF0Z11C26A1000000"
+          "title": "Gold falls below 3,600 dollars, lowest in 1 year 2 months, domestic circuit breaker triggered",
+          "url": "https://www.nikkei.com/paper/20261121M101/ENG0000/article/DGXZQOUB202MB0Q6A121C2000000"
         },
         {
-          "title": "NVIDIA's rating outlook downgraded by Moody's; credibility dented by affair",
-          "url": "https://www.nikkei.com/paper/20261120M101/ENG0000/article/DGXZQOUB191PY0Z11C26A1000000"
-        }
-      ]
-    },
-    {
-      "name": "国際・アジア",
-      "articles": [
-        {
-          "title": "Chinese cars surge in Myanmar, capitalize on EV incentives to reshape order; Toyota and Suzuki face headwinds in comeback",
-          "url": "https://www.nikkei.com/paper/20261120M101/FFJ0000/article/DGXZQOGM0336B0T01C26A0000000"
-        },
-        {
-          "title": "Tencent accelerates 'supply chain development' amid chip sanctions; Jul-Sep profit up 1%",
-          "url": "https://www.nikkei.com/paper/20261120M101/FFJ0000/article/DGXZQOGM188LS0Y6A111C2000000"
-        },
-        {
-          "title": "Thailand's Kasikornbank sees opportunity in asset management amid sluggish lending; targets wealthy clients",
-          "url": "https://www.nikkei.com/paper/20261120M101/FFJ0000/article/DGXZQOUC25AF00V20C26A9000000"
-        },
-        {
-          "title": "'Listen to private sector voices to resolve divisions,' says former Finance Ministry official Furusawa at Shenzhen CEO conference",
-          "url": "https://www.nikkei.com/paper/20261120M101/FFJ0000/article/DGXZQOGM1824O0Y6A111C2000000"
-        },
-        {
-          "title": "Singapore Airlines profit plummets 44% in Apr-Sep FY2026; crude oil prices take toll",
-          "url": "https://www.nikkei.com/paper/20261120M101/FFJ0000/article/DGXZQOGM11B2E0R11C26A1000000"
-        },
-        {
-          "title": "Itoki opens Shanghai hub proposing office space; develops demand among Chinese companies",
-          "url": "https://www.nikkei.com/paper/20261120M101/FFJ0000/article/DGXZQOGM167BH0W6A011C2000000"
-        },
-        {
-          "title": "President chasing phantom of 'founding father'; Indonesia's precarious great power consciousness",
-          "url": "https://www.nikkei.com/paper/20261120M101/FFJ0000/article/DGXZQOCD1435U0U6A111C2000000"
-        },
-        {
-          "title": "'AI-native' law firms double in six months; flat-fee model spreads centered in US",
-          "url": "https://www.nikkei.com/paper/20261120M101/FFJ0000/article/DGXZQOGN08BUV0Y6A001C2000000"
+          "title": "Indonesian rupiah hits record low against dollar, surprise rate hike effect clouded by uncertainty",
+          "url": "https://www.nikkei.com/paper/20261121M101/ENG0000/article/DGXZQOUB202I40Q6A121C2000000"
         }
       ]
     },
@@ -283,163 +238,162 @@
       "name": "International",
       "articles": [
         {
-          "title": "Great power diplomacy among US, China, Russia becomes kindling for major conflict; echoes of failed Munich talks resurface",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOCD196DP0Z11C26A1000000"
+          "title": "First genocide finding in Rohingya persecution, turning point for international justice, impact on Gaza",
+          "url": "https://www.nikkei.com/paper/20261121M101/FF80000/article/DGXZQOGR19COS0Z11C26A1000000"
         },
         {
-          "title": "US-China talks, NVIDIA spy suspicion looms; trade issues deferred, Dec. trilateral talks planned",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOGN194E40Z11C26A1000000"
+          "title": "U.S. government may require disclosure of Chinese AI use: Reuters report",
+          "url": "https://www.nikkei.com/paper/20261121M101/FF80000/article/DGXZQOGN201EB0Q6A121C2000000"
         },
         {
-          "title": "US-Russia leaders hold talks for first time in 15 months, discuss Ukraine and others; ahead of three-way talks with China",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOGR17CMG0X11C26A1000000"
+          "title": "111 cheating cases caught in South Korean college entrance exams, smart glasses used despite strict security",
+          "url": "https://www.nikkei.com/paper/20261121M101/FF80000/article/DGXZQOGM1990C0Z11C26A1000000"
         },
         {
-          "title": "APEC leaders' declaration skips 'support for multilateral trade system', two years running",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOGM184HS0Y6A111C2000000"
+          "title": "U.S.-China-Russia summits, experts say 'performance, repetition could cause backlash'",
+          "url": "https://www.nikkei.com/paper/20261121M101/FF80000/article/DGXZQOUB19C7Y0Z11C26A1000000"
         },
         {
-          "title": "Highlights of opening remarks by US, China, Russia leaders; Trump: 'Expect Ukraine war to end'",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOGR19A630Z11C26A1000000"
+          "title": "China's central bank holds preferential corporate lending rates in November",
+          "url": "https://www.nikkei.com/paper/20261121M101/FF80000/article/DGXZQOGM2013P0Q6A121C2000000"
         },
         {
-          "title": "Full text of 'peace declaration' by US, China, Russia leaders; refute ICC jurisdiction abuse claims",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOCB19BF00Z11C26A1000000"
+          "title": "Bridge damaged in Ukrainian capital, Russia launches ballistic missile attack",
+          "url": "https://www.nikkei.com/paper/20261121M101/FF80000/article/DGXZQOCB208B50Q6A121C2000000"
         },
         {
-          "title": "Former South Korean president's wife's 4-year prison sentence finalized; Supreme Court rejects appeal",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOGM196YZ0Z11C26A1000000"
+          "title": "Energy price cap bill passes U.S. Senate, data center operators bear burden",
+          "url": "https://www.nikkei.com/paper/20261121M101/FF80000/article/DGXZQOCB203V10Q6A121C2000000"
         },
         {
-          "title": "South Korean Supreme Court remands case of former PM Han Duck-soo; involvement in emergency martial law examined",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOGM187LD0Y6A111C2000000"
-        },
-        {
-          "title": "South Korea tightens guard against AI cheating in college entrance exams; heightened tension over strengthened measures",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOGM191TQ0Z11C26A1000000"
-        },
-        {
-          "title": "First Black US House Speaker to take office; Democrat Jeffries in January 2027",
-          "url": "https://www.nikkei.com/paper/20261120M101/FF80000/article/DGXZQOGN18D0M0Y6A111C2000000"
+          "title": "Trump won't decide on Iran response this year, 'decisions shouldn't be rushed'",
+          "url": "https://www.nikkei.com/paper/20261121M101/FF80000/article/DGXZQOGN2007Y0Q6A121C2000000"
         }
       ]
     },
     {
-      "name": "Business 1",
+      "name": "ビジネス・アジアBiz",
       "articles": [
         {
-          "title": "Itochu, Sony target IP trading company; develop merchandise for 'Ikimono Gakari' and others",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC175U00X11C26A1000000"
+          "title": "3D printer leader Bambu Lab opens new factory in Shenzhen, strengthens corporate production base",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOGM093WA0Z01C26A1000000"
         },
         {
-          "title": "Lawson, Japan Post partner on Yu-Pack product delivery; support rural shopping access issues",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC178TF0X11C26A1000000"
+          "title": "SK Hynix becomes top shareholder of Kioxia through bond conversion to ordinary shares",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOGM208AW0Q6A121C2000000"
         },
         {
-          "title": "Programming language 'PHP' faces new vulnerability; risk of service outages",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC19BMQ0Z11C26A1000000"
+          "title": "SK Chairman Choi calls for cooperation 'Korea-Japan have complementary strengths' in AI and other fields",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOGM205EQ0Q6A121C2000000"
         },
         {
-          "title": "JAXA's explorer 'Mio' enters Mercury orbit on 22nd; NEC and others support unprecedented challenge",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOSG06ADJ0W6A101C2000000"
+          "title": "Australian Challenger rejects First Life acquisition reprposal, offered amount 'insufficient'",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOGM190K30Z11C26A1000000"
         },
         {
-          "title": "Ethylene operating rate 71.5% in October; remains in low operation despite improved naphtha procurement",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC185KK0Y6A111C2000000"
+          "title": "Huawei launches foldable smartphone under new brand 'OSTA'",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOGM204DX0Q6A121C2000000"
         },
         {
-          "title": "Royce' faces possible 8,000 card information leaks; security codes among exposed data",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOFC192YG0Z11C26A1000000"
+          "title": "Australian frozen yogurt chain takes root as evening hangout in Singapore",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOGM193060Z11C26A1000000"
         },
         {
-          "title": "Semiconductor 'losing out in bidding' experienced by 86% of procurement operators; private survey shows",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC195LW0Z11C26A1000000"
+          "title": "Uzbekistan tourist arrivals grow 6-fold in decade, new international flights and visa relaxation drive growth",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOCB190XQ0Z11C26A1000000"
         },
         {
-          "title": "Leader's Voice Autodesk US CEO: AI simplifies design; 'Support construction and manufacturing sectors facing labor shortage'",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC1120K0R11C26A0000000"
+          "title": "India faces '10-minute delivery' challenge with Japanese convenience store model",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOGM236HB0T21C26A0000000"
         },
         {
-          "title": "Sharp faces possible 3.2 million customer information leak; unauthorized access to Plaid",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUF1958Y0Z11C26A1000000"
+          "title": "DoCoMo Shop adds 30% more small 'satellite stores' to maintain network while cutting costs",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOUC0980R0Z00C26A9000000"
         },
         {
-          "title": "Shimamura leaks 7 million personal info on EC app; unauthorized access to outsourced vendor",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC193610Z11C26A1000000"
+          "title": "Struggling middle-class Americans, Walmart boosts sales but mixed reviews on discount strategy",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOGN19CRS0Z11C26A1000000"
         },
         {
-          "title": "Japan Automobile Manufacturers Association standardizes specifications and quality assessment for steel and resins for vehicles",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOFD1923N0Z11C26A1000000"
+          "title": "Panasonic HD pursues 300,000 unit air conditioning compressor capacity for data centers by 2030",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOUF275HG0X21C26A0000000"
         },
         {
-          "title": "Capital region condos: October sales down 24%; first-month contracts fall below 50% for first time in 7 years",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC193RL0Z11C26A1000000"
-        },
-        {
-          "title": "Tanabe Pharma ending Israeli subsidiary operations, abandoning Parkinson's disease drug sales",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUF196580Z11C26A1000000"
-        },
-        {
-          "title": "Tobu Department Store introduces facial recognition payment, first at commercial facility for 'face pass economy zone' expansion",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC192UM0Z11C26A1000000"
-        },
-        {
-          "title": "Amazon Black Friday starts on the 30th, largest-ever scale with 4 million items on sale",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOUC191RR0Z11C26A1000000"
-        },
-        {
-          "title": "Television Hokkaido wins runner-up at broadcasting equipment exhibition, AI automatic surveillance system",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB10000/article/DGXZQOFC164NK0W6A111C2000000"
+          "title": "Accenture proposes infrastructure defense with U.S. firm, 'physical impact increasing'",
+          "url": "https://www.nikkei.com/paper/20261121M101/TEZ0000/article/DGXZQOUC2028W0Q6A121C2000000"
         }
       ]
     },
     {
-      "name": "Business 2",
+      "name": "Business",
       "articles": [
         {
-          "title": "150,000 foreign students face narrow job market, companies positive but hiring standards not met",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB20000/article/DGXZQOUC145IL0U6A011C2000000"
+          "title": "Global Japanese vehicle sales turn negative in fiscal 2026, Middle East tensions slow gasoline vehicle demand",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC16ARH0W6A111C2000000"
         },
         {
-          "title": "Nippon Steel begins construction of new US Steel facilities, securing stable supply of electric furnace steel feedstock",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB20000/article/DGXZQOGN292WP0Z21C26A0000000"
+          "title": "Honda achieves 70% common parts in new HV, 'Avantia' launches spring 2027",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC18AYI0Y6A111C2000000"
         },
         {
-          "title": "Hit medicine Osaka-originated 'disaster prevention underwear' fills market gap, Wacoal and Iris also launching",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB20000/article/DGXZQOCD164EQ0W6A111C2000000"
-        }
-      ]
-    },
-    {
-      "name": "Business 3",
-      "articles": [
-        {
-          "title": "Japanese companies revive rare earth production, Proterial strengthens domestic smelting to reduce China dependence",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB30000/article/DGXZQOUC0170J0R01C26A0000000"
+          "title": "Hyundai and Honda accelerate HV shift in U.S., realistic solution despite EV support revival speculation",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOGN190BT0Z11C26A1000000"
         },
         {
-          "title": "LINE to provide public and private services in one place, starting with Akita City, resident procedures and store reservations",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB30000/article/DGXZQOCC277P50X21C26A0000000"
+          "title": "Sushiro opens flagship store in U.S., 800 yen per plate 'bargain price' captures New Yorkers' appetites",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOGN1402X0U6A111C2000000"
         },
         {
-          "title": "Monster game 'GTA6' launches, 17 million preorders worldwide, some companies OK vacation time",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB30000/article/DGXZQOUC1865B0Y6A111C2000000"
+          "title": "Oosaki Electric hit by ransomware attack, factory halts including smart meters",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC204SW0Q6A121C2000000"
         },
         {
-          "title": "Beaujolais release cools down, Aeon pursues young consumers with 'cola-mixed wine'",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB30000/article/DGXZQOUC183RU0Y6A111C2000000"
+          "title": "Wacom pursues MBO supported by investment fund MBK, over 9 billion yen",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC20B2E0Q6A121C2000000"
         },
         {
-          "title": "Recruit transforms with Indeed's AI utilization, low compatibility with 'Stasup'",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB30000/article/DGXZQOUC092X70Z01C26A1000000"
+          "title": "SB Energy posts 300 billion yen net loss Jan-Sept, warrant debt reduction amount shrinks",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC203260Q6A121C2000000"
         },
         {
-          "title": "Takuya Okada named president of Apple International",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB30000/article/DGXZQODZ00007_Z11C26A1000000"
+          "title": "Leader's Voice French ad platform Criteo CEO says product search via AI 'mainstream in 2-3 years'",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC2687T0W6A021C2000000"
         },
         {
-          "title": "Hiroshi Morita named president of Sakata Inks",
-          "url": "https://www.nikkei.com/paper/20261120M101/TB30000/article/DGXZQODZ00005_Z11C26A1000000"
+          "title": "LCC Peach discloses 8.99 million customer records leaked from Yumir Link unauthorized access",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUF2069C0Q6A121C2000000"
+        },
+        {
+          "title": "Kawasaki Heavy launches development hub for quadruped robot 'Korleo' in Tokyo Haneda",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC19BFQ0Z11C26A1000000"
+        },
+        {
+          "title": "NSK and NTN appoint CEO and co-CEO at joint holding company, finalize agreement",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUF299XZ0Z21C26A0000000"
+        },
+        {
+          "title": "German Volkswagen proposes wage increase freeze for 2027-28 to unions amid management deterioration",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOGR200700Q6A121C2000000"
+        },
+        {
+          "title": "I-ne founder-led MBO to go private as investment fund launches TOB",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUF115RL0R11C26A1000000"
+        },
+        {
+          "title": "Bunka Shutter to scrap anti-activist measures following US Dalton share sale",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC208H90Q6A121C2000000"
+        },
+        {
+          "title": "Kadoya Oil TOB: major shareholder Mitsui Corporation supports J-Oil proposal",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQOUC20BFV0Q6A121C2000000"
+        },
+        {
+          "title": "Ageba appoints Kurotennohei as new president",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQODZ00011_Q6A121C2000000"
+        },
+        {
+          "title": "Toshin Holdings appoints Masafumi Ishida as representative director",
+          "url": "https://www.nikkei.com/paper/20261121M101/TB00000/article/DGXZQODZ00012_Q6A121C2000000"
         }
       ]
     },
@@ -447,24 +401,24 @@
       "name": "Investment 1",
       "articles": [
         {
-          "title": "Reporter's eye: Major apartment firm Daito Kentaku serious about 70% increase in real estate investment, willing to tolerate ROE decline",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTB0000/article/DGXZQOUB28AS10Y6A021C2000000"
+          "title": "Reporter's Eye: Mitsui Chemicals' JSR acquisition where small swallows big, 90 billion yen goodwill burden weighs heavy",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTB0000/article/DGXZQOUB12BQW0S6A111C2000000"
         },
         {
-          "title": "Global listed companies' goodwill reaches $10.5 trillion, rising impairment risk from higher interest rates",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTB0000/article/DGXZQOUB243VH0U6A920C2000000"
+          "title": "Ticker: Consecutive TOB hurdles lowered as Kaga Electronics, Toyota Gosei see minority shareholder protections retreat",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTB0000/article/DGXZQOUB245BL0U6A720C2000000"
         },
         {
-          "title": "Listed companies devise strategies for human capital disclosure, Ricoh targets human capital ROI of 25% or more",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTB0000/article/DGXZQOUB243NX0U6A820C2000000"
+          "title": "Corporate earnings, management interview: Ajinomoto president 'unable to decide on Russian business exit'",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTB0000/article/DGXZQOUB188CT0Y6A111C2000000"
         },
         {
-          "title": "Kanade Audit Corporation absorbs Kyoto Rishi, strengthens Kansai business base",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTB0000/article/DGXZQOUB194M20Z11C26A1000000"
+          "title": "M3 launches 5 billion yen share buyback TOB, Sony Group participates",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTB0000/article/DGXZQOUB207YH0Q6A121C2000000"
         },
         {
-          "title": "Kyocera sells 0.97% of KDDI shares, reduces strategic shareholdings",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTB0000/article/DGXZQOUF1988L0Z11C26A1000000"
+          "title": "Minebea Mitsumi share offering of 18.09 million shares led by Sumitomo Mitsui Trust Bank and 4 others",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTB0000/article/DGXZQOUB207DU0Q6A121C2000000"
         }
       ]
     },
@@ -472,20 +426,28 @@
       "name": "Investment 2",
       "articles": [
         {
-          "title": "Tether accumulating long positions in gold, holdings rivaling central banks, digital demand could determine market recovery",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTC0000/article/DGXZQOUB1873X0Y6A111C2000000"
+          "title": "Scramble: 'Growth through selling' M&A becomes new normal, capital circulation power over IPO fever",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTC0000/article/DGXZQODK201JY0Q6A121C2000000"
         },
         {
-          "title": "Nikkei average closes up 419 yen, uncertain market could break through with Anthropic IPO",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTC0000/article/DGXZQOUB190J8TZ11C26A1000000"
+          "title": "'Defense spending restraint' cools related stocks, policy-driven buying halts",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTC0000/article/DGXZQOUB18A2G0Y6A111C2000000"
         },
         {
-          "title": "Big & Small: Will civilization collapse?",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTC0000/article/DGXZQOUB18C1N0Y6A111C2000000"
+          "title": "Big and Small: Who is hindering growth",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTC0000/article/DGXZQOUB177WO0X11C26A1000000"
         },
         {
-          "title": "Overseas and individual investors net sellers of stocks, three consecutive weeks first in 7 years 5 months",
-          "url": "https://www.nikkei.com/paper/20261120M101/DTC0000/article/DGXZQOUB196SP0Z11C26A1000000"
+          "title": "October super long-term bonds see major banks' net buying for first time in 2 years on high yields",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTC0000/article/DGXZQOUB207RN0Q6A121C2000000"
+        },
+        {
+          "title": "UBE's CFO: 'Early share buyback after cement company listing' via stake sale",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTC0000/article/DGXZQOUB0513D0V01C26A0000000"
+        },
+        {
+          "title": "Kioxia shares continue decline, PER nearing single digit, AI demand concerns mount",
+          "url": "https://www.nikkei.com/paper/20261121M101/DTC0000/article/DGXZQOUB184O30Y6A111C2000000"
         }
       ]
     },
@@ -493,45 +455,67 @@
       "name": "Commodities",
       "articles": [
         {
-          "title": "Polystyrene container material prices drop 7-8%, raw material prices moderate, domestic demand also weak",
-          "url": "https://www.nikkei.com/paper/20261120M101/QM80000/article/DGXZQOUB1704E0X11C26A1000000"
+          "title": "Copper plunges to 7-month low as AI expectations shift, money flows out",
+          "url": "https://www.nikkei.com/paper/20261121M101/QM80000/article/DGXZQOUB186Z60Y6A111C2000000"
         },
         {
-          "title": "Mid-career job opening ratio 2.92x, rises for sixth consecutive month, retail pushes up",
-          "url": "https://www.nikkei.com/paper/20261120M101/QM80000/article/DGXZQOUB177NQ0X11C26A1000000"
+          "title": "Domestic paper shipments fall 4.6% in October, printing paper weak in advertising media demand",
+          "url": "https://www.nikkei.com/paper/20261121M101/QM80000/article/DGXZQOUB204DW0Q6A121C2000000"
         },
         {
-          "title": "PC parts prices 'remain on upward trend through 2027,' says Third Wave's President Masaki Nagai",
-          "url": "https://www.nikkei.com/paper/20261120M101/QM80000/article/DGXZQOUB058360V01C26A1000000"
+          "title": "Autumn salmon shortage drives prices up, fillet costs 60% higher in Tokyo, mentaiko 2.8 times as New Year's dishes at risk",
+          "url": "https://www.nikkei.com/paper/20261121M101/QM80000/article/DGXZQOUB17BWP0X11C26A1000000"
         },
         {
-          "title": "Meat inventory increases for three consecutive months, chicken and pork push up",
-          "url": "https://www.nikkei.com/paper/20261120M101/QM80000/article/DGXZQOUB115Y90R11C26A1000000"
+          "title": "Rice shelf price 2,773 yen per 5kg, up 0.9% from previous week, first rise in 2 weeks",
+          "url": "https://www.nikkei.com/paper/20261121M101/QM80000/article/DGXZQOUB208J40Q6A121C2000000"
         },
         {
-          "title": "Copper official price down 100,000 yen, JX Metals",
-          "url": "https://www.nikkei.com/paper/20261120M101/QM80000/article/DGXZQOUB195GF0Z11C26A1000000"
+          "title": "Phenol bulk prices up 7% in November, first rise in 4 months",
+          "url": "https://www.nikkei.com/paper/20261121M101/QM80000/article/DGXZQOUB182AM0Y6A111C2000000"
         },
         {
-          "title": "Domestic cargo ship transport volume down 6% in September, steel and automotive sectors sluggish",
-          "url": "https://www.nikkei.com/paper/20261120M101/QM80000/article/DGXZQOUB139840T11C26A1000000"
+          "title": "Kyoei Steel raises deformed rebar prices by 5,000 yen from December contracts",
+          "url": "https://www.nikkei.com/paper/20261121M101/QM80000/article/DGXZQOUF207FE0Q6A121C2000000"
         }
       ]
     },
     {
-      "name": "Economics Classroom",
+      "name": "Money & Investing 1",
       "articles": [
         {
-          "title": "Economic classroom: Can US post-midterm elections build forces against 'MAGA faction'? by Kent Calder",
-          "url": "https://www.nikkei.com/paper/20261120M101/KE80000/article/DGXZQOCD103R80Q6A111C2000000"
+          "title": "Preparing for dementia with voluntary guardianship for asset management, improved usability from law reform",
+          "url": "https://www.nikkei.com/paper/20261121M101/PPK0000/article/DGXZQOUB092JJ0Z01C26A1000000"
         },
         {
-          "title": "Personal views: Apply procurement skills to condominium management by Yukio Wakabayashi",
-          "url": "https://www.nikkei.com/paper/20261120M101/KE80000/article/DGXZQOCD224TM0S6A021C2000000"
+          "title": "Celebrities appearing in malicious vendor ads face no responsibility?",
+          "url": "https://www.nikkei.com/paper/20261121M101/PPK0000/article/DGXZQOUB028120S6A101C2000000"
+        }
+      ]
+    },
+    {
+      "name": "Money & Investing 2",
+      "articles": [
+        {
+          "title": "Children's NISA: tips for fund preparation using gift tax basic deductions",
+          "url": "https://www.nikkei.com/paper/20261121M101/PPL0000/article/DGXZQOUB0294B0S6A101C2000000"
+        }
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "articles": [
+        {
+          "title": "Detecting hearing loss reduces dementia risk, municipalities provide screenings for elderly",
+          "url": "https://www.nikkei.com/paper/20261121M101/TCC0000/article/DGXZQOCC251SS0V21C26A0000000"
         },
         {
-          "title": "Easy Economics: Light and shadow of digital economy (10) Competition policy needed in AI era",
-          "url": "https://www.nikkei.com/paper/20261120M101/KE80000/article/DGXZQOCD0252B0S6A001C2000000"
+          "title": "Path to hospice nursing guided by grandmother with terminal cancer",
+          "url": "https://www.nikkei.com/paper/20261121M101/TCC0000/article/DGXZQOUD086TA0Y6A001C2000000"
+        },
+        {
+          "title": "Heart Health Studies: you don't need to change your heart",
+          "url": "https://www.nikkei.com/paper/20261121M101/TCC0000/article/DGXZQOSG11C660R11C26A1000000"
         }
       ]
     },
@@ -539,32 +523,36 @@
       "name": "Tokyo & Metro Economy",
       "articles": [
         {
-          "title": "Luxury travelers' 'vacation nanny' service fulfills adult travel time for visiting Japan, expanding among wealthy",
-          "url": "https://www.nikkei.com/paper/20261120M101/L830000/article/DGXZQOCC12A6N0S6A111C2000000"
+          "title": "Data Reading Regional Revitalization: Tokyo supports international school openings from site selection to plan formulation",
+          "url": "https://www.nikkei.com/paper/20261121M101/L830000/article/DGXZQOCC091Y20Z01C26A1000000"
         },
         {
-          "title": "Roasting technique supporting food service, using coffee grounds as fuel, Allied Roasters",
-          "url": "https://www.nikkei.com/paper/20261120M101/L830000/article/DGXZQOCC297V70Z21C26A0000000"
+          "title": "Tokyo seeks 'alliance building' for coexistence with regions through emerging tech adoption and matchmaking",
+          "url": "https://www.nikkei.com/paper/20261121M101/L830000/article/DGXZQOCC152YJ0V10C26A9000000"
         },
         {
-          "title": "Tokyo builds security perspective from system design stage, governor's directive",
-          "url": "https://www.nikkei.com/paper/20261120M101/L830000/article/DGXZQOCC196FF0Z11C26A1000000"
+          "title": "Tokyo issues yen-denominated prefectural bonds to individuals for first time in 11 years amid rising rates",
+          "url": "https://www.nikkei.com/paper/20261121M101/L830000/article/DGXZQOCC206XH0Q6A121C2000000"
         },
         {
-          "title": "Tokyo patrols eating establishments in Shibuya Ward, calls for compliance with passive smoking reduction ordinance",
-          "url": "https://www.nikkei.com/paper/20261120M101/L830000/article/DGXZQOCC182720Y6A111C2000000"
+          "title": "Tokyo's international art exhibition draws 100,000 visitors in first month, runs through December in bay area",
+          "url": "https://www.nikkei.com/paper/20261121M101/L830000/article/DGXZQOCC169IQ0W6A111C2000000"
         },
         {
-          "title": "Commuter ropeway 'Zipper' establishes promotion council, Inagi and other Tokyo areas participate",
-          "url": "https://www.nikkei.com/paper/20261120M101/L830000/article/DGXZQOCC1832R0Y6A111C2000000"
+          "title": "Yamanashi Prefecture demonstrates 'flying cars' in Kai City to related parties",
+          "url": "https://www.nikkei.com/paper/20261121M101/L830000/article/DGXZQOCC2054E0Q6A121C2000000"
         },
         {
-          "title": "Chiba's Kominato Railway to resume operations between Kazusa Ushiku and Takahaki stations on 21st, damaged by typhoon",
-          "url": "https://www.nikkei.com/paper/20261120M101/L830000/article/DGXZQOCC1762L0X11C26A1000000"
+          "title": "Chiba's Urayasu housing complex becomes first 'children connecting UR' with improved childcare environment",
+          "url": "https://www.nikkei.com/paper/20261121M101/L830000/article/DGXZQOCC190780Z11C26A1000000"
         },
         {
-          "title": "International Horticultural Expo to 'showcase Yokohama's charm,' Mayor Atsumi Harasawa promotes at Paris general assembly",
-          "url": "https://www.nikkei.com/paper/20261120M101/L830000/article/DGXZQOCC1968U0Z11C26A1000000"
+          "title": "Tohoku-based drugstore 'Yaku-oh' opens first Gunma store, expanding Kanto presence",
+          "url": "https://www.nikkei.com/paper/20261121M101/L830000/article/DGXZQOCC202O70Q6A121C2000000"
+        },
+        {
+          "title": "'Gunma Passport' 3,000 copies, lottery applications start from 24th for December distribution",
+          "url": "https://www.nikkei.com/paper/20261121M101/L830000/article/DGXZQOCC203340Q6A121C2000000"
         }
       ]
     },
@@ -572,76 +560,56 @@
       "name": "Sports",
       "articles": [
         {
-          "title": "Rugby Japan amid crisis atmosphere, captains Saito and Deans tackle rebuilding efforts",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH1616W0W6A111C2000000"
+          "title": "Oho-sato and Wakamotoharu lead at day 13 of Kyushu tournament, Atsumi-fujis and Kimpuzan one behind",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH20A6E0Q6A121C2000000"
         },
         {
-          "title": "Japan Rugby announces squad for Scotland match; SO Komura starts for first time",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH19B2G0Z11C26A1000000"
+          "title": "Wakamotoharu overwhelmed by yokozuna after falling behind, aims for trophy following brother with 'nothing held back'",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH20A5H0Q6A121C2000000"
         },
         {
-          "title": "Daijiro wins 10th victory, Wakamotoharu maintains lead on day 12 of Kyushu tournament",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH19A390Z11C26A1000000"
+          "title": "Toyoshoryu finally posts winning record, deeply moved over 'many hardships'",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH20B570Q6A121C2000000"
         },
         {
-          "title": "Yokozuna Daijiro wins 10th victory despite resistance from Ozeki Kirishima; moving powerfully toward dramatic championship",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH199YP0Z11C26A1000000"
+          "title": "J1 'Chiba Derby' won by Chiba over Kashiwa, Mito posts third win in results and commentary from 20th",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH20BM60Q6A121C2000000"
         },
         {
-          "title": "Shingo Kunieda becomes Japan's first tennis Hall of Fame inductee; achieved Grand Slam sweep in wheelchair division",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQOKC192Q20Z11C26A1000000"
+          "title": "Mito Holy Hock stops losing streak at 8—Two goals of determination in 3rd game under new manager",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH20BPB0Q6A121C2000000"
         },
         {
-          "title": "Sakura Koshiwaki, Yuna Araki and others start in tie for lead; Daio Seishi Women's Golf Round 1",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH1917Y0Z11C26A1000000"
+          "title": "Tajima Koji, candidate for FIFA presidency, says 'recommended by associations from multiple continents'",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH194PJ0Z11C26A1000000"
         },
         {
-          "title": "Yuna Araki makes stable shots in north wind to start in lead; Daio Seishi Women's Golf",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH191FK0Z11C26A1000000"
+          "title": "Kuroda Tsuyoshi of J1 Machida Zelvia named best manager at AFC annual awards ceremony",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQOKC2014U0Q6A121C2000000"
         },
         {
-          "title": "J.J. Sporn and Ryo Katsumata start in tie for lead; Dunlop Phoenix Round 1",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH196K40Z11C26A1000000"
+          "title": "Women's 1000m speed skating World Cup: Yamada Rio 9th, Kubo Anna 10th",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH20A8L0Q6A121C2000000"
         },
         {
-          "title": "Golf's Chikara Kawamoto makes fine touches for strong start; Dunlop Phoenix",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH196YS0Z11C26A1000000"
+          "title": "Speed skating World Cup Obihiro tournament: Japan's performance sluggish from start—Yamada Rio's 9th place best result",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH208K20Q6A121C2000000"
         },
         {
-          "title": "Brazil's soccer identity fades and the kingdom loses its way as a soccer nation (Kazuyoshi Miura)",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH182070Y6A111C2000000"
+          "title": "Katsumata Takashi holds sole lead—Men's golf Dunlop Phoenix 2nd round",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH206DR0Q6A121C2000000"
         },
         {
-          "title": "FIFA announces three candidates for president including current chairman and Koji Tajima",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH19ABB0Z11C26A1000000"
+          "title": "Golfer Katsumata Takashi maintains momentum toward 2nd tour victory—Dunlop Phoenix",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH206MX0Q6A121C2000000"
         },
         {
-          "title": "MLB commissioner says 'no special exceptions for posting system' despite labor negotiations difficulties",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQOKC1917N0Z11C26A1000000"
+          "title": "Yoshimoto Kokone aiming for first seeding advances from qualifying in first place—Daio Paper Women's Golf 2nd round",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH2015P0Q6A121C2000000"
         },
         {
-          "title": "Meiji Jingu Baseball Tournament opens; Sendai Ikuei and Hokkaido advance to quarterfinals",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQOKC199EK0Z11C26A1000000"
-        },
-        {
-          "title": "Yomiuri Giants' Tsuyoshi Matsumoto re-signs at 125 million yen; status quo maintained",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH19A9L0Z11C26A1000000"
-        },
-        {
-          "title": "Hiroshima's Takeshi Higashihama: 'I want to pitch as starter on 6-day rest'; number 12, one-year contract",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH196SS0Z11C26A1000000"
-        },
-        {
-          "title": "Rakuten acquires Teheran with 123 career home runs in MLB",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQOKC198PL0Z11C26A1000000"
-        },
-        {
-          "title": "BJ League All-Star Game; Yuki Togashi selected with most votes",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQOKC1947Y0Z11C26A1000000"
-        },
-        {
-          "title": "Track and field decathlete Yoshinobu Ushiro commits doping violation; national championship victory nullified",
-          "url": "https://www.nikkei.com/paper/20261120M101/UU80000/article/DGXZQODH19AHS0Z11C26A1000000"
+          "title": "Horse racing Mile Championship: Embroidery in 1st gate, 2nd position—Expected to perform well against male competitors",
+          "url": "https://www.nikkei.com/paper/20261121M101/UU80000/article/DGXZQODH205N70Q6A121C2000000"
         }
       ]
     }
