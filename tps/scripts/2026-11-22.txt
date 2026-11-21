@@ -1,0 +1,43 @@
+Good morning, and welcome to The Papers Say — Japan's Nikkei newspaper, in English, every morning. It's Sunday, the twenty-second of November, 2026, and I'm glad you're with me.
+
+We'll begin this morning with a story about a success that isn't quite as even as it looks.
+
+Japan's tourism numbers are, on paper, extraordinary. The Nikkei reports that in 2025, the country welcomed 42.7 million inbound visitors, who spent a record 9.45 trillion yen. That's the kind of figure that makes for triumphant headlines — and a decade ago, this scale of tourism would have seemed almost unimaginable. But dig into the geography, and a very different picture emerges. Of Japan's forty-eight prefectures, thirty-four — fully seventy percent — fall below the national average on both counts: fewer visitors, and less money spent per person.
+
+So where is everyone going? The usual places. Tokyo, Osaka, and Hokkaido absorb the lion's share. If you've visited Japan, you'll recognize the pattern — the crowds at Senso-ji temple, the queues in Osaka's Dotonbori, the ski slopes of Niseko. Meanwhile, much of the country watches the boom pass it by.
+
+Here's why that matters. Japan has built an aggressive national tourism strategy, and part of the promise was that visitors would spread wealth into rural areas facing depopulation and economic decline. For most of the country, that promise hasn't materialized. But there's a hopeful counterexample, and the Nikkei points to it: Mie Prefecture, home to the sacred Ise shrine, has nearly doubled its spending per visitor since 2019. The secret isn't more tourists — it's deeper tourism. Getting people to stay overnight, to follow a regional circuit rather than making a single day trip. The lesson is clear. Arrivals alone don't distribute benefits. You have to design for it, deliberately.
+
+Let's stay with the theme of how Japan spends and earns, because the front page has a quietly significant shift in how people actually pay for things.
+
+For the first time, debit card payments in Japan have overtaken electronic money. In the first half of 2026, debit transactions reached 3.23 trillion yen, edging past the 2.8 trillion from electronic money — the kind of tap-to-pay system you'll know from transit cards like Suica. Debit volume has tripled in just three years. Why the surge? Banks. They're competing hard for customers, and they've turned debit cards into a perk — cashback offers of up to two percent, interest bonuses for regular use. Aozora Bank, Sony Bank, Docomo's financial arm — all are dangling incentives to link your spending directly to your bank account. Credit cards still dominate overall, at seventy trillion yen. But the message here is that banks have found a clever way to capture a bigger slice of your everyday wallet.
+
+Also on the front page, two government moves aimed at helping Japan compete abroad.
+
+The first concerns beauty. The government plans to relax advertising rules for cosmetics, allowing brands to cite efficacy data and customer testimonials — things currently banned to prevent exaggerated claims. The idea is to align Japan with looser overseas standards by 2027, so that "J-beauty" can go toe-to-toe with Korean and French rivals in a global market worth 77 trillion yen. Right now, Japanese advertisers are limited to just fifty-six approved phrases. That list is set to expand.
+
+The second is about skills. The labor ministry will subsidize industry groups — up to 100 million yen per program — to build training frameworks in seventeen strategic sectors: artificial intelligence, semiconductors, offshore wind, and more. The goal is to make skills "visible" and, by 2027, tie certified skills to wage standards. In a country wrestling with labor shortages, that's an attempt to grow the talent it can't simply import.
+
+Now to politics, where the news is mixed.
+
+Prime Minister Takaichi is in Peru, talking up institutional reform and courting investment partnerships. And she received a notable welcome from Peruvian President Keiko Fujimori — who has deep Japanese roots. Her grandmother came from Kumamoto. President Fujimori pitched Peru as a gateway to South America, citing over three percent GDP growth and stable finances. For Japan, it's a chance to deepen ties across the Pacific.
+
+Back home, though, there's trouble. LDP Secretary General Suzuki Shunichi has signaled that Education Minister Seki Yoshihiro may have to resign over discrepancies in political fundraising. Political-money scandals have dogged the LDP for years now, and Suzuki's concern is pragmatic — the risk that this one derails the government's legislative agenda.
+
+There's also a quiet but telling shift in defense. The Nikkei reports the Defense Ministry has notified major contractors of reduced procurement forecasts for 2027 through 2031 — fewer orders for ammunition and missiles than expected. But here's the interesting part: budgets for AI and drones are protected. That tells you where the ministry thinks the future of warfare lies.
+
+Let me turn to the markets, because this week ended rough, and it connects to a story everyone is watching.
+
+US stocks plunged on the twentieth and twenty-first. The Nasdaq fell five percent. The S&P 500 and the Dow slipped into what's called "correction territory" — down more than ten percent from their highs. The trigger? Renewed anxiety about whether the enormous spending on artificial intelligence can actually be sustained. This followed a disappointing market debut for the AI company Anthropic. Investors fled to safety, and the yen strengthened sharply into the 158 range against the dollar. Nikkei futures tumbled, and some analysts are even whispering about the index approaching 50,000 by year's end if the mood sours further.
+
+I'll say plainly, as always — this is news, not advice. What's striking is the split among the professionals. Some see the AI picture becoming clearer and valuations improving. Goldman Sachs, by contrast, warns of an AI repricing and suggests looking to Japan and Europe over America's mega-cap tech. Reasonable people disagree, and that disagreement is itself the story.
+
+And here, from the business pages, is a claim so remarkable I almost didn't believe it. Anthropic — the company that just listed — disclosed that its co-founders used its AI, Claude, to solve the Riemann Hypothesis. For those outside mathematics, this is one of the deepest unsolved problems in the field, unresolved for over a century. The proof was checked using a formal verification system called Lean, but it still awaits peer review. If it holds up, it would be a landmark — not just in mathematics, but in what we understand AI to be capable of.
+
+Before we close, the one that caught my eye — and it's buried deep in the international coverage, though I'd argue it belongs on the front page.
+
+Japan is facing a quiet diplomatic crisis over the International Criminal Court. The United States has imposed financial sanctions on the ICC, and because so much global finance runs through the dollar, those sanctions threaten the court's very ability to operate. Here's the uncomfortable part for Tokyo: Japan is the ICC's largest single donor. And now Japan, along with eighteen other member states, is scrambling to pay its 2027 budget contributions early — in 2026 — just to keep the institution alive.
+
+Think about what that represents. Prime Minister Takaichi is set to meet the ICC's president, Akane Akasaka, on the twenty-fourth to coordinate strategy. And Japan faces a genuine dilemma — one almost nobody at home is talking about. Front-load billions to defend what Japan calls the "rule of law," or watch the court collapse as America retreats from multilateral institutions. It's a vivid example of how great-power rivalry is forcing middle powers like Japan into hard choices between their oldest ally and their deepest values. Keep an eye on that meeting Tuesday.
+
+That's The Papers Say for Sunday, the twenty-second of November. See you tomorrow.
